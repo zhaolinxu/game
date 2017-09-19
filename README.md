@@ -25,7 +25,7 @@
 * 类型：文字、放置
 * 汉化程度：60%
 * 汉化版本号：V 0.5.0.3 Beta
-* 汉化版地址：https://github.com/zhaolinxu/SpaceCompany
+* 汉化版地址：https://zhaolinxu.github.io/SpaceCompany/
 * 英文版本号：V 0.5.0.3 Beta
 * 英文版地址：https://sparticle999.github.io/SpaceCompany/
 * 英文文档：
@@ -33,7 +33,7 @@
 
 ### 装满海洋（filltheoceans）
 * 类型：文字、放置
-* 汉化程度：
+* 汉化程度：20%
 * 汉化版本号：V 0.2.5 beta
 * 汉化版地址：https://zhaolinxu.github.io/filltheoceans/
 * 英文版本号：V 0.2.5 beta

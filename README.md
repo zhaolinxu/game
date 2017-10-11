@@ -4,9 +4,9 @@
 ### 猫国建设中（Kittens Game）
 * 类型：文字、放置、建设
 * 汉化程度：98%
-* 汉化版本号：V 1.4.4.1
+* 汉化版本号：V 1.4.4.2
 * 汉化版地址：https://zhaolinxu.github.io/cat-zh/
-* 英文版本号：V 1.4.4.1
+* 英文版本号：V 1.4.4.2
 * 英文版地址：http://bloodrizer.ru/games/kittens/
 * 英文文档：http://bloodrizer.ru/games/kittens/wiki/index.php?page=Main+page
 * 中文文档：zhaolinxu.github.io/cat-zh/wiki/index.html
@@ -44,9 +44,9 @@
 ### 脆皮（Trimps）
 * 类型：文字、放置
 * 汉化程度：30%
-* 汉化版本号：V 4.41
+* 汉化版本号：V 4.5
 * 汉化版地址：https://zhaolinxu.github.io/cuipi/
-* 英文版本号：V 4.41
+* 英文版本号：V 4.5
 * 英文版地址：http://trimps.github.io/
 * 英文文档：
 * 中文文档：

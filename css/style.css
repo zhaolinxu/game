@@ -269,9 +269,6 @@ i.glyphicon.glyphicon-ok {
 	width:9%;
 	outline: none;
 	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	border: 2px solid #EA4C89;
 	margin: 0 0.5em 0;
@@ -620,15 +617,11 @@ ul.footer-grid {
 	height: 180px;
 	border-radius: 50%;
 	-webkit-perspective: 800px;
-	-moz-perspective: 800px;
 	-o-perspective: 800px;
 	-ms-perspective: 800px;
 	perspective: 800px;
 
 	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 	top: 20px;
 	left: 20px;
@@ -643,14 +636,8 @@ ul.footer-grid {
 	height: 180px;
 	border-radius: 50%;
 	-webkit-transition: all 0.4s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;	
 	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	-o-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 .ch-info > div {
@@ -661,15 +648,10 @@ ul.footer-grid {
 	border-radius: 50%;
 	background-position: center center;
 	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
 .ch-info .ch-info-back {
 	-webkit-transform: rotate3d(0,1,0,180deg);
-	-moz-transform: rotate3d(0,1,0,180deg);
-	-o-transform: rotate3d(0,1,0,180deg);
 	-ms-transform: rotate3d(0,1,0,180deg);
 	transform: rotate3d(0,1,0,180deg);
 	background: #EA4C89;
@@ -734,8 +716,6 @@ ul.footer-grid {
 
 .ch-item:hover .ch-info {
 	-webkit-transform: rotate3d(0,1,0,-180deg);
-	-moz-transform: rotate3d(0,1,0,-180deg);
-	-o-transform: rotate3d(0,1,0,-180deg);
 	-ms-transform: rotate3d(0,1,0,-180deg);
 	transform: rotate3d(0,1,0,-180deg);
 }
@@ -788,6 +768,7 @@ i.glyphicon.glyphicon-comment {
   margin-right: 0.3em;
   vertical-align: middle;
 }
+.address i.glyphicon.glyphicon-comment{font-size: 4em;}
 .blog-head {
   padding: 2em 0 0;
 }
@@ -804,6 +785,37 @@ i.glyphicon.glyphicon-comment {
 a.news-btn{
 	
 
+}
+@-webkit-keyframes hvr-wobble-top {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
 }
 @keyframes hvr-wobble-top {
   16.65% {
@@ -847,7 +859,8 @@ a.news-btn{
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-transform-origin: 0 100%;
-  transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+      transform-origin: 0 100%;
   display:inline-block;
 	text-decoration:none;
 	background:#d20962;
@@ -1041,7 +1054,7 @@ h4.media-heading{
 }
 .address1{
 	float: left;
-	  margin-top: 1em;
+/*	  margin-top: 1em;*/
 }
 .address1 p{
 	font-size:1.4em;
@@ -1557,8 +1570,8 @@ a.now-in {
 .round-top li i {
   width: 30px;
   height: 30px;
-  line-height: 2em;
-    font-size: 1em;
+  line-height: 27px;
+    font-size: 0.7em;
 }
 .tab_desc {
   padding: 5.7em 0em 0;

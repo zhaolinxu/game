@@ -398,7 +398,7 @@ ul.footer-grid {
 /*--//foooter--*/
 /*--games--*/
 .games h3{
-	margin: 0 0 0.5em;
+/*	margin: 0 0 0.5em;*/
   font-size: 3.5em;
   color: #000;
   font-family: 'Philosopher-Bold';
@@ -422,22 +422,23 @@ ul.footer-grid {
   box-shadow: 0 1px 3px rgba(221, 221, 221, 1);
   width: 32.4%;
 }
-.da-thumbs li a,
-.da-thumbs li a img {
+.da-thumbs li em.thickbox,
+.da-thumbs li  em.thickbox img {
   display: block;
   position: relative;
   width: 100%;
+    font-style: normal;
 }
-.da-thumbs li a {
+.da-thumbs li  em.thickbox {
 	overflow: hidden;
 }
-.da-thumbs li a div {
+.da-thumbs li  em.thickbox div {
   position: absolute;
   background: rgba(234, 76, 137, 1);
   width: 100%;
   height: 100%;
 }
-.da-thumbs li a div span {
+.da-thumbs li  em.thickbox div span {
   display: block;
   padding: 10px 0;
   margin: 10px 20px 0px 20px;
@@ -447,13 +448,15 @@ ul.footer-grid {
   text-align: center;
   font-size: 1.1em;
 }
-.da-thumbs li a div  h5 {
+.da-thumbs li  em.thickbox div  h5 {
   color: #FFF;
   font-size: 2em;
-  margin: 2.5em 0 0 0;
+  margin: 1.1em 0 0 0;
  font-family: 'Philosopher-Bold';
   text-align: center;
 }
+.da-thumbs li  em.thickbox div p{text-align: center}
+.da-thumbs li  em.thickbox div a{margin: 10px 5px;display: inline-block;width: 100px;text-align: center；}
 /*--//games--*/		
 /*--about-start--*/
 .about{
@@ -957,6 +960,7 @@ h4.media-heading{
 .comment-bottom input[type="submit"]:hover{
 	background:#000;
 }
+.cal{margin-bottom: 0.7em;}
 .cal ul li{
 	display: inline-block;
 }
@@ -973,7 +977,7 @@ h4.media-heading{
 /*--single--*/
 /*-- contact --*/
 .contact {
-  padding: 4em 0;
+  padding: 0 0 4em 0;
 }
 .contact h3{
   font-size: 3.5em;
@@ -1659,7 +1663,7 @@ a.now-in {
 .contact-grids {
   padding: 2em 0 0;
 }
-.address-grid i {
+.address-grid i ,.address i.glyphicon.glyphicon-comment{
   font-size: 2.8em;
 }
 .address1 p {
@@ -2044,3 +2048,5 @@ h3.typo1 {
   font-size: 1.8em;
 } 
 }
+/*补充*/
+.footer-top{display: none;}

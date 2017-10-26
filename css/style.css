@@ -86,6 +86,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 	color:#fff;
 	  font-family: 'Philosopher-Bold';
 }
+.banner h2.timeline{margin-bottom: 0}
 .ban-in{
 	float:left;
 	width:28%;
@@ -404,9 +405,13 @@ ul.footer-grid {
   font-family: 'Philosopher-Bold';
   text-align:center;
 }
+.games.tj h3{
+    	margin: 0 0 0.5em;
+}
 .games {
   padding: 4em 0;
 }
+.games.tj{padding-bottom: 0}
 .da-thumbs {
 	list-style: none;
 	position: relative;
@@ -420,7 +425,7 @@ ul.footer-grid {
   padding: 8px;
   position: relative;
   box-shadow: 0 1px 3px rgba(221, 221, 221, 1);
-  width: 32.4%;
+  width: 24.2%;
 }
 .da-thumbs li em.thickbox,
 .da-thumbs li  em.thickbox img {
@@ -457,6 +462,39 @@ ul.footer-grid {
 }
 .da-thumbs li  em.thickbox div p{text-align: center}
 .da-thumbs li  em.thickbox div a{margin: 10px 5px;display: inline-block;width: 100px;text-align: center；}
+/*推荐*/
+.da-thumbs.tuijian li a,
+.da-thumbs.tuijian li a img {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.da-thumbs.tuijian li a {
+	overflow: hidden;
+}
+.da-thumbs.tuijian li a div {
+  position: absolute;
+  background: rgba(234, 76, 137, 1);
+  width: 100%;
+  height: 100%;
+}
+.da-thumbs.tuijian li a div span {
+  display: block;
+  padding: 10px 0;
+  margin: 10px 20px 0px 20px;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: rgba(255,255,255,0.9);
+  text-align: center;
+  font-size: 1.1em;
+}
+.da-thumbs.tuijian li a div  h5 {
+  color: #FFF;
+  font-size: 2em;
+  margin: 2.5em 0 0 0;
+ font-family: 'Philosopher-Bold';
+  text-align: center;
+}
 /*--//games--*/		
 /*--about-start--*/
 .about{
@@ -1514,6 +1552,13 @@ h3.typo1 {
 }
 }
 @media(max-width:480px){
+    
+    .da-thumbs.tuijian li a div  h5{font-size: 1em;}
+    .da-thumbs.tuijian li a div span{display: none}
+    .da-thumbs li  em.thickbox div  h5{font-size: 1.3em;margin: 1.2em  0 0.5em 0;}
+    .da-thumbs li  em.thickbox div span{margin: 5px 0;padding: 0;display: none;}
+    .da-thumbs li  em.thickbox div a{width: 60px;font-size:12px;}
+    
 .ban-grid1 img {
   left: 162px;
 }
@@ -1754,6 +1799,8 @@ h3.menber {
 }
 }
 @media(max-width:320px){
+    .da-thumbs li  em.thickbox div  h5{font-size: 1em;}
+    .da-thumbs li  em.thickbox div a{width: 58px;margin:10px 2px;}
 .logo h1 {
   font-size: 2em;
 }

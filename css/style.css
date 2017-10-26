@@ -2098,3 +2098,5 @@ h3.typo1 {
 }
 /*补充*/
 .footer-top{display: none;}
+a{cursor: pointer;}
+.img-responsive{width: 100%}

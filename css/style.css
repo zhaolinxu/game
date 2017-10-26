@@ -425,7 +425,8 @@ ul.footer-grid {
   padding: 8px;
   position: relative;
   box-shadow: 0 1px 3px rgba(221, 221, 221, 1);
-  width: 24.2%;
+  width: 32.4%;
+/*    width: 24.2%;*/
 }
 .da-thumbs li em.thickbox,
 .da-thumbs li  em.thickbox img {

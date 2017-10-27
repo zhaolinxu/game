@@ -13,11 +13,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="
 " />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/modernizr.custom.97074.js"></script>
 <!--flexslider-->
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <!--//flexslider-->
 <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
 		    <script type="text/javascript">
 			    $(document).ready(function () {
 			        $('#horizontalTab').easyResponsiveTabs({
@@ -25,7 +31,12 @@
 			            width: 'auto', //auto or any width like 600px
 			            fit: true   // 100% fit in a container
 			        });
+                    
+                    $(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+                
+                    $('.games a').Chocolat();
 			    });
+                
 				
 </script>
 </head>
@@ -67,7 +78,7 @@
 <!--banner-->
 <div class="banner">
 	<div class="container">
-		<h2>Our Games</h2>	
+		<h2>游戏推荐</h2>	
 		 <div class="banner-matter">
            	 <div class="slider">
                   <section class="slider">
@@ -76,50 +87,33 @@
 	                      <li>
 		                      <div class="ban">					                	 
 								 <div class=" ban-in ban-grid">
-									<img class="img-responsive " src="images/ba.jpg" alt="" />  
+									<a href="article/spaceCompany.html" target="_blank"><img class="img-responsive " src="images/topslide/slide-1.jpg" alt="" /> </a> 
 								 </div>
 								<div class=" ban-in ban-grid1">
-									<img class="img-responsive" src="images/ba1.jpg" alt="" />  
+									<img class="img-responsive" src="images/topslide/slide-2.jpg" alt="" />  
 								 </div>
 								 <div class=" ban-in ban-grid2">
-									<img class="img-responsive " src="images/ba2.jpg" alt="" />  
+									<img class="img-responsive " src="images/topslide/slide-3.jpg" alt="" />  
 								</div>
 								<div class=" ban-in ban-grid3">
-									<img class="img-responsive " src="images/ba3.jpg" alt="" />  
+									<img class="img-responsive " src="images/topslide/slide-4.jpg" alt="" />  
 								</div>
 								<div class="clearfix"> </div>										
 							</div>
   	    				</li>
- 	    				 <li>
+                     <li>
 		                      <div class="ban">					                	 
 								 <div class=" ban-in ban-grid">
-									<img class="img-responsive " src="images/ba.jpg" alt="" />  
+									<a href="article/spaceCompany.html" target="_blank"><img class="img-responsive " src="images/topslide/slide-1.jpg" alt="" /> </a> 
 								 </div>
 								<div class=" ban-in ban-grid1">
-									<img class="img-responsive" src="images/ba1.jpg" alt="" />  
+									<img class="img-responsive" src="images/topslide/slide-2.jpg" alt="" />  
 								 </div>
 								 <div class=" ban-in ban-grid2">
-									<img class="img-responsive " src="images/ba2.jpg" alt="" />  
+									<img class="img-responsive " src="images/topslide/slide-3.jpg" alt="" />  
 								</div>
 								<div class=" ban-in ban-grid3">
-									<img class="img-responsive " src="images/ba3.jpg" alt="" />  
-								</div>
-								<div class="clearfix"> </div>										
-							</div>
-  	    				</li>
-  	    				 <li>
-		                      <div class="ban">					                	 
-								 <div class=" ban-in ban-grid">
-									<img class="img-responsive " src="images/ba.jpg" alt="" />  
-								 </div>
-								<div class=" ban-in ban-grid1">
-									<img class="img-responsive" src="images/ba1.jpg" alt="" />  
-								 </div>
-								 <div class=" ban-in ban-grid2">
-									<img class="img-responsive " src="images/ba2.jpg" alt="" />  
-								</div>
-								<div class=" ban-in ban-grid3">
-									<img class="img-responsive " src="images/ba3.jpg" alt="" />  
+									<img class="img-responsive " src="images/topslide/slide-4.jpg" alt="" />  
 								</div>
 								<div class="clearfix"> </div>										
 							</div>
@@ -132,6 +126,7 @@
 		</div>	
 	</div>
 </div>
+<!--banner end-->
 <!--content-->
 <div class="content">
 	<div class="container">
@@ -142,14 +137,14 @@
 					<div class="col-md-6 black">
 						<a href="single.html"><img class="img-responsive" src="images/ab1.jpg" alt="">
 							<div class="col">
-								<h4>Games</h4>	
+								<h4>猫国建设中</h4>	
 							</div>
 						</a>
 					</div>
 					<div class="col-md-6 black">
 						<a href="single.html"><img class="img-responsive" src="images/ab2.jpg" alt="">
 							<div class="col">
-								<h4>Games</h4>	
+								<h4>太空公司</h4>	
 							</div>
 						</a>
 					</div>
@@ -173,23 +168,18 @@
 		<!--//content-top-->
 		<!---->
 		<div class="container">
-			<div class="content-bottom">
-				<div class="col-md-6 bottom-content1">
-<!--					<iframe src="https://player.vimeo.com/video/72892268"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-				</div>
+			<div class="content-bottom" >
 				<div class="col-md-6 bottom-content">
-					<h4>Nertyase riti masertas lertyarty tsaera</h4>
+					<h4>推荐游戏</h4>
 					<ul>
 						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> Contrary to popular belief, Lorem Ipsum is not simply random text.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> There are many variations of passages of Lorem Ipsum available, but .</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-6 bottom-content">
+					<h4 style="opacity:0">热门游戏</h4>
+					<ul>
 						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> The standard chunk of Lorem Ipsum used since the 1500s is .</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> There are many variations of passages of Lorem Ipsum available, but.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> Contrary to popular belief, Lorem Ipsum is not simply random text.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> The standard chunk of Lorem Ipsum used since the 1500s is.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-ok"></i> Contrary to popular belief, Lorem Ipsum is not simply random text.</a></li>
 						
 					</ul>
 				</div>
@@ -197,131 +187,9 @@
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-<!--游戏分类 start-->
-<div class="container">
-		<!---->
-		<div class="sap_tabs">
-			
-						 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>冒险</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>战斗</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>竞速</span></li>
-							  <div class="clearfix"></div>
-						  </ul>				  	 
-							<div class="resp-tabs-container">
-							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-									<div class="tab_img">
-									  <div class="img-top">		
-					   		  			   <img src="images/ta.jpg" class="img-responsive" alt=""/>
-								              <div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="https://zhaolinxu.github.io/cat-zh"><i class="glyphicon">汉化</i></a></li>
-												 	<li><a href="http://bloodrizer.ru/games/kittens/"><i class="glyphicon">英文</i></a></li>
-												 </ul> 	
-											  </div>
-										</div>
-										<div class="img-top ">
-										  
-					   		  			   <img src="images/ta1.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-											 </div>
-										<div class="img-top ">
-					   		  			   <img src="images/ta2.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-											 
-											</div>
-											<div class="clearfix"></div>
-							     </div>	
-									 	        					 
-						  </div>
-							    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
-									
-									<div class="tab_img">
-									  <div class="img-top">		
-					   		  			   <img src="images/ta3.jpg" class="img-responsive" alt=""/>
-								              <div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-										</div>
-										<div class="img-top ">
-										  
-					   		  			   <img src="images/ta4.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-											 </div>
-										<div class="img-top ">
-					   		  			   <img src="images/ta5.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-											 
-											</div>
-											<div class="clearfix"></div>
-							     </div>	
-									 	        	 	        					 
-						  </div>
-						    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-									<div class="tab_img">
-									  <div class="img-top">		
-					   		  			   <img src="images/ta6.jpg" class="img-responsive" alt=""/>
-								              <div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-										</div>
-										<div class="img-top ">
-										  
-					   		  			   <img src="images/ta7.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-											 </div>
-										<div class="img-top ">
-					   		  			   <img src="images/ta8.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i class="glyphicon glyphicon-search"> </i></a></li>
-												 	<li><a href="#"><i class="glyphicon glyphicon-link"> </i></a></li>
-												 </ul> 	
-											  </div>
-											 
-											</div>
-											<div class="clearfix"></div>
-							    	 </div>			 	        	 
-							  </div>		
-                  </div>
-         	 </div>
-         </div>
-		<!---->
-	</div>	
-<!--游戏分类 end-->
 </div>
+<!--content-->
+
 <!--footer-->
 	<div class="footer">
 		<div class="container">

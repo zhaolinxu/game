@@ -206,7 +206,6 @@ a.cd-read-more:hover{text-decoration:none; background-color: #424242;  }
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem;
   }
   .cd-timeline-content p {
     font-size: 16px;
@@ -277,7 +276,7 @@ a.cd-read-more:hover{text-decoration:none; background-color: #424242;  }
   }
 }
 @media(max-width:480px){
-    .cd-timeline-content h2{font-size: 20px;}
+    .cd-timeline-content h2{font-size: 18px;}
     .cd-timeline-content p,.cd-timeline-content .cd-read-more{font-size: 13px;}
     
 }

@@ -1,5 +1,5 @@
 $(function(){
-    var content;
+    var content='';
     content +='<!-- 客服动态内容 开始 -->';
      content +='<div class="main-im">';
     content +='<div id="open_im" class="open-im">&nbsp;</div>  ';

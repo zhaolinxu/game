@@ -7,7 +7,7 @@ $(function(){
     content +='<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>';
     content +='<a href="http://shang.qq.com/wpa/qunwpa?idkey=d10d784492d5e73cca25ff48f4763bdc14f698ffdbf42adbb0e9304495cb0387" target="_blank" class="im-qq qq-a" title="点击加入 - GitHub游戏交流群:627141737">';
     content +='<div class="qq-container"></div>';
-    content +='<div class="qq-hover-c"><img class="img-qq" src="images/kf/qq.png"></div>';
+    content +='<div class="qq-hover-c"><img class="img-qq" src="http://likexia.gitee.io/game/images/kf/qq.png"></div>';
     content +='<span>点击加群</span>';
     content +='</a>';
     content +='<div class="im-tel">';
@@ -20,7 +20,7 @@ $(function(){
     content +='<div class="weixing-container">';
     content +='<div class="weixing-show">';
     content +='<div class="weixing-txt">微信扫一扫<br>关注公众号</div>';
-    content +='<img class="weixing-ma" src="images/kf/weixing-ma.jpg">';
+    content +='<img class="weixing-ma" src="http://likexia.gitee.io/game/images/kf/weixing-ma.jpg">';
     content +='<div class="weixing-sanjiao"></div>';
     content +='<div class="weixing-sanjiao-big"></div>';
     content +='</div>';

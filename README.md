@@ -45,7 +45,7 @@
 * 类型：文字、放置
 * 汉化程度：30%
 * 汉化版本号：V 4.5
-* 汉化版地址：https://zhaolinxu.github.io/cuipi/
+* 汉化版地址：http://likexia.gitee.io/cuipi
 * 英文版本号：V 4.5
 * 英文版地址：http://trimps.github.io/
 * 英文文档：

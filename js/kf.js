@@ -13,14 +13,14 @@ $(function(){
     content +='<div class="im-tel">';
     content +='<div>QQ群</div>';
     content +='<div class="tel-num">627141737</div>';
-    content +='<div>公众号</div>';
-    content +='<div class="tel-num">likexiazai</div>';
+    content +='<div>更多同类游戏</div>';
+    content +='<div class="tel-num"><a href="http://likexia.gitee.io/game/" target="_blank">GitHub Game</a></div>';
     content +='</div>';
     content +='<div class="im-footer" style="position:relative">';
     content +='<div class="weixing-container">';
     content +='<div class="weixing-show">';
-    content +='<div class="weixing-txt">微信扫一扫<br>关注公众号</div>';
-    content +='<img class="weixing-ma" src="http://likexia.gitee.io/game/images/kf/weixing-ma.jpg">';
+    content +='<div class="weixing-txt">支付宝扫一扫<br>每天领红包<br>0.1 - 99元</div>';
+    content +='<img class="weixing-ma" src="http://likexia.gitee.io/game/images/kf/zfb-ma.jpg">';
     content +='<div class="weixing-sanjiao"></div>';
     content +='<div class="weixing-sanjiao-big"></div>';
     content +='</div>';

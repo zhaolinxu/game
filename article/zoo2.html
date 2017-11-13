@@ -119,7 +119,7 @@
 						<a href="http://www.u77.com/game/3670" title="查看汉化版游戏文档" class="cd-read-more  hvr-wobble-top btn-success" target="_blank">中文文档</a>
 						<!-- <a href="#" title="查看英文版游戏文档" class="cd-read-more  hvr-wobble-top btn-success" target="_blank">英文文档</a> -->
 						<a href="//shang.qq.com/wpa/qunwpa?idkey=f8918322d07e7fde0be74a718a76001e816bf04159cb60f1d990f8572b2cf2e2" title="点击加入 - GitHub游戏交流群:627141737" class="cd-read-more  hvr-wobble-top btn-info" target="_blank">QQ交流群</a>
-						<a href="javascript:void(0)" onClick="dashangToggle()" title="您的支持，是我最大的动力！" class="cd-read-more  hvr-wobble-top btn-info btn-dashang" >打赏</a>
+						<a href="javascript:void(0)" title="您的支持，是我最大的动力！" class="cd-read-more  hvr-wobble-top btn-info btn-dashang" >打赏</a>
 
 					</div>
 				</div>
@@ -248,48 +248,8 @@
     <script src="../js/kf.js"></script>
     <!--客服 结束-->
     <!-- 打赏 开始 -->
-    <div class="dashang-body">
-    <div class="hide_box"></div>
-    <div class="shang_box">
-    	<a class="shang_close" href="javascript:void(0)" onClick="dashangToggle()" title="关闭"><img src="../images/dashang/close.png" alt="取消" /></a>
-    	<div class="shang_tit">
-    		<p>感谢您的支持，我会继续努力的!</p>
-    	</div>
-    	<div class="shang_payimg">
-    		<img src="../images/dashang/alipayimg.png" alt="扫码支持" title="扫一扫" />
-    	</div>
-    		<div class="pay_explain">扫码打赏，你说多少就多少</div>
-    	<div class="shang_payselect">
-    		<div class="pay_item checked" data-id="alipay">
-	    		<span class="radiobox"></span>
-	    		<span class="pay_logo"><img src="../images/dashang/alipay.jpg" alt="支付宝" /></span>
-    		</div>
-    		<div class="pay_item" data-id="weipay">
-	    		<span class="radiobox"></span>
-	    		<span class="pay_logo"><img src="../images/dashang/wechat.jpg" alt="微信" /></span>
-    		</div>
-    	</div>
-    	<div class="shang_info">
-    		<p>打开<span id="shang_pay_txt">支付宝</span>扫一扫，即可进行扫码打赏哦</p>
-    		<p>分享从这里开始，精彩与您同在</p>
-    	</div>
-    </div>
-    </div>
-    <script type="text/javascript">
-    $(function(){
-    	$(".pay_item").click(function(){
-    		$(this).addClass('checked').siblings('.pay_item').removeClass('checked');
-    		var dataid=$(this).attr('data-id');
-    		$(".shang_payimg img").attr("src","../images/dashang/"+dataid+"img.png");
-    		$("#shang_pay_txt").text(dataid=="alipay"?"支付宝":"微信");
-    	});
-    });
-    function dashangToggle(){
-    	$(".hide_box").fadeToggle();
-    	$(".shang_box").fadeToggle();
-    }
-    </script>
-    <!-- 打赏 结束 -->
+   <script src="../js/dashang.js"></script>
+   <!-- 打赏 结束 -->
 		<div style="display:none;">
 			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 		</div>

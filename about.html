@@ -65,7 +65,7 @@
 			<div class="about-bottom">
 				<p>GitHub Games 旨在发现GitHub上面好玩的Html网页游戏，然后拉取过来，进行汉化，方便中国玩家玩耍。</p>
 				<p>欢迎大家推荐好玩的游戏！</p>
-				<p><a href="javascript:void(0)" onClick="dashangToggle()" class="dashang" title="打赏，支持一下">打赏</a></p>
+				<p><a href="javascript:void(0)"  class="dashang" title="打赏，支持一下">打赏</a></p>
 				<div class="about-btm">
 					<div class="col-md-6 about-left">
 						<a href="article/cat.html"><img class="img-responsive" src="images/game/cat/face.jpg" alt="" /></a>
@@ -272,48 +272,8 @@
     <script src="js/kf.js"></script>
     <!--客服 结束-->
     <!-- 打赏 开始 -->
-    <div class="dashang-body">
-    <div class="hide_box"></div>
-    <div class="shang_box">
-    	<a class="shang_close" href="javascript:void(0)" onClick="dashangToggle()" title="关闭"><img src="images/dashang/close.png" alt="取消" /></a>
-    	<div class="shang_tit">
-    		<p>感谢您的支持，我会继续努力的!</p>
-    	</div>
-    	<div class="shang_payimg">
-    		<img src="images/dashang/alipayimg.png" alt="扫码支持" title="扫一扫" />
-    	</div>
-    		<div class="pay_explain">扫码打赏，你说多少就多少</div>
-    	<div class="shang_payselect">
-    		<div class="pay_item checked" data-id="alipay">
-	    		<span class="radiobox"></span>
-	    		<span class="pay_logo"><img src="images/dashang/alipay.jpg" alt="支付宝" /></span>
-    		</div>
-    		<div class="pay_item" data-id="weipay">
-	    		<span class="radiobox"></span>
-	    		<span class="pay_logo"><img src="images/dashang/wechat.jpg" alt="微信" /></span>
-    		</div>
-    	</div>
-    	<div class="shang_info">
-    		<p>打开<span id="shang_pay_txt">支付宝</span>扫一扫，即可进行扫码打赏哦</p>
-    		<p>分享从这里开始，精彩与您同在</p>
-    	</div>
-    </div>
-    </div>
-    <script type="text/javascript">
-    $(function(){
-    	$(".pay_item").click(function(){
-    		$(this).addClass('checked').siblings('.pay_item').removeClass('checked');
-    		var dataid=$(this).attr('data-id');
-    		$(".shang_payimg img").attr("src","images/dashang/"+dataid+"img.png");
-    		$("#shang_pay_txt").text(dataid=="alipay"?"支付宝":"微信");
-    	});
-    });
-    function dashangToggle(){
-    	$(".hide_box").fadeToggle();
-    	$(".shang_box").fadeToggle();
-    }
-    </script>
-    <!-- 打赏 结束 -->
+   <script src="js/dashang.js"></script>
+   <!-- 打赏 结束 -->
 	<div style="display:none;">
 			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
 		</div>

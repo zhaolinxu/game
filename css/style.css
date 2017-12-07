@@ -234,7 +234,7 @@ a.now-in:hover{
 .content-bottom {
   padding: 4em 0;
 }
-i.glyphicon.glyphicon-ok {
+i.glyphicon.glyphicon-ok,i.glyphicon.glyphicon-time,i.glyphicon.glyphicon-pencil {
   color: #EA4C89;
   font-size: 14px;
   margin-right: 10px;

@@ -1,122 +1,132 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title>游戏 | GitHub Games</title>
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		<!-- Custom Theme files -->
-		<!--theme-style-->
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<!--//theme-style-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="" />
-		<link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico">
-		<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		<script type="application/x-javascript">
-			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+<head>
+    <title>游戏 | GitHub Games</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico">
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-			function hideURLbar() { window.scrollTo(0, 1); }
-		</script>
-		<script src="js/modernizr.custom.97074.js"></script>
-		<!--flexslider-->
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-		<!--//flexslider-->
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
 
-		<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-		<!--light-box-files -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#horizontalTab').easyResponsiveTabs({
-					type: 'default', //Types: default, vertical, accordion           
-					width: 'auto', //auto or any width like 600px
-					fit: true // 100% fit in a container
-				});
+    </script>
+    <script src="js/modernizr.custom.97074.js"></script>
+    <!--flexslider-->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <!--//flexslider-->
 
-				$(' #da-thumbs > li ').each(function() { $(this).hoverdir(); });
+    <script src="js/jquery.chocolat.js"></script>
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <!--light-box-files -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true // 100% fit in a container
+            });
 
-				$('.games a').Chocolat();
-			});
-		</script>
+            $(' #da-thumbs > li ').each(function() {
+                $(this).hoverdir();
+            });
 
-	</head>
+            $('.games a').Chocolat();
+        });
 
-	<body>
-		<!--header-->
-		<div class="header">
-			<div class="header-top">
-				<div class="container">
-					<div class="head-top">
-						<div class="logo">
-							<h1><a href="index.html"> GitHub  <span>Games</span></a></h1>
-						</div>
-						<div class="top-nav">
-							<span class="menu"><img src="images/menu.png" alt=""> </span>
-							<ul>
-								<li>
-									<a href="index.html">首页</a>
-								</li>
-								<li class="active">
-									<a href="games.html">游戏</a>
-								</li>
-								<li>
-									<a href="blog.html">博客</a>
-								</li>
-								<li>
-									<a href="timeline.html">事件</a>
-								</li>
-								<li>
-									<a href="about.html">关于</a>
-								</li>
-								<div class="clearfix"> </div>
-							</ul>
-							<!--script-->
-							<script>
-								$("span.menu").click(function() {
-									$(".top-nav ul").slideToggle(500, function() {});
-								});
-							</script>
+    </script>
 
-						</div>
+</head>
 
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--banner-->
-		<div class="banner">
-			<div class="container">
-				<h2 class="timeline">所有游戏</h2>
-			</div>
-		</div>
-		<!--banner-->
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="head-top">
+                    <div class="logo">
+                        <h1><a href="index.html"> GitHub  <span>Games</span></a></h1>
+                    </div>
+                    <div class="top-nav">
+                        <span class="menu"><img src="images/menu.png" alt=""> </span>
+                        <ul>
+                            <li>
+                                <a href="index.html">首页</a>
+                            </li>
+                            <li class="active">
+                                <a href="games.html">游戏</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">博客</a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">事件</a>
+                            </li>
+                            <li>
+                                <a href="about.html">关于</a>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <!--script-->
+                        <script>
+                            $("span.menu").click(function() {
+                                $(".top-nav ul").slideToggle(500, function() {});
+                            });
 
-		<!--游戏分类 start-->
-		<div class="container" style="padding:2em 0;">
-			<div class="games tj">
-			</div>
-			<div class="sap_tabs">
+                        </script>
 
-				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-					<ul class="resp-tabs-list" style="padding-bottom:2em;">
-						<li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>文字</span></li>
-						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>经营</span></li>
-						<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>冒险</span></li>
-						<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>点击</span></li>
-						<li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>益智</span></li>
-						<div class="clearfix"></div>
-					</ul>
-					<div class="resp-tabs-container">
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-							<section>
-								<ul id="da-thumbs" class="da-thumbs">
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                    </div>
+
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="banner">
+        <div class="container">
+            <h2 class="timeline">所有游戏</h2>
+        </div>
+    </div>
+    <!--banner-->
+
+    <!--游戏分类 start-->
+    <div class="container" style="padding:2em 0;">
+        <div class="games tj">
+        </div>
+        <div class="sap_tabs">
+
+            <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+                <ul class="resp-tabs-list" style="padding-bottom:2em;">
+                    <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>文字</span></li>
+                    <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>经营</span></li>
+                    <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>冒险</span></li>
+                    <li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span>点击</span></li>
+                    <li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span>益智</span></li>
+                    <li class="resp-tab-item" aria-controls="tab_item-5" role="tab"><span>放置</span></li>
+                    <div class="clearfix"></div>
+                </ul>
+                <div class="resp-tabs-container">
+                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+                        <section>
+                            <ul id="da-thumbs" class="da-thumbs">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/cat/face.jpg" alt="" />
 							<div>
 								<h5>猫国建设中</h5>
@@ -127,9 +137,9 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                </li>
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/spaceCompany/face.jpg" alt="" />
 							<div>
 								<h5>太空公司</h5>
@@ -140,9 +150,9 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                </li>
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/IdleAnt/face.jpg" alt="" />
 							<div>
 								<h5>蚂蚁放置</h5>
@@ -153,9 +163,9 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                </li>
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/swarmSimulator/face.jpg" alt="" />
 							<div>
 								<h5>模拟虫群</h5>
@@ -166,19 +176,19 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<div class="clearfix"> </div>
-								</ul>
-							</section>
+                                </li>
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </section>
 
-						</div>
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+                    </div>
+                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
 
-							<section>
-								<ul id="da-thumbs" class="da-thumbs">
+                        <section>
+                            <ul id="da-thumbs" class="da-thumbs">
 
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/blackMarket/face.jpg" alt="" />
 							<div>
 								<h5>黑市</h5>
@@ -189,9 +199,9 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                </li>
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/heartOfGalaxy/face.jpg" alt="" />
 							<div>
 								<h5>星系核心</h5>
@@ -202,17 +212,17 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<div class="clearfix"> </div>
-								</ul>
-							</section>
+                                </li>
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </section>
 
-						</div>
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
-							<section>
-								<ul id="da-thumbs" class="da-thumbs">
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                    </div>
+                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+                        <section>
+                            <ul id="da-thumbs" class="da-thumbs">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/aDarkRoom/face.jpg" alt="" />
 							<div>
 								<h5>小黑屋</h5>
@@ -223,10 +233,10 @@
 								</p>
 							</div>
 						</em>
-									</li>
+                                </li>
 
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/cuipi/face.jpg" alt="" />
 							<div>
 								<h5>脆皮</h5>
@@ -237,16 +247,16 @@
 								</p>
 							</div>
 						</em>
-									</li>
-									<div class="clearfix"> </div>
-								</ul>
-							</section>
-						</div>
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
-							<section>
-								<ul id="da-thumbs" class="da-thumbs">
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+                                </li>
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+                        <section>
+                            <ul id="da-thumbs" class="da-thumbs">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/resourcePlanet/face.jpg" alt="" />
 							<div>
 								<h5>资源星球</h5>
@@ -257,18 +267,31 @@
 								</p>
 							</div>
 						</em>
-									</li>
+                                </li>
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/game/clickersOfHonor/face.jpg" alt="" />
+							<div>
+								<h5>点击者的荣耀</h5>
+								<span></span>
+								<p>
+								<a class=" hvr-wobble-top" href="article/clickersOfHonor.html" target="_blank">看介绍</a>
+								<a class=" hvr-wobble-top" href="http://likexia.gitee.io/coh/" target="_blank">玩游戏</a>
+								</p>
+							</div>
+						</em>
+                                </li>
 
-									
-									<div class="clearfix"> </div>
-								</ul>
-							</section>
-						</div>
-						<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
-							<section>
-								<ul id="da-thumbs" class="da-thumbs">
-									<li>
-										<em class="b-link-stripe b-animate-go  thickbox">
+
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-4">
+                        <section>
+                            <ul id="da-thumbs" class="da-thumbs">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
 							<img src="images/game/2048/face.jpg" alt="" />
 							<div>
 								<h5>2048</h5>
@@ -279,81 +302,107 @@
 								</p>
 							</div>
 						</em>
-									</li>
+                                </li>
 
-									
-									<div class="clearfix"> </div>
-								</ul>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--游戏分类 end-->
-		<!--footer-->
-		<div class="footer">
-			<div class="container">
-				<div class="footer-top">
-					<div class="col-md-4  top-footer">
-						<ul>
-							<li>
-								<a href="#"><i></i></a>
-							</li>
-							<li>
-								<a href="#">Twitter</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4 top-footer">
-						<ul>
-							<li>
-								<a href="#"><i class="youtube"></i></a>
-							</li>
-							<li>
-								<a href="#">Youtube</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4 top-footer">
-						<ul>
-							<li>
-								<a href="#"><i class="facebook"></i></a>
-							</li>
-							<li>
-								<a href="#">Facebook</a>
-							</li>
-						</ul>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-				<ul class="footer-grid">
-					<li>
-						<a href="index.html">首页</a>
-					</li>
-					<li>
-						<a href="games.html">游戏</a>
-					</li>
-					<li>
-						<a href="blog.html">博客</a>
-					</li>
-					<li>
-						<a href="timeline.html">事件</a>
-					</li>
-					<li>
-						<a href="about.html">关于</a>
-					</li>
-				</ul>
-				<p> © 2017 GitHub Games All rights reserved</p>
-			</div>
-		</div>
-		<!--客服 开始-->
+
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-5">
+                        <section>
+                            <ul id="da-thumbs" class="da-thumbs">
+                                <li>
+                                    <em class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/game/reactorIdle/face.jpg" alt="" />
+							<div>
+								<h5>反应堆放置</h5>
+								<span></span>
+								<p>
+								<a class=" hvr-wobble-top" href="article/reactorIdle.html" target="_blank">看介绍</a>
+								<a class=" hvr-wobble-top" href="http://likexia.gitee.io/reactoridle/" target="_blank">玩游戏</a>
+								</p>
+							</div>
+						</em>
+                                </li>
+
+
+                                <div class="clearfix"> </div>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--游戏分类 end-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-4  top-footer">
+                    <ul>
+                        <li>
+                            <a href="#"><i></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 top-footer">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="youtube"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 top-footer">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <ul class="footer-grid">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="games.html">游戏</a>
+                </li>
+                <li>
+                    <a href="blog.html">博客</a>
+                </li>
+                <li>
+                    <a href="timeline.html">事件</a>
+                </li>
+                <li>
+                    <a href="about.html">关于</a>
+                </li>
+            </ul>
+            <p> © 2017 GitHub Games All rights reserved</p>
+        </div>
+    </div>
+    <!--客服 开始-->
     <link rel="stylesheet" href="css/kf.css" type="text/css" media="screen" charset="utf-8">
     <script src="js/kf.js"></script>
     <!--客服 结束-->
-		<div style="display:none;">
-			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-		</div>
-	</body>
+    <div style="display:none;">
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+
+        </script>
+    </div>
+</body>
 
 </html>

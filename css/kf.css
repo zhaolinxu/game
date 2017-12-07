@@ -23,7 +23,9 @@
 .main-im .close-im a{display:block;width:24px;height:24px;background:url("http://likexia.gitee.io/game/images/kf/close_im.png") no-repeat left top;text-decoration:none;}
 .main-im .close-im a:hover{text-decoration:none;}
 .main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background:url("http://likexia.gitee.io/game/images/kf/open_im.png") no-repeat left top;cursor: pointer;background-size: 100%;z-index:100;position:fixed;right:10px;bottom:320px;}
-
+@media screen and (max-width:480px){
+    .main-im{display: none;}
+}
 /*打赏*/
 .hide_box{z-index:999;filter:alpha(opacity=50);background:#666;opacity: 0.5;-moz-opacity: 0.5;left:0;top:0;height:99%;width:100%;position:fixed;display:none;}
         .shang_box{width:400px;height:450px;margin:-225px 0 0 -200px;background-color:#fff;border-radius:10px;position:fixed;z-index:1000;left:50%;top:50%;border:1px dotted #dedede;display:none;}

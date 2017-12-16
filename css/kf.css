@@ -1,12 +1,12 @@
 /*main css*/
-.main-im{position:fixed;right:10px;bottom:50px;line-height: normal;}
+.main-im{position:fixed;right:10px;bottom:50px;line-height: normal;z-index: 999}
 .main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd;text-align:center;position:relative;}
 .main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}
 .main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}
 .main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background:url("http://likexia.gitee.io/game/images/kf/qq-icon-bg.png") no-repeat center 8px;}
 .main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;transition:all 0.5s;}
 .main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;}
-.main-im .im_main{background:#F9FAFB;border:1px solid #dddddd;border-radius:10px;background:#F9FAFB;display:none;z-index:100;}
+.main-im .im_main{background:#F9FAFB;border:1px solid #dddddd;border-radius:10px;background:#F9FAFB;display:none;z-index:999;}
 .main-im .im_main .im-tel{color:#000000;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}
 .main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}
 .main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;color:#e66d15;}

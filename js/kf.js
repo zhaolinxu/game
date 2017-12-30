@@ -19,7 +19,7 @@ $(function(){
     content +='<div class="im-footer" style="position:relative">';
     content +='<div class="weixing-container">';
     content +='<div class="weixing-show">';
-    content +='<div class="weixing-txt" style="font-size:13px;">支付宝扫一扫<br>每天领红包<br>0.1 - 99元<br><a href="http://likexia.gitee.io/game/article/fuli.html" target="_blank" title="凡是扫这个二维码领的红包，都可以找我拿返现，点击查看详情">扫此码有返现</a></div>';
+    content +='<div class="weixing-txt" style="font-size:13px;">支付宝扫一扫<br>每天领红包<br>0.1 - 99元<br><a href="http://likexia.gitee.io/game/article/fuli.html" target="_blank" title="凡是扫这个二维码领的红包，都可以找我拿返现，点击查看详情">查看详情</a></div>';
     content +='<img class="weixing-ma" src="http://likexia.gitee.io/game/images/kf/zfb-ma.jpg">';
     content +='<div class="weixing-sanjiao"></div>';
     content +='<div class="weixing-sanjiao-big"></div>';

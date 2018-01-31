@@ -672,7 +672,8 @@ ul.footer-grid {
 	transition: all 0.4s ease-in-out;
 	top: 20px;
 	left: 20px;
-	background: #f9f9f9 url(../images/bg.jpg);
+	background: #f9f9f9 ;
+/*    url(../images/bg.jpg)*/
 	-webkit-box-shadow: 
 		0 0 0 20px rgba(255,255,255,0.2), 
 		inset 0 0 3px rgba(115,114, 23, 0.8);
@@ -709,15 +710,15 @@ ul.footer-grid {
 }
 
 .ch-img-1 { 
-	background-image: url(../images/team-1.jpg);
+	background-image: url(../images/about/team-1.jpg);
 }
 
 .ch-img-2 { 
-	background-image: url(../images/team-3.jpg);
+	background-image: url(../images/about/team-2.jpg);
 }
 
-.ch-img-3 { 
-	background-image: url(../images/team-2.jpg);
+.ch-img-0 { 
+	background-image: url(../images/about/team-0.jpg);
 }
 
 .ch-info h3 {

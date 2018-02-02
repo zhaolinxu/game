@@ -2125,7 +2125,9 @@ h3.typo1 {
     .single-grid h4.grid2{position: relative;top: 0}
 }
 /*补充*/
-.footer-top{display: none;}
+/*.footer-top{display: none;}*/
+.footer-top{margin: 20px auto;}
+.footer-top h3{color: #fff;font-size: 2.5em;padding: 20px 0;}
 a{cursor: pointer;}
 .img-responsive{width: 100%}
 .single-grid h4.grid2 .label{font-weight: normal;padding: .3em .6em .3em;}

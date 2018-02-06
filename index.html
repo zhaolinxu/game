@@ -1,155 +1,168 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>首页 | GitHub Games</title>
-		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		<!-- Custom Theme files -->
-		<!--theme-style-->
-		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<!--//theme-style-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="" />
-		<link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico">
-		<script type="application/x-javascript">
-			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-			function hideURLbar() { window.scrollTo(0, 1); }
-		</script>
-		<script src="js/modernizr.custom.97074.js"></script>
-		<!--flexslider-->
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-		<!--//flexslider-->
-		<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
-		<script src="js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$('#horizontalTab').easyResponsiveTabs({
-					type: 'default', //Types: default, vertical, accordion           
-					width: 'auto', //auto or any width like 600px
-					fit: true // 100% fit in a container
-				});
-				$(' #da-thumbs > li ').each(function() { $(this).hoverdir(); });
-				$('.games a').Chocolat();
-			});
-		</script>
-	</head>
-	<body>
-		<!--header-->
-		<div class="header">
-			<div class="header-top">
-				<div class="container">
-					<div class="head-top">
-						<div class="logo">
-							<h1><a href="index.html"> GitHub  <span>Games</span></a></h1>
-						</div>
-						<div class="top-nav">
-							<span class="menu"><img src="images/menu.png" alt=""> </span>
-							<ul>
-								<li class="active">
-									<a href="index.html">首页</a>
-								</li>
-								<li>
-									<a href="games.html">游戏</a>
-								</li>
-								<li>
-									<a href="blog.html">博客</a>
-								</li>
-								<li>
-									<a href="timeline.html">事件</a>
-								</li>
-								<li>
-									<a href="about.html">关于</a>
-								</li>
-								<div class="clearfix"> </div>
-							</ul>
-							<!--script-->
-							<script>
-								$("span.menu").click(function() {
-									$(".top-nav ul").slideToggle(500, function() {});
-								});
-							</script>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--banner-->
-		<div class="banner">
-			<div class="container">
-				<h2>游戏推荐</h2>
-				<div class="banner-matter">
-					<div class="slider">
-						<section class="slider">
-							<div class="flexslider">
-								<ul class="slides">
-									<li>
-										<div class="ban">
-											<div class=" ban-in ban-grid">
-												<a href="article/cat.html" title="猫国建设中" target="_blank"><img class="img-responsive " src="images/topslide/cat.jpg" alt="猫国建设中" /> </a>
-											</div>
-											<div class=" ban-in ban-grid1">
-												<a href="article/IdleAnt.html" title="蚂蚁放置" target="_blank"><img class="img-responsive " src="images/topslide/IdleAnt.jpg" alt="蚂蚁放置" /> </a>
-											</div>
-											<div class=" ban-in ban-grid2">
-												<a href="article/heartOfGalaxy.html" title="星系核心" target="_blank"><img class="img-responsive " src="images/topslide/heartOfGalaxy.jpg" alt="星系核心" /> </a>
-											</div>
-											<div class=" ban-in ban-grid3">
-												<a href="article/cookieClicker.html" title="无尽的饼干" target="_blank"><img class="img-responsive " src="images/topslide/cookieClicker.jpg" alt="无尽的饼干" /> </a>
-											</div>
-<!--
+
+<head>
+    <title>首页 | GitHub Games</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico">
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <script src="js/modernizr.custom.97074.js"></script>
+    <!--flexslider-->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <!--//flexslider-->
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script src="js/jquery.chocolat.js"></script>
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true // 100% fit in a container
+            });
+            $(' #da-thumbs > li ').each(function() {
+                $(this).hoverdir();
+            });
+            $('.games a').Chocolat();
+        });
+
+    </script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="head-top">
+                    <div class="logo">
+                        <h1><a href="index.html"> GitHub  <span>Games</span></a></h1>
+                    </div>
+                    <div class="top-nav">
+                        <span class="menu"><img src="images/menu.png" alt=""> </span>
+                        <ul>
+                            <li class="active">
+                                <a href="index.html">首页</a>
+                            </li>
+                            <li>
+                                <a href="games.html">游戏</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">博客</a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">事件</a>
+                            </li>
+                            <li>
+                                <a href="about.html">关于</a>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <!--script-->
+                        <script>
+                            $("span.menu").click(function() {
+                                $(".top-nav ul").slideToggle(500, function() {});
+                            });
+
+                        </script>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="banner">
+        <div class="container">
+            <h2>游戏推荐</h2>
+            <div class="banner-matter">
+                <div class="slider">
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <div class="ban">
+                                        <div class=" ban-in ban-grid">
+                                            <a href="article/cat.html" title="猫国建设中" target="_blank"><img class="img-responsive " src="images/topslide/cat.jpg" alt="猫国建设中" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid1">
+                                            <a href="article/IdleAnt.html" title="蚂蚁放置" target="_blank"><img class="img-responsive " src="images/topslide/IdleAnt.jpg" alt="蚂蚁放置" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid2">
+                                            <a href="article/heartOfGalaxy.html" title="星系核心" target="_blank"><img class="img-responsive " src="images/topslide/heartOfGalaxy.jpg" alt="星系核心" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid3">
+                                            <a href="article/cuipi.html" title="脆皮" target="_blank"><img class="img-responsive " src="images/topslide/cuipi.jpg" alt="脆皮" /> </a>
+                                        </div>
+
+                                        <!--
 											<div class=" ban-in ban-grid3">
 												<a href="article/rebuildTheUniverse.html" title="重建宇宙" target="_blank"><img class="img-responsive " src="images/topslide/rebuildTheUniverse.jpg" alt="重建宇宙" /> </a>
 											</div>
 -->
-											
-											<div class="clearfix"> </div>
-										</div>
-									</li>
-									<li>
-										<div class="ban">
-										<div class=" ban-in ban-grid">
-												<a href="article/cookieClicker.html" title="无尽的饼干" target="_blank"><img class="img-responsive " src="images/topslide/cookieClicker.jpg" alt="无尽的饼干" /> </a>
-											</div>
-											
-											<div class=" ban-in ban-grid1">
-												<a href="article/colorIdle.html" title="颜色放置" target="_blank"><img class="img-responsive " src="images/topslide/colorIdle.jpg" alt="颜色放置" /> </a>
-											</div>
-											<div class=" ban-in ban-grid2">
-												<a href="article/reactorIdle.html" title="反应堆放置" target="_blank"><img class="img-responsive " src="images/topslide/reactorIdle.jpg" alt="反应堆放置" /> </a>
-											</div>
-											<div class=" ban-in ban-grid3">
-												<a href="article/cityInc.html" title="城市公司" target="_blank"><img class="img-responsive " src="images/topslide/cityInc.jpg" alt="城市公司" /> </a>
-											</div>
-											
-<!--
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ban">
+                                        <div class=" ban-in ban-grid">
+                                            <a href="article/cookieClicker.html" title="无尽的饼干" target="_blank"><img class="img-responsive " src="images/topslide/cookieClicker.jpg" alt="无尽的饼干" /> </a>
+                                        </div>
+
+                                        <div class=" ban-in ban-grid1">
+                                            <a href="article/colorIdle.html" title="颜色放置" target="_blank"><img class="img-responsive " src="images/topslide/colorIdle.jpg" alt="颜色放置" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid2">
+                                            <a href="article/reactorIdle.html" title="反应堆放置" target="_blank"><img class="img-responsive " src="images/topslide/reactorIdle.jpg" alt="反应堆放置" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid3">
+                                            <a href="article/cityInc.html" title="城市公司" target="_blank"><img class="img-responsive " src="images/topslide/cityInc.jpg" alt="城市公司" /> </a>
+                                        </div>
+
+                                        <!--
 											<div class=" ban-in ban-grid3">
 												<a href="article/clickersOfHonor.html" title="点击者的荣耀" target="_blank"><img class="img-responsive " src="images/topslide/clickersOfHonor.jpg" alt="点击者的荣耀" /> </a>
 											</div>
 -->
-											<div class="clearfix"> </div>
-										</div>
-									</li>
-									<li>
-										<div class="ban">
-										<div class=" ban-in ban-grid">
-												<a href="article/cuipi.html" title="脆皮" target="_blank"><img class="img-responsive " src="images/topslide/cuipi.jpg" alt="脆皮" /> </a>
-											</div>
-											
-											<div class=" ban-in ban-grid1">
-												<a href="article/spaceCompany.html" title="太空公司" target="_blank"><img class="img-responsive" src="images/topslide/spaceCompany.jpg" alt="太空公司" /> </a>
-											</div>
-											<div class=" ban-in ban-grid2">
-												<a href="article/swarmSimulator.html" title="模拟虫群" target="_blank"><img class="img-responsive " src="images/topslide/swarmSimulator.jpg" alt="模拟虫群" /> </a>
-											</div>
-											<div class=" ban-in ban-grid3">
-												<a href="article/nucleogenesis.html" title="核起源" target="_blank"><img class="img-responsive " src="images/topslide/nucleogenesis.jpg" alt="核起源" /> </a>
-											</div>
-<!--
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ban">
+
+                                        <div class=" ban-in ban-grid">
+                                            <a href="article/adarkroom.html" title="小黑屋" target="_blank"><img class="img-responsive " src="images/topslide/adarkroom.jpg" alt="小黑屋" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid1">
+                                            <a href="article/spaceCompany.html" title="太空公司" target="_blank"><img class="img-responsive" src="images/topslide/spaceCompany.jpg" alt="太空公司" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid2">
+                                            <a href="article/swarmSimulator.html" title="模拟虫群" target="_blank"><img class="img-responsive " src="images/topslide/swarmSimulator.jpg" alt="模拟虫群" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid3">
+                                            <a href="article/nucleogenesis.html" title="核起源" target="_blank"><img class="img-responsive " src="images/topslide/nucleogenesis.jpg" alt="核起源" /> </a>
+                                        </div>
+                                        <!--
 											<div class=" ban-in ban-grid2">
 												<a href="article/resourcePlanet.html" title="资源星球" target="_blank"><img class="img-responsive " src="images/topslide/resourcePlanet.jpg" alt="资源星球" /> </a>
 											</div>
@@ -157,11 +170,11 @@
 												<a href="article/adarkroom.html" title="小黑屋" target="_blank"><img class="img-responsive " src="images/topslide/adarkroom.jpg" alt="小黑屋" /> </a>
 											</div>
 -->
-											
-											<div class="clearfix"> </div>
-										</div>
-									</li>
-<!--
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </li>
+                                <!--
 									<li>
 										<div class="ban">
 											<div class=" ban-in ban-grid">
@@ -182,7 +195,7 @@
 										</div>
 									</li>
 -->
-<!--
+                                <!--
 									<li>
 										<div class="ban">
 											<div class=" ban-in ban-grid">
@@ -193,51 +206,51 @@
 										</div>
 									</li>
 -->
-								</ul>
-							</div>
-						</section>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--banner end-->
-		<!--content-->
-		<div class="content">
-			<div class="container">
-				<!--content-top-->
-				<div class="content-top">
-					<div class="col-md-9 top-col">
-						<div class="col-top">
-							<div class="col-md-6 black">
-								<a href="article/cat.html" target="_blank"><img class="img-responsive" src="images/index/ab1.jpg" alt="">
-									<div class="col">
-										<h4>猫国建设中</h4>
-									</div>
-								</a>
-							</div>
-							<div class="col-md-6 black">
-								<a href="article/colorIdle.html" target="_blank"><img class="img-responsive" src="images/index/colorIdle.jpg" alt="支付宝红包活动：复制这段口令，打开支付宝，可得随机金额红包（0.1元到99元，看运气）。该红包可以在实体店（饭店、超市等）扫码付款时抵扣。活动12月31日结束，每天都可以领一个红包，前一天的红包用掉，才能继续领今天的。">
-									<div class="col">
-										<h4>颜色放置</h4>
-									</div>
-								</a>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="col-top-bottom">
-							<h3 class="menber">所有游戏</h3>
-							<a href="games.html" class="now-in" target="_blank">查看更多</a>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-					<div class="col-md-3 per">
-						<a href="article/fuli.html" target="_blank"><img class="img-responsive" src="images/index/ab4211.jpg" alt="每天领取最高99元红包！">
-							<div class="six">
-								<h4>领红包<br>拿返现</h4>
-							</div>
-						</a>
-					</div>
-<!--
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner end-->
+    <!--content-->
+    <div class="content">
+        <div class="container">
+            <!--content-top-->
+            <div class="content-top">
+                <div class="col-md-9 top-col">
+                    <div class="col-top">
+                        <div class="col-md-6 black">
+                            <a href="article/cat.html" target="_blank"><img class="img-responsive" src="images/index/ab1.jpg" alt="">
+                                <div class="col">
+                                    <h4>猫国建设中</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 black">
+                            <a href="article/kraft.html" target="_blank"><img class="img-responsive" src="images/index/kraft.jpg" alt="">
+                                <div class="col">
+                                    <h4>建造游戏</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-top-bottom">
+                        <h3 class="menber">所有游戏</h3>
+                        <a href="games.html" class="now-in" target="_blank">查看更多</a>
+                        <div class="clearfix"> </div>
+                    </div>
+                </div>
+                <div class="col-md-3 per">
+                    <a href="article/fuli.html" target="_blank"><img class="img-responsive" src="images/index/ab4211.jpg" alt="每天领取最高99元红包！">
+                        <div class="six">
+                            <h4>领红包<br>拿返现</h4>
+                        </div>
+                    </a>
+                </div>
+                <!--
 					<div class="col-md-3 per">
 						<a href="article/adarkroom.html"><img class="img-responsive" src="images/index/ab3.jpg" alt="">
 							<div class="six">
@@ -246,117 +259,150 @@
 						</a>
 					</div>
 -->
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-			<!--//content-top-->
-			<!---->
-			<div class="container">
-				<div class="content-bottom">
-					<div class="col-md-4 bottom-content">
-						<h4>已汉化的游戏</h4>
-						<ul>
-							<li>
-								<a href="article/cat.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 猫国建设中（Kittens Game）</a>
-							</li>
-							<li>
-								<a href="article/spaceCompany.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 太空公司（Space Compay）</a>
-							</li>
-							<li>
-								<a href="article/IdleAnt.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 蚂蚁放置（Idle Ant）</a>
-							</li>
-							<li>
-								<a href="article/blackMarket.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 黑市（Black Market）</a>
-							</li>
-							<li>
-								<a href="article/adarkroom.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 小黑屋（A Dark Room）</a>
-							</li>
-							<li>
-								<a href="article/2048.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 2048</a>
-							</li>
-							<li>
-								<a href="article/resourcePlanet.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 资源星球（Resource Planet）</a>
-							</li>
-							<li>
-								<a href="article/clickersOfHonor.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 点击者的荣耀（Clickers Of Honor）</a>
-							</li>
-							<li>
-								<a href="article/reactorIdle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 反应堆放置（Reactor Idle）</a>
-							</li>
-							<li>
-								<a href="article/colorIdle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 颜色放置（Hex-Color-Idle）</a>
-							</li>
-							<li>
-								<a href="article/rebuildTheUniverse.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 重建宇宙（Rebuild The Universe）</a>
-							</li>
-							
-							<li>
-								<a href="article/particleClicker.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 粒子点击（Particle Clicker）</a>
-							</li>
-							
-						    <li>
-								<a href="article/swarmSimulator.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 模拟虫群（Swarm Simulator）</a>
-							</li>
-							<li>
-								<a href="article/nucleogenesis.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 核起源（Nucleogenesis）</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4 bottom-content">
-						<h4 >汉化中的游戏</h4>
-						<ul>
-							<li>
-								<a href="article/cuipi.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 脆皮（Trimps）</a>
-							</li>
-							<li>
-								<a href="article/heartOfGalaxy.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 星系核心:地平线（Heart Of Galaxy : Horizons）</a>
-							</li>
-							
-							<li>
-								<a href="article/cookieClicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 无尽的饼干（Cookie Clicker）</a>
-							</li>
-							<li>
-								<a href="article/cityInc.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 城市公司（CityInc）</a>
-							</li>
-							<li>
-								<a href="article/kraft.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 建造游戏（Kraft）</a>
-							</li>
-							<li>
-								<a href="article/realmOfDecay.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 王权衰退（Realm Of Decay）</a>
-							</li>
-						</ul>
-					</div>
-					<div class="col-md-4 bottom-content">
-						<h4 >待汉化的游戏</h4>
-						<ul>
-<!--
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--//content-top-->
+        <!---->
+        <div class="container">
+            <div class="content-bottom">
+                <div class="col-md-4 bottom-content">
+                    <h4>已汉化的游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="article/cat.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 猫国建设中（Kittens Game）</a>
+                        </li>
+                        <li>
+                            <a href="article/spaceCompany.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 太空公司（Space Compay）</a>
+                        </li>
+                        <li>
+                            <a href="article/IdleAnt.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 蚂蚁放置（Idle Ant）</a>
+                        </li>
+                        <li>
+                            <a href="article/blackMarket.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 黑市（Black Market）</a>
+                        </li>
+                        <li>
+                            <a href="article/resourcePlanet.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 资源星球（Resource Planet）</a>
+                        </li>
+                        <li>
+                            <a href="article/clickersOfHonor.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 点击者的荣耀（Clickers Of Honor）</a>
+                        </li>
+                        <li>
+                            <a href="article/reactorIdle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 反应堆放置（Reactor Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/colorIdle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 颜色放置（Hex-Color-Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/rebuildTheUniverse.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 重建宇宙（Rebuild The Universe）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/particleClicker.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 粒子点击（Particle Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/swarmSimulator.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 模拟虫群（Swarm Simulator）</a>
+                        </li>
+                        <li>
+                            <a href="article/nucleogenesis.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 核起源（Nucleogenesis）</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>汉化中的游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="article/cuipi.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 脆皮（Trimps）</a>
+                        </li>
+                        <li>
+                            <a href="article/heartOfGalaxy.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 星系核心:地平线（Heart Of Galaxy : Horizons）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/cookieClicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 无尽的饼干（Cookie Clicker）</a>
+                        </li>
+                        <li>
+                            <a href="article/cityInc.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 城市公司（CityInc）</a>
+                        </li>
+                        <li>
+                            <a href="article/kraft.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 建造游戏（Kraft）</a>
+                        </li>
+                        <li>
+                            <a href="article/realmOfDecay.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 王权衰退（Realm Of Decay）</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>待汉化的游戏</h4>
+                    <ul>
+                        <!--
 							<li>
 								<a href="" ><i class="glyphicon glyphicon-time"></i> 暂无，欢迎推荐！</a>
 							</li>
 -->
-                    <li>
-								<a href="http://likexia.gitee.io/sharks/" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 鲨鱼之心(Heart of Sharkness)</a>
-							</li>
-						</ul>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
-		<!--content-->
-		<!--footer-->
-		<div class="footer">
-			<div class="container">
-				<div class="footer-top">
-				<h3>友情链接</h3>
-					<div class="col-md-4  top-footer">
-						<ul>
-							<li>
-								<a href="http://www.u77.com/" target="_blank"><img src="http://cdn.u77.com/static/img/U77logo.png" alt=""></a>
-							</li>
-						</ul>
-					</div>
-<!--
+                        <li>
+                            <a href="http://likexia.gitee.io/sharks/" target="_blank"><i class="glyphicon glyphicon-time"></i> 鲨鱼之心(Heart of Sharkness)</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--搜集的游戏 start-->
+        <div class="container">
+            <div class="content-bottom">
+                <div class="col-md-4 bottom-content">
+                    <h4>经典游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="article/adarkroom.html" target="_blank"><i class="glyphicon glyphicon-heart-empty"></i> 小黑屋（A Dark Room）</a>
+                        </li>
+                        <li>
+                            <a href="article/2048.html" target="_blank"><i class="glyphicon glyphicon-heart-empty"></i> 2048</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>小游戏</h4>
+                    <ul>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/wuziqi" target="_blank"><i class="glyphicon glyphicon-link"></i> 五子棋（Gomoku）
+</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>其它</h4>
+                    <ul>
+                        <li>
+                            <a href=""><i class="glyphicon glyphicon-time"></i> 暂无，欢迎推荐！</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--搜集的游戏 end-->
+    </div>
+    <!--content-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <h3>友情链接</h3>
+                <div class="col-md-4  top-footer">
+                    <ul>
+                        <li>
+                            <a href="http://www.u77.com/" target="_blank"><img src="http://cdn.u77.com/static/img/U77logo.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--
 					<div class="col-md-4 top-footer">
 						<ul>
 							<li>
@@ -368,55 +414,62 @@
 						</ul>
 					</div>
 -->
-					
-					<div class="clearfix"></div>
-				</div>
-				<ul class="footer-grid">
-					<li>
-						<a href="index.html">首页</a>
-					</li>
-					<li>
-						<a href="games.html">游戏</a>
-					</li>
-					<li>
-						<a href="blog.html">博客</a>
-					</li>
-					<li>
-						<a href="timeline.html">事件</a>
-					</li>
-					<li>
-						<a href="about.html">关于</a>
-					</li>
-				</ul>
-				<p> © 2017 GitHub Games All rights reserved</p>
-			</div>
-		</div>
-		<script>
-			window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
-		</script>
-    
+
+                <div class="clearfix"></div>
+            </div>
+            <ul class="footer-grid">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="games.html">游戏</a>
+                </li>
+                <li>
+                    <a href="blog.html">博客</a>
+                </li>
+                <li>
+                    <a href="timeline.html">事件</a>
+                </li>
+                <li>
+                    <a href="about.html">关于</a>
+                </li>
+            </ul>
+            <p> © 2017 GitHub Games All rights reserved</p>
+        </div>
+    </div>
+    <script>
+        window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+
+    </script>
+
     <!--客服 开始-->
     <link rel="stylesheet" href="css/kf.css" type="text/css" media="screen" charset="utf-8">
     <script src="js/kf.js"></script>
     <!--客服 结束-->
-		<!--FlexSlider-->
-		<script defer src="js/jquery.flexslider.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				//SyntaxHighlighter.all();
-			});
-			$(window).load(function() {
-				$('.flexslider').flexslider({
-					animation: "slide",
-					start: function(slider) {
-						$('body').removeClass('loading');
-					}
-				});
-			});
-		</script>
+    <!--FlexSlider-->
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            //SyntaxHighlighter.all();
+        });
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
 
-		<div style="display:none;">
-			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-		</div>
-	</body>
+    </script>
+
+    <div style="display:none;">
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+
+        </script>
+    </div>
+</body>
+
 </html>

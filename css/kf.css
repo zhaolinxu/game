@@ -3,8 +3,8 @@
 .main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd;text-align:center;position:relative;}
 .main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}
 .main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}
-.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background:url("http://likexia.gitee.io/game/images/kf/qq-icon-bg.png") no-repeat center 8px;}
-.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;transition:all 0.5s;}
+.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-color: #fff;background-img:url("http://likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat: no-repeat ;}
+.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
 .main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;}
 .main-im .im_main{background:#F9FAFB;border:1px solid #dddddd;border-radius:10px;background:#F9FAFB;display:none;z-index:999;}
 .main-im .im_main .im-tel{color:#000000;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}
@@ -30,7 +30,7 @@
 .hide_box{z-index:999;filter:alpha(opacity=50);background:#666;opacity: 0.5;-moz-opacity: 0.5;left:0;top:0;height:99%;width:100%;position:fixed;display:none;}
         .shang_box{width:400px;height:450px;margin:-225px 0 0 -200px;background-color:#fff;border-radius:10px;position:fixed;z-index:1000;left:50%;top:50%;border:1px dotted #dedede;display:none;}
         .shang_box img{border:none;border-width:0;}
-        .dashang{display:block;width:100px;margin:5px auto;height:45px;padding:10px;background-color:#E74851;color:#fff;text-align:center;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;-webkit-transition:all 0.3s;transition: all 0.3s;margin-top: 20px;}
+        .dashang{display:block;width:100px;margin:5px auto;height:45px;padding:10px;background-color:#E74851;color:#fff;text-align:center;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;-webkit-transition:all 0.3s;-o-transition: all 0.3s;transition: all 0.3s;margin-top: 20px;}
         .dashang:hover{opacity:0.8;padding:10px;font-size:18px;text-decoration:none;line-height:30px;}
         .shang_close{margin: 20px;cursor: pointer;position: absolute;right: 0;top: 0;}
 .shang_close img{width:30px;}

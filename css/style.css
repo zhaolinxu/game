@@ -2145,3 +2145,12 @@ a{cursor: pointer;}
 .btn-group a{margin: 10px 5px;padding: 0.5em 0.9em}
 .my-table th,.my-table td{border: 1px solid #ddd;text-align: center;padding: 10px;}
 .my-table{table-layout: fixed; width: 100%;}
+/*投票*/
+.vote-form{display: inline-block;}
+.vote-tit,.vote-item,.vote-btns{display: inline-block}
+.vote-tit b{font-weight: normal;}
+.vote-item input[type="radio"]{margin: 0 5px 0 15px;}
+.vote-item span:first-child input[type="radio"]{margin-left: 0;}
+.vote-btns {margin-left: 20px;}
+.vote-btns input{padding: 0.5em 0.9em;background: #5cb85c;color: #fff;border: none;outline: none;}
+.vote-btns input:first-child{background: #d20962;margin-right: 10px;}

@@ -2156,3 +2156,5 @@ a{cursor: pointer;}
 .vote-btns {margin-left: 20px;}
 .vote-btns input{padding: 0.5em 0.9em;background: #5cb85c;color: #fff;border: none;outline: none;}
 .vote-btns input:first-child{background: #d20962;margin-right: 10px;}
+/*Flash*/
+.viewport{text-align: center;padding: 15px 0;}

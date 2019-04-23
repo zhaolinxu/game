@@ -14,7 +14,7 @@ $(function(){
     content +='<div>QQ群号:</div>';
     content +='<div class="tel-num">627141737</div>';
     content +='<div>更多同类游戏:</div>';
-    content +='<div class="tel-num"><a href="http://likexia.gitee.io/game/" target="_blank">GitHub Game</a></div>';
+    content +='<div class="tel-num"><a href="http://www.gityx.com" target="_blank" title="我们有域名啦~">Git游戏</a><a href="http://www.gityx.com/bbs" target="_blank" style="margin-left:5px;" title="点击查看游戏攻略">论坛</a><a href="http://likexia.gitee.io/game/" target="_blank" style="margin-left:5px;" title="之前首页继续保留">旧版</a></div>';
     content +='</div>';
     content +='<div class="im-footer" style="position:relative">';
     content +='<div class="weixing-container">';

@@ -1,5 +1,5 @@
 /*main css*/
-.main-im{position:fixed;right:10px;bottom:50px;line-height: normal;z-index: 999}
+.main-im{position:fixed;right:10px;bottom:50px;line-height: normal;z-index: 9999}
 .main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}
 .main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}
 .main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}

@@ -4,14 +4,14 @@ $(function(){
     content +='<div class="float_layer" id="miaov_float_layer">';
     content +='<h2>';
     content +='<strong>';
-    content +='欢迎体验新网站：gityx.com';
+    content +='欢迎体验新网站和论坛：gityx.com';
     content +='</strong>';
     content +='<a id="btn_min" href="javascript:;" class="min"></a>';
     content +='<a id="btn_close" href="javascript:;" class="close"></a>';
     content +='</h2>';
     content +='<div class="content">';
     content +='<div class="wrap">';
-    content +='<a href="http://www.gityx.com" target="_blanck" title="为了方便大家交流游戏攻略，建立了游戏论坛，欢迎大家注册一下交流">';
+    content +='<a href="http://bbs.gityx.com" target="_blanck" title="为了方便大家交流游戏攻略，建立了游戏论坛，欢迎大家注册一下交流">';
     content +='<img src="http://gityx.gitee.io/img/ad/go-bbs.gif" style="width:100%;"/>';
     content +='</a>';
     content +='</div>';

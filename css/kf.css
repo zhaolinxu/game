@@ -9,7 +9,8 @@
 .main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}
 .main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}
 .main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}
-.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;color:#e66d15 !important;}
+.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}
+.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}
 .main-im .im_main .im-tel:hover{background-color:#fafafa !important;}
 .main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat: no-repeat;float:left;}
 .main-im .im_main .weixing-show{width:112px;height:200px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-125px;top:-126px;}

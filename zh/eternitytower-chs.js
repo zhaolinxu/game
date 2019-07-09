@@ -1,3 +1,12 @@
+/*
+
+ @name    : 锅巴汉化 - Web汉化插件
+ @author  : 麦子、JAR、小蓝、好阳光的小锅巴
+ @version : V0.6.1 - 2019-07-09
+ @website : http://www.g8hh.com
+
+*/
+
 //1.汉化杂项
 var cnItems = {
     _OTHER_: [],
@@ -25,20 +34,20 @@ var cnItems = {
     'Can you re-invite?': '你可以重新邀请吗？',
     'Hidden': '隐藏',
     'Unhidden': '未隐藏',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Achievements': '成就',
+    'Adventures': '冒险',
+    'Farm Plots': '农田',
+    'Info & Data': '信息&数据',
+    'Shop': '商店',
+    'Sign Out': '退出登录',
+    'Updates': '更新',
+    'WARNING': '警告',
+    'You are currently on a guest account, if you sign off before setting a username and password you will not be able to access your account again': '您目前使用的是游客帐户，如果您在设置用户名和密码之前注销，则无法再次访问您的帐户',
+    'Guest Account Deletion': '游客帐户删除',
+    'Inscription Workbench': '铭文工作台',
+    'F.A.Q.': '常见问题',
+    'Empty': '空',
+    'Crafting Workbench': '制作工作台',
     '': '',
     '': '',
     '': '',

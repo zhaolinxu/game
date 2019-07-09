@@ -138,7 +138,7 @@ var cnItems = {
     '\n                  Mine\n               ': '采矿',
     '\n                  Server: Seasonal\n               ': '服务器：季节性',
     '\n                  Town\n               ': '小镇',
-    '\n                  Woodcut\n               ': '木刻',
+    '\n                  Woodcut\n               ': '伐木',
     '\n                Add\n             ': '添加',
     '\n                Announcements\n             ': '通告',
     '\n                Game\n             ': '游戏',

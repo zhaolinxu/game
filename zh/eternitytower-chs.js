@@ -48,7 +48,7 @@ var cnItems = {
     'F.A.Q.': '常见问题',
     'Empty': '空',
     'Crafting Workbench': '制作工作台',
-    '': '',
+    '\n          Eternity Tower\n       ': '永恒之塔',
     '': '',
     '': '',
     '': '',

@@ -66,7 +66,7 @@ var cnItems = {
     '\n                  Server: Seasonal\n               ': '服务器：季节性',
     '\n                  Town\n               ': '小镇',
     '\n                  Woodcut\n               ': '木刻',
-    '\n                Add\n             ': '新增',
+    '\n                Add\n             ': '添加',
     '\n                Announcements\n             ': '通告',
     '\n                Game\n             ': '游戏',
     '\n                General\n             ': '常规',
@@ -234,9 +234,17 @@ var cnExcludePostfix = [
 ]
 
 //正则替换，带数字的固定格式句子
+//逗号：([\d\.,:]+)
 var cnRegReplace = new Map([
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
-	[/^(\d+) Royal points$/, '$1 皇家点数'],
+    [/^\n                                    Mon ([\d\.,:]+)am\n                                 $/, '周一 上午 $1'],
+    [/^\n                                    Mon ([\d\.,:]+)pm\n                                 $/, '周一 下午 $1'],
+	[/^\n                                    Fri ([\d\.,:]+)am\n                                 $/, '周五 上午 $1'],
+	[/^\n                                    Fri ([\d\.,:]+)pm\n                                 $/, '周五 下午 $1'],
+    [/^\n                                    Sat ([\d\.,:]+)am\n                                 $/, '周六 上午 $1'],
+    [/^\n                                    Sat ([\d\.,:]+)pm\n                                 $/, '周六 下午 $1'],
+    [/^\n                                    Sun ([\d\.,:]+)am\n                                 $/, '周日 上午 $1'],
+    [/^\n                                    Sun ([\d\.,:]+)pm\n                                 $/, '周日 下午 $1'],
 	[/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
 	[/^Usages: (\d+)\/$/, '用途：$1\/'],
 	[/^workers: (\d+)\/$/, '工人：$1\/'],

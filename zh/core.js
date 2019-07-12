@@ -7,7 +7,6 @@
 
 */
 
-
 //需处理的前缀
 var cnPrefix = {
     "(-": "(-",
@@ -50,6 +49,7 @@ var cnExcludePostfix = [
 //正则替换，带数字的固定格式句子
 //逗号：([\d\.,]+)
 //小数点：([\d\.]+)
+//原样输出的字段：(.+)
 var cnRegReplace = new Map([
 	[/^requires ([\d\.]+) more research points$/, '需要$1个研究点'],
 	[/^(\d+) Royal points$/, '$1 皇家点数'],

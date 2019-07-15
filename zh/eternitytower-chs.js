@@ -312,7 +312,7 @@ var cnItems = {
     'XP': '经验',
     'Lemon Seed': '柠檬种子',
     'lettuce seed': '生菜种子',
-    'Regenerates 9 energy over a 300s digestion period.': '在300秒的消化周期内可再生9种能量。',
+    'Regenerates 9 energy over a 300s digestion period.': '在300秒的消化周期内可回复9能量。',
     'Cost': '成本',
     'Plots': '地块',
     'Plant 4 lettuce': '种植4棵生菜',

@@ -7,57 +7,6 @@
 
 */
 
-//需处理的前缀
-var cnPrefix = {
-    "(-": "(-",
-    "(+": "(+",
-    "(": "(",
-    "-": "-",
-    "+": "+",
-    " ": " ",
-    ": ": "： ",
-}
-
-//需处理的后缀
-var cnPostfix = {
-    ":": "：",
-    "：": "：",
-    ": ": "： ",
-    "： ": "： ",
-    " ": "",
-    "/s)": "/s)",
-    "/s": "/s",
-    ")": ")",
-    "%": "%",
-}
-
-//需排除的，正则匹配
-var cnExcludeWhole = [
-    /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
-    /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
-    /^\s*$/, //纯空格
-    /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
-    /^(\d+(\.\d+)?[A-Za-z]{0,2}\/s)?.?\(?([+\-]?\d+(\.\d+)?[A-Za-z]{0,2})?\/s\stot$/, //2.74M/s (112.4K/s tot
-    /^\d+(\.\d+)?(e[+\-]?\d+)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?$/, //2.177e+6 (+4.01+4
-    /^(\d+(\.\d+)?(e[+\-]?\d+)?\/s)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?\/s\stot$/, //2.177e+6/s (+4.01+4/s tot
-];
-var cnExcludePostfix = [
-    /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
-    /:?\s*x?\d+(\.\d+)?[A-Za-z]{0,2}$/, //: 12.34K, x1.5
-]
-
-//正则替换，带数字的固定格式句子
-//逗号：([\d\.,]+)
-//小数点：([\d\.]+)
-//原样输出的字段：(.+)
-var cnRegReplace = new Map([
-	[/^requires ([\d\.]+) more research points$/, '需要$1个研究点'],
-	[/^(\d+) Royal points$/, '$1 皇家点数'],
-	[/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
-	[/^Usages: (\d+)\/$/, '用途：$1\/'],
-	[/^workers: (\d+)\/$/, '工人：$1\/'],
-
-]);
 
 //2.采集新词
 //20190320@JAR
@@ -65,7 +14,7 @@ var cnRegReplace = new Map([
 var cnItem = function () {
 
     //传参是否非空字串
-    if (!arguments[0]) return;
+    if (!arguments[0]) return "";
 
     //检验传参是否对象
     let text = arguments[0],
@@ -191,8 +140,8 @@ function TransSubTextNode(node) {
                 let cnText = cnItem(text);
                 cnText !== text && transTaskMgr.addTask(subnode, 'textContent', cnText);
                 //console.log(subnode);
-            } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA" && subnode.innerHTML && subnode.innerText) {
-                if (subnode.innerHTML === subnode.innerText) {
+            } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA") {
+                if (!subnode.childNodes || subnode.childNodes.length == 0) {
                     let text = subnode.innerText;
                     let cnText = cnItem(text);
                     cnText !== text && transTaskMgr.addTask(subnode, 'innerText', cnText);
@@ -226,7 +175,7 @@ function TransSubTextNode(node) {
         observer.disconnect();
         for (let mutation of e) {
             if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
-            if (mutation.target.innerHTML && mutation.target.innerText && mutation.target.innerHTML === mutation.target.innerText) {
+            if (!mutation.target.childNodes || mutation.target.childNodes.length == 0) {
                 mutation.target.innerText = cnItem(mutation.target.innerText);
             } else if (mutation.target.nodeName === "#text") {
                 mutation.target.textContent = cnItem(mutation.target.textContent);
@@ -235,8 +184,8 @@ function TransSubTextNode(node) {
                     if (node.nodeName === "#text") {
                         node.textContent = cnItem(node.textContent);
                         //console.log(node);
-                    } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "TEXTAREA" && node.innerHTML && node.innerText) {
-                        if (node.innerHTML === node.innerText) {
+                    } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "TEXTAREA") {
+                        if (!node.childNodes || node.childNodes.length == 0) {
                             node.innerText = cnItem(node.innerText);
                         } else {
                             TransSubTextNode(node);

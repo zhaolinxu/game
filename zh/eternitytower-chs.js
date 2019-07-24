@@ -1528,7 +1528,10 @@ var cnExcludePostfix = [
 ]
 
 //正则替换，带数字的固定格式句子
-//逗号：([\d\.,:]+)
+//纯数字：(\d+)
+//逗号：([\d\.,]+)
+//小数点：([\d\.]+)
+//原样输出的字段：(.+)
 var cnRegReplace = new Map([
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
     [/^\n                                    Mon ([\d\.,:]+)am\n                                 $/, '周一 上午 $1'],
@@ -1609,7 +1612,7 @@ var cnRegReplace = new Map([
     [/^\n                Craft All \((\d+)\)\n             $/, '全部制作 X \($1\)'],
     [/^\n            Out of pickaxe energy. Please wait!\n            Currently ([\d\.]+) \/$/, '镐的能量消耗完了。请耐心等待恢复！当前能量 $1 \/ '],
     [/^stats based on your skills, tome level (\d+), and tower floor (\d+)\)\n           $/, '基于你的技能，卷轴等级$1，和$2层的统计)'],
-    [/^Heals for (\d+)hp over a (\d+)s digestion period.$/, '在 $1 秒的消化期内恢复 $2 生命值'],
+    [/^Heals for (\d+)hp over a (\d+)s digestion period.$/, '在 $2 秒的消化期内恢复 $1 生命值'],
     [/^Heals for (\d+)hp instantly.$/, '立即恢复 $1 生命值。'],
     [/^woodcutters can chop logs \+(\d+) tiers higher than usual$/, '伐木工人可以砍比平时高 $1 级的树木'],
     [/^consume for (\d+) Magic XP.$/, '消耗以获得 $1 魔法经验'],

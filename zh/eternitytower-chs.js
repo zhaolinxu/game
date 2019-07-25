@@ -1942,4 +1942,5 @@ function TransSubTextNode(node) {
     });
     observer.observe(targetNode, observer_config);
 
+    
 }();

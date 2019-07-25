@@ -1,0 +1,991 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="minimal-ui,width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+<title>360X180度全景图预览</title>
+<script src="../js/jquery.min.js"></script>
+<!--[if IE]>
+		<script src="http://www.jq22.com/jquery/html5.min.js"></script>
+	<![endif]-->
+<style>
+		.jq22-header{ text-align: center; }
+	</style>
+</head>
+<body>
+<div style="display:none">
+
+<div class="d-flex flex-wrap">
+          
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="3ghQDhJfjyhedhZan" data-tippy="" aria-describedby="tippy-1">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/eventVDchocolate.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="dmCjHcAYQAhiMKm3m" data-tippy="" aria-describedby="tippy-2">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/tamarindHoney.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">24</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="ps6cmbsDZFa9oaTHn" data-tippy="" aria-describedby="tippy-3">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/redApple.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">361</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="iAebBXtBBHjjNp9ZN" data-tippy="" aria-describedby="tippy-4">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/pineapple.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">245</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="t4kGLSn8saxkkFfE9" data-tippy="" aria-describedby="tippy-5">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/acaiBerry.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">26</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="ZrMPg2L3N2jjbbQmY" data-tippy="" aria-describedby="tippy-6">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/rockmelon.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">44</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="Tft5mJhyyfcYZshjS" data-tippy="" aria-describedby="tippy-7">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/lemon.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">56</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="MZnmXbKEvYXXC6r4f" data-tippy="" aria-describedby="tippy-8">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/pear.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">23</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="jwz9DeChAjRCsRE6s" data-tippy="" aria-describedby="tippy-9">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/potato.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">22</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="i562ffifE9BsWxRK6" data-tippy="" aria-describedby="tippy-10">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/grapeFruit.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">18</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="kYB8MzmpM7gWAvGtA" data-tippy="" aria-describedby="tippy-11">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/carrot.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">6</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="omLBDSvo7HvsWEuaz" data-tippy="" aria-describedby="tippy-12">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/lettice.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">576</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="BZ8sx4cun4syxGbZc" data-tippy="" aria-describedby="tippy-13">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/watermelon.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">69</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+            <div class="item-icon-container item small icon-box" style="position: relative; border: ;" data-id="XKfeALto6cj35JLrx" data-tippy="" aria-describedby="tippy-14">
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    <img src="/icons/orange.svg" class="item-icon" style="height: 48px; width: 48px; margin: 0px; margin-top: -8px;">
+
+    
+      
+        <div class="item-amount-bubble item-amount" style="color: black; background-color: #e7e7e7;">16</div>
+      
+    
+  </div>
+
+  <!-- Icon Tooltip -->
+  
+    
+  
+
+  
+
+  
+
+  
+
+  <!-- Modal -->
+  <div class="modal reforgeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Reforge Item</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Reforging equipment gives you a chance to improve the rarity of something you can craft.  The chance 
+          of success to reforge is based on your crafting level and the required crafting level of the item you are 
+          reforging. Success will improve the rarity by one tier after some time and failure will reduce the 
+          rarity by a tier with a <b>5%</b> chance the item will break and be lost entirely.  The item quality will
+          not be affected at all whether you succeed or fail.<br>
+          <br>
+          You can only reforge one item at a time.  During a global combat buff, failing to reforge will not reduce
+          the rarity level nor have any chance to break the item.<br>
+          <br>
+          
+        </div>
+        <div class="modal-footer">
+          <div class="row" style="width:100%">
+            <div class="col-md-6">
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          
+        </div>
+
+</div>
+<script src="eternitytower-auto.js"></script>
+</body>
+</html>

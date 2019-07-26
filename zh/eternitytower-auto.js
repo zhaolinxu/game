@@ -300,7 +300,6 @@
                         }
                     }
                 }else{
-                    console.log('用户名不正确~')
                     return;
                 }
             });

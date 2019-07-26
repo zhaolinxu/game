@@ -285,7 +285,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-            //            $('.ability-icon-container:nth-child(6)').trigger("click");
+                        $('.ability-icon-container:nth-child(6)').trigger("click");
             //未战斗完毕，则停留在当前界面
             return
         } else {
@@ -373,7 +373,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-            //            $('.ability-icon-container:nth-child(6)').trigger("click");
+                        $('.ability-icon-container:nth-child(6)').trigger("click");
             return
         } else {
             //当前层刷完时，自动切换下一层

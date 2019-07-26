@@ -127,7 +127,19 @@
     //挖矿-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">挖矿（优先挖宝石）</div>';
-    content += '定时自动挖矿，挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字"/> 秒挖一次';
+    content += '定时自动挖矿，挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字"/> 秒；';
+    content += '<br/>';
+    content += '挖矿能量低于<select id="MingEnergy">';
+    content += '<option value="10" selected>10%</option>';
+    content += '<option value="20">20%</option>';
+    content += '<option value="30" >30%</option>';
+    content += '<option value="40">40%</option>';
+    content += '<option value="50">50%</option>';
+    content += '<option value="60">60%</option>';
+    content += '<option value="70">70%</option>';
+    content += '<option value="80">80%</option>';
+    content += '<option value="90">90%</option>';
+    content += '</select>时停止挖矿；';
     content += '<button id="startMing" type="primary" >启动</button>';
     content += '<button id="stopMing" type="danger" disabled>停止</button>';
     content += '</div>';
@@ -184,16 +196,28 @@
         $(this).attr("disabled", true);
         $("#startMing").attr("disabled", false);
     });
-
+    //挖其它矿
+    function getElementByAttr2(tag, dataAttr, item) {
+        var aElements = document.getElementsByTagName(tag);
+        var aEle = [];
+        for (var i = 0; i < aElements.length; i++) {
+            var ele = aElements[i].getAttribute(dataAttr);
+            if (ele == item) {
+                aEle.push(aElements[i]);
+            }
+        }
+        return aEle;
+    }
     //挖矿
     function getGem() {
         //自动切换到采矿界面
         $('.navbar-nav .nav-item:nth-child(2) a').trigger('click');
         //延时3秒执行操作，避免页面未加载完
         setTimeout(function () {
+            var mingEn = $('#MingEnergy').val();
             //判断能量百分比，大于指定百分比才执行挖矿。
             var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
-            if (minWid > 20) {
+            if (minWid > mingEn) {
                 //获取优先要挖的矿石
                 var ks = 'gem';
                 //获取带宝石的矿
@@ -204,14 +228,17 @@
                     console.log('发现宝石了，挖挖挖~')
                 } else {
                     //没有宝石卡时，采其它矿
-                    $('.mine-pit-container .mine-space-container:nth-child(1)').trigger('click');
-                    $('.mine-pit-container .mine-space-container:nth-child(3)').trigger('click');
-                    $('.mine-pit-container .mine-space-container:nth-child(5)').trigger('click');
-                    $('.mine-pit-container .mine-space-container:nth-child(7)').trigger('click');
+                    var ore = 'platinum';
+                    var o = getElementByAttr2('img', 'class', 'ore-icon');
+                    for (var i = 0; i <= o.length; i++) {
+//                        setTimeout(function () {
+                            o[i].click();
+//                        }, 800);
+                    }
                     console.log('采集其它矿石，挖挖挖~')
                 }
             } else {
-                console.log('挖矿能量低于设定值，不执行操作~')
+                console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~')
                 return
             }
         }, 3000);

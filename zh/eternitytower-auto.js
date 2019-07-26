@@ -44,7 +44,7 @@
     content += '<option value="90">90%</option>';
     content += '</select>时吃';
     content += '<select id="Food1">';
-    content += '<option value="kYB8MzmpM7gWAvGtA" selected>胡萝卜-回350血-持续10秒</option>';
+    content += '<option value="G2PN5uEd2arGvTT8y" selected>胡萝卜-回350血-持续10秒</option>';
     content += '<option value="ps6cmbsDZFa9oaTHn" >苹果-回185血-持续30秒</option>';
     content += '<option value="iAebBXtBBHjjNp9ZN" >菠萝-回550血-持续80秒</option>';
     content += '</select>';
@@ -138,9 +138,7 @@
     //固定层、自动放技能
     var autoSoloFight;
     $("#startSolo").click(function () {
-        var fightUpMinHP = $('#fightMinHP').val();
-        var fightUpMinEnergy = $('#fightMinEnergy').val();
-        autoSoloFight = setInterval(soloFight(fightUpMinHP, fightUpMinEnergy), 5000);
+        autoSoloFight = setInterval(soloFight, 5000);
         $(this).attr("disabled", true);
         $("#stopSolo").attr("disabled", false);
         $("#startSoloUp").attr("disabled", true);
@@ -155,12 +153,13 @@
         $("#startSoloUp").attr("disabled", false);
         $("#stopSoloUp").attr("disabled", true);
     });
-    
-    
+
+
     //单人Solo-开始战斗
     //自动切换最高层、自动放技能
+    var autoSoloUpFight;
     $("#startSoloUp").click(function () {
-        SQ1();
+        autoSoloUpFight = setInterval(soloUpFight, 5000);
         $(this).attr("disabled", true);
         $("#stopSoloUp").attr("disabled", false);
         $("#startSolo").attr("disabled", true);
@@ -169,26 +168,20 @@
 
     //单人Solo-停止战斗
     $("#stopSoloUp").click(function () {
-        stopJSQ1()
+        clearInterval(autoSoloUpFight);
         $(this).attr("disabled", true);
         $("#startSoloUp").attr("disabled", false);
         $("#startSolo").attr("disabled", false);
         $("#stopSolo").attr("disabled", true);
     });
-    
-    function JSQ1(){
-        var fightMinHP = $('#fightMinHP').val();
-        var fightMinEnergy = $('#fightMinEnergy').val();
-        var autoSoloUpFight = setInterval(soloUpFight(fightMinHP, fightMinEnergy), 5000);
-    }
-    function stopJSQ1(){
-        clearInterval(autoSoloUpFight);
-    }
+
 
 
     //刷单人Solo--自动打怪
-    function soloUpFight(minHp, minEnergy) {
+    function soloUpFight() {
         //能量最小值
+        var fightMinHP = $('#fightMinHP').val();
+        var fightMinEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
             //默认自动放全部技能
@@ -205,14 +198,14 @@
         } else {
             //当前层没刷完，则继续刷当前层
             var energy = parseInt($('.energy-bar .health-bar').text().substring(1))
-            if (energy <= minEnergy) {
+            if (energy <= fightMinEnergy) {
                 //能量小于指定值，则不执行战斗
                 console.log('能量值过低，休息一下，吃个柠檬吧~')
                 return
             } else {
                 //能量充足，继续下一次战斗
                 //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                if ($('.health-bar .progress-bar').width() > minHp) {
+                if ($('.health-bar .progress-bar').width() > fightMinHP) {
                     $(".battle-btn").trigger("click");
                 } else {
                     //生命值小于，则不执行战斗
@@ -224,7 +217,9 @@
     }
 
     //刷单人Solo--自动打怪
-    function soloFight(minHp, minEnergy) {
+    function soloFight() {
+        var minHp = $('#fightMinHP').val();
+        var minEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
             //默认自动放全部技能
@@ -286,12 +281,23 @@
     }
 
 
+    //获取要吃的食物
+    function getElementByAttr(tag, dataAttr, item) {
+        var aElements = document.getElementsByTagName(tag);
+        var aEle = [];
+        for (var i = 0; i < aElements.length; i++) {
+            var ele = aElements[i].getAttribute(dataAttr);
+            if (ele == item) {
+                aEle.push(aElements[i]);
+            }
+        }
+        return aEle;
+    }
+
     var autoEatFood;
     //启动吃食物-回血
     $("#startEatFood").click(function () {
-        var minHP = $("#minHP").val();
-        var hpFood = $("#Food1").val();
-        autoEatFood = setInterval(eatFood(hpFood, minHP), 3000);
+        autoEatFood = setInterval(eatFood, 3000);
         $(this).attr("disabled", true);
         $("#stopEatFood").attr("disabled", false);
     });
@@ -306,9 +312,7 @@
     var autoEnergy;
     //启动吃食物-回能量
     $("#startEatEnergyFood").click(function () {
-        var minEnergy = $("#minEnergy").val();
-        var energyFood = $("#Food2").val();
-        autoEnergy = setInterval(eatLemon(energyFood, minEnergy), 5000);
+        autoEnergy = setInterval(eatLemon, 5000);
         $(this).attr("disabled", true);
         $("#stopEatEnergyFood").attr("disabled", false);
     });
@@ -321,13 +325,15 @@
     });
 
     //自动吃食物恢复能量
-    function eatLemon(item, energy) {
+    function eatLemon() {
+        var minEnergy = $("#minEnergy").val();
+        var energyFood = $("#Food2").val();
         //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
         var num = parseInt($('.energy-bar .health-bar').text().substring(1))
-        if (num < energy) {
+        if (num < minEnergy) {
             //获取食物对象
             //柠檬-300秒内回9能量
-            var lemon = getElementByAttr('div', 'data-id', item);
+            var lemon = getElementByAttr('div', 'data-id', energyFood);
             //判断是否正在吃柠檬，
             if ($('.battle-unit-container .justify-content-center img').length == 0) {
                 //没吃柠檬，则点击柠檬
@@ -341,17 +347,20 @@
     }
 
     //自动吃食物回血
-    function eatFood(item, hp) {
+    function eatFood() {
+        var minHP = $("#minHP").val();
+        var hpFood = $("#Food1").val();
         //获取食物对象
         //胡萝卜-10秒内回350血
-        var eatItem = getElementByAttr('div', 'data-id', item);
+        var eatItem = getElementByAttr('div', 'data-id', hpFood);
         //生命低于指定百分比，就吃胡萝卜回血。默认是：80%
-        if ($('.health-bar .progress-bar').width() < hp) {
+        if ($('.health-bar .progress-bar').width() < minHP) {
             //生命值小于指定值，则吃胡萝卜回血
             //判断是否正在吃胡萝卜
             if ($('.battle-unit-container .justify-content-center img').length == 0) {
                 //没吃胡萝卜，则点击胡萝卜
-                eatItem[0].click();
+                eatItem[0].onclick();
+                console.log(eatItem[0])
                 console.log('生命值低于设定值，吃个胡萝卜回个血~')
             } else {
                 //正在吃胡萝卜，不执行操作
@@ -359,26 +368,6 @@
             }
         }
     }
-
-
-    //获取要吃的食物
-    function getElementByAttr(tag, dataAttr, item) {
-        var aElements = document.getElementsByTagName(tag);
-        var aEle = [];
-        for (var i = 0; i < aElements.length; i++) {
-            var ele = aElements[i].getAttribute(dataAttr);
-            if (ele == item) {
-                aEle.push(aElements[i]);
-            }
-        }
-        return aEle;
-    }
-
-    //吃胡萝卜
-
-    //单人战斗
-
-    //单人放技能
 
 
     console.log("加载自动化脚本");

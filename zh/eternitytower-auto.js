@@ -149,7 +149,7 @@
 
     //单人Solo-停止战斗
     $("#stopSolo").click(function () {
-        clearInterval(soloFight);
+        clearInterval(autoSoloFight);
         $(this).attr("disabled", true);
         $("#startSolo").attr("disabled", false);
         $("#startSoloUp").attr("disabled", false);
@@ -159,11 +159,8 @@
     
     //单人Solo-开始战斗
     //自动切换最高层、自动放技能
-    var autoSoloUpFight;
     $("#startSoloUp").click(function () {
-        var fightMinHP = $('#fightMinHP').val();
-        var fightMinEnergy = $('#fightMinEnergy').val();
-        autoSoloUpFight = setInterval(soloUpFight(fightMinHP, fightMinEnergy), 5000);
+        SQ1();
         $(this).attr("disabled", true);
         $("#stopSoloUp").attr("disabled", false);
         $("#startSolo").attr("disabled", true);
@@ -172,12 +169,21 @@
 
     //单人Solo-停止战斗
     $("#stopSoloUp").click(function () {
-        clearInterval(autoSoloUpFight);
+        stopJSQ1()
         $(this).attr("disabled", true);
         $("#startSoloUp").attr("disabled", false);
         $("#startSolo").attr("disabled", false);
         $("#stopSolo").attr("disabled", true);
     });
+    
+    function JSQ1(){
+        var fightMinHP = $('#fightMinHP').val();
+        var fightMinEnergy = $('#fightMinEnergy').val();
+        var autoSoloUpFight = setInterval(soloUpFight(fightMinHP, fightMinEnergy), 5000);
+    }
+    function {
+        clearInterval(autoSoloUpFight);
+    }
 
 
     //刷单人Solo--自动打怪

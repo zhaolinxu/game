@@ -10,7 +10,7 @@
 ! function () {
     var content = '';
     content += '<!-- 脚本动态内容 开始 -->';
-    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:670px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-680px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;}.JB-form button{width:50px;height:30px;}#nofood{opacity:0;color:red;}#nofood.show{opacity:1;}</style>';
+    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:670px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-680px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;}.JB-form input#minTime{width:50px;}.JB-form button{width:50px;height:30px;}#nofood{opacity:0;color:red;}#nofood.show{opacity:1;}#</style>';
     content += '<div class="main-im">';
     content += '<div id="open_im" class="open-im">&nbsp;</div>  ';
     content += '<div class="im_main" id="im_main">';
@@ -124,6 +124,15 @@
     content += '</div>';
     //组队战斗-结束
 
+    //挖矿-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">挖矿（优先挖宝石）</div>';
+    content += '定时自动挖矿，挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字"/> 秒挖一次';
+    content += '<button id="startMing" type="primary" >启动</button>';
+    content += '<button id="stopMing" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //挖矿-结束
+
     content += '<div class="tit"></div>';
     content += '</div>';
     content += '</div>';
@@ -155,6 +164,62 @@
     $('.go-top').bind('click', function () {
         $(window).scrollTop(0);
     });
+    var autoMing;
+    //启动挖矿
+    $("#startMing").click(function () {
+        var minTime = $('#minTime').val();
+        if (minTime == '') {
+            alert('请输入采矿间隔');
+        } else {
+            minTime = minTime * 1000;
+            autoMing = setInterval(getGem, minTime);
+            $(this).attr("disabled", true);
+            $("#stopMing").attr("disabled", false);
+        }
+    });
+
+    //停止挖矿
+    $("#stopMing").click(function () {
+        clearInterval(autoMing);
+        $(this).attr("disabled", true);
+        $("#startMing").attr("disabled", false);
+    });
+
+    //挖矿
+    function getGem() {
+        //自动切换到采矿界面
+        $('.navbar-nav .nav-item:nth-child(2) a').trigger('click');
+        //延时3秒执行操作，避免页面未加载完
+        setTimeout(function () {
+            //判断能量百分比，大于指定百分比才执行挖矿。
+            var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
+            if (minWid > 20) {
+                //获取优先要挖的矿石
+                var ks = 'gem';
+                //获取带宝石的矿
+                var ores = getElementByAttr('img', 'src', ks, 'png');
+                if (ores.length >= 1) {
+                    //优先采宝石矿
+                    ores[0].click();
+                    console.log('发现宝石了，挖挖挖~')
+                } else {
+                    //没有宝石卡时，采其它矿
+                    $('.mine-pit-container .mine-space-container:nth-child(1)').trigger('click');
+                    $('.mine-pit-container .mine-space-container:nth-child(3)').trigger('click');
+                    $('.mine-pit-container .mine-space-container:nth-child(5)').trigger('click');
+                    $('.mine-pit-container .mine-space-container:nth-child(7)').trigger('click');
+                    console.log('采集其它矿石，挖挖挖~')
+                }
+            } else {
+                console.log('挖矿能量低于设定值，不执行操作~')
+                return
+            }
+        }, 3000);
+        //切换回战斗界面
+        setTimeout(function () {
+            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+        }, 8000);
+    }
 
     //单人Solo-开始战斗
     //固定层、自动放技能
@@ -242,6 +307,7 @@
         $(this).attr("disabled", true);
         $("#startEatEnergyFood").attr("disabled", false);
     });
+
     //组队-开始战斗
     //自动切换最高层、自动放技能
     var autoGroupFight;
@@ -285,7 +351,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-                        $('.ability-icon-container:nth-child(6)').trigger("click");
+            $('.ability-icon-container:nth-child(6)').trigger("click");
             //未战斗完毕，则停留在当前界面
             return
         } else {
@@ -297,14 +363,16 @@
                 if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
                     //当前层没刷完，则继续刷当前层
                     var energy = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
-                    if (energy <= minEnergy) {
+                    var minWid1 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
+                    if ((energy <= minEnergy) || (minWid1 < minHp)) {
                         //能量小于指定值，则不执行战斗
-                        console.log('能量值过低，吃点东西恢复点能量吧~')
+                        console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
                         return
                     } else {
                         //能量充足，继续下一次战斗
                         //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                        if ($(this).parent().parent().find('.health-bar .progress-bar').width() > minHp) {
+                        var minWid2 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
+                        if (minWid2 > minHp) {
                             $(".battle-btn").trigger("click");
                         } else {
                             //生命值小于，则不执行战斗
@@ -347,7 +415,8 @@
             } else {
                 //能量充足，继续下一次战斗
                 //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                if ($('.health-bar .progress-bar').width() > fightMinHP) {
+                var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
+                if (hpWid > fightMinHP) {
                     $(".battle-btn").trigger("click");
                 } else {
                     //生命值小于，则不执行战斗
@@ -373,7 +442,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-                        $('.ability-icon-container:nth-child(6)').trigger("click");
+            $('.ability-icon-container:nth-child(6)').trigger("click");
             return
         } else {
             //当前层刷完时，自动切换下一层
@@ -389,7 +458,8 @@
                 } else {
                     //能量充足，继续下一次战斗
                     //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                    if ($('.health-bar .progress-bar').width() > minHp) {
+                    var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
+                    if (hpWid > minHp) {
                         $(".battle-btn").trigger("click");
                     } else {
                         //生命值小于，则不执行战斗
@@ -410,7 +480,8 @@
                 } else {
                     //能量充足，继续下一次战斗
                     //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                    if ($('.health-bar .progress-bar').width() > minHp) {
+                    var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
+                    if (hpWid > minHp) {
                         $(".battle-btn").trigger("click");
                     } else {
                         //生命值小于，则不执行战斗
@@ -424,12 +495,12 @@
 
 
     //获取要吃的食物
-    function getElementByAttr(tag, dataAttr, item) {
+    function getElementByAttr(tag, dataAttr, item, fomat) {
         var aElements = document.getElementsByTagName(tag);
         var aEle = [];
         for (var i = 0; i < aElements.length; i++) {
             var ele = aElements[i].getAttribute(dataAttr);
-            var src = '/icons/' + item + '.svg';
+            var src = '/icons/' + item + '.' + fomat;
             if (ele == src) {
                 aEle.push(aElements[i]);
             }
@@ -443,7 +514,7 @@
         var energyFood = $("#Food2").val();
         var Username = $('#username').val();
         //获取食物对象
-        var lemon = getElementByAttr('img', 'src', energyFood);
+        var lemon = getElementByAttr('img', 'src', energyFood, 'svg');
         $(".battle-unit-name").each(function () {
             //寻找自己的血量条
             if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == Username) {
@@ -497,7 +568,7 @@
 
         //获取食物对象
         //胡萝卜-10秒内回350血
-        var eatItem = getElementByAttr('img', 'src', hpFood);
+        var eatItem = getElementByAttr('img', 'src', hpFood, 'svg');
         $(".battle-unit-name").each(function () {
             //判断在不在战斗状态时才提示
             if ($('.forfeit-battle').length <= 0) {

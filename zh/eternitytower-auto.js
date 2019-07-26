@@ -10,7 +10,7 @@
 ! function () {
     var content = '';
     content += '<!-- 脚本动态内容 开始 -->';
-    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:400px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-410px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;}.JB-form button{width:50px;height:30px;}</style>';
+    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:540px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-550px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;}.JB-form button{width:50px;height:30px;}</style>';
     content += '<div class="main-im">';
     content += '<div id="open_im" class="open-im">&nbsp;</div>  ';
     content += '<div class="im_main" id="im_main">';
@@ -31,7 +31,7 @@
     content += '<div class="weixing-show">';
     //吃食物-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">吃食物</div>';
+    content += '<div class="tit">吃食物（包里没有的食物不要选）</div>';
     content += '生命值低于<select id="minHP">';
     content += '<option value="10">10%</option>';
     content += '<option value="20">20%</option>';
@@ -44,9 +44,18 @@
     content += '<option value="90">90%</option>';
     content += '</select>时吃';
     content += '<select id="Food1">';
-    content += '<option value="G2PN5uEd2arGvTT8y" selected>胡萝卜-回350血-持续10秒</option>';
-    content += '<option value="ps6cmbsDZFa9oaTHn" >苹果-回185血-持续30秒</option>';
-    content += '<option value="iAebBXtBBHjjNp9ZN" >菠萝-回550血-持续80秒</option>';
+    content += '<option value="watermelon">西瓜-回200血-需10秒</option>';
+    content += '<option value="carrot" selected>胡萝卜-回350血-需10秒</option>';
+    content += '<option value="banana">香蕉-回650血-需13秒</option>';
+    content += '<option value="acaiBerry" >巴西莓-回300血-需25秒</option>';
+    content += '<option value="pear" >梨-回150血-需25秒</option>';
+    content += '<option value="redApple" >红苹果-回185血-需30秒</option>';
+    content += '<option value="lettice" >生菜-回75血-需30秒</option>';
+    content += '<option value="grapeFruit" >葡萄柚-回150血-需45秒</option>';
+    content += '<option value="pineapple" >菠萝-回550血-需80秒</option>';
+    content += '<option value="orange" >橙子-回750血-需80秒</option>';
+    content += '<option value="potato" >土豆-回2700血-需900秒</option>';
+    content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-需900秒</option>';
     content += '</select>';
     content += '<button id="startEatFood" type="primary" >启动</button>';
     content += '<button id="stopEatFood" type="danger" disabled>停止</button>';
@@ -61,8 +70,12 @@
     content += '<option value="35">35</option>';
     content += '</select>时吃';
     content += '<select id="Food2">';
-    content += '<option value="Tft5mJhyyfcYZshjS">柠檬-回9能量-持续300秒</option>';
+    content += '<option value="lemon">柠檬-回9能量-持续300秒</option>';
+    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-需120秒</option>';
+    content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-需120秒</option>';
+    content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-需20秒</option>';
     content += '</select>';
+    content += '<br/>';
     content += '<button id="startEatEnergyFood" type="primary" >启动</button>';
     content += '<button id="stopEatEnergyFood" type="danger" disabled>停止</button>';
     content += '</div>';
@@ -80,8 +93,7 @@
     content += '<option value="70">70%</option>';
     content += '<option value="80">80%</option>';
     content += '<option value="90">90%</option>';
-    content += '</select>时停止战斗';
-    content += '<br/>';
+    content += '</select>时停止战斗；';
     content += '能量值低于<select id="fightMinEnergy">';
     content += '<option value="5">5</option>';
     content += '<option value="10" selected>10</option>';
@@ -287,7 +299,8 @@
         var aEle = [];
         for (var i = 0; i < aElements.length; i++) {
             var ele = aElements[i].getAttribute(dataAttr);
-            if (ele == item) {
+            var src = '/icons/' + item + '.svg';
+            if (ele == src) {
                 aEle.push(aElements[i]);
             }
         }
@@ -333,7 +346,12 @@
         if (num < minEnergy) {
             //获取食物对象
             //柠檬-300秒内回9能量
-            var lemon = getElementByAttr('div', 'data-id', energyFood);
+            var lemon = getElementByAttr('img', 'src', energyFood);
+            //没有对应食物，则不执行吃食物操作
+            if (lemon.length <= 0) {
+                alert('你没有这种食物，去农场种一些吧~')
+                return
+            }
             //判断是否正在吃柠檬，
             if ($('.battle-unit-container .justify-content-center img').length == 0) {
                 //没吃柠檬，则点击柠檬
@@ -352,15 +370,19 @@
         var hpFood = $("#Food1").val();
         //获取食物对象
         //胡萝卜-10秒内回350血
-        var eatItem = getElementByAttr('div', 'data-id', hpFood);
+        var eatItem = getElementByAttr('img', 'src', hpFood);
+        //没有对应食物，则不执行吃食物操作
+        if (eatItem.length <= 0) {
+            alert('你没有这种食物，去农场种一些吧~')
+            return
+        }
         //生命低于指定百分比，就吃胡萝卜回血。默认是：80%
         if ($('.health-bar .progress-bar').width() < minHP) {
             //生命值小于指定值，则吃胡萝卜回血
             //判断是否正在吃胡萝卜
             if ($('.battle-unit-container .justify-content-center img').length == 0) {
                 //没吃胡萝卜，则点击胡萝卜
-                eatItem[0].onclick();
-                console.log(eatItem[0])
+                eatItem[0].click();
                 console.log('生命值低于设定值，吃个胡萝卜回个血~')
             } else {
                 //正在吃胡萝卜，不执行操作

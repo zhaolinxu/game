@@ -1261,7 +1261,7 @@ var cnItems = {
     'mud armor': '泥浆护甲',
     'banana': '香蕉',
     'carbon': '碳',
-    '': '',
+    'Inside the holiday gift box, you discovered:  candy cane': '在节日礼盒里面，你发现了：糖果手杖',
     '': '',
     '': '',
     '': '',

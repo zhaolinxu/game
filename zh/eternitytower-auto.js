@@ -66,9 +66,9 @@
     content += '<option value="5">5</option>';
     content += '<option value="10">10</option>';
     content += '<option value="15">15</option>';
-    content += '<option value="20">20</option>';
+    content += '<option value="20" selected>20</option>';
     content += '<option value="25">25</option>';
-    content += '<option value="30" selected>30</option>';
+    content += '<option value="30">30</option>';
     content += '<option value="35">35</option>';
     content += '</select>时吃';
     content += '<select id="Food2">';
@@ -97,8 +97,8 @@
     content += '<option value="90">90%</option>';
     content += '</select>时停止战斗；';
     content += '能量值低于<select id="fightMinEnergy">';
-    content += '<option value="5">5</option>';
-    content += '<option value="10" selected>10</option>';
+    content += '<option value="5" selected>5</option>';
+    content += '<option value="10">10</option>';
     content += '<option value="15">15</option>';
     content += '<option value="20">20</option>';
     content += '<option value="25">25</option>';
@@ -320,7 +320,7 @@
     }
 
     //刷单人Solo--自动打怪
-    function soloUpFight() {
+    function soloFight() {
         //能量最小值
         var fightMinHP = $('#fightMinHP').val();
         var fightMinEnergy = $('#fightMinEnergy').val();
@@ -334,7 +334,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-            //            $('.ability-icon-container:nth-child(6)').trigger("click");
+            $('.ability-icon-container:nth-child(6)').trigger("click");
             //未战斗完毕，则停留在当前界面
             return
         } else {
@@ -359,7 +359,7 @@
     }
 
     //刷单人Solo--自动打怪
-    function soloFight() {
+    function soloUpFight() {
         var minHp = $('#fightMinHP').val();
         var minEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗

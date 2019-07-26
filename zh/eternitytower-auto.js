@@ -181,7 +181,7 @@
         var fightMinEnergy = $('#fightMinEnergy').val();
         var autoSoloUpFight = setInterval(soloUpFight(fightMinHP, fightMinEnergy), 5000);
     }
-    function {
+    function stopJSQ1(){
         clearInterval(autoSoloUpFight);
     }
 

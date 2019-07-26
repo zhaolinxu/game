@@ -127,7 +127,7 @@
     //挖矿-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">挖矿（优先挖宝石）</div>';
-    content += '定时自动挖矿，挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字"/> 秒；';
+    content += '定时自动挖矿，挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
     content += '<option value="10" selected>10%</option>';

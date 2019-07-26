@@ -32,6 +32,8 @@
     //吃食物-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">吃食物（包里没有的食物不要选）</div>';
+    content += '想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名" />';
+    content += '<br/>';
     content += '生命值低于<select id="minHP">';
     content += '<option value="10">10%</option>';
     content += '<option value="20">20%</option>';
@@ -116,7 +118,6 @@
     //组队战斗-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">组队战斗（爬塔）</div>';
-    content += '组队模式下想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名" />';
     content += '组队战斗';
     content += '<button id="startGroupFight" type="primary" >启动</button>';
     content += '<button id="stopGroupFight" type="danger" disabled>停止</button>';
@@ -272,7 +273,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-            $('.ability-icon-container:nth-child(6)').trigger("click");
+            //            $('.ability-icon-container:nth-child(6)').trigger("click");
             //未战斗完毕，则停留在当前界面
             return
         } else {
@@ -299,7 +300,7 @@
                             return
                         }
                     }
-                }else{
+                } else {
                     return;
                 }
             });
@@ -321,7 +322,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-            $('.ability-icon-container:nth-child(6)').trigger("click");
+            //            $('.ability-icon-container:nth-child(6)').trigger("click");
             //未战斗完毕，则停留在当前界面
             return
         } else {
@@ -360,7 +361,7 @@
             $('.ability-icon-container:nth-child(3)').trigger("click");
             $('.ability-icon-container:nth-child(4)').trigger("click");
             $('.ability-icon-container:nth-child(5)').trigger("click");
-            $('.ability-icon-container:nth-child(6)').trigger("click");
+            //            $('.ability-icon-container:nth-child(6)').trigger("click");
             return
         } else {
             //当前层刷完时，自动切换下一层
@@ -428,54 +429,61 @@
     function eatLemon() {
         var minEnergy = $("#minEnergy").val();
         var energyFood = $("#Food2").val();
-        //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
-        var num = parseInt($('.energy-bar .health-bar').text().substring(1))
-        if (num < minEnergy) {
-            //获取食物对象
-            //柠檬-300秒内回9能量
-            var lemon = getElementByAttr('img', 'src', energyFood);
-            //判断在不在战斗状态时才提示
-            if ($('.forfeit-battle').length <= 0) {
-                //没有对应食物，则不执行吃食物操作
-                if (lemon.length <= 0) {
-                    $('#nofood').addClass('show');
-                    return
-                } else {
-                    $('#nofood').removeClass('show');
+        var Username = $('#username').val();
+        $(".battle-unit-name").each(function () {
+            //寻找自己的血量条
+            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
+                //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
+                var num = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
+                if (num < minEnergy) {
+                    //获取食物对象
+                    //柠檬-300秒内回9能量
+                    var lemon = getElementByAttr('img', 'src', energyFood);
+                    //判断在不在战斗状态时才提示
+                    if ($('.forfeit-battle').length <= 0) {
+                        //没有对应食物，则不执行吃食物操作
+                        if (lemon.length <= 0) {
+                            $('#nofood').addClass('show');
+                            return
+                        } else {
+                            $('#nofood').removeClass('show');
+                        }
+                    }
+                    //判断自己是否是队长，因为图片会影响判断
+                    if ($('.mr-1').length > 0) {
+                        //判断是否正在吃柠檬，
+                        if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
+                            //没吃柠檬，则点击柠檬
+                            lemon[0].click();
+                            console.log('没能量了，吃个柠檬~')
+                        } else {
+                            //正在吃柠檬，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    } else {
+                        //不是队长
+                        //判断是否正在吃柠檬，
+                        if ($('.battle-unit-container .justify-content-center img').length == 0) {
+                            //没吃柠檬，则点击柠檬
+                            lemon[0].click();
+                            console.log('没能量了，吃个柠檬~')
+                        } else {
+                            //正在吃柠檬，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    }
                 }
             }
-            //判断自己是否是队长，因为图片会影响判断
-            if ($('.mr-1').length > 0) {
-                //判断是否正在吃柠檬，
-                if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
-                    //没吃柠檬，则点击柠檬
-                    lemon[0].click();
-                    console.log('没能量了，吃个柠檬~')
-                } else {
-                    //正在吃柠檬，不执行操作
-                    console.log('正在吃东西~')
-                    return
-                }
-            } else {
-                //不是队长
-                //判断是否正在吃柠檬，
-                if ($('.battle-unit-container .justify-content-center img').length == 0) {
-                    //没吃柠檬，则点击柠檬
-                    lemon[0].click();
-                    console.log('没能量了，吃个柠檬~')
-                } else {
-                    //正在吃柠檬，不执行操作
-                    console.log('正在吃东西~')
-                    return
-                }
-            }
-        }
+        });
     }
 
     //自动吃食物回血
     function eatFood() {
         var minHP = $("#minHP").val();
         var hpFood = $("#Food1").val();
+        var username = $('#username').val();
         //获取食物对象
         //胡萝卜-10秒内回350血
         var eatItem = getElementByAttr('img', 'src', hpFood);
@@ -489,36 +497,39 @@
                 $('#nofood').removeClass('show');
             }
         }
-        //生命低于指定百分比，就吃胡萝卜回血。默认是：80%
-        if ($('.health-bar .progress-bar').width() < minHP) {
-            //生命值小于指定值，则吃胡萝卜回血
-            //判断自己是否是队长，因为图片会影响判断
-            if ($('.mr-1').length > 0) {
-                //判断是否正在吃胡萝卜
-                if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
-                    //没吃胡萝卜，则点击胡萝卜
-                    eatItem[0].click();
-                    console.log('生命值低于设定值，吃个胡萝卜回个血~')
-                } else {
-                    //正在吃胡萝卜，不执行操作
-                    console.log('正在吃东西~')
-                    return
-                }
-            } else {
-                //判断是否正在吃胡萝卜
-                if ($('.battle-unit-container .justify-content-center img').length == 0) {
-                    //没吃胡萝卜，则点击胡萝卜
-                    eatItem[0].click();
-                    console.log('生命值低于设定值，吃个胡萝卜回个血~')
-                } else {
-                    //正在吃胡萝卜，不执行操作
-                    console.log('正在吃东西~')
-                    return
+        $(".battle-unit-name").each(function () {
+            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
+                //生命低于指定百分比，就吃胡萝卜回血。默认是：30%
+                if ($(this).parent().parent().find('.health-bar .progress-bar').width() < minHP) {
+                    //生命值小于指定值，则吃胡萝卜回血
+                    //判断自己是否是队长，因为图片会影响判断
+                    if ($('.mr-1').length > 0) {
+                        //判断是否正在吃胡萝卜
+                        if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
+                            //没吃胡萝卜，则点击胡萝卜
+                            eatItem[0].click();
+                            console.log('生命值低于设定值，吃个胡萝卜回个血~')
+                        } else {
+                            //正在吃胡萝卜，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    } else {
+                        //判断是否正在吃胡萝卜
+                        if ($('.battle-unit-container .justify-content-center img').length == 0) {
+                            //没吃胡萝卜，则点击胡萝卜
+                            eatItem[0].click();
+                            console.log('生命值低于设定值，吃个胡萝卜回个血~')
+                        } else {
+                            //正在吃胡萝卜，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    }
                 }
             }
-        }
+        });
     }
-
 
     console.log("加载自动化脚本");
 }();

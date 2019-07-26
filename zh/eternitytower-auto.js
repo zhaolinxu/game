@@ -208,9 +208,13 @@
     var autoEatFood;
     //启动吃食物-回血
     $("#startEatFood").click(function () {
-        autoEatFood = setInterval(eatFood, 3000);
-        $(this).attr("disabled", true);
-        $("#stopEatFood").attr("disabled", false);
+        if ($('#username').val() == '') {
+            alert('请输入你的用户名');
+        } else {
+            autoEatFood = setInterval(eatFood, 3000);
+            $(this).attr("disabled", true);
+            $("#stopEatFood").attr("disabled", false);
+        }
     });
 
     //停止吃食物-回血
@@ -223,9 +227,13 @@
     var autoEnergy;
     //启动吃食物-回能量
     $("#startEatEnergyFood").click(function () {
-        autoEnergy = setInterval(eatLemon, 5000);
-        $(this).attr("disabled", true);
-        $("#stopEatEnergyFood").attr("disabled", false);
+        if ($('#username').val() == '') {
+            alert('请输入你的用户名');
+        } else {
+            autoEnergy = setInterval(eatLemon, 5000);
+            $(this).attr("disabled", true);
+            $("#stopEatEnergyFood").attr("disabled", false);
+        }
     });
 
     //停止吃食物-回能量
@@ -238,13 +246,17 @@
     //自动切换最高层、自动放技能
     var autoGroupFight;
     $("#startGroupFight").click(function () {
-        autoGroupFight = setInterval(groupFight, 5000);
-        $(this).attr("disabled", true);
-        $("#startSoloUp").attr("disabled", true);
-        $("#stopSoloUp").attr("disabled", true);
-        $("#startSolo").attr("disabled", true);
-        $("#stopSolo").attr("disabled", true);
-        $("#stopGroupFight").attr("disabled", false);
+        if ($('#username').val() == '') {
+            alert('请输入你的用户名');
+        } else {
+            autoGroupFight = setInterval(groupFight, 5000);
+            $(this).attr("disabled", true);
+            $("#startSoloUp").attr("disabled", true);
+            $("#stopSoloUp").attr("disabled", true);
+            $("#startSolo").attr("disabled", true);
+            $("#stopSolo").attr("disabled", true);
+            $("#stopGroupFight").attr("disabled", false);
+        }
     });
 
     //组队-停止战斗
@@ -287,7 +299,7 @@
                     var energy = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
                     if (energy <= minEnergy) {
                         //能量小于指定值，则不执行战斗
-                        console.log('能量值过低，休息一下，吃个柠檬吧~')
+                        console.log('能量值过低，吃点东西恢复点能量吧~')
                         return
                     } else {
                         //能量充足，继续下一次战斗
@@ -425,26 +437,24 @@
         return aEle;
     }
 
-    //自动吃食物恢复能量
+    //自动吃柠檬恢复能量
     function eatLemon() {
         var minEnergy = $("#minEnergy").val();
         var energyFood = $("#Food2").val();
         var Username = $('#username').val();
+        //获取食物对象
+        var lemon = getElementByAttr('img', 'src', energyFood);
         $(".battle-unit-name").each(function () {
             //寻找自己的血量条
-            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
+            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == Username) {
                 //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
                 var num = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
                 if (num < minEnergy) {
-                    //获取食物对象
-                    //柠檬-300秒内回9能量
-                    var lemon = getElementByAttr('img', 'src', energyFood);
                     //判断在不在战斗状态时才提示
                     if ($('.forfeit-battle').length <= 0) {
                         //没有对应食物，则不执行吃食物操作
                         if (lemon.length <= 0) {
                             $('#nofood').addClass('show');
-                            return
                         } else {
                             $('#nofood').removeClass('show');
                         }
@@ -484,20 +494,21 @@
         var minHP = $("#minHP").val();
         var hpFood = $("#Food1").val();
         var username = $('#username').val();
+
         //获取食物对象
         //胡萝卜-10秒内回350血
         var eatItem = getElementByAttr('img', 'src', hpFood);
-        //判断在不在战斗状态时才提示
-        if ($('.forfeit-battle').length <= 0) {
-            //没有对应食物，则不执行吃食物操作
-            if (eatItem.length <= 0) {
-                $('#nofood').addClass('show');
-                return
-            } else {
-                $('#nofood').removeClass('show');
-            }
-        }
         $(".battle-unit-name").each(function () {
+            //判断在不在战斗状态时才提示
+            if ($('.forfeit-battle').length <= 0) {
+                //没有对应食物，则不执行吃食物操作
+                if (eatItem.length <= 0) {
+                    $('#nofood').addClass('show');
+                    return
+                } else {
+                    $('#nofood').removeClass('show');
+                }
+            }
             if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
                 //生命低于指定百分比，就吃胡萝卜回血。默认是：30%
                 if ($(this).parent().parent().find('.health-bar .progress-bar').width() < minHP) {
@@ -508,7 +519,7 @@
                         if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
                             //没吃胡萝卜，则点击胡萝卜
                             eatItem[0].click();
-                            console.log('生命值低于设定值，吃个胡萝卜回个血~')
+                            console.log('生命值低于设定值，吃点东西回回血~')
                         } else {
                             //正在吃胡萝卜，不执行操作
                             console.log('正在吃东西~')
@@ -519,7 +530,7 @@
                         if ($('.battle-unit-container .justify-content-center img').length == 0) {
                             //没吃胡萝卜，则点击胡萝卜
                             eatItem[0].click();
-                            console.log('生命值低于设定值，吃个胡萝卜回个血~')
+                            console.log('生命值低于设定值，吃点东西回回血~')
                         } else {
                             //正在吃胡萝卜，不执行操作
                             console.log('正在吃东西~')

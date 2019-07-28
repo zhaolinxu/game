@@ -147,7 +147,7 @@
 
     //种地-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">自动种地</div>';
+    content += '<div class="tit">自动种地（必须在农场界面才能启用）</div>';
     content += '定时自动种植 <select id="FoodSeed">';
     content += '<option value="watermelonSeed">西瓜-回200血-持续10秒</option>';
     content += '<option value="carrotSeed">胡萝卜-回350血-持续10秒</option>';

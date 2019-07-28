@@ -10,7 +10,7 @@
 ! function () {
     var content = '';
     content += '<!-- 脚本动态内容 开始 -->';
-    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:670px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-680px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;}.JB-form input#minTime{width:50px;}.JB-form button{width:50px;height:30px;}#nofood{opacity:0;color:red;}#nofood.show{opacity:1;}#</style>';
+    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:670px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-680px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;text-align:center;}.JB-form input#minTime,.JB-form input#famingTime{width:50px;}.JB-form button{width:50px;height:30px;}#nofood{opacity:0;color:red;}#nofood.show{opacity:1;}#</style>';
     content += '<div class="main-im">';
     content += '<div id="open_im" class="open-im">&nbsp;</div>  ';
     content += '<div class="im_main" id="im_main">';
@@ -46,18 +46,18 @@
     content += '<option value="90">90%</option>';
     content += '</select>时吃';
     content += '<select id="Food1">';
-    content += '<option value="watermelon">西瓜-回200血-需10秒</option>';
-    content += '<option value="carrot" selected>胡萝卜-回350血-需10秒</option>';
-    content += '<option value="banana">香蕉-回650血-需13秒</option>';
-    content += '<option value="acaiBerry" >巴西莓-回300血-需25秒</option>';
-    content += '<option value="pear" >梨-回150血-需25秒</option>';
-    content += '<option value="redApple" >红苹果-回185血-需30秒</option>';
-    content += '<option value="lettice" >生菜-回75血-需30秒</option>';
-    content += '<option value="grapeFruit" >葡萄柚-回150血-需45秒</option>';
-    content += '<option value="pineapple" >菠萝-回550血-需80秒</option>';
-    content += '<option value="orange" >橙子-回750血-需80秒</option>';
-    content += '<option value="potato" >土豆-回2700血-需900秒</option>';
-    content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-需900秒</option>';
+    content += '<option value="watermelon">西瓜-回200血-持续10秒</option>';
+    content += '<option value="carrot" selected>胡萝卜-回350血-持续10秒</option>';
+    content += '<option value="banana">香蕉-回650血-持续13秒</option>';
+    content += '<option value="acaiBerry" >巴西莓-回300血-持续25秒</option>';
+    content += '<option value="pear" >梨-回150血-持续25秒</option>';
+    content += '<option value="redApple" >红苹果-回185血-持续30秒</option>';
+    content += '<option value="lettice" >生菜-回75血-持续30秒</option>';
+    content += '<option value="grapeFruit" >葡萄柚-回150血-持续45秒</option>';
+    content += '<option value="pineapple" >菠萝-回550血-持续80秒</option>';
+    content += '<option value="orange" >橙子-回750血-持续80秒</option>';
+    content += '<option value="potato" >土豆-回2700血-持续900秒</option>';
+    content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-持续900秒</option>';
     content += '</select>';
     content += '<button id="startEatFood" type="primary" >启动</button>';
     content += '<button id="stopEatFood" type="danger" disabled>停止</button>';
@@ -72,10 +72,10 @@
     content += '<option value="35">35</option>';
     content += '</select>时吃';
     content += '<select id="Food2">';
-    content += '<option value="lemon">柠檬-回9能量-持续300秒</option>';
-    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-需120秒</option>';
-    content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-需120秒</option>';
-    content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-需20秒</option>';
+    content += '<option value="lemon">柠檬-回9能量-冷却300秒</option>';
+    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
+    content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
     content += '</select>';
     content += '<button id="startEatEnergyFood" type="primary" >启动</button>';
     content += '<button id="stopEatEnergyFood" type="danger" disabled>停止</button>';
@@ -145,6 +145,31 @@
     content += '</div>';
     //挖矿-结束
 
+    //种地-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">自动种地</div>';
+    content += '定时自动种植 <select id="FoodSeed">';
+    content += '<option value="watermelon">西瓜-回200血-持续10秒</option>';
+    content += '<option value="carrot">胡萝卜-回350血-持续10秒</option>';
+    content += '<option value="banana">香蕉-回650血-持续13秒</option>';
+    content += '<option value="acaiBerry" >巴西莓-回300血-持续25秒</option>';
+    content += '<option value="pear" >梨-回150血-持续25秒</option>';
+    content += '<option value="redApple" >红苹果-回185血-持续30秒</option>';
+    content += '<option value="lettice" selected>生菜-回75血-持续30秒</option>';
+    content += '<option value="grapeFruit" >葡萄柚-回150血-持续45秒</option>';
+    content += '<option value="pineapple" >菠萝-回550血-持续80秒</option>';
+    content += '<option value="orange" >橙子-回750血-持续80秒</option>';
+    content += '<option value="potato" >土豆-回2700血-持续900秒</option>';
+    content += '<option value="lemon">柠檬-回9能量-冷却300秒</option>';
+    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
+    content += '</select>';
+    content += ' 需要 <input id="famingTime" type="text" value="1" placeholder="输入整数数字" disabled/> 分钟；';
+    content += '<button id="startMing" type="primary" >启动</button>';
+    content += '<button id="stopMing" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //种地-结束
+
     content += '<div class="tit"></div>';
     content += '</div>';
     content += '</div>';
@@ -176,6 +201,103 @@
     $('.go-top').bind('click', function () {
         $(window).scrollTop(0);
     });
+    //获取种植的植物
+    var growTime = 1;
+    $('#FoodSeed').change(function () {
+        var seed = $(this).val();
+        console.log(seed)
+        switch (seed) {
+            case 'banana':
+                growTime = 10;
+                break;
+            case 'redApple':
+                growTime = 10;
+                break;
+            case 'pear':
+                growTime = 5;
+                break;
+            case 'watermelon':
+                growTime = 15;
+                break;
+            case 'carrot':
+                growTime = 10;
+                break;
+            case 'acaiBerry':
+                growTime = 5;
+                break;
+            case 'lettice':
+                growTime = 1;
+                break;
+            case 'grapeFruit':
+                growTime = 5;
+                break;
+            case 'pineapple':
+                growTime = 15;
+                break;
+            case 'orange':
+                growTime = 15;
+                break;
+            case 'potato':
+                growTime = 10;
+                break;
+            case 'lemon':
+                growTime = 5;
+                break;
+            case 'rockmelon':
+                growTime = 10;
+                break;
+            case 'dragonfruit':
+                growTime = 20;
+                break;
+        }
+        $('#famingTime').val(growTime)
+
+    });
+
+    function getPlant() {
+
+    }
+
+    //自动种地
+    function farming() {
+        //自动切换到种地界面
+        $('.navbar-nav .nav-item:nth-child(5) a').trigger('click');
+        //延时3秒执行操作，避免页面未加载完
+        setTimeout(function () {
+            var growTime = $('#MingEnergy').val();
+            //判断能量百分比，大于指定百分比才执行挖矿。
+            var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
+            if (minWid > mingEn) {
+                //获取优先要挖的矿石
+                var ks = 'gem';
+                //获取带宝石的矿
+                var ores = getElementByAttr('img', 'src', ks, 'png');
+                if (ores.length >= 1) {
+                    //优先采宝石矿
+                    ores[0].click();
+                    console.log('发现宝石了，挖挖挖~')
+                } else {
+                    //没有宝石卡时，采其它矿
+                    var ore = 'platinum';
+                    var o = getElementByAttr2('img', 'class', 'ore-icon');
+                    for (var i = 0; i <= o.length; i++) {
+                        //                        setTimeout(function () {
+                        o[i].click();
+                        //                        }, 800);
+                    }
+                    console.log('采集其它矿石，挖挖挖~')
+                }
+            } else {
+                console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~')
+                return
+            }
+        }, 3000);
+        //切换回战斗界面
+        setTimeout(function () {
+            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+        }, 8000);
+    }
+
     var autoMing;
     //启动挖矿
     $("#startMing").click(function () {
@@ -231,9 +353,9 @@
                     var ore = 'platinum';
                     var o = getElementByAttr2('img', 'class', 'ore-icon');
                     for (var i = 0; i <= o.length; i++) {
-//                        setTimeout(function () {
-                            o[i].click();
-//                        }, 800);
+                        //                        setTimeout(function () {
+                        o[i].click();
+                        //                        }, 800);
                     }
                     console.log('采集其它矿石，挖挖挖~')
                 }

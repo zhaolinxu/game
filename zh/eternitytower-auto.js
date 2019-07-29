@@ -300,258 +300,370 @@
         var empty = getElementByAttr('img', 'src', 'emptyFarmSpace', 'svg');
         //延时3秒执行操作，避免页面未加载完
         setTimeout(function () {
-                //判断是否成熟
-                if ($('.progress-bar').length > 0) {
-                    //未成熟，不执行操作
-                    console.log('植物还没成熟呢，再等等~')
-                    return;
-                } else {
-                    //有空地时执行种地
-                    //成熟时执行收获
-                    $('.collect-plants').trigger("click");
-                    console.log('植物成熟了，割割割~')
+            //判断是否成熟
+            if ($('.progress-bar').length > 0) {
+                //未成熟，不执行操作
+                console.log('植物还没成熟呢，再等等~')
+                return;
+            } else {
+                //有空地时执行种地
+                //成熟时执行收获
+                $('.collect-plants').trigger("click");
+                console.log('植物成熟了，割割割~')
                     //种地
+                setTimeout(function () {
                     for (var i = 0; i <= 3; i++) {
                         ok[0].click();
+                        console.log('种地~')
                     }
-                }
+                }, 1500);
+            }
 
         }, 3000);
-    //切换回战斗界面
-    setTimeout(function () {
-        $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
-    }, 8000);
-}
-
-var autoMing;
-//启动挖矿
-$("#startMing").click(function () {
-    var minTime = $('#minTime').val();
-    if (minTime == '') {
-        alert('请输入采矿间隔');
-    } else {
-        //先执行一次
-        getGem()
-        minTime = minTime * 1000;
-        autoMing = setInterval(getGem, minTime);
-        $(this).attr("disabled", true);
-        $("#stopMing").attr("disabled", false);
+        //切换回战斗界面
+        setTimeout(function () {
+            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+        }, 8000);
     }
-});
 
-//停止挖矿
-$("#stopMing").click(function () {
-    clearInterval(autoMing);
-    $(this).attr("disabled", true);
-    $("#startMing").attr("disabled", false);
-});
-//挖其它矿
-function getElementByAttr2(tag, dataAttr, item) {
-    var aElements = document.getElementsByTagName(tag);
-    var aEle = [];
-    for (var i = 0; i < aElements.length; i++) {
-        var ele = aElements[i].getAttribute(dataAttr);
-        if (ele == item) {
-            aEle.push(aElements[i]);
-        }
-    }
-    return aEle;
-}
-//挖矿
-function getGem() {
-    //自动切换到采矿界面
-    $('.navbar-nav .nav-item:nth-child(2) a').trigger('click');
-    //延时3秒执行操作，避免页面未加载完
-    setTimeout(function () {
-        var mingEn = $('#MingEnergy').val();
-        //判断能量百分比，大于指定百分比才执行挖矿。
-        var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
-        if (minWid > mingEn) {
-            //获取优先要挖的矿石
-            var ks = 'gem';
-            //获取带宝石的矿
-            var ores = getElementByAttr('img', 'src', ks, 'png');
-            if (ores.length >= 1) {
-                //优先采宝石矿
-                for (var i = 0; i <= ores.length; i++) {
-                    ores[i].click();
-                }
-
-                console.log('发现宝石了，挖挖挖~')
-            } else {
-                //没有宝石卡时，采其它矿
-                var ore = 'platinum';
-                var o = getElementByAttr2('img', 'class', 'ore-icon');
-                for (var i = 0; i <= o.length; i++) {
-                    //                        setTimeout(function () {
-                    o[i].click();
-                    //                        }, 800);
-                }
-                console.log('采集其它矿石，挖挖挖~')
-            }
+    var autoMing;
+    //启动挖矿
+    $("#startMing").click(function () {
+        var minTime = $('#minTime').val();
+        if (minTime == '') {
+            alert('请输入采矿间隔');
         } else {
-            console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~')
-            return
+            //先执行一次
+            getGem()
+            minTime = minTime * 1000;
+            autoMing = setInterval(getGem, minTime);
+            $(this).attr("disabled", true);
+            $("#stopMing").attr("disabled", false);
         }
-    }, 3000);
-    //切换回战斗界面
-    setTimeout(function () {
-        $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
-    }, 8000);
-}
+    });
 
-//单人Solo-开始战斗
-//固定层、自动放技能
-var autoSoloFight;
-$("#startSolo").click(function () {
-    autoSoloFight = setInterval(soloFight, 5000);
-    $(this).attr("disabled", true);
-    $("#stopSolo").attr("disabled", false);
-    $("#startSoloUp").attr("disabled", true);
-    $("#stopSoloUp").attr("disabled", true);
-    $("#stopGroupFight").attr("disabled", true);
-    $("#startGroupFight").attr("disabled", true);
-});
-
-//单人Solo-停止战斗
-$("#stopSolo").click(function () {
-    clearInterval(autoSoloFight);
-    $(this).attr("disabled", true);
-    $("#startSolo").attr("disabled", false);
-    $("#startSoloUp").attr("disabled", false);
-    $("#stopSoloUp").attr("disabled", true);
-    $("#stopGroupFight").attr("disabled", true);
-});
-
-
-//单人Solo-开始战斗
-//自动切换最高层、自动放技能
-var autoSoloUpFight;
-$("#startSoloUp").click(function () {
-    autoSoloUpFight = setInterval(soloUpFight, 5000);
-    $(this).attr("disabled", true);
-    $("#stopSoloUp").attr("disabled", false);
-    $("#startSolo").attr("disabled", true);
-    $("#stopSolo").attr("disabled", true);
-    $("#stopGroupFight").attr("disabled", true);
-    $("#startGroupFight").attr("disabled", true);
-});
-
-//单人Solo-停止战斗
-$("#stopSoloUp").click(function () {
-    clearInterval(autoSoloUpFight);
-    $(this).attr("disabled", true);
-    $("#startSoloUp").attr("disabled", false);
-    $("#startSolo").attr("disabled", false);
-    $("#stopGroupFight").attr("disabled", true);
-    $("#startGroupFight").attr("disabled", false);
-    $("#stopSolo").attr("disabled", true);
-});
-
-
-var autoEatFood;
-//启动吃食物-回血
-$("#startEatFood").click(function () {
-    if ($('#username').val() == '') {
-        alert('请输入你的用户名');
-    } else {
-        autoEatFood = setInterval(eatFood, 3000);
+    //停止挖矿
+    $("#stopMing").click(function () {
+        clearInterval(autoMing);
         $(this).attr("disabled", true);
-        $("#stopEatFood").attr("disabled", false);
+        $("#startMing").attr("disabled", false);
+    });
+    //挖其它矿
+    function getElementByAttr2(tag, dataAttr, item) {
+        var aElements = document.getElementsByTagName(tag);
+        var aEle = [];
+        for (var i = 0; i < aElements.length; i++) {
+            var ele = aElements[i].getAttribute(dataAttr);
+            if (ele == item) {
+                aEle.push(aElements[i]);
+            }
+        }
+        return aEle;
     }
-});
+    //挖矿
+    function getGem() {
+        //自动切换到采矿界面
+        $('.navbar-nav .nav-item:nth-child(2) a').trigger('click');
+        //延时3秒执行操作，避免页面未加载完
+        setTimeout(function () {
+            var mingEn = $('#MingEnergy').val();
+            //判断能量百分比，大于指定百分比才执行挖矿。
+            var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
+            if (minWid > mingEn) {
+                //获取优先要挖的矿石
+                var ks = 'gem';
+                //获取带宝石的矿
+                var ores = getElementByAttr('img', 'src', ks, 'png');
+                if (ores.length >= 1) {
+                    //优先采宝石矿
+                    for (var i = 0; i <= ores.length; i++) {
+                        ores[i].click();
+                    }
 
-//停止吃食物-回血
-$("#stopEatFood").click(function () {
-    clearInterval(autoEatFood);
-    $(this).attr("disabled", true);
-    $("#startEatFood").attr("disabled", false);
-});
-
-var autoEnergy;
-//启动吃食物-回能量
-$("#startEatEnergyFood").click(function () {
-    if ($('#username').val() == '') {
-        alert('请输入你的用户名');
-    } else {
-        autoEnergy = setInterval(eatLemon, 5000);
-        $(this).attr("disabled", true);
-        $("#stopEatEnergyFood").attr("disabled", false);
+                    console.log('发现宝石了，挖挖挖~')
+                } else {
+                    //没有宝石卡时，采其它矿
+                    var ore = 'platinum';
+                    var o = getElementByAttr2('img', 'class', 'ore-icon');
+                    for (var i = 0; i <= o.length; i++) {
+                        //                        setTimeout(function () {
+                        o[i].click();
+                        //                        }, 800);
+                    }
+                    console.log('采集其它矿石，挖挖挖~')
+                }
+            } else {
+                console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~')
+                return
+            }
+        }, 3000);
+        //切换回战斗界面
+        setTimeout(function () {
+            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+        }, 8000);
     }
-});
 
-//停止吃食物-回能量
-$("#stopEatEnergyFood").click(function () {
-    clearInterval(autoEnergy);
-    $(this).attr("disabled", true);
-    $("#startEatEnergyFood").attr("disabled", false);
-});
-
-//组队-开始战斗
-//自动切换最高层、自动放技能
-var autoGroupFight;
-$("#startGroupFight").click(function () {
-    if ($('#username').val() == '') {
-        alert('请输入你的用户名');
-    } else {
-        autoGroupFight = setInterval(groupFight, 5000);
+    //单人Solo-开始战斗
+    //固定层、自动放技能
+    var autoSoloFight;
+    $("#startSolo").click(function () {
+        autoSoloFight = setInterval(soloFight, 5000);
         $(this).attr("disabled", true);
+        $("#stopSolo").attr("disabled", false);
         $("#startSoloUp").attr("disabled", true);
         $("#stopSoloUp").attr("disabled", true);
+        $("#stopGroupFight").attr("disabled", true);
+        $("#startGroupFight").attr("disabled", true);
+    });
+
+    //单人Solo-停止战斗
+    $("#stopSolo").click(function () {
+        clearInterval(autoSoloFight);
+        $(this).attr("disabled", true);
+        $("#startSolo").attr("disabled", false);
+        $("#startSoloUp").attr("disabled", false);
+        $("#stopSoloUp").attr("disabled", true);
+        $("#stopGroupFight").attr("disabled", true);
+    });
+
+
+    //单人Solo-开始战斗
+    //自动切换最高层、自动放技能
+    var autoSoloUpFight;
+    $("#startSoloUp").click(function () {
+        autoSoloUpFight = setInterval(soloUpFight, 5000);
+        $(this).attr("disabled", true);
+        $("#stopSoloUp").attr("disabled", false);
         $("#startSolo").attr("disabled", true);
         $("#stopSolo").attr("disabled", true);
-        $("#stopGroupFight").attr("disabled", false);
+        $("#stopGroupFight").attr("disabled", true);
+        $("#startGroupFight").attr("disabled", true);
+    });
+
+    //单人Solo-停止战斗
+    $("#stopSoloUp").click(function () {
+        clearInterval(autoSoloUpFight);
+        $(this).attr("disabled", true);
+        $("#startSoloUp").attr("disabled", false);
+        $("#startSolo").attr("disabled", false);
+        $("#stopGroupFight").attr("disabled", true);
+        $("#startGroupFight").attr("disabled", false);
+        $("#stopSolo").attr("disabled", true);
+    });
+
+
+    var autoEatFood;
+    //启动吃食物-回血
+    $("#startEatFood").click(function () {
+        if ($('#username').val() == '') {
+            alert('请输入你的用户名');
+        } else {
+            autoEatFood = setInterval(eatFood, 3000);
+            $(this).attr("disabled", true);
+            $("#stopEatFood").attr("disabled", false);
+        }
+    });
+
+    //停止吃食物-回血
+    $("#stopEatFood").click(function () {
+        clearInterval(autoEatFood);
+        $(this).attr("disabled", true);
+        $("#startEatFood").attr("disabled", false);
+    });
+
+    var autoEnergy;
+    //启动吃食物-回能量
+    $("#startEatEnergyFood").click(function () {
+        if ($('#username').val() == '') {
+            alert('请输入你的用户名');
+        } else {
+            autoEnergy = setInterval(eatLemon, 5000);
+            $(this).attr("disabled", true);
+            $("#stopEatEnergyFood").attr("disabled", false);
+        }
+    });
+
+    //停止吃食物-回能量
+    $("#stopEatEnergyFood").click(function () {
+        clearInterval(autoEnergy);
+        $(this).attr("disabled", true);
+        $("#startEatEnergyFood").attr("disabled", false);
+    });
+
+    //组队-开始战斗
+    //自动切换最高层、自动放技能
+    var autoGroupFight;
+    $("#startGroupFight").click(function () {
+        if ($('#username').val() == '') {
+            alert('请输入你的用户名');
+        } else {
+            autoGroupFight = setInterval(groupFight, 5000);
+            $(this).attr("disabled", true);
+            $("#startSoloUp").attr("disabled", true);
+            $("#stopSoloUp").attr("disabled", true);
+            $("#startSolo").attr("disabled", true);
+            $("#stopSolo").attr("disabled", true);
+            $("#stopGroupFight").attr("disabled", false);
+        }
+    });
+
+    //组队-停止战斗
+    $("#stopGroupFight").click(function () {
+        clearInterval(autoGroupFight);
+        $(this).attr("disabled", true);
+        $("#startGroupFight").attr("disabled", false);
+        $("#startSoloUp").attr("disabled", false);
+        $("#stopSoloUp").attr("disabled", true);
+        $("#startSolo").attr("disabled", false);
+        $("#stopSolo").attr("disabled", true);
+
+    });
+
+    //组队打怪
+    function groupFight() {
+        //本次战斗未完成，继续战斗
+        if ($('.forfeit-battle').length > 0) {
+            //默认自动放全部技能
+            //$('.ability-icon-container').trigger("click");
+            //选择目标
+            $('.battle-unit-container .battle-unit').trigger("click");
+            //想指定某个技能，把下面对应技能前面的斜杠删掉，然后把上面那句前面加斜杠
+            //$('.ability-icon-container:nth-child(1)').trigger("click");
+            $('.ability-icon-container:nth-child(2)').trigger("click");
+            $('.ability-icon-container:nth-child(3)').trigger("click");
+            $('.ability-icon-container:nth-child(4)').trigger("click");
+            $('.ability-icon-container:nth-child(5)').trigger("click");
+            $('.ability-icon-container:nth-child(6)').trigger("click");
+            //未战斗完毕，则停留在当前界面
+            return
+        } else {
+            $(".battle-unit-name").each(function () {
+                var username = $('#username').val();
+                var minHp = $('#fightMinHP').val();
+                var minEnergy = $('#fightMinEnergy').val();
+                //gityx需要替换成自己的用户名
+                if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
+                    //当前层没刷完，则继续刷当前层
+                    var energy = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
+                    var minWid1 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
+                    if ((energy <= minEnergy) || (minWid1 < minHp)) {
+                        //能量小于指定值，则不执行战斗
+                        console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
+                        return
+                    } else {
+                        //能量充足，继续下一次战斗
+                        //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
+                        var minWid2 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
+                        if (minWid2 > minHp) {
+                            $(".battle-btn").trigger("click");
+                        } else {
+                            //生命值小于，则不执行战斗
+                            console.log('生命值过低，暂停战斗，回回血吧~')
+                            return
+                        }
+                    }
+                } else {
+                    return;
+                }
+            });
+        }
     }
-});
 
-//组队-停止战斗
-$("#stopGroupFight").click(function () {
-    clearInterval(autoGroupFight);
-    $(this).attr("disabled", true);
-    $("#startGroupFight").attr("disabled", false);
-    $("#startSoloUp").attr("disabled", false);
-    $("#stopSoloUp").attr("disabled", true);
-    $("#startSolo").attr("disabled", false);
-    $("#stopSolo").attr("disabled", true);
+    //刷单人Solo--自动打怪
+    function soloFight() {
+        //能量最小值
+        var fightMinHP = $('#fightMinHP').val();
+        var fightMinEnergy = $('#fightMinEnergy').val();
+        //本次战斗未完成，继续战斗
+        if ($('.forfeit-battle').length > 0) {
+            //默认自动放全部技能
+            //$('.ability-icon-container').trigger("click");
+            //想指定某个技能，把下面对应技能前面的斜杠删掉，然后把上面那句前面加斜杠
+            //$('.ability-icon-container:nth-child(1)').trigger("click");
+            $('.ability-icon-container:nth-child(2)').trigger("click");
+            $('.ability-icon-container:nth-child(3)').trigger("click");
+            $('.ability-icon-container:nth-child(4)').trigger("click");
+            $('.ability-icon-container:nth-child(5)').trigger("click");
+            $('.ability-icon-container:nth-child(6)').trigger("click");
+            //未战斗完毕，则停留在当前界面
+            return
+        } else {
+            //当前层没刷完，则继续刷当前层
+            var energy = parseInt($('.energy-bar .health-bar').text().substring(1))
+            if (energy <= fightMinEnergy) {
+                //能量小于指定值，则不执行战斗
+                console.log('能量值过低，休息一下，吃个柠檬吧~')
+                return
+            } else {
+                //能量充足，继续下一次战斗
+                //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
+                var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
+                if (hpWid > fightMinHP) {
+                    $(".battle-btn").trigger("click");
+                } else {
+                    //生命值小于，则不执行战斗
+                    console.log('生命值过低，暂停战斗，回回血吧~')
+                    return
+                }
+            }
+        }
+    }
 
-});
-
-//组队打怪
-function groupFight() {
-    //本次战斗未完成，继续战斗
-    if ($('.forfeit-battle').length > 0) {
-        //默认自动放全部技能
-        //$('.ability-icon-container').trigger("click");
-        //选择目标
-        $('.battle-unit-container .battle-unit').trigger("click");
-        //想指定某个技能，把下面对应技能前面的斜杠删掉，然后把上面那句前面加斜杠
-        //$('.ability-icon-container:nth-child(1)').trigger("click");
-        $('.ability-icon-container:nth-child(2)').trigger("click");
-        $('.ability-icon-container:nth-child(3)').trigger("click");
-        $('.ability-icon-container:nth-child(4)').trigger("click");
-        $('.ability-icon-container:nth-child(5)').trigger("click");
-        $('.ability-icon-container:nth-child(6)').trigger("click");
-        //未战斗完毕，则停留在当前界面
-        return
-    } else {
-        $(".battle-unit-name").each(function () {
-            var username = $('#username').val();
-            var minHp = $('#fightMinHP').val();
-            var minEnergy = $('#fightMinEnergy').val();
-            //gityx需要替换成自己的用户名
-            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
-                //当前层没刷完，则继续刷当前层
-                var energy = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
-                var minWid1 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
-                if ((energy <= minEnergy) || (minWid1 < minHp)) {
+    //刷单人Solo--自动打怪
+    function soloUpFight() {
+        var minHp = $('#fightMinHP').val();
+        var minEnergy = $('#fightMinEnergy').val();
+        //本次战斗未完成，继续战斗
+        if ($('.forfeit-battle').length > 0) {
+            //默认自动放全部技能
+            //$('.ability-icon-container').trigger("click");
+            //第一个技能是指定目标，咱不需要启用
+            //不想施放某个技能，在下面对应技能前面加上斜杠//
+            //$('.ability-icon-container:nth-child(1)').trigger("click");
+            $('.ability-icon-container:nth-child(2)').trigger("click");
+            $('.ability-icon-container:nth-child(3)').trigger("click");
+            $('.ability-icon-container:nth-child(4)').trigger("click");
+            $('.ability-icon-container:nth-child(5)').trigger("click");
+            $('.ability-icon-container:nth-child(6)').trigger("click");
+            return
+        } else {
+            //当前层刷完时，自动切换下一层
+            if ($('.energyUse-dropdown').length > 0) {
+                //刷完则自动切换新的一层
+                $('.btn-secondary+.dropdown-menu a:first-child').trigger("click");
+                console.log('本层已清理完毕，继续下一层吧~')
+                var energy1 = parseInt($('.energy-bar .health-bar').text().substring(1))
+                if (energy1 <= minEnergy) {
                     //能量小于指定值，则不执行战斗
-                    console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
+                    console.log('能量值过低，休息一下，吃个柠檬吧~')
                     return
                 } else {
                     //能量充足，继续下一次战斗
                     //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                    var minWid2 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
-                    if (minWid2 > minHp) {
+                    var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
+                    if (hpWid > minHp) {
+                        $(".battle-btn").trigger("click");
+                    } else {
+                        //生命值小于，则不执行战斗
+                        console.log('生命值过低，暂停战斗，回回血吧~')
+                        return
+                    }
+
+                }
+
+            } else {
+                //当前层没刷完，则继续刷当前层
+                //继续下一次战斗
+                var energy2 = parseInt($('.energy-bar .health-bar').text().substring(1))
+                if (energy2 <= minEnergy) {
+                    //能量小于指定值，则不执行战斗
+                    console.log('能量值过低，休息一下，吃个柠檬吧~')
+                    return
+                } else {
+                    //能量充足，继续下一次战斗
+                    //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
+                    var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
+                    if (hpWid > minHp) {
                         $(".battle-btn").trigger("click");
                     } else {
                         //生命值小于，则不执行战斗
@@ -559,238 +671,129 @@ function groupFight() {
                         return
                     }
                 }
-            } else {
-                return;
+            }
+        }
+    }
+
+
+    //获取要吃的食物
+    function getElementByAttr(tag, dataAttr, item, fomat) {
+        var aElements = document.getElementsByTagName(tag);
+        var aEle = [];
+        for (var i = 0; i < aElements.length; i++) {
+            var ele = aElements[i].getAttribute(dataAttr);
+            var src = '/icons/' + item + '.' + fomat;
+            if (ele == src) {
+                aEle.push(aElements[i]);
+            }
+        }
+        return aEle;
+    }
+
+    //自动吃柠檬恢复能量
+    function eatLemon() {
+        var minEnergy = $("#minEnergy").val();
+        var energyFood = $("#Food2").val();
+        var Username = $('#username').val();
+        //获取食物对象
+        var lemon = getElementByAttr('img', 'src', energyFood, 'svg');
+        $(".battle-unit-name").each(function () {
+            //寻找自己的血量条
+            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == Username) {
+                //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
+                var num = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
+                if (num < minEnergy) {
+                    //判断在不在战斗状态时才提示
+                    if ($('.forfeit-battle').length <= 0) {
+                        //没有对应食物，则不执行吃食物操作
+                        if (lemon.length <= 0) {
+                            $('#nofood').addClass('show');
+                        } else {
+                            $('#nofood').removeClass('show');
+                        }
+                    }
+                    //判断自己是否是队长，因为图片会影响判断
+                    if ($('.mr-1').length > 0) {
+                        //判断是否正在吃柠檬，
+                        if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
+                            //没吃柠檬，则点击柠檬
+                            lemon[0].click();
+                            console.log('没能量了，吃个柠檬~')
+                        } else {
+                            //正在吃柠檬，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    } else {
+                        //不是队长
+                        //判断是否正在吃柠檬，
+                        if ($('.battle-unit-container .justify-content-center img').length == 0) {
+                            //没吃柠檬，则点击柠檬
+                            lemon[0].click();
+                            console.log('没能量了，吃个柠檬~')
+                        } else {
+                            //正在吃柠檬，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    }
+                }
             }
         });
     }
-}
 
-//刷单人Solo--自动打怪
-function soloFight() {
-    //能量最小值
-    var fightMinHP = $('#fightMinHP').val();
-    var fightMinEnergy = $('#fightMinEnergy').val();
-    //本次战斗未完成，继续战斗
-    if ($('.forfeit-battle').length > 0) {
-        //默认自动放全部技能
-        //$('.ability-icon-container').trigger("click");
-        //想指定某个技能，把下面对应技能前面的斜杠删掉，然后把上面那句前面加斜杠
-        //$('.ability-icon-container:nth-child(1)').trigger("click");
-        $('.ability-icon-container:nth-child(2)').trigger("click");
-        $('.ability-icon-container:nth-child(3)').trigger("click");
-        $('.ability-icon-container:nth-child(4)').trigger("click");
-        $('.ability-icon-container:nth-child(5)').trigger("click");
-        $('.ability-icon-container:nth-child(6)').trigger("click");
-        //未战斗完毕，则停留在当前界面
-        return
-    } else {
-        //当前层没刷完，则继续刷当前层
-        var energy = parseInt($('.energy-bar .health-bar').text().substring(1))
-        if (energy <= fightMinEnergy) {
-            //能量小于指定值，则不执行战斗
-            console.log('能量值过低，休息一下，吃个柠檬吧~')
-            return
-        } else {
-            //能量充足，继续下一次战斗
-            //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-            var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
-            if (hpWid > fightMinHP) {
-                $(".battle-btn").trigger("click");
-            } else {
-                //生命值小于，则不执行战斗
-                console.log('生命值过低，暂停战斗，回回血吧~')
-                return
-            }
-        }
-    }
-}
+    //自动吃食物回血
+    function eatFood() {
+        var minHP = $("#minHP").val();
+        var hpFood = $("#Food1").val();
+        var username = $('#username').val();
 
-//刷单人Solo--自动打怪
-function soloUpFight() {
-    var minHp = $('#fightMinHP').val();
-    var minEnergy = $('#fightMinEnergy').val();
-    //本次战斗未完成，继续战斗
-    if ($('.forfeit-battle').length > 0) {
-        //默认自动放全部技能
-        //$('.ability-icon-container').trigger("click");
-        //第一个技能是指定目标，咱不需要启用
-        //不想施放某个技能，在下面对应技能前面加上斜杠//
-        //$('.ability-icon-container:nth-child(1)').trigger("click");
-        $('.ability-icon-container:nth-child(2)').trigger("click");
-        $('.ability-icon-container:nth-child(3)').trigger("click");
-        $('.ability-icon-container:nth-child(4)').trigger("click");
-        $('.ability-icon-container:nth-child(5)').trigger("click");
-        $('.ability-icon-container:nth-child(6)').trigger("click");
-        return
-    } else {
-        //当前层刷完时，自动切换下一层
-        if ($('.energyUse-dropdown').length > 0) {
-            //刷完则自动切换新的一层
-            $('.btn-secondary+.dropdown-menu a:first-child').trigger("click");
-            console.log('本层已清理完毕，继续下一层吧~')
-            var energy1 = parseInt($('.energy-bar .health-bar').text().substring(1))
-            if (energy1 <= minEnergy) {
-                //能量小于指定值，则不执行战斗
-                console.log('能量值过低，休息一下，吃个柠檬吧~')
-                return
-            } else {
-                //能量充足，继续下一次战斗
-                //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
-                if (hpWid > minHp) {
-                    $(".battle-btn").trigger("click");
-                } else {
-                    //生命值小于，则不执行战斗
-                    console.log('生命值过低，暂停战斗，回回血吧~')
+        //获取食物对象
+        //胡萝卜-10秒内回350血
+        var eatItem = getElementByAttr('img', 'src', hpFood, 'svg');
+        $(".battle-unit-name").each(function () {
+            //判断在不在战斗状态时才提示
+            if ($('.forfeit-battle').length <= 0) {
+                //没有对应食物，则不执行吃食物操作
+                if (eatItem.length <= 0) {
+                    $('#nofood').addClass('show');
                     return
-                }
-
-            }
-
-        } else {
-            //当前层没刷完，则继续刷当前层
-            //继续下一次战斗
-            var energy2 = parseInt($('.energy-bar .health-bar').text().substring(1))
-            if (energy2 <= minEnergy) {
-                //能量小于指定值，则不执行战斗
-                console.log('能量值过低，休息一下，吃个柠檬吧~')
-                return
-            } else {
-                //能量充足，继续下一次战斗
-                //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
-                var hpWid = ($('.health-bar .progress-bar').width() / $('.progress.health-bar').width()) * 100;
-                if (hpWid > minHp) {
-                    $(".battle-btn").trigger("click");
                 } else {
-                    //生命值小于，则不执行战斗
-                    console.log('生命值过低，暂停战斗，回回血吧~')
-                    return
+                    $('#nofood').removeClass('show');
                 }
             }
-        }
+            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
+                //生命低于指定百分比，就吃胡萝卜回血。默认是：30%
+                if ($(this).parent().parent().find('.health-bar .progress-bar').width() < minHP) {
+                    //生命值小于指定值，则吃胡萝卜回血
+                    //判断自己是否是队长，因为图片会影响判断
+                    if ($('.mr-1').length > 0) {
+                        //判断是否正在吃胡萝卜
+                        if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
+                            //没吃胡萝卜，则点击胡萝卜
+                            eatItem[0].click();
+                            console.log('生命值低于设定值，吃点东西回回血~')
+                        } else {
+                            //正在吃胡萝卜，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    } else {
+                        //判断是否正在吃胡萝卜
+                        if ($('.battle-unit-container .justify-content-center img').length == 0) {
+                            //没吃胡萝卜，则点击胡萝卜
+                            eatItem[0].click();
+                            console.log('生命值低于设定值，吃点东西回回血~')
+                        } else {
+                            //正在吃胡萝卜，不执行操作
+                            console.log('正在吃东西~')
+                            return
+                        }
+                    }
+                }
+            }
+        });
     }
-}
 
-
-//获取要吃的食物
-function getElementByAttr(tag, dataAttr, item, fomat) {
-    var aElements = document.getElementsByTagName(tag);
-    var aEle = [];
-    for (var i = 0; i < aElements.length; i++) {
-        var ele = aElements[i].getAttribute(dataAttr);
-        var src = '/icons/' + item + '.' + fomat;
-        if (ele == src) {
-            aEle.push(aElements[i]);
-        }
-    }
-    return aEle;
-}
-
-//自动吃柠檬恢复能量
-function eatLemon() {
-    var minEnergy = $("#minEnergy").val();
-    var energyFood = $("#Food2").val();
-    var Username = $('#username').val();
-    //获取食物对象
-    var lemon = getElementByAttr('img', 'src', energyFood, 'svg');
-    $(".battle-unit-name").each(function () {
-        //寻找自己的血量条
-        if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == Username) {
-            //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
-            var num = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
-            if (num < minEnergy) {
-                //判断在不在战斗状态时才提示
-                if ($('.forfeit-battle').length <= 0) {
-                    //没有对应食物，则不执行吃食物操作
-                    if (lemon.length <= 0) {
-                        $('#nofood').addClass('show');
-                    } else {
-                        $('#nofood').removeClass('show');
-                    }
-                }
-                //判断自己是否是队长，因为图片会影响判断
-                if ($('.mr-1').length > 0) {
-                    //判断是否正在吃柠檬，
-                    if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
-                        //没吃柠檬，则点击柠檬
-                        lemon[0].click();
-                        console.log('没能量了，吃个柠檬~')
-                    } else {
-                        //正在吃柠檬，不执行操作
-                        console.log('正在吃东西~')
-                        return
-                    }
-                } else {
-                    //不是队长
-                    //判断是否正在吃柠檬，
-                    if ($('.battle-unit-container .justify-content-center img').length == 0) {
-                        //没吃柠檬，则点击柠檬
-                        lemon[0].click();
-                        console.log('没能量了，吃个柠檬~')
-                    } else {
-                        //正在吃柠檬，不执行操作
-                        console.log('正在吃东西~')
-                        return
-                    }
-                }
-            }
-        }
-    });
-}
-
-//自动吃食物回血
-function eatFood() {
-    var minHP = $("#minHP").val();
-    var hpFood = $("#Food1").val();
-    var username = $('#username').val();
-
-    //获取食物对象
-    //胡萝卜-10秒内回350血
-    var eatItem = getElementByAttr('img', 'src', hpFood, 'svg');
-    $(".battle-unit-name").each(function () {
-        //判断在不在战斗状态时才提示
-        if ($('.forfeit-battle').length <= 0) {
-            //没有对应食物，则不执行吃食物操作
-            if (eatItem.length <= 0) {
-                $('#nofood').addClass('show');
-                return
-            } else {
-                $('#nofood').removeClass('show');
-            }
-        }
-        if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
-            //生命低于指定百分比，就吃胡萝卜回血。默认是：30%
-            if ($(this).parent().parent().find('.health-bar .progress-bar').width() < minHP) {
-                //生命值小于指定值，则吃胡萝卜回血
-                //判断自己是否是队长，因为图片会影响判断
-                if ($('.mr-1').length > 0) {
-                    //判断是否正在吃胡萝卜
-                    if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
-                        //没吃胡萝卜，则点击胡萝卜
-                        eatItem[0].click();
-                        console.log('生命值低于设定值，吃点东西回回血~')
-                    } else {
-                        //正在吃胡萝卜，不执行操作
-                        console.log('正在吃东西~')
-                        return
-                    }
-                } else {
-                    //判断是否正在吃胡萝卜
-                    if ($('.battle-unit-container .justify-content-center img').length == 0) {
-                        //没吃胡萝卜，则点击胡萝卜
-                        eatItem[0].click();
-                        console.log('生命值低于设定值，吃点东西回回血~')
-                    } else {
-                        //正在吃胡萝卜，不执行操作
-                        console.log('正在吃东西~')
-                        return
-                    }
-                }
-            }
-        }
-    });
-}
-
-console.log("加载自动化脚本");
+    console.log("加载自动化脚本");
 }();

@@ -31,7 +31,7 @@
     content += '<div class="weixing-show">';
     //吃食物-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">吃食物（包里没有的食物不要选）</div>';
+    content += '<div class="tit">吃食物（必须在战斗界面启用；包里没有的食物不要选）</div>';
     content += '想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名" />';
     content += '<br/>';
     content += '生命值低于<select id="minHP">';
@@ -147,7 +147,7 @@
 
     //种地-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">自动种地（必须在农场界面才能启用）</div>';
+    content += '<div class="tit">自动种地</div>';
     content += '定时自动种植 <select id="FoodSeed">';
     content += '<option value="watermelonSeed">西瓜-回200血-持续10秒</option>';
     content += '<option value="carrotSeed">胡萝卜-回350血-持续10秒</option>';
@@ -264,6 +264,8 @@
     var autoFarming;
     //启动种地
     $("#startFarming").click(function () {
+        //自动切换到种地界面
+        $('.navbar-nav .nav-item:nth-child(5) a').trigger('click');
         var p = $('#FoodSeed').val();
         var ok = getElementByAttr('img', 'src', p, 'svg');
         //判断有无种子
@@ -295,11 +297,11 @@
     function farming() {
         //自动切换到种地界面
         $('.navbar-nav .nav-item:nth-child(5) a').trigger('click');
+        //延时3秒执行操作，避免页面未加载完
+        setTimeout(function () {
         var p = $('#FoodSeed').val();
         var ok = getElementByAttr('img', 'src', p, 'svg');
         var empty = getElementByAttr('img', 'src', 'emptyFarmSpace', 'svg');
-        //延时3秒执行操作，避免页面未加载完
-        setTimeout(function () {
             //判断是否成熟
             if ($('.progress-bar').length > 0) {
                 //未成熟，不执行操作
@@ -311,12 +313,12 @@
                 $('.collect-plants').trigger("click");
                 console.log('植物成熟了，割割割~')
                     //种地
-                setTimeout(function () {
+//                setTimeout(function () {
                     for (var i = 0; i <= 3; i++) {
                         ok[0].click();
                         console.log('种地~')
                     }
-                }, 1500);
+//                }, 1500);
             }
 
         }, 3000);
@@ -383,12 +385,9 @@
                     console.log('发现宝石了，挖挖挖~')
                 } else {
                     //没有宝石卡时，采其它矿
-                    var ore = 'platinum';
                     var o = getElementByAttr2('img', 'class', 'ore-icon');
                     for (var i = 0; i <= o.length; i++) {
-                        //                        setTimeout(function () {
                         o[i].click();
-                        //                        }, 800);
                     }
                     console.log('采集其它矿石，挖挖挖~')
                 }

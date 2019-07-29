@@ -35,6 +35,8 @@
     content += '想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名" />';
     content += '<br/>';
     content += '生命值低于<select id="minHP">';
+    content += '<option value="1">1%</option>';
+    content += '<option value="5">5%</option>';
     content += '<option value="10">10%</option>';
     content += '<option value="20">20%</option>';
     content += '<option value="30" selected>30%</option>';
@@ -86,6 +88,8 @@
     content += '<div class="JB-form">';
     content += '<div class="tit">单人战斗（Solo）</div>';
     content += '生命值低于<select id="fightMinHP">';
+    content += '<option value="1">1%</option>';
+    content += '<option value="5">5%</option>';
     content += '<option value="10">10%</option>';
     content += '<option value="20">20%</option>';
     content += '<option value="30" selected>30%</option>';
@@ -97,6 +101,8 @@
     content += '<option value="90">90%</option>';
     content += '</select>时停止战斗；';
     content += '能量值低于<select id="fightMinEnergy">';
+    content += '<option value="1" selected>1</option>';
+    content += '<option value="3" selected>3</option>';
     content += '<option value="5" selected>5</option>';
     content += '<option value="10">10</option>';
     content += '<option value="15">15</option>';
@@ -300,7 +306,7 @@
                 growTime = 5;
                 break;
             case 'rockmelonSeed':
-                growTime = 10;
+                growTime = 17;
                 break;
             case 'dragonfruitSeed':
                 growTime = 20;
@@ -423,7 +429,7 @@
             //先执行一次
             farming();
             //延后3秒
-            gTime = (gTime * 60 * 1000) + 3;
+            gTime = ((gTime * 60) + 5) * 1000;
             autoFarming = setInterval(farming, gTime);
             $(this).attr("disabled", true);
             $("#stopFarming").attr("disabled", false);
@@ -482,7 +488,8 @@
         } else {
             //先执行一次
             getGem()
-            minTime = minTime * 1000;
+            //多留5秒
+            minTime = (minTime + 5) * 1000;
             autoMing = setInterval(getGem, minTime);
             $(this).attr("disabled", true);
             $("#stopMing").attr("disabled", false);

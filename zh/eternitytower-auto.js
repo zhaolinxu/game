@@ -126,8 +126,21 @@
 
     //挖矿-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">挖矿（优先挖宝石）</div>';
-    content += '定时自动挖矿，挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
+    content += '<div class="tit">挖矿（优先挖宝石，然后挖选择的，如果两者都没有，则挖其它矿）</div>';
+    content += '定时自动挖 ';
+    content += '<select id="MingType">';
+    content += '<option value="coalCluster" selected>煤</option>';
+    content += '<option value="stoneCluster">石头</option>';
+    content += '<option value="silverCluster">银</option>';
+    content += '<option value="ironCluster">铁</option>';
+    content += '<option value="copperCluster">铜</option>';
+    content += '<option value="goldCluster">黄金</option>';
+    content += '<option value="bronzeCluster">青铜</option>';
+    content += '<option value="platinum">铂</option>';
+    content += '<option value="steel">钢</option>';
+    content += '<option value="titanium">钛</option>';
+    content += '</select> ';
+    content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
     content += '<option value="10" selected>10%</option>';
@@ -149,20 +162,56 @@
     content += '<div class="JB-form">';
     content += '<div class="tit">自动种地</div>';
     content += '定时自动种植 <select id="FoodSeed">';
-    content += '<option value="watermelonSeed">西瓜-回200血-持续10秒</option>';
-    content += '<option value="carrotSeed">胡萝卜-回350血-持续10秒</option>';
-    content += '<option value="bananaSeed">香蕉-回650血-持续13秒</option>';
-    content += '<option value="acaiBerrySeed" >巴西莓-回300血-持续25秒</option>';
-    content += '<option value="pearSeed" >梨-回150血-持续25秒</option>';
-    content += '<option value="redAppleSeed" >红苹果-回185血-持续30秒</option>';
-    content += '<option value="letticeSeed" selected>生菜-回75血-持续30秒</option>';
-    content += '<option value="grapeFruitSeed" >葡萄柚-回150血-持续45秒</option>';
-    content += '<option value="pineappleSeed" >菠萝-回550血-持续80秒</option>';
-    content += '<option value="orangeSeed" >橙子-回750血-持续80秒</option>';
-    content += '<option value="potatoSeed" >土豆-回2700血-持续900秒</option>';
-    content += '<option value="lemonSeed">柠檬-回9能量-冷却300秒</option>';
+    content += '<option value="letticeSeed" selected>生菜-回75血-持续30秒-需要种植1级</option>';
+    content += '<option value="grapeFruitSeed" >葡萄柚-回150血-持续45秒-需要种植3级</option>';
+    content += '<option value="redAppleSeed" >红苹果-回185血-持续30秒-需要种植5级</option>';
+    content += '<option value="pearSeed" >梨-回150血-持续25秒-需要种植8级</option>';
+    content += '<option value="pineappleSeed" >菠萝-回550血-持续80秒-需要种植10级</option>';
+    content += '<option value="watermelonSeed">西瓜-回200血-持续10秒-需要种植15级</option>';
+    content += '<option value="carrotSeed">胡萝卜-回350血-持续10秒-需要种植20级</option>';
+    content += '<option value="potatoSeed" >土豆-回2700血-持续900秒-需要种植20级</option>';
+    content += '<option value="acaiBerrySeed" >巴西莓-回300血-持续25秒-需要种植30级</option>';
+    content += '<option value="orangeSeed" >橙子-回750血-持续80秒-需要种植35级</option>';
+    content += '<option value="bananaSeed">香蕉-回650血-持续13秒-需要种植40级</option>';
+    content += '<option value="sweetPotatoSeed" >甘薯-回4050血-持续900秒-需要种植35级</option>';
+    content += '<option value="lemonSeed">柠檬-回9能量-冷却300秒-需要种植2级</option>';
     content += '<option value="rockmelonSeed">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
-    content += '<option value="dragonfruitSeed">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
+    content += '<option value="dragonfruitSeed">火龙果-秒回450生命；回2能量和300生命-持续120秒-需要种植25级</option>';
+
+    content += '<option value="marigoldSeed" >万寿菊-可以卖钱-需要种植9级</option>';
+    content += '<option value="blueRoseSeed" >蓝玫瑰-可以卖钱-需要种植19级</option>';
+    content += '<option value="chrysanthemumSeed" >菊花-可以卖钱-需要种植19级</option>';
+    content += '<option value="pinkHydrangeaSeed" >粉红色的绣球花-可以卖钱-需要种植29级</option>';
+    content += '<option value="hydrangeaSeed" >绣球花-可以卖钱-需要种植39级</option>';
+
+    content += '<option value="rubiaFlowerSeed" >茜草花-可以用来铭刻-需要种植2级</option>';
+    content += '<option value="basilSeed" >蓬蒿-可以用来铭刻-需要种植4级</option>';
+    content += '<option value="pinkRoseSeed" >粉红玫瑰-可以用来铭刻-需要种植5级</option>';
+    content += '<option value="endiveSeed" >莴苣-可以用来铭刻-需要种植6级</option>';
+    content += '<option value="juniperSeed" >杜松-可以用来铭刻-需要种植7级</option>';
+    content += '<option value="agrimonySeed" >仙鹤草-可以用来铭刻-需要种植12级</option>';
+
+
+    content += '<option value="chiliSeed" >辣椒-可以用来铭刻-打怪掉落-需要种植15级</option>';
+    content += '<option value="celerySeed" >芹菜-可以用来铭刻-打怪掉落-需要种植20级</option>';
+    content += '<option value="cardoonSeed" >刺棘蓟-可以用来铭刻-打怪掉落-需要种植25级</option>';
+    content += '<option value="feverfewSeed" >小白菊-可以用来铭刻-打怪掉落-需要种植30级</option>';
+
+    content += '<option value="pineSeed" >松树-可以获得种植技能经验-需要种植1级</option>';
+    content += '<option value="beechSeed" >榉木-可以获得种植技能经验-需要种植5级</option>';
+    content += '<option value="ashSeed" >岑树-可以获得种植技能经验-需要种植10级</option>';
+    content += '<option value="oakSeed" >橡木-可以获得种植技能经验-需要种植15级</option>';
+    content += '<option value="mapleSeed" >枫树-可以获得种植技能经验-需要种植20级</option>';
+    content += '<option value="walnutSeed" >核桃树-可以获得种植技能经验-需要种植25级</option>';
+    content += '<option value="cherrySeed" >樱桃木-可以获得种植技能经验-需要种植30级</option>';
+    content += '<option value="mahoganySeed" >红木-可以获得种植技能经验-需要种植35级</option>';
+    content += '<option value="elkSeed" >榆树-可以获得种植技能经验-需要种植40级</option>';
+
+    content += '<option value="cactusSeed" >仙人掌-看起来很有用-需要种植6级</option>';
+    content += '<option value="reedSeed" >芦苇-看起来很有用-需要种植16级</option>';
+    content += '<option value="papyrusSeed" >纸莎草-看起来很有用-需要种植26级</option>';
+    content += '<option value="bambooSeed" >竹子-看起来很有用-需要种植36级</option>';
+
     content += '</select>';
     content += '<br/>';
     content += ' 需要 <input id="famingTime" type="text" value="1" placeholder="输入整数数字" disabled/> 分钟；';
@@ -256,6 +305,101 @@
             case 'dragonfruitSeed':
                 growTime = 20;
                 break;
+            case 'sweetPotatoSeed':
+                growTime = 10;
+                break;
+            case 'chilliSeed':
+                growTime = 60;
+                break;
+                //卖钱
+            case 'marigoldSeed':
+                growTime = 15;
+                break;
+            case 'blueRoseSeed':
+                growTime = 15;
+                break;
+            case 'chrysanthemumSeed':
+                growTime = 480;
+                break;
+            case 'pinkHydrangeaSeed':
+                growTime = 15;
+                break;
+            case 'hydrangeaSeed':
+                growTime = 15;
+                break;
+                //铭刻
+            case 'rubiaFlowerSeed':
+                growTime = 2;
+                break;
+            case 'basilSeed':
+                growTime = 5;
+                break;
+            case 'pinkRoseSeed':
+                growTime = 5;
+                break;
+            case 'endiveSeed':
+                growTime = 5;
+                break;
+            case 'juniperSeed':
+                growTime = 10;
+                break;
+            case 'agrimonySeed':
+                growTime = 60;
+                break;
+                //打怪掉落
+            case 'chiliSeed':
+                growTime = 60;
+                break;
+            case 'celerySeed':
+                growTime = 60;
+                break;
+            case 'cardoonSeed':
+                growTime = 15;
+                break;
+            case 'feverfewSeed':
+                growTime = 24;
+                break;
+                //树-经验
+            case 'pineSeed':
+                growTime = 480;
+                break;
+            case 'beechSeed':
+                growTime = 480;
+                break;
+            case 'ashSeed':
+                growTime = 480;
+                break;
+            case 'oakSeed':
+                growTime = 480;
+                break;
+            case 'mapleSeed':
+                growTime = 480;
+                break;
+            case 'walnutSeed':
+                growTime = 480;
+                break;
+            case 'cherrySeed':
+                growTime = 480;
+                break;
+            case 'mahoganySeed':
+                growTime = 480;
+                break;
+            case 'elkSeed':
+                growTime = 480;
+                break;
+                //杂项
+            case 'cactusSeed':
+                growTime = 60;
+                break;
+            case 'reedSeed':
+                growTime = 15;
+                break;
+            case 'papyrusSeed':
+                growTime = 30;
+                break;
+            case 'bambooSeed':
+                growTime = 60;
+                break;
         }
         $('#famingTime').val(growTime)
 
@@ -278,7 +422,8 @@
             var gTime = $('#famingTime').val();
             //先执行一次
             farming();
-            gTime = gTime * 60 * 1000;
+            //延后3秒
+            gTime = (gTime * 60 * 1000) + 3;
             autoFarming = setInterval(farming, gTime);
             $(this).attr("disabled", true);
             $("#stopFarming").attr("disabled", false);
@@ -299,9 +444,9 @@
         $('.navbar-nav .nav-item:nth-child(5) a').trigger('click');
         //延时3秒执行操作，避免页面未加载完
         setTimeout(function () {
-        var p = $('#FoodSeed').val();
-        var ok = getElementByAttr('img', 'src', p, 'svg');
-        var empty = getElementByAttr('img', 'src', 'emptyFarmSpace', 'svg');
+            var p = $('#FoodSeed').val();
+            var ok = getElementByAttr('img', 'src', p, 'svg');
+            var empty = getElementByAttr('img', 'src', 'emptyFarmSpace', 'svg');
             //判断是否成熟
             if ($('.progress-bar').length > 0) {
                 //未成熟，不执行操作
@@ -312,13 +457,13 @@
                 //成熟时执行收获
                 $('.collect-plants').trigger("click");
                 console.log('植物成熟了，割割割~')
-                    //种地
-//                setTimeout(function () {
-                    for (var i = 0; i <= 3; i++) {
-                        ok[0].click();
-                        console.log('种地~')
-                    }
-//                }, 1500);
+                //种地
+                //                setTimeout(function () {
+                for (var i = 0; i <= 3; i++) {
+                    ok[0].click();
+                    console.log('种地~')
+                }
+                //                }, 1500);
             }
 
         }, 3000);
@@ -362,6 +507,23 @@
         }
         return aEle;
     }
+
+    //挖自定义矿石
+    function getElementByAttr3(tag, lei, dataAttr, item, fomat) {
+        var aElements = document.getElementsByTagName(tag);
+        var aEle = [];
+        for (var i = 0; i < aElements.length; i++) {
+            var ele = aElements[i].getAttribute(dataAttr);
+            var leis = aElements[i].getAttribute(lei);
+            var src = '/icons/' + item + '.' + fomat;
+            if (leis == 'ore-icon') {
+                if (ele == src) {
+                    aEle.push(aElements[i]);
+                }
+            }
+        }
+        return aEle;
+    }
     //挖矿
     function getGem() {
         //自动切换到采矿界面
@@ -375,14 +537,22 @@
                 //获取优先要挖的矿石
                 var ks = 'gem';
                 //获取带宝石的矿
-                var ores = getElementByAttr('img', 'src', ks, 'png');
+                var ores = getElementByAttr('img', 'class', 'src', ks, 'png');
+                //获取自定义的矿
+                var myOre = $('#MingType').val();
+                var myOres = getElementByAttr3('img', 'src', myOre, 'png');
                 if (ores.length >= 1) {
                     //优先采宝石矿
                     for (var i = 0; i <= ores.length; i++) {
                         ores[i].click();
                     }
-
                     console.log('发现宝石了，挖挖挖~')
+                } else if (myOres.length >= 1) {
+                    //挖自定义的矿石
+                    for (var i = 0; i <= myOres.length; i++) {
+                        myOres[i].click();
+                    }
+                    console.log('发现自定义矿石，挖挖挖~')
                 } else {
                     //没有宝石卡时，采其它矿
                     var o = getElementByAttr2('img', 'class', 'ore-icon');

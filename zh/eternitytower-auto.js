@@ -919,7 +919,6 @@
                         //不是队长
                         //判断是否正在吃柠檬，
                         if ($(this).parent().parent().find('.justify-content-center img').length == 0) {
-                            console.log('非队长图片数量' + $(this).parent().parent().find('.justify-content-center img').length)
                             //没吃柠檬，则点击柠檬
                             for (var i = 0; i <= lemon.length; i++) {
                                 lemon[i].click();

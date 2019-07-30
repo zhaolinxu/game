@@ -68,8 +68,8 @@
     content += '<option value="5">5</option>';
     content += '<option value="10">10</option>';
     content += '<option value="15">15</option>';
-    content += '<option value="20" selected>20</option>';
-    content += '<option value="25">25</option>';
+    content += '<option value="20">20</option>';
+    content += '<option value="25" selected>25</option>';
     content += '<option value="30">30</option>';
     content += '<option value="35">35</option>';
     content += '</select>时吃';
@@ -135,18 +135,19 @@
     content += '<div class="tit">挖矿（优先挖宝石，然后挖选择的，如果两者都没有，则挖其它矿）</div>';
     content += '定时自动挖 ';
     content += '<select id="MingType">';
-    content += '<option value="coalCluster" selected>煤</option>';
-    content += '<option value="stoneCluster">石头</option>';
-    content += '<option value="silverCluster">银</option>';
-    content += '<option value="ironCluster">铁</option>';
-    content += '<option value="copperCluster">铜</option>';
-    content += '<option value="goldCluster">黄金</option>';
-    content += '<option value="bronzeCluster">青铜</option>';
-    content += '<option value="tinCluster">锡</option>';
-    content += '<option value="platinum">铂</option>';
+    content += '<option value="coalCluster" selected>煤簇</option>';
+    content += '<option value="stoneCluster">石头簇</option>';
+    content += '<option value="silverCluster">银簇</option>';
+    content += '<option value="ironCluster">铁簇</option>';
+    content += '<option value="copperCluster">铜簇</option>';
+    content += '<option value="goldCluster">黄金簇</option>';
+    content += '<option value="bronzeCluster">青铜簇</option>';
+    content += '<option value="tinCluster">锡簇</option>';
+    content += '<option value="carbonCluster">碳簇</option>';
     content += '<option value="steel">钢</option>';
     content += '<option value="carbon">碳</option>';
     content += '<option value="titanium">钛</option>';
+    content += '<option value="platinum">铂</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
@@ -436,7 +437,7 @@
             return;
         } else {
             $('#noseed').removeClass('show');
-            var gTime = $('#famingTime').val();
+            var gTime = parseInt($('#famingTime').val());
             //先执行一次
             farming();
             //延后3秒
@@ -477,7 +478,7 @@
                 //种地
                 setTimeout(function () {
                     for (var i = 0; i <= 3; i++) {
-                        setTimeout(function (){
+                        setTimeout(function () {
                             ok[0].click();
                         }, 500);
                         console.log('种地~ ' + nowTime())
@@ -495,18 +496,15 @@
     var autoMing;
     //启动挖矿
     $("#startMing").click(function () {
-        var minTime = $('#minTime').val();
+        var minTime = parseInt($('#minTime').val());
         if (minTime == '') {
-            alert('请输入采矿间隔');
-        } else {
-            //先执行一次
-            getGem()
-            //多留5秒
-            minTime = (minTime + 5) * 1000;
-            autoMing = setInterval(getGem, minTime);
-            $(this).attr("disabled", true);
-            $("#stopMing").attr("disabled", false);
+            minTime = 600;
         }
+        //多留5秒
+        minTime = (minTime + 5) * 1000;
+        autoMing = setInterval(getGem, minTime);
+        $(this).attr("disabled", true);
+        $("#stopMing").attr("disabled", false);
     });
 
     //停止挖矿
@@ -558,26 +556,28 @@
                 var ks = 'gem';
                 //获取带宝石的矿
                 var ores = getElementByAttr('img', 'src', ks, 'png');
-                //获取自定义的矿
-                var myOre = $('#MingType').val();
-                var myOres = getElementByAttr3('img', 'class', 'src', myOre, 'png');
                 if (ores.length >= 1) {
                     //优先采宝石矿
                     for (var i = 0; i <= ores.length; i++) {
-                            ores[i].click();
+                        ores[i].click();
                     }
                     console.log('发现宝石了，挖挖挖~ ' + nowTime())
-                } else if (myOres.length >= 1) {
+                }
+
+                //获取自定义的矿
+                var myOre = $('#MingType').val();
+                var myOres = getElementByAttr3('img', 'class', 'src', myOre, 'png');
+                if (myOres.length >= 1) {
                     //挖自定义的矿石
                     for (var i = 0; i <= myOres.length; i++) {
-                            myOres[i].click();
+                        myOres[i].click();
                     }
                     console.log('发现自定义矿石，挖挖挖~ ' + nowTime())
                 } else {
                     //没有宝石卡时，采其它矿
                     var o = getElementByAttr2('img', 'class', 'ore-icon');
                     for (var i = 0; i <= o.length; i++) {
-                            o[i].click();
+                        o[i].click();
                     }
                     console.log('采集其它矿石，挖挖挖~ ' + nowTime())
                 }
@@ -902,11 +902,13 @@
                         }
                     }
                     //判断自己是否是队长，因为图片会影响判断
-                    if ($('.mr-1').length > 0) {
+                    if ($(this).parent().parent().find('.mr-1').length > 0) {
                         //判断是否正在吃柠檬，
-                        if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
+                        if ($(this).parent().parent().find('.justify-content-center img:nth-child(2)').length <= 0) {
                             //没吃柠檬，则点击柠檬
-                            lemon[0].click();
+                            for (var i = 0; i <= lemon.length; i++) {
+                                lemon[i].click();
+                            }
                             console.log('没能量了，吃个柠檬~ ' + nowTime())
                         } else {
                             //正在吃柠檬，不执行操作
@@ -916,9 +918,12 @@
                     } else {
                         //不是队长
                         //判断是否正在吃柠檬，
-                        if ($('.battle-unit-container .justify-content-center img').length == 0) {
+                        if ($(this).parent().parent().find('.justify-content-center img').length == 0) {
+                            console.log('非队长图片数量' + $(this).parent().parent().find('.justify-content-center img').length)
                             //没吃柠檬，则点击柠檬
-                            lemon[0].click();
+                            for (var i = 0; i <= lemon.length; i++) {
+                                lemon[i].click();
+                            }
                             console.log('没能量了，吃个柠檬~ ' + nowTime())
                         } else {
                             //正在吃柠檬，不执行操作
@@ -952,15 +957,17 @@
                 }
             }
             if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
-                //生命低于指定百分比，就吃胡萝卜回血。默认是：30%
+                //生命低于指定百分比，就吃食物回血。默认是：30%
                 if ($(this).parent().parent().find('.health-bar .progress-bar').width() < minHP) {
-                    //生命值小于指定值，则吃胡萝卜回血
+                    //生命值小于指定值，则吃食物回血
                     //判断自己是否是队长，因为图片会影响判断
                     if ($('.mr-1').length > 0) {
-                        //判断是否正在吃胡萝卜
-                        if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
-                            //没吃胡萝卜，则点击胡萝卜
-                            eatItem[0].click();
+                        //判断是否正在吃食物
+                        if ($(this).parent().parent().find('.justify-content-center img:nth-child(2)').length == 0) {
+                            //没吃食物，则点击食物
+                            for (var i = 0; i <= eatItem.length; i++) {
+                                eatItem[i].click();
+                            }
                             console.log('生命值低于设定值，吃点东西回回血~ ' + nowTime())
                         } else {
                             //正在吃胡萝卜，不执行操作
@@ -968,13 +975,15 @@
                             return
                         }
                     } else {
-                        //判断是否正在吃胡萝卜
-                        if ($('.battle-unit-container .justify-content-center img').length == 0) {
-                            //没吃胡萝卜，则点击胡萝卜
-                            eatItem[0].click();
+                        //判断是否正在吃食物
+                        if ($(this).parent().parent().find('.justify-content-center img').length <= 0) {
+                            //没吃食物，则点击食物
+                            for (var i = 0; i <= eatItem.length; i++) {
+                                eatItem[i].click();
+                            }
                             console.log('生命值低于设定值，吃点东西回回血~ ' + nowTime())
                         } else {
-                            //正在吃胡萝卜，不执行操作
+                            //正在吃食物，不执行操作
                             console.log('正在吃东西~')
                             return
                         }

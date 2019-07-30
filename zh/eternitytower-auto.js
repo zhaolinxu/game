@@ -142,9 +142,12 @@
     content += '<option value="copperCluster">铜</option>';
     content += '<option value="goldCluster">黄金</option>';
     content += '<option value="bronzeCluster">青铜</option>';
+    content += '<option value="tinCluster">锡</option>';
     content += '<option value="platinum">铂</option>';
     content += '<option value="steel">钢</option>';
+    content += '<option value="carbon">碳</option>';
     content += '<option value="titanium">钛</option>';
+    content += '<option value="carbonEssence">碳精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
     content += '<br/>';
@@ -257,6 +260,14 @@
     $('.go-top').bind('click', function () {
         $(window).scrollTop(0);
     });
+    //获取时间
+    function nowTime() {
+        var d = new Date();
+        var my_hours = d.getHours();
+        var my_minutes = d.getMinutes();
+        var my_seconds = d.getSeconds();
+        return my_hours + ":" + my_minutes + ":" + my_seconds
+    }
     //获取种植的植物
     var growTime = 1;
     $('#FoodSeed').change(function () {
@@ -456,20 +467,22 @@
             //判断是否成熟
             if ($('.progress-bar').length > 0) {
                 //未成熟，不执行操作
-                console.log('植物还没成熟呢，再等等~')
+                console.log('植物还没成熟呢，再等等~ ' + nowTime())
                 return;
             } else {
                 //有空地时执行种地
                 //成熟时执行收获
                 $('.collect-plants').trigger("click");
-                console.log('植物成熟了，割割割~')
+                console.log('植物成熟了，割割割~ ' + nowTime());
                 //种地
-                //                setTimeout(function () {
-                for (var i = 0; i <= 3; i++) {
-                    ok[0].click();
-                    console.log('种地~')
-                }
-                //                }, 1500);
+                setTimeout(function () {
+                    for (var i = 0; i <= 3; i++) {
+                        setTimeout(function (){
+                            ok[0].click();
+                        }, 500);
+                        console.log('种地~ ' + nowTime())
+                    }
+                }, 1500);
             }
 
         }, 3000);
@@ -544,32 +557,32 @@
                 //获取优先要挖的矿石
                 var ks = 'gem';
                 //获取带宝石的矿
-                var ores = getElementByAttr('img', 'class', 'src', ks, 'png');
+                var ores = getElementByAttr('img', 'src', ks, 'png');
                 //获取自定义的矿
                 var myOre = $('#MingType').val();
-                var myOres = getElementByAttr3('img', 'src', myOre, 'png');
+                var myOres = getElementByAttr3('img', 'class', 'src', myOre, 'png');
                 if (ores.length >= 1) {
                     //优先采宝石矿
                     for (var i = 0; i <= ores.length; i++) {
-                        ores[i].click();
+                            ores[i].click();
                     }
-                    console.log('发现宝石了，挖挖挖~')
+                    console.log('发现宝石了，挖挖挖~ ' + nowTime())
                 } else if (myOres.length >= 1) {
                     //挖自定义的矿石
                     for (var i = 0; i <= myOres.length; i++) {
-                        myOres[i].click();
+                            myOres[i].click();
                     }
-                    console.log('发现自定义矿石，挖挖挖~')
+                    console.log('发现自定义矿石，挖挖挖~ ' + nowTime())
                 } else {
                     //没有宝石卡时，采其它矿
                     var o = getElementByAttr2('img', 'class', 'ore-icon');
                     for (var i = 0; i <= o.length; i++) {
-                        o[i].click();
+                            o[i].click();
                     }
-                    console.log('采集其它矿石，挖挖挖~')
+                    console.log('采集其它矿石，挖挖挖~ ' + nowTime())
                 }
             } else {
-                console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~')
+                console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~ ' + nowTime())
                 return
             }
         }, 3000);
@@ -807,7 +820,7 @@
             if ($('.energyUse-dropdown').length > 0) {
                 //刷完则自动切换新的一层
                 $('.btn-secondary+.dropdown-menu a:first-child').trigger("click");
-                console.log('本层已清理完毕，继续下一层吧~')
+                console.log('本层已清理完毕，继续下一层吧~ ' + nowTime())
                 var energy1 = parseInt($('.energy-bar .health-bar').text().substring(1))
                 if (energy1 <= minEnergy) {
                     //能量小于指定值，则不执行战斗
@@ -894,10 +907,10 @@
                         if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
                             //没吃柠檬，则点击柠檬
                             lemon[0].click();
-                            console.log('没能量了，吃个柠檬~')
+                            console.log('没能量了，吃个柠檬~ ' + nowTime())
                         } else {
                             //正在吃柠檬，不执行操作
-                            console.log('正在吃东西~')
+                            console.log('正在吃东西~ ' + nowTime())
                             return
                         }
                     } else {
@@ -906,10 +919,10 @@
                         if ($('.battle-unit-container .justify-content-center img').length == 0) {
                             //没吃柠檬，则点击柠檬
                             lemon[0].click();
-                            console.log('没能量了，吃个柠檬~')
+                            console.log('没能量了，吃个柠檬~ ' + nowTime())
                         } else {
                             //正在吃柠檬，不执行操作
-                            console.log('正在吃东西~')
+                            console.log('正在吃东西~ ')
                             return
                         }
                     }
@@ -948,7 +961,7 @@
                         if ($('.battle-unit-container .justify-content-center img:nth-child(2)').length == 0) {
                             //没吃胡萝卜，则点击胡萝卜
                             eatItem[0].click();
-                            console.log('生命值低于设定值，吃点东西回回血~')
+                            console.log('生命值低于设定值，吃点东西回回血~ ' + nowTime())
                         } else {
                             //正在吃胡萝卜，不执行操作
                             console.log('正在吃东西~')
@@ -959,7 +972,7 @@
                         if ($('.battle-unit-container .justify-content-center img').length == 0) {
                             //没吃胡萝卜，则点击胡萝卜
                             eatItem[0].click();
-                            console.log('生命值低于设定值，吃点东西回回血~')
+                            console.log('生命值低于设定值，吃点东西回回血~ ' + nowTime())
                         } else {
                             //正在吃胡萝卜，不执行操作
                             console.log('正在吃东西~')
@@ -971,5 +984,5 @@
         });
     }
 
-    console.log("加载自动化脚本");
+    console.log("加载自动化脚本 " + nowTime());
 }();

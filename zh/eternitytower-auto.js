@@ -144,12 +144,15 @@
     content += '<option value="bronzeCluster">青铜簇</option>';
     content += '<option value="tinCluster">锡簇</option>';
     content += '<option value="carbonCluster">碳簇</option>';
+    content += '<option value="copper">铜</option>';
+    content += '<option value="tin">锡</option>';
+    content += '<option value="gold">黄金</option>';
     content += '<option value="steel">钢</option>';
     content += '<option value="carbon">碳</option>';
     content += '<option value="titanium">钛</option>';
     content += '<option value="platinum">铂</option>';
     content += '<option value="ruby">红宝石</option>';
-    content += '<option value="platinum">铂</option>';
+    content += '<option value="tungsten">钨</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
@@ -443,7 +446,7 @@
             //先执行一次
             farming();
             //延后3秒
-            gTime = ((gTime * 60) + 5) * 1000;
+            gTime = ((gTime * 60) + 10) * 1000;
             autoFarming = setInterval(farming, gTime);
             $(this).attr("disabled", true);
             $("#stopFarming").attr("disabled", false);
@@ -503,7 +506,7 @@
             minTime = 600;
         }
         //多留5秒
-        minTime = (minTime + 5) * 1000;
+        minTime = (minTime + 10) * 1000;
         autoMing = setInterval(getGem, minTime);
         $(this).attr("disabled", true);
         $("#stopMing").attr("disabled", false);

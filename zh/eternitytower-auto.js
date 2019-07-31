@@ -148,6 +148,8 @@
     content += '<option value="carbon">碳</option>';
     content += '<option value="titanium">钛</option>';
     content += '<option value="platinum">铂</option>';
+    content += '<option value="ruby">红宝石</option>';
+    content += '<option value="platinum">铂</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
@@ -732,16 +734,16 @@
                 var minEnergy = $('#fightMinEnergy').val();
                 //gityx需要替换成自己的用户名
                 if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
-                    //当前层没刷完，则继续刷当前层
+                    //判断自己血量、能量
                     var energy = parseInt($(this).parent().parent().find('.energy-bar .health-bar').text().substring(1))
                     var minWid1 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
                     if ((energy <= minEnergy) || (minWid1 < minHp)) {
-                        //能量小于指定值，则不执行战斗
+                        //能量/生命值小于指定值，则不执行战斗
                         console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
                         return
                     } else {
                         //能量充足，继续下一次战斗
-                        //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。默认是：30%
+                        //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。
                         var minWid2 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
                         if (minWid2 > minHp) {
                             $(".battle-btn").trigger("click");

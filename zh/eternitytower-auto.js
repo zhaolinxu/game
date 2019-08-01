@@ -849,16 +849,7 @@
         var fightMinEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-            //默认自动放全部技能
-            //$('.ability-icon-container').trigger("click");
-            //想指定某个技能，把下面对应技能前面的斜杠删掉，然后把上面那句前面加斜杠
-            //$('.ability-icon-container:nth-child(1)').trigger("click");
-            $('.ability-icon-container:nth-child(2)').trigger("click");
-            $('.ability-icon-container:nth-child(3)').trigger("click");
-            $('.ability-icon-container:nth-child(4)').trigger("click");
-            $('.ability-icon-container:nth-child(5)').trigger("click");
-            $('.ability-icon-container:nth-child(6)').trigger("click");
-            //未战斗完毕，则停留在当前界面
+            console.log('正在战斗中~')
             return
         } else {
             //当前层没刷完，则继续刷当前层
@@ -888,16 +879,7 @@
         var minEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-            //默认自动放全部技能
-            //$('.ability-icon-container').trigger("click");
-            //第一个技能是指定目标，咱不需要启用
-            //不想施放某个技能，在下面对应技能前面加上斜杠//
-            //$('.ability-icon-container:nth-child(1)').trigger("click");
-            $('.ability-icon-container:nth-child(2)').trigger("click");
-            $('.ability-icon-container:nth-child(3)').trigger("click");
-            $('.ability-icon-container:nth-child(4)').trigger("click");
-            $('.ability-icon-container:nth-child(5)').trigger("click");
-            $('.ability-icon-container:nth-child(6)').trigger("click");
+            console.log('正在战斗中~')
             return
         } else {
             //当前层刷完时，自动切换下一层

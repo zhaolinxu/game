@@ -91,8 +91,8 @@
     content += '<option value="1">1%</option>';
     content += '<option value="5">5%</option>';
     content += '<option value="10">10%</option>';
-    content += '<option value="20">20%</option>';
-    content += '<option value="30" selected>30%</option>';
+    content += '<option value="20" selected>20%</option>';
+    content += '<option value="30">30%</option>';
     content += '<option value="40">40%</option>';
     content += '<option value="50">50%</option>';
     content += '<option value="60">60%</option>';
@@ -101,8 +101,8 @@
     content += '<option value="90">90%</option>';
     content += '</select>时停止战斗；';
     content += '能量值低于<select id="fightMinEnergy">';
-    content += '<option value="1" selected>1</option>';
-    content += '<option value="3" selected>3</option>';
+    content += '<option value="1" >1</option>';
+    content += '<option value="3" >3</option>';
     content += '<option value="5" selected>5</option>';
     content += '<option value="10">10</option>';
     content += '<option value="15">15</option>';
@@ -153,6 +153,7 @@
     content += '<option value="platinum">铂</option>';
     content += '<option value="ruby">红宝石</option>';
     content += '<option value="tungsten">钨</option>';
+    content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
@@ -446,7 +447,7 @@
             //先执行一次
             farming();
             //延后3秒
-            gTime = ((gTime * 60) + 10) * 1000;
+            gTime = ((gTime * 60) + 30) * 1000;
             autoFarming = setInterval(farming, gTime);
             $(this).attr("disabled", true);
             $("#stopFarming").attr("disabled", false);

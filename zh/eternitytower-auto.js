@@ -10,7 +10,7 @@
 ! function () {
     var content = '';
     content += '<!-- 脚本动态内容 开始 -->';
-    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:670px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-680px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;text-align:center;}.JB-form input#minTime,.JB-form input#famingTime{width:50px;}.JB-form button{width:50px;height:30px;}#nofood,#noseed{opacity:0;color:red;}#nofood.show,#noseed.show{opacity:1;}#</style>';
+    content += '<style>.main-im{position:fixed;right:10px;bottom:50px;line-height:normal;z-index:9999}.main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}.main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}.main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}.main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat:no-repeat;}.main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}.main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color:#ff0000 !important;}.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}.main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}.main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}.main-im .im_main .im-tel:hover{background-color:#fafafa !important;}.main-im .im_main .weixing-container{width:55px;height:47px;border-right:1px solid #dddddd;background-color:#f5f5f5 !important;border-bottom-left-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/weixing-icon.png");background-position:center;background-repeat:no-repeat;float:left;}.main-im .im_main .weixing-show{width:670px;height:400px;background-color:#ffffff;border-radius:10px;border:1px solid #dddddd;position:absolute;left:-680px;top:-354px;overflow-y:auto;}.main-im .im_main .weixing-show .weixing-sanjiao{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #ffffff;border-width:6px;left:112px;top:134px;position:absolute;z-index:2;}.main-im .im_main .weixing-show .weixing-sanjiao-big{width:0;height:0;border-style:solid;border-color:transparent transparent transparent #dddddd;border-width:8px;left:112px;top:132px;position:absolute;}.main-im .im_main .weixing-show .weixing-ma{width:104px;height:103px;padding-left:5px;padding-top:5px;}.main-im .im_main .weixing-show .weixing-txt{position:absolute;top:110px;left:7px;width:100px;margin:0 auto;text-align:center;color:#000 !important;}.main-im .im_main .weixing-show .weixing-txt a,.main-im .im_main .weixing-show .weixing-txt a:hover,.main-im .im_main .im-tel .tel-num a:hover{color:#ff0000 !important;}.main-im .im_main .go-top{width:50px;height:47px;background-color:#f5f5f5;border-bottom-right-radius:10px;background-image:url("//likexia.gitee.io/game/images/kf/totop-icon.png");float:right;background-position:center center;background-repeat:no-repeat;}.main-im .im_main .go-top a{display:block;width:52px;height:47px;}.main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}.main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat:no-repeat;}.main-im .close-im a:hover{text-decoration:none;}.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat:no-repeat;background-position:left top;cursor:pointer;background-size:100%;z-index:100;position:fixed;right:10px;bottom:320px;}@media screen and (max-width:480px){.main-im{display:none;}}.JB-form{padding:10px;}.JB-form *{margin:5px;font-size:13px;}.JB-form .tit{font-weight:bold;}.JB-form input{width:100px;height:30px;line-height:30px;text-align:center;}.JB-form input#minTime,.JB-form input#famingTime{width:50px;}.JB-form button{width:50px;height:30px;}#nofood,#noseed,#noSkill{opacity:0;color:red;}#nofood.show,#noseed.show,#noSkill.show{opacity:1;}.JB-form input[type=checkbox]{width:auto;vertical-align: middle;}.JB-form label{user-select: none;margin-left:0;}</style>';
     content += '<div class="main-im">';
     content += '<div id="open_im" class="open-im">&nbsp;</div>  ';
     content += '<div class="im_main" id="im_main">';
@@ -84,6 +84,20 @@
     content += '<div id="nofood">你没有这种食物，去农场种一些吧~</div>';
     content += '</div>';
     //吃食物-结束
+    //选择技能-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">自动放技能（T技能是选目标的，不需要点）</div>';
+    content += '<input type="checkbox" id="check1" checked><label for="check1">1技能</label>';
+    content += '<input type="checkbox" id="check2" checked><label for="check2">2技能</label>';
+    content += '<input type="checkbox" id="check3" checked><label for="check3">3技能</label>';
+    content += '<input type="checkbox" id="check4" checked><label for="check4">4技能</label>';
+    content += '<input type="checkbox" id="check5" checked><label for="check5">5技能</label>';
+    content += '<input type="checkbox" id="check6"><label for="check6">6召唤同伴</label>';
+    content += '<button id="startSkill" type="primary" >启动</button>';
+    content += '<button id="stopSkill" type="danger" disabled>停止</button>';
+    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
+    content += '</div>';
+    //选择技能-结束
     //单人战斗-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">单人战斗（Solo）</div>';
@@ -429,6 +443,81 @@
 
     });
 
+    var autoSkill;
+    var c1, c2, c3, c4, c5, c6, bb;
+    //启用放技能
+    $('#startSkill').click(function () {
+        c1 = $('#check1').is(':checked');
+        c2 = $('#check2').is(':checked');
+        c3 = $('#check3').is(':checked');
+        c4 = $('#check4').is(':checked');
+        c5 = $('#check5').is(':checked');
+        c6 = $('#check6').is(':checked');
+        bb = $('.ability-icon-container:nth-child(7)').length;
+        if (bb <= 0) {
+            if (c6) {
+                $('#noSkill').addClass('show');
+                return;
+            } else {
+                $('#noSkill').removeClass('show');
+            }
+        }
+        var skillTime = 2000;
+        autoSkill = setInterval(skills, skillTime);
+        $(this).attr("disabled", true);
+        $("#stopSkill").attr("disabled", false);
+    });
+
+    //停止放技能
+    $('#stopSkill').click(function () {
+        clearInterval(autoSkill);
+        $(this).attr("disabled", true);
+        $("#startSkill").attr("disabled", false);
+    });
+    //执行事件
+    function doSkill(e) {
+        if ($('.ability-icon-container:nth-child(' + e + ') .cooldown-text').length > 0) {
+//            console.log(e + '技能冷却中~');
+        } else {
+            $('.ability-icon-container:nth-child(' + e + ')').trigger("click");
+//            console.log('施放' + e + '技能~');
+        }
+    }
+    //放技能
+    function skills() {
+        //是否在战斗
+        if ($('.forfeit-battle').length > 0) {
+            //默认自动放全部技能
+            //$('.ability-icon-container').trigger("click");
+            //选择目标
+            //$('.battle-unit-container .battle-unit').trigger("click");
+            if (c1) {
+                doSkill(2)
+            }
+            if (c2) {
+                doSkill(3)
+            }
+            if (c3) {
+                doSkill(4)
+            }
+            if (c4) {
+                doSkill(5)
+            }
+            if (c5) {
+                doSkill(6)
+            }
+            if (c6) {
+                $('.ability-icon-container:nth-child(7)').trigger("click");
+                console.log('施放6技能，召唤同伴~');
+            }
+            return
+        } else {
+            console.log('您已离开战斗界面~不执行操作');
+            return;
+        }
+    }
+
+
     var autoFarming;
     //启动种地
     $("#startFarming").click(function () {
@@ -718,18 +807,7 @@
     function groupFight() {
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-            //默认自动放全部技能
-            //$('.ability-icon-container').trigger("click");
-            //选择目标
-            $('.battle-unit-container .battle-unit').trigger("click");
-            //想指定某个技能，把下面对应技能前面的斜杠删掉，然后把上面那句前面加斜杠
-            //$('.ability-icon-container:nth-child(1)').trigger("click");
-            $('.ability-icon-container:nth-child(2)').trigger("click");
-            $('.ability-icon-container:nth-child(3)').trigger("click");
-            $('.ability-icon-container:nth-child(4)').trigger("click");
-            $('.ability-icon-container:nth-child(5)').trigger("click");
-            $('.ability-icon-container:nth-child(6)').trigger("click");
-            //未战斗完毕，则停留在当前界面
+            console.log('正在战斗中~')
             return
         } else {
             $(".battle-unit-name").each(function () {

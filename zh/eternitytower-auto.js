@@ -92,10 +92,10 @@
     content += '<input type="checkbox" id="check3" checked><label for="check3">3技能</label>';
     content += '<input type="checkbox" id="check4" checked><label for="check4">4技能</label>';
     content += '<input type="checkbox" id="check5" checked><label for="check5">5技能</label>';
-    content += '<input type="checkbox" id="check6"><label for="check6">6召唤同伴</label>';
+//    content += '<input type="checkbox" id="check6"><label for="check6">6召唤同伴</label>';
     content += '<button id="startSkill" type="primary" >启动</button>';
     content += '<button id="stopSkill" type="danger" disabled>停止</button>';
-    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
+//    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
     content += '</div>';
     //选择技能-结束
     //单人战斗-开始
@@ -444,7 +444,8 @@
     });
 
     var autoSkill;
-    var c1, c2, c3, c4, c5, c6, bb;
+    var c1, c2, c3, c4, c5, c6;
+//    var bb;
     //启用放技能
     $('#startSkill').click(function () {
         c1 = $('#check1').is(':checked');
@@ -452,16 +453,16 @@
         c3 = $('#check3').is(':checked');
         c4 = $('#check4').is(':checked');
         c5 = $('#check5').is(':checked');
-        c6 = $('#check6').is(':checked');
-        bb = $('.ability-icon-container:nth-child(7)').length;
-        if (bb <= 0) {
-            if (c6) {
-                $('#noSkill').addClass('show');
-                return;
-            } else {
-                $('#noSkill').removeClass('show');
-            }
-        }
+//        c6 = $('#check6').is(':checked');
+//        bb = $('.ability-icon-container:nth-child(7)').length;
+//        if (bb <= 0) {
+//            if (c6) {
+//                $('#noSkill').addClass('show');
+//                return;
+//            } else {
+//                $('#noSkill').removeClass('show');
+//            }
+//        }
         var skillTime = 2000;
         autoSkill = setInterval(skills, skillTime);
         $(this).attr("disabled", true);
@@ -506,10 +507,10 @@
             if (c5) {
                 doSkill(6)
             }
-            if (c6) {
-                $('.ability-icon-container:nth-child(7)').trigger("click");
-                console.log('施放6技能，召唤同伴~');
-            }
+//            if (c6) {
+//                $('.ability-icon-container:nth-child(7)').trigger("click");
+//                console.log('施放6技能，召唤同伴~');
+//            }
             return
         } else {
             console.log('您已离开战斗界面~不执行操作');

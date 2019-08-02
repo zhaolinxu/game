@@ -167,6 +167,7 @@
     content += '<option value="platinum">铂</option>';
     content += '<option value="ruby">红宝石</option>';
     content += '<option value="tungsten">钨</option>';
+    content += '<option value="obsidian">黑曜石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '</select> ';
@@ -829,7 +830,12 @@
                         //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。
                         var minWid2 = ($(this).parent().parent().find('.health-bar .progress-bar').width() / $(this).parent().parent().find('.progress.health-bar').width()) * 100;
                         if (minWid2 > minHp) {
-                            $(".battle-btn").trigger("click");
+                            if ($(this).parent().parent().find('.mr-1').length > 0) {
+                                $(".battle-btn").trigger("click");
+                            }else{
+                                console.log('不是队长，等待队长开战~')
+                                return;
+                            }
                         } else {
                             //生命值小于，则不执行战斗
                             console.log('生命值过低，暂停战斗，回回血吧~')
@@ -1021,6 +1027,9 @@
                 } else {
                     $('#nofood').removeClass('show');
                 }
+            }else{
+                console.log('战斗中，不能吃东西~')
+                return;
             }
             if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
                 //生命低于指定百分比，就吃食物回血。默认是：30%
@@ -1036,7 +1045,7 @@
                             }
                             console.log('生命值低于设定值，吃点东西回回血~ ' + nowTime())
                         } else {
-                            //正在吃胡萝卜，不执行操作
+                            //正在东西，不执行操作
                             console.log('正在吃东西~')
                             return
                         }

@@ -170,6 +170,7 @@
     content += '<option value="obsidian">黑曜石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
+    content += '<option value="obsidianEssence">黑曜石精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
     content += '<br/>';

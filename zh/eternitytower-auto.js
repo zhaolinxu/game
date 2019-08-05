@@ -210,7 +210,7 @@
     content += '<option value="bananaSeed">香蕉-回650血-持续13秒-需要种植40级</option>';
     content += '<option value="sweetPotatoSeed" >甘薯-回4050血-持续900秒-需要种植35级</option>';
     content += '<option value="lemonSeed">柠檬-回9能量-冷却300秒-需要种植2级</option>';
-    content += '<option value="rockmelonSeed">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="rockmelonSeed">哈密瓜-秒回900生命；回5能量和360生命-持续120秒-需要种植50级</option>';
     content += '<option value="dragonfruitSeed">火龙果-秒回450生命；回2能量和300生命-持续120秒-需要种植25级</option>';
 
     content += '<option value="marigoldSeed" >万寿菊-可以卖钱-需要种植9级</option>';
@@ -218,6 +218,8 @@
     content += '<option value="chrysanthemumSeed" >菊花-可以卖钱-需要种植19级</option>';
     content += '<option value="pinkHydrangeaSeed" >粉红色的绣球花-可以卖钱-需要种植29级</option>';
     content += '<option value="hydrangeaSeed" >绣球花-可以卖钱-需要种植39级</option>';
+    content += '<option value="poppySeed" >罂粟-可以卖钱-需要种植49级</option>';
+    content += '<option value="redHydrangeaSeed" >红色绣球花-可以卖钱-需要种植49级</option>';
 
     content += '<option value="rubiaFlowerSeed" >茜草花-可以用来铭刻-需要种植2级</option>';
     content += '<option value="basilSeed" >蓬蒿-可以用来铭刻-需要种植4级</option>';
@@ -241,11 +243,14 @@
     content += '<option value="cherrySeed" >樱桃木-可以获得种植技能经验-需要种植30级</option>';
     content += '<option value="mahoganySeed" >红木-可以获得种植技能经验-需要种植35级</option>';
     content += '<option value="elkSeed" >榆树-可以获得种植技能经验-需要种植40级</option>';
+    content += '<option value="blackSeed" >黑木-可以获得种植技能经验-需要种植45级</option>';
+    content += '<option value="blueGumSeed" >蓝桉树-可以获得种植技能经验-需要种植50级</option>';
 
     content += '<option value="cactusSeed" >仙人掌-看起来很有用-需要种植6级</option>';
     content += '<option value="reedSeed" >芦苇-看起来很有用-需要种植16级</option>';
     content += '<option value="papyrusSeed" >纸莎草-看起来很有用-需要种植26级</option>';
     content += '<option value="bambooSeed" >竹子-看起来很有用-需要种植36级</option>';
+    content += '<option value="palmSeed" >棕榈-看起来很有用-需要种植46级</option>';
 
     content += '</select>';
     content += '<br/>';

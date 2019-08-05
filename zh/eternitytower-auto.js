@@ -375,6 +375,12 @@
             case 'hydrangeaSeed':
                 growTime = 15;
                 break;
+            case 'redHydrangeaSeed':
+                growTime = 15;
+                break;
+            case 'poppySeed':
+                growTime = 240;
+                break;
                 //铭刻
             case 'rubiaFlowerSeed':
                 growTime = 2;
@@ -435,11 +441,17 @@
             case 'elkSeed':
                 growTime = 480;
                 break;
+            case 'blackSeed':
+                growTime = 480;
+                break;
                 //杂项
             case 'cactusSeed':
                 growTime = 60;
                 break;
             case 'reedSeed':
+                growTime = 15;
+                break;
+            case 'palmSeed':
                 growTime = 15;
                 break;
             case 'papyrusSeed':

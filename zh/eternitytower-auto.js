@@ -32,7 +32,7 @@
     //吃食物-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">吃食物（必须在战斗界面启用；包里没有的食物不要选）</div>';
-    content += '想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名" />';
+    content += '想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名"  autocomplete="on"/>';
     content += '<br/>';
     content += '生命值低于<select id="minHP">';
     content += '<option value="1">1%</option>';
@@ -175,7 +175,7 @@
     content += '<option value="platinumEssence">铂精华</option>';
     content += '<option value="obsidianEssence">黑曜石精华</option>';
     content += '</select> ';
-    content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字"/> 秒；';
+    content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
     content += '<option value="10" selected>10%</option>';
@@ -249,7 +249,7 @@
 
     content += '</select>';
     content += '<br/>';
-    content += ' 需要 <input id="famingTime" type="text" value="1" placeholder="输入整数数字" disabled/> 分钟；';
+    content += ' 需要 <input id="famingTime" type="text" value="1" placeholder="" disabled/> 分钟；';
     content += '<button id="startFarming" type="primary" >启动</button>';
     content += '<button id="stopFarming" type="danger" disabled>停止</button>';
     content += '<div id="noseed">你没有这种植物种子，去商店买一些吧~</div>';

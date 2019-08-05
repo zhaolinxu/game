@@ -175,10 +175,10 @@ function TransSubTextNode(node) {
         observer.disconnect();
         for (let mutation of e) {
             if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
-            if (!mutation.target.childNodes || mutation.target.childNodes.length == 0) {
-                mutation.target.innerText = cnItem(mutation.target.innerText);
-            } else if (mutation.target.nodeName === "#text") {
+			if (mutation.target.nodeName === "#text") {
                 mutation.target.textContent = cnItem(mutation.target.textContent);
+            } else if (!mutation.target.childNodes || mutation.target.childNodes.length == 0) {
+                mutation.target.innerText = cnItem(mutation.target.innerText);
             } else if (mutation.addedNodes.length > 0) {
                 for (let node of mutation.addedNodes) {
                     if (node.nodeName === "#text") {

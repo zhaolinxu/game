@@ -839,7 +839,7 @@
     function groupFight() {
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-            console.log('正在战斗中~')
+//            console.log('正在战斗中~')
             return
         } else {
             $(".battle-unit-name").each(function () {
@@ -886,7 +886,7 @@
         var fightMinEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-            console.log('正在战斗中~')
+//            console.log('正在战斗中~')
             return
         } else {
             //当前层没刷完，则继续刷当前层
@@ -916,7 +916,7 @@
         var minEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-            console.log('正在战斗中~')
+//            console.log('正在战斗中~')
             return
         } else {
             //当前层刷完时，自动切换下一层
@@ -1058,7 +1058,7 @@
                     $('#nofood').removeClass('show');
                 }
             }else{
-                console.log('战斗中，不能吃东西~')
+//                console.log('战斗中，不能吃东西~')
                 return;
             }
             if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {

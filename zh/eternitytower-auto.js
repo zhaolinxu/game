@@ -512,6 +512,7 @@
 //            console.log('施放' + e + '技能~');
         }
     }
+    
     //放技能
     function skills() {
         //是否在战斗
@@ -520,6 +521,8 @@
             //$('.ability-icon-container').trigger("click");
             //选择目标
             //$('.battle-unit-container .battle-unit').trigger("click");
+            //优先打最后一个怪，防止召唤小弟
+            $('.battle-units-container+.col .flex-row .flex-column:last-child img').trigger("click");
             if (c1) {
                 doSkill(2)
             }

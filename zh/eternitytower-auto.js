@@ -169,13 +169,15 @@
     content += '<option value="tungsten">钨</option>';
     content += '<option value="cobalt">钴</option>';
     content += '<option value="obsidian">黑曜石</option>';
+    content += '<option value="mithril">秘银</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '<option value="platinumEssence">铂精华</option>';
     content += '<option value="obsidianEssence">黑曜石精华</option>';
+    content += '<option value="cobaltEssence">钴精华</option>';
     content += '</select> ';
-    content += '挖矿间隔 <input id="minTime" type="text" value="600" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '挖矿间隔 <input id="minTime" type="text" value="300" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
     content += '<option value="10" selected>10%</option>';
@@ -245,6 +247,7 @@
     content += '<option value="elkSeed" >榆树-可以获得种植技能经验-需要种植40级</option>';
     content += '<option value="blackSeed" >黑木-可以获得种植技能经验-需要种植45级</option>';
     content += '<option value="blueGumSeed" >蓝桉树-可以获得种植技能经验-需要种植50级</option>';
+    content += '<option value="cedarSeed" >雪松-可以获得种植技能经验-需要种植55级</option>';
 
     content += '<option value="cactusSeed" >仙人掌-看起来很有用-需要种植6级</option>';
     content += '<option value="reedSeed" >芦苇-看起来很有用-需要种植16级</option>';
@@ -442,6 +445,9 @@
                 growTime = 480;
                 break;
             case 'blackSeed':
+                growTime = 480;
+                break;
+            case 'cedarSeed':
                 growTime = 480;
                 break;
                 //杂项

@@ -2591,6 +2591,8 @@ var cnExcludePostfix = [
 //小数点：([\d\.]+)
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
+	[/^You were successful at reforging your (.+), improving its structure (rarity increased)!$/, '你成功地重铸了你的$1，改善了它的结构（稀有度增加）！'],
+	[/^You were not successful at reforging your (.+), worsening its structure \(rarity decreased\).$/, '你重铸$1失败，使其结构恶化（稀有性降低）。'],
 	[/^requires (\d+) more research points$/, '需要$1个研究点'],
     [/^\n                                    Mon ([\d\.,:]+)am\n                                 $/, '周一 上午 $1'],
     [/^\n                                    Mon ([\d\.,:]+)pm\n                                 $/, '周一 下午 $1'],

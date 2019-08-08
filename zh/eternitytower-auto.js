@@ -171,6 +171,7 @@
     content += '<option value="obsidian">黑曜石</option>';
     content += '<option value="mithril">秘银</option>';
     content += '<option value="emerald">翡翠</option>';
+    content += '<option value="adamantium">埃德曼合金</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';

@@ -551,7 +551,7 @@
             //            }
             return
         } else {
-            console.log('您已离开战斗界面~不执行操作');
+//            console.log('您已离开战斗界面~不执行操作');
             return;
         }
     }
@@ -804,9 +804,8 @@
         } else {
             //获取自己信息
             lead();
-            var username = $('#username').val();
             //踢人判断状态
-            $(this).addClass(username + 'tempStatus');
+            $(this).addClass('tempStatus');
             autoEnergy = setInterval(eatLemon, 5000);
             $(this).attr("disabled", true);
             $("#stopEatEnergyFood").attr("disabled", false);
@@ -818,8 +817,7 @@
         clearInterval(autoEnergy);
         $(this).attr("disabled", true);
         $("#startEatEnergyFood").attr("disabled", false);
-        var username = $('#username').val();
-        $(this).removeClass(username + 'tempStatus');
+        $(this).removeClass('tempStatus');
     });
 
     //组队-开始战斗
@@ -831,7 +829,7 @@
         } else {
             //获取自己信息
             lead();
-            autoGroupFight = setInterval(groupFight, 5000);
+            autoGroupFight = setInterval(groupFight, 10000);
             $(this).attr("disabled", true);
             $("#startSoloUp").attr("disabled", true);
             $("#stopSoloUp").attr("disabled", true);
@@ -859,12 +857,13 @@
             //            console.log('正在战斗中~')
             return
         } else {
-            var username = $('#username').val();
+            //获取自己信息
+            lead();
             var minHp = $('#fightMinHP').val();
             var minEnergy = $('#fightMinEnergy').val();
             //判断自己血量、能量
-            var energy = parseInt($('.' + username + '_me').parent().parent().find('.energy-bar .health-bar').text().substring(1))
-            var minWid1 = ($('.' + username + '_me').parent().parent().find('.health-bar .progress-bar').width() / $('.' + username + '_me').parent().parent().find('.progress.health-bar').width()) * 100;
+            var energy = parseInt($('.me').parent().parent().find('.energy-bar .health-bar').text().substring(1))
+            var minWid1 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
             if ((energy <= minEnergy) || (minWid1 < minHp)) {
                 //能量/生命值小于指定值，则不执行战斗
                 console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
@@ -872,9 +871,9 @@
             } else {
                 //能量充足，继续下一次战斗
                 //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。
-                var minWid2 = ($('.' + username + '_me').parent().parent().find('.health-bar .progress-bar').width() / $('.' + username + '_me').parent().parent().find('.progress.health-bar').width()) * 100;
+                var minWid2 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
                 if (minWid2 > minHp) {
-                    if ($('.' + username + '_me').parent().parent().find('.mr-1').length > 0) {
+                    if ($('.me').parent().parent().find('.mr-1').length > 0) {
                         $(".battle-btn").trigger("click");
                     } else {
                         console.log('不是队长，等待队长开战~')
@@ -895,11 +894,11 @@
         $(".energy-bar .progress-bar .health-bar").each(function () {
             var username2 = $('#username').val();
             var person = $(this).parents('.flex-column.d-flex').children().find('.battle-unit-name').text().replace(/(^\s*)|(\s*$)/g, "");
-            var statusLenth = $('.' + person + 'tempStatus').length;
+            var statusLenth = $('.tempStatus').length;
             var penergy = parseInt($(this).text());
             var isEating = $(this).parents('.battle-unit-container').children().find('.justify-content-center img').length;
-            //判断自己之外的人、没有开脚本、能量值低于2、没有在吃柠檬
-            if ((person != username2) && (statusLenth == 0) && (penergy < 2) && (isEating == 0)) {
+            //判断自己之外的人、能量值低于2、没有在吃柠檬
+            if ((person != username2) && (penergy < 2) && (isEating == 0)) {
                 //踢人
                 console.log($(this).parents('.flex-column.d-flex').children().find('.btn-kick').html())
                 $(this).parents('.flex-column.d-flex').children().find('.btn-kick').trigger('click');
@@ -914,7 +913,9 @@
         var leads = $('#username').val();
         $(".battle-unit-name").each(function () {
             if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == leads) {
-                $(this).addClass(leads + '_me');
+                $(this).addClass('me');
+            } else {
+                return;
             }
         });
     }
@@ -928,7 +929,7 @@
             //获取自己信息
             lead();
             //判断自己是否是队长
-            if ($('.' + username + '_me').parent().parent().find('.justify-content-center img.mr-1').length == 1) {
+            if ($('.me').parent().parent().find('.justify-content-center img.mr-1').length == 1) {
                 autoTiren = setInterval(tiren, 5000);
                 $(this).attr("disabled", true);
                 $("#stopTi").attr("disabled", false);
@@ -1054,14 +1055,15 @@
 
     //自动吃柠檬恢复能量
     function eatLemon() {
+        //获取自己信息
+        lead();
         var minEnergy = $("#minEnergy").val();
         var energyFood = $("#Food2").val();
-        var username = $('#username').val();
         //获取食物对象
         var lemon = getElementByAttr('img', 'src', energyFood, 'svg');
         //寻找自己的血量条
         //能量低于30就开始吃柠檬，柠檬冷却时间300秒        
-        var num = parseInt($('.' + username + '_me').parent().parent().find('.energy-bar .health-bar').text().substring(1))
+        var num = parseInt($('.me').parent().parent().find('.energy-bar .health-bar').text().substring(1))
         if (num < minEnergy) {
             //判断在不在战斗状态时才提示
             if ($('.forfeit-battle').length <= 0) {
@@ -1073,9 +1075,9 @@
                 }
             }
             //判断自己是否是队长，因为图片会影响判断
-            if ($('.' + username + '_me').parent().parent().find('.mr-1').length > 0) {
+            if ($('.me').parent().parent().find('.mr-1').length > 0) {
                 //判断是否正在吃柠檬，
-                if ($('.' + username + '_me').parent().parent().find('.justify-content-center img:nth-child(2)').length <= 0) {
+                if ($('.me').parent().parent().find('.justify-content-center img:nth-child(2)').length <= 0) {
                     //没吃柠檬，则点击柠檬
                     for (var i = 0; i <= lemon.length; i++) {
                         lemon[i].click();
@@ -1089,7 +1091,7 @@
             } else {
                 //不是队长
                 //判断是否正在吃柠檬，
-                if ($('.' + username + '_me').parent().parent().find('.justify-content-center img').length == 0) {
+                if ($('.me').parent().parent().find('.justify-content-center img').length == 0) {
                     //没吃柠檬，则点击柠檬
                     for (var i = 0; i <= lemon.length; i++) {
                         lemon[i].click();
@@ -1106,9 +1108,10 @@
 
     //自动吃食物回血
     function eatFood() {
+        //获取自己信息
+        lead();
         var minHP = $("#minHP").val();
         var hpFood = $("#Food1").val();
-        var username = $('#username').val();
         //获取食物对象
         //胡萝卜-10秒内回350血
         var eatItem = getElementByAttr('img', 'src', hpFood, 'svg');
@@ -1126,12 +1129,12 @@
             return;
         }
         //生命低于指定百分比，就吃食物回血。默认是：30%
-        if ($('.' + username + '_me').parent().parent().find('.health-bar .progress-bar').width() < minHP) {
+        if ($('.me').parent().parent().find('.health-bar .progress-bar').width() < minHP) {
             //生命值小于指定值，则吃食物回血
             //判断自己是否是队长，因为图片会影响判断
-            if ($('.' + username + '_me').parent().parent().find('.justify-content-center img.mr-1').length > 0) {
+            if ($('.me').parent().parent().find('.justify-content-center img.mr-1').length > 0) {
                 //判断是否正在吃食物
-                if ($('.' + username + '_me').parent().parent().find('.justify-content-center img:nth-child(2)').length == 0) {
+                if ($('.me').parent().parent().find('.justify-content-center img:nth-child(2)').length == 0) {
                     //没吃食物，则点击食物
                     for (var i = 0; i <= eatItem.length; i++) {
                         eatItem[i].click();
@@ -1144,7 +1147,7 @@
                 }
             } else {
                 //判断是否正在吃食物
-                if ($('.' + username + '_me').parent().parent().find('.justify-content-center img').length <= 0) {
+                if ($('.me').parent().parent().find('.justify-content-center img').length <= 0) {
                     //没吃食物，则点击食物
                     for (var i = 0; i <= eatItem.length; i++) {
                         eatItem[i].click();

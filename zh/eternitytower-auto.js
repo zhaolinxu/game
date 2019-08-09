@@ -552,7 +552,7 @@
             //            }
             return
         } else {
-//            console.log('您已离开战斗界面~不执行操作');
+            //            console.log('您已离开战斗界面~不执行操作');
             return;
         }
     }
@@ -858,34 +858,38 @@
             //            console.log('正在战斗中~')
             return
         } else {
-            //获取自己信息
-            lead();
-            var minHp = $('#fightMinHP').val();
-            var minEnergy = $('#fightMinEnergy').val();
-            //判断自己血量、能量
-            var energy = parseInt($('.me').parent().parent().find('.energy-bar .health-bar').text().substring(1))
-            var minWid1 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
-            if ((energy <= minEnergy) || (minWid1 < minHp)) {
-                //能量/生命值小于指定值，则不执行战斗
-                console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
-                return
-            } else {
-                //能量充足，继续下一次战斗
-                //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。
-                var minWid2 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
-                if (minWid2 > minHp) {
-                    if ($('.me').parent().parent().find('.mr-1').length > 0) {
-                        $(".battle-btn").trigger("click");
-                    } else {
-                        console.log('不是队长，等待队长开战~')
-                        return;
-                    }
-                } else {
-                    //生命值小于，则不执行战斗
-                    console.log('生命值过低，暂停战斗，回回血吧~')
+            setTimeout(function () {
+                //获取自己信息
+                lead();
+                var minHp = $('#fightMinHP').val();
+                var minEnergy = $('#fightMinEnergy').val();
+                //判断自己血量、能量
+                var energy = parseInt($('.me').parent().parent().find('.energy-bar .health-bar').text().substring(1))
+                var minWid1 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
+                if ((energy <= minEnergy) || (minWid1 < minHp)) {
+                    //能量/生命值小于指定值，则不执行战斗
+                    console.log('能量值/生命值过低，吃点东西恢复点能量吧~')
                     return
+                } else {
+                    //能量充足，继续下一次战斗
+                    //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。
+                    var minWid2 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
+                    if (minWid2 > minHp) {
+                        if ($('.me').parent().parent().find('.mr-1').length > 0) {
+                            $(".battle-btn").trigger("click");
+
+
+                        } else {
+                            console.log('不是队长，等待队长开战~')
+                            return;
+                        }
+                    } else {
+                        //生命值小于，则不执行战斗
+                        console.log('生命值过低，暂停战斗，回回血吧~')
+                        return
+                    }
                 }
-            }
+            }, 5000);
         }
     }
 

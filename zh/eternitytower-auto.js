@@ -15,7 +15,7 @@
     content += '<div id="open_im" class="open-im">&nbsp;</div>  ';
     content += '<div class="im_main" id="im_main">';
     content += '<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>';
-    content += '<a href="http://shang.qq.com/wpa/qunwpa?idkey=d10d784492d5e73cca25ff48f4763bdc14f698ffdbf42adbb0e9304495cb0387" target="_blank" class="im-qq qq-a" title="点击加入 - GitHub游戏交流群:627141737">';
+    content += '<a href="http://shang.qq.com/wpa/qunwpa?idkey=4f30bee18d8ea6ec2b53d31407daf6c6f9f8e722187707f65ed1b354f25af6d9" target="_blank" class="im-qq qq-a" title="点击加入 - GitHub游戏交流群:627141737">';
     content += '<div class="qq-container"></div>';
     content += '<div class="qq-hover-c"><img class="img-qq" src="//likexia.gitee.io/game/images/kf/qq.png"></div>';
     content += '<span>点击加群</span>';
@@ -92,10 +92,10 @@
     content += '<input type="checkbox" id="check3" checked><label for="check3">3技能</label>';
     content += '<input type="checkbox" id="check4" checked><label for="check4">4技能</label>';
     content += '<input type="checkbox" id="check5" checked><label for="check5">5技能</label>';
-//    content += '<input type="checkbox" id="check6"><label for="check6">6召唤同伴</label>';
+    //    content += '<input type="checkbox" id="check6"><label for="check6">6召唤同伴</label>';
     content += '<button id="startSkill" type="primary" >启动</button>';
     content += '<button id="stopSkill" type="danger" disabled>停止</button>';
-//    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
+    //    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
     content += '</div>';
     //选择技能-结束
     //单人战斗-开始
@@ -141,6 +141,10 @@
     content += '组队战斗';
     content += '<button id="startGroupFight" type="primary" >启动</button>';
     content += '<button id="stopGroupFight" type="danger" disabled>停止</button>';
+    content += '<br/>';
+    content += '队长功能：队友（能量低于2+没吃东西+没开脚本）时自动踢人，防止无法继续战斗</label>';
+    content += '<button id="startTi" type="primary" >启动</button>';
+    content += '<button id="stopTi" type="danger" disabled>停止</button>';
     content += '</div>';
     //组队战斗-结束
 
@@ -172,6 +176,7 @@
     content += '<option value="mithril">秘银</option>';
     content += '<option value="emerald">翡翠</option>';
     content += '<option value="adamantium">埃德曼合金</option>';
+    content += '<option value="lapislazuli">天青石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
@@ -475,7 +480,7 @@
 
     var autoSkill;
     var c1, c2, c3, c4, c5, c6;
-//    var bb;
+    //    var bb;
     //启用放技能
     $('#startSkill').click(function () {
         c1 = $('#check1').is(':checked');
@@ -483,16 +488,16 @@
         c3 = $('#check3').is(':checked');
         c4 = $('#check4').is(':checked');
         c5 = $('#check5').is(':checked');
-//        c6 = $('#check6').is(':checked');
-//        bb = $('.ability-icon-container:nth-child(7)').length;
-//        if (bb <= 0) {
-//            if (c6) {
-//                $('#noSkill').addClass('show');
-//                return;
-//            } else {
-//                $('#noSkill').removeClass('show');
-//            }
-//        }
+        //        c6 = $('#check6').is(':checked');
+        //        bb = $('.ability-icon-container:nth-child(7)').length;
+        //        if (bb <= 0) {
+        //            if (c6) {
+        //                $('#noSkill').addClass('show');
+        //                return;
+        //            } else {
+        //                $('#noSkill').removeClass('show');
+        //            }
+        //        }
         var skillTime = 2000;
         autoSkill = setInterval(skills, skillTime);
         $(this).attr("disabled", true);
@@ -508,13 +513,13 @@
     //执行事件
     function doSkill(e) {
         if ($('.ability-icon-container:nth-child(' + e + ') .cooldown-text').length > 0) {
-//            console.log(e + '技能冷却中~');
+            //            console.log(e + '技能冷却中~');
         } else {
             $('.ability-icon-container:nth-child(' + e + ')').trigger("click");
-//            console.log('施放' + e + '技能~');
+            //            console.log('施放' + e + '技能~');
         }
     }
-    
+
     //放技能
     function skills() {
         //是否在战斗
@@ -540,10 +545,10 @@
             if (c5) {
                 doSkill(6)
             }
-//            if (c6) {
-//                $('.ability-icon-container:nth-child(7)').trigger("click");
-//                console.log('施放6技能，召唤同伴~');
-//            }
+            //            if (c6) {
+            //                $('.ability-icon-container:nth-child(7)').trigger("click");
+            //                console.log('施放6技能，召唤同伴~');
+            //            }
             return
         } else {
             console.log('您已离开战斗界面~不执行操作');
@@ -795,6 +800,8 @@
         if ($('#username').val() == '') {
             alert('请输入你的用户名');
         } else {
+            //踢人判断状态
+            $(this).addClass('tempStatus');
             autoEnergy = setInterval(eatLemon, 5000);
             $(this).attr("disabled", true);
             $("#stopEatEnergyFood").attr("disabled", false);
@@ -806,6 +813,7 @@
         clearInterval(autoEnergy);
         $(this).attr("disabled", true);
         $("#startEatEnergyFood").attr("disabled", false);
+        $(this).removeClass('tempStatus');
     });
 
     //组队-开始战斗
@@ -824,7 +832,6 @@
             $("#stopGroupFight").attr("disabled", false);
         }
     });
-
     //组队-停止战斗
     $("#stopGroupFight").click(function () {
         clearInterval(autoGroupFight);
@@ -841,7 +848,7 @@
     function groupFight() {
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-//            console.log('正在战斗中~')
+            //            console.log('正在战斗中~')
             return
         } else {
             $(".battle-unit-name").each(function () {
@@ -864,7 +871,7 @@
                         if (minWid2 > minHp) {
                             if ($(this).parent().parent().find('.mr-1').length > 0) {
                                 $(".battle-btn").trigger("click");
-                            }else{
+                            } else {
                                 console.log('不是队长，等待队长开战~')
                                 return;
                             }
@@ -881,6 +888,61 @@
         }
     }
 
+
+    //自动踢能量值过低，并且没吃柠檬的人
+    function tiren() {
+        $(".energy-bar .progress-bar .health-bar").each(function () {
+            var username2 = $('#username').val();
+            var person = $(this).parents('.flex-column.d-flex').children().find('.battle-unit-name').text().replace(/(^\s*)|(\s*$)/g, "");
+            var statusLenth = $('.tempStatus').length;
+            var penergy = parseInt($(this).text());
+            var isEating = $(this).parents('.battle-unit-container').children().find('.justify-content-center img').length;
+            //判断自己之外的人、没有开脚本、能量值低于2、没有在吃柠檬
+            if ((person != username2) && (statusLenth == 0) && penergy < 2 && isEating == 0) {
+                //踢人
+                console.log($(this).parents('.flex-column.d-flex').children().find('.btn-kick').html())
+                $(this).parents('.flex-column.d-flex').children().find('.btn-kick').trigger('click');
+            } else {
+                return;
+            }
+        });
+    }
+
+    //获取自己信息
+    function lead() {
+        var leads = $('#username').val();
+        $(".battle-unit-name").each(function () {
+            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == leads) {
+                $(this).addClass('me');
+            }
+        });
+    }
+    //自动踢人-开始
+    var autoTiren;
+    $('#startTi').click(function () {
+        //获取自己信息
+        lead();
+        //判断自己是否是队长
+        if ($('.me').parent().parent().find('.justify-content-center img.mr-1').length == 1) {
+            console.log('是')
+            autoTiren = setInterval(tiren, 5000);
+            $(this).attr("disabled", true);
+            $("#stopTi").attr("disabled", false);
+        } else {
+            $(".battle-unit-name").removeClass('me');
+            $(this).attr('checked', false);
+            alert('你不是队长，请不要启用。')
+            return;
+        }
+    });
+    //自动踢人-结束
+    $('#stopTi').click(function () {
+        $(".battle-unit-name").removeClass('me');
+        clearInterval(autoTiren);
+        $(this).attr("disabled", true);
+        $("#startTi").attr("disabled", false);
+    });
+
     //刷单人Solo--自动打怪
     function soloFight() {
         //能量最小值
@@ -888,7 +950,7 @@
         var fightMinEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-//            console.log('正在战斗中~')
+            //            console.log('正在战斗中~')
             return
         } else {
             //当前层没刷完，则继续刷当前层
@@ -918,7 +980,7 @@
         var minEnergy = $('#fightMinEnergy').val();
         //本次战斗未完成，继续战斗
         if ($('.forfeit-battle').length > 0) {
-//            console.log('正在战斗中~')
+            //            console.log('正在战斗中~')
             return
         } else {
             //当前层刷完时，自动切换下一层
@@ -983,6 +1045,7 @@
         }
         return aEle;
     }
+
 
     //自动吃柠檬恢复能量
     function eatLemon() {
@@ -1049,8 +1112,9 @@
         //获取食物对象
         //胡萝卜-10秒内回350血
         var eatItem = getElementByAttr('img', 'src', hpFood, 'svg');
-        $(".battle-unit-name").each(function () {
-            //判断在不在战斗状态时才提示
+        //获取自己信息
+        lead();
+        //判断在不在战斗状态时才提示
             if ($('.forfeit-battle').length <= 0) {
                 //没有对应食物，则不执行吃食物操作
                 if (eatItem.length <= 0) {
@@ -1059,18 +1123,17 @@
                 } else {
                     $('#nofood').removeClass('show');
                 }
-            }else{
-//                console.log('战斗中，不能吃东西~')
+            } else {
+                //                console.log('战斗中，不能吃东西~')
                 return;
             }
-            if ($(this).text().replace(/(^\s*)|(\s*$)/g, "") == username) {
                 //生命低于指定百分比，就吃食物回血。默认是：30%
-                if ($(this).parent().parent().find('.health-bar .progress-bar').width() < minHP) {
+                if ($('.me').parent().parent().find('.health-bar .progress-bar').width() < minHP) {
                     //生命值小于指定值，则吃食物回血
                     //判断自己是否是队长，因为图片会影响判断
-                    if ($('.mr-1').length > 0) {
+                    if ($('.me').parent().parent().find('.justify-content-center img.mr-1').length > 0) {
                         //判断是否正在吃食物
-                        if ($(this).parent().parent().find('.justify-content-center img:nth-child(2)').length == 0) {
+                        if ($('.me').parent().parent().find('.justify-content-center img:nth-child(2)').length == 0) {
                             //没吃食物，则点击食物
                             for (var i = 0; i <= eatItem.length; i++) {
                                 eatItem[i].click();
@@ -1083,7 +1146,7 @@
                         }
                     } else {
                         //判断是否正在吃食物
-                        if ($(this).parent().parent().find('.justify-content-center img').length <= 0) {
+                        if ($('.me').parent().parent().find('.justify-content-center img').length <= 0) {
                             //没吃食物，则点击食物
                             for (var i = 0; i <= eatItem.length; i++) {
                                 eatItem[i].click();
@@ -1096,8 +1159,6 @@
                         }
                     }
                 }
-            }
-        });
     }
 
     console.log("加载自动化脚本 " + nowTime());

@@ -142,7 +142,7 @@
     content += '<button id="startGroupFight" type="primary" >启动</button>';
     content += '<button id="stopGroupFight" type="danger" disabled>停止</button>';
     content += '<br/>';
-    content += '队长功能：队友（能量低于2+没吃东西+没开脚本）时自动踢人，防止无法继续战斗</label>';
+    content += '队长功能：队友（能量低于2、没吃东西、没开自动吃能量食物脚本）时自动踢人，防止无法继续战斗</label>';
     content += '<button id="startTi" type="primary" >启动</button>';
     content += '<button id="stopTi" type="danger" disabled>停止</button>';
     content += '</div>';

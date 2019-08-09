@@ -162,6 +162,7 @@
     content += '<option value="bronzeCluster">青铜簇</option>';
     content += '<option value="tinCluster">锡簇</option>';
     content += '<option value="carbonCluster">碳簇</option>';
+    content += '<option value="obsidianCluster">黑曜石簇</option>';
     content += '<option value="copper">铜</option>';
     content += '<option value="tin">锡</option>';
     content += '<option value="gold">黄金</option>';
@@ -184,6 +185,7 @@
     content += '<option value="platinumEssence">铂精华</option>';
     content += '<option value="obsidianEssence">黑曜石精华</option>';
     content += '<option value="cobaltEssence">钴精华</option>';
+    content += '<option value="adamantiumEssence">埃德曼合金精华</option>';obsidianCluster
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="300" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
@@ -748,6 +750,7 @@
         $("#startSoloUp").attr("disabled", false);
         $("#stopSoloUp").attr("disabled", true);
         $("#stopGroupFight").attr("disabled", true);
+        $("#startGroupFight").attr("disabled", false);
     });
 
 

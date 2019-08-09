@@ -50,13 +50,13 @@
     content += '<select id="Food1">';
     content += '<option value="watermelon">西瓜-回200血-持续10秒</option>';
     content += '<option value="carrot">胡萝卜-回350血-持续10秒</option>';
-    content += '<option value="banana">香蕉-回650血-持续13秒</option>';
+    content += '<option value="banana" selected>香蕉-回650血-持续13秒</option>';
     content += '<option value="acaiBerry" >巴西莓-回300血-持续25秒</option>';
     content += '<option value="pear" >梨-回150血-持续25秒</option>';
     content += '<option value="redApple" >红苹果-回185血-持续30秒</option>';
     content += '<option value="lettice" >生菜-回75血-持续30秒</option>';
     content += '<option value="grapeFruit" >葡萄柚-回150血-持续45秒</option>';
-    content += '<option value="pineapple" selected>菠萝-回550血-持续80秒</option>';
+    content += '<option value="pineapple">菠萝-回550血-持续80秒</option>';
     content += '<option value="orange" >橙子-回750血-持续80秒</option>';
     content += '<option value="potato" >土豆-回2700血-持续900秒</option>';
     content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-持续900秒</option>';
@@ -177,6 +177,7 @@
     content += '<option value="emerald">翡翠</option>';
     content += '<option value="adamantium">埃德曼合金</option>';
     content += '<option value="lapislazuli">天青石</option>';
+    content += '<option value="orichalcum">星陨石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';

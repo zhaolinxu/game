@@ -98,6 +98,10 @@
     content += '<button id="startSkill" type="primary" >启动</button>';
     content += '<button id="stopSkill" type="danger" disabled>停止</button>';
     //    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
+    content += '<br/>';
+    content += '优先攻击指定位置的怪物（部分怪物会召唤小弟）需先启动自动技能';
+    content += '<button id="attLeft" type="primary">左边</button>';
+    content += '<button id="attRight" type="danger" disabled>右边</button>';
     content += '</div>';
     //选择技能-结束
     //单人战斗-开始
@@ -182,6 +186,7 @@
     content += '<option value="lapislazuli">天青石</option>';
     content += '<option value="orichalcum">星陨石</option>';
     content += '<option value="meteorite">陨石</option>';
+    content += '<option value="fairySteel">仙女钢</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
@@ -526,6 +531,19 @@
         }
     }
 
+    //优先打最左或者最右边的怪，防止召唤小弟
+    var attObj = 2;
+    $('#attLeft').click(function () {
+        attObj = 1;
+        $(this).attr("disabled", true);
+        $("#attRight").attr("disabled", false);
+    });
+    $('#attRight').click(function () {
+        attObj = 2;
+        $(this).attr("disabled", true);
+        $("#attLeft").attr("disabled", false);
+    });
+
     //放技能
     function skills() {
         //是否在战斗
@@ -534,8 +552,15 @@
             //$('.ability-icon-container').trigger("click");
             //选择目标
             //$('.battle-unit-container .battle-unit').trigger("click");
-            //优先打最后一个怪，防止召唤小弟
-            $('.battle-units-container+.col .flex-row .flex-column:last-child img').trigger("click");
+            console.log(attObj)
+            if (attObj == 1) {
+                //优先打第一个怪，防止召唤小弟
+                $('.battle-units-container+.col .flex-row .flex-column:first-child img').trigger("click");
+            }
+            if (attObj == 2) {
+                //优先打最后一个怪，防止召唤小弟
+                $('.battle-units-container+.col .flex-row .flex-column:last-child img').trigger("click");
+            }
             if (c1) {
                 doSkill(2)
             }

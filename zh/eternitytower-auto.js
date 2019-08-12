@@ -78,6 +78,8 @@
     content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
     content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
     content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
+    content += '<option value="lemonade">柠檬汽水-秒回20能量</option>';
+    content += '<option value="lemonHoney">柠檬蜂蜜-回30能量-持续60秒</option>';
     content += '</select>';
     content += '<button id="startEatEnergyFood" type="primary" >启动</button>';
     content += '<button id="stopEatEnergyFood" type="danger" disabled>停止</button>';
@@ -179,6 +181,7 @@
     content += '<option value="adamantium">埃德曼合金</option>';
     content += '<option value="lapislazuli">天青石</option>';
     content += '<option value="orichalcum">星陨石</option>';
+    content += '<option value="meteorite">陨石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
@@ -861,6 +864,8 @@
             //            console.log('正在战斗中~')
             return
         } else {
+            //自动need第一个物品
+//            $('.table-bordered tr:nth-child(2) td .ng-selector-need').trigger("click");
             setTimeout(function () {
                 //获取自己信息
                 lead();

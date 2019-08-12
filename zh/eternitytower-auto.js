@@ -865,7 +865,7 @@
             return
         } else {
             //自动need第一个物品
-//            $('.table-bordered tr:nth-child(2) td .ng-selector-need').trigger("click");
+            $('.table-bordered tr:nth-child(2) td .ng-selector-need').trigger("click");
             setTimeout(function () {
                 //获取自己信息
                 lead();

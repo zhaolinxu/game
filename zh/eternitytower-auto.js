@@ -99,9 +99,9 @@
     content += '<button id="stopSkill" type="danger" disabled>停止</button>';
     //    content += '<div id="noSkill">你没有装备该技能，请不要勾选6技能~</div>';
     content += '<br/>';
-    content += '优先攻击指定位置的怪物（部分怪物会召唤小弟）需先启动自动技能';
-    content += '<button id="attLeft" type="primary">左边</button>';
-    content += '<button id="attRight" type="danger" disabled>右边</button>';
+    content += '优先攻击最右位置的怪物（部分怪物会召唤小弟）需先启动自动技能';
+    content += '<button id="attLeft" type="primary">开启</button>';
+    content += '<button id="attRight" type="danger" disabled>关闭</button>';
     content += '</div>';
     //选择技能-结束
     //单人战斗-开始
@@ -532,15 +532,15 @@
         }
     }
 
-    //优先打最左或者最右边的怪，防止召唤小弟
-    var attObj = 2;
+    //优先打最右边的怪，防止召唤小弟
+    var attObj = 0;
     $('#attLeft').click(function () {
         attObj = 1;
         $(this).attr("disabled", true);
         $("#attRight").attr("disabled", false);
     });
     $('#attRight').click(function () {
-        attObj = 2;
+        attObj = 0;
         $(this).attr("disabled", true);
         $("#attLeft").attr("disabled", false);
     });
@@ -553,12 +553,7 @@
             //$('.ability-icon-container').trigger("click");
             //选择目标
             //$('.battle-unit-container .battle-unit').trigger("click");
-            console.log(attObj)
             if (attObj == 1) {
-                //优先打第一个怪，防止召唤小弟
-                $('.battle-units-container+.col .flex-row .flex-column:first-child img').trigger("click");
-            }
-            if (attObj == 2) {
                 //优先打最后一个怪，防止召唤小弟
                 $('.battle-units-container+.col .flex-row .flex-column:last-child img').trigger("click");
             }

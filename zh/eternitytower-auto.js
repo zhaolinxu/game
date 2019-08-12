@@ -193,6 +193,7 @@
     content += '<option value="platinumEssence">铂精华</option>';
     content += '<option value="obsidianEssence">黑曜石精华</option>';
     content += '<option value="cobaltEssence">钴精华</option>';
+    content += '<option value="mithrilEssence">秘银精华</option>';
     content += '<option value="adamantiumEssence">埃德曼合金精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="300" placeholder="输入整数数字" autocomplete="on"/> 秒；';

@@ -167,8 +167,12 @@
     content += '<option value="goldCluster">黄金簇</option>';
     content += '<option value="bronzeCluster">青铜簇</option>';
     content += '<option value="tinCluster">锡簇</option>';
+    content += '<option value="steelCluster">钢簇</option>';
     content += '<option value="carbonCluster">碳簇</option>';
+    content += '<option value="titaniumCluster">钛簇</option>';
+    content += '<option value="platinumCluster">铂簇</option>';
     content += '<option value="obsidianCluster">黑曜石簇</option>';
+    content += '<option value="mithrilCluster">秘银簇</option>';
     content += '<option value="copper">铜</option>';
     content += '<option value="tin">锡</option>';
     content += '<option value="gold">黄金</option>';
@@ -191,6 +195,7 @@
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '<option value="platinumEssence">铂精华</option>';
+    content += '<option value="tungstenEssence">钨精华</option>';
     content += '<option value="obsidianEssence">黑曜石精华</option>';
     content += '<option value="cobaltEssence">钴精华</option>';
     content += '<option value="mithrilEssence">秘银精华</option>';
@@ -887,7 +892,7 @@
             return
         } else {
             //自动need第一个物品
-//            $('.table-bordered tr:nth-child(2) td .ng-selector-need').trigger("click");
+//                        $('.table-bordered tr:nth-child(2) td .ng-selector-need').trigger("click");
             setTimeout(function () {
                 //获取自己信息
                 lead();
@@ -905,14 +910,16 @@
                     //生命值大于指定百分比，才能继续战斗，可以改为自己需要的。
                     var minWid2 = ($('.me').parent().parent().find('.health-bar .progress-bar').width() / $('.me').parent().parent().find('.progress.health-bar').width()) * 100;
                     if (minWid2 > minHp) {
-                        if ($('.me').parent().parent().find('.mr-1').length > 0) {
-                            $(".battle-btn").trigger("click");
-
-
-                        } else {
-                            console.log('不是队长，等待队长开战~')
-                            return;
-                        }
+                        //队长AFK时队员可以开战
+                        $(".battle-btn").trigger("click");
+                        //判断自己是队长才开战
+//                        if ($('.me').parent().parent().find('.mr-1').length > 0) {
+//                            $(".battle-btn").trigger("click");
+//
+//                        } else {
+//                            console.log('不是队长，等待队长开战~')
+//                            return;
+//                        }
                     } else {
                         //生命值小于，则不执行战斗
                         console.log('生命值过低，暂停战斗，回回血吧~')

@@ -60,6 +60,9 @@
     content += '<option value="orange" >橙子-回750血-持续80秒</option>';
     content += '<option value="potato" >土豆-回2700血-持续900秒</option>';
     content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-持续900秒</option>';
+    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
+    content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
     content += '</select>';
     content += '<button id="startEatFood" type="primary" >启动</button>';
     content += '<button id="stopEatFood" type="danger" disabled>停止</button>';
@@ -173,6 +176,7 @@
     content += '<option value="platinumCluster">铂簇</option>';
     content += '<option value="obsidianCluster">黑曜石簇</option>';
     content += '<option value="mithrilCluster">秘银簇</option>';
+    content += '<option value="adamantiumCluster">埃德曼合金簇</option>';
     content += '<option value="copper">铜</option>';
     content += '<option value="tin">锡</option>';
     content += '<option value="gold">黄金</option>';
@@ -191,6 +195,8 @@
     content += '<option value="orichalcum">星陨石</option>';
     content += '<option value="meteorite">陨石</option>';
     content += '<option value="fairySteel">仙女钢</option>';
+    content += '<option value="elvenSteel">精灵钢</option>';
+    content += '<option value="cursed">诅咒</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';

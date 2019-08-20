@@ -177,6 +177,7 @@
     content += '<option value="obsidianCluster">黑曜石簇</option>';
     content += '<option value="mithrilCluster">秘银簇</option>';
     content += '<option value="adamantiumCluster">埃德曼合金簇</option>';
+    content += '<option value="orichalcumCluster">星陨石簇</option>';
     content += '<option value="copper">铜</option>';
     content += '<option value="tin">锡</option>';
     content += '<option value="gold">黄金</option>';
@@ -196,12 +197,14 @@
     content += '<option value="meteorite">陨石</option>';
     content += '<option value="fairySteel">仙女钢</option>';
     content += '<option value="elvenSteel">精灵钢</option>';
-    content += '<option value="cursed">诅咒</option>';
+    content += '<option value="cursed">诅咒石</option>';
+    content += '<option value="darksteel">暗钢</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';
     content += '<option value="platinumEssence">铂精华</option>';
     content += '<option value="tungstenEssence">钨精华</option>';
+    content += '<option value="titaniumEssence">钛精华</option>';
     content += '<option value="obsidianEssence">黑曜石精华</option>';
     content += '<option value="cobaltEssence">钴精华</option>';
     content += '<option value="mithrilEssence">秘银精华</option>';

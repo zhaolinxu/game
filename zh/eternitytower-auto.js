@@ -22,7 +22,7 @@
     content += '</a>';
     content += '<div class="im-tel">';
     content += '<div>QQ群号:</div>';
-    content += '<div class="tel-num">627141737</div>';
+    content += '<div class="tel-num">701342586</div>';
     content += '<div>更多同类游戏:</div>';
     content += '<div class="tel-num"><a href="http://www.gityx.com" target="_blank" title="我们有域名啦~">Git游戏</a><a href="http://bbs.gityx.com/" target="_blank" style="margin-left:5px;" title="点击查看游戏攻略">论坛</a><a href="http://likexia.gitee.io/game/" target="_blank" style="margin-left:5px;" title="之前首页继续保留">旧版</a></div>';
     content += '</div>';
@@ -31,7 +31,7 @@
     content += '<div class="weixing-show">';
     //吃食物-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">吃食物（必须在战斗界面启用；包里没有的食物不要选）</div>';
+    content += '<div class="tit">吃食物（必须在战斗界面启用；包里没有的食物不要选） - 《<a href="https://shimo.im/sheets/ypTrXqgyP6Cg3vDg/forrm/" target="_blank">攻略</a>》</div>';
     content += '想回血/回能量必填<input id="username" type="text" value="" placeholder="输入你的用户名"  autocomplete="on"/>';
     content += '<br/>';
     content += '生命值低于<select id="minHP">';

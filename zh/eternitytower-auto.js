@@ -201,6 +201,7 @@
     content += '<option value="cursed">诅咒石</option>';
     content += '<option value="darksteel">暗钢</option>';
     content += '<option value="astral">星芒石</option>';
+    content += '<option value="tanzanite">坦桑石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';

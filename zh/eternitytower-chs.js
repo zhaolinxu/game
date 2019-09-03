@@ -2631,7 +2631,7 @@ var cnItems = {
     'What seems like a tin wand': '看起来像一把锡魔棒。',
     'willow paper': '柳木纸',
     'Withdraw': '提款',
-    '': '',
+    'tanzanite': '坦桑石',
     '': '',
     '': '',
     '': '',

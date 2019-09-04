@@ -215,7 +215,7 @@
     content += '<option value="adamantiumEssence">埃德曼合金精华</option>';
     content += '<option value="meteoriteEssence">陨石精华</option>';
     content += '</select> ';
-    content += '挖矿间隔 <input id="minTime" type="text" value="300" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
     content += '<option value="5">5%</option>';

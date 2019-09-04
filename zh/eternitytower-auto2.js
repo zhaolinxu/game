@@ -622,7 +622,8 @@
             //先执行一次
             farming();
             //延后3秒
-            gTime = ((gTime * 60) + 30) * 1000;
+//            gTime = ((gTime * 60) + 30) * 1000;
+            gTime = 60 * 1000;
             autoFarming = setInterval(farming, gTime);
             $(this).attr("disabled", true);
             $("#stopFarming").attr("disabled", false);

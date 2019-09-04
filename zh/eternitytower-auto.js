@@ -176,6 +176,7 @@
     content += '<option value="platinumCluster">铂簇</option>';
     content += '<option value="obsidianCluster">黑曜石簇</option>';
     content += '<option value="mithrilCluster">秘银簇</option>';
+    content += '<option value="cursedCluster">诅咒簇</option>';
     content += '<option value="adamantiumCluster">埃德曼合金簇</option>';
     content += '<option value="orichalcumCluster">星陨石簇</option>';
     content += '<option value="fairySteelCluster">仙女钢簇</option>';

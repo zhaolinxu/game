@@ -36,8 +36,8 @@
     content += '<br/>';
     content += '生命值低于<select id="minHP">';
     content += '<option value="1">1%</option>';
-    content += '<option value="5" selected>5%</option>';
-    content += '<option value="10">10%</option>';
+    content += '<option value="5">5%</option>';
+    content += '<option value="10" selected>10%</option>';
     content += '<option value="20">20%</option>';
     content += '<option value="30">30%</option>';
     content += '<option value="40">40%</option>';
@@ -215,9 +215,10 @@
     content += '<option value="adamantiumEssence">埃德曼合金精华</option>';
     content += '<option value="meteoriteEssence">陨石精华</option>';
     content += '</select> ';
-    content += '挖矿间隔 <input id="minTime" type="text" value="300" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
+    content += '<option value="5">5%</option>';
     content += '<option value="10" selected>10%</option>';
     content += '<option value="20">20%</option>';
     content += '<option value="30" >30%</option>';

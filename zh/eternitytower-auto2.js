@@ -36,8 +36,8 @@
     content += '<br/>';
     content += '生命值低于<select id="minHP">';
     content += '<option value="1">1%</option>';
-    content += '<option value="5" selected>5%</option>';
-    content += '<option value="10">10%</option>';
+    content += '<option value="5">5%</option>';
+    content += '<option value="10" selected>10%</option>';
     content += '<option value="20">20%</option>';
     content += '<option value="30">30%</option>';
     content += '<option value="40">40%</option>';
@@ -50,7 +50,7 @@
     content += '<select id="Food1">';
     content += '<option value="watermelon">西瓜-回200血-持续10秒</option>';
     content += '<option value="carrot">胡萝卜-回350血-持续10秒</option>';
-    content += '<option value="banana" selected>香蕉-回650血-持续13秒</option>';
+    content += '<option value="banana">香蕉-回650血-持续13秒</option>';
     content += '<option value="acaiBerry" >巴西莓-回300血-持续25秒</option>';
     content += '<option value="pear" >梨-回150血-持续25秒</option>';
     content += '<option value="redApple" >红苹果-回185血-持续30秒</option>';
@@ -60,7 +60,7 @@
     content += '<option value="orange" >橙子-回750血-持续80秒</option>';
     content += '<option value="potato" >土豆-回2700血-持续900秒</option>';
     content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-持续900秒</option>';
-    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="rockmelon" selected>哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
     content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
     content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
     content += '</select>';
@@ -78,7 +78,7 @@
     content += '</select>时吃';
     content += '<select id="Food2">';
     content += '<option value="lemon">柠檬-回9能量-冷却300秒</option>';
-    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="rockmelon" selected>哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
     content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
     content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
     content += '<option value="lemonade">柠檬汽水-秒回20能量</option>';
@@ -218,6 +218,7 @@
     content += '挖矿间隔 <input id="minTime" type="text" value="300" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
     content += '挖矿能量低于<select id="MingEnergy">';
+    content += '<option value="5">5%</option>';
     content += '<option value="10" selected>10%</option>';
     content += '<option value="20">20%</option>';
     content += '<option value="30" >30%</option>';
@@ -237,7 +238,7 @@
     content += '<div class="JB-form">';
     content += '<div class="tit">自动种地</div>';
     content += '定时自动种植 <select id="FoodSeed">';
-    content += '<option value="letticeSeed" selected>生菜-回75血-持续30秒-需要种植1级</option>';
+    content += '<option value="letticeSeed">生菜-回75血-持续30秒-需要种植1级</option>';
     content += '<option value="grapeFruitSeed" >葡萄柚-回150血-持续45秒-需要种植3级</option>';
     content += '<option value="redAppleSeed" >红苹果-回185血-持续30秒-需要种植5级</option>';
     content += '<option value="pearSeed" >梨-回150血-持续25秒-需要种植8级</option>';
@@ -250,7 +251,7 @@
     content += '<option value="bananaSeed">香蕉-回650血-持续13秒-需要种植40级</option>';
     content += '<option value="sweetPotatoSeed" >甘薯-回4050血-持续900秒-需要种植35级</option>';
     content += '<option value="lemonSeed">柠檬-回9能量-冷却300秒-需要种植2级</option>';
-    content += '<option value="rockmelonSeed">哈密瓜-秒回900生命；回5能量和360生命-持续120秒-需要种植50级</option>';
+    content += '<option value="rockmelonSeed" selected>哈密瓜-秒回900生命；回5能量和360生命-持续120秒-需要种植50级</option>';
     content += '<option value="dragonfruitSeed">火龙果-秒回450生命；回2能量和300生命-持续120秒-需要种植25级</option>';
 
     content += '<option value="marigoldSeed" >万寿菊-可以卖钱-需要种植9级</option>';
@@ -641,7 +642,6 @@
         //自动切换到种地界面
         $('.navbar-nav .nav-item:nth-child(5) a').trigger('click');
         //延时3秒执行操作，避免页面未加载完
-        setTimeout(function () {
             var p = $('#FoodSeed').val();
             var ok = getElementByAttr('img', 'src', p, 'svg');
             var empty = getElementByAttr('img', 'src', 'emptyFarmSpace', 'svg');
@@ -665,8 +665,6 @@
                     }
                 }, 1500);
             }
-
-        }, 3000);
         //切换回战斗界面
 //        setTimeout(function () {
 //            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
@@ -678,10 +676,10 @@
     $("#startMing").click(function () {
         var minTime = parseInt($('#minTime').val());
         if (minTime == '') {
-            minTime = 600;
+            minTime = 30;
         }
         //多留5秒
-        minTime = (minTime + 10) * 1000;
+        minTime = minTime * 1000;
         autoMing = setInterval(getGem, minTime);
         $(this).attr("disabled", true);
         $("#stopMing").attr("disabled", false);
@@ -727,7 +725,6 @@
         //自动切换到采矿界面
         $('.navbar-nav .nav-item:nth-child(2) a').trigger('click');
         //延时3秒执行操作，避免页面未加载完
-        setTimeout(function () {
             var mingEn = $('#MingEnergy').val();
             //判断能量百分比，大于指定百分比才执行挖矿。
             var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
@@ -765,7 +762,6 @@
                 console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~ ' + nowTime())
                 return
             }
-        }, 3000);
         //切换回战斗界面
 //        setTimeout(function () {
 //            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');

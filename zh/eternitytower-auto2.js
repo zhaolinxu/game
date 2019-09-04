@@ -658,7 +658,7 @@
                 console.log('植物成熟了，割割割~ ' + nowTime());
                 //种地
                 setTimeout(function () {
-                    for (var i = 0; i <= 3; i++) {
+                    for (var i = 0; i <= 5; i++) {
                         setTimeout(function () {
                             ok[0].click();
                         }, 500);

@@ -50,7 +50,7 @@
     content += '<select id="Food1">';
     content += '<option value="watermelon">西瓜-回200血-持续10秒</option>';
     content += '<option value="carrot">胡萝卜-回350血-持续10秒</option>';
-    content += '<option value="banana" selected>香蕉-回650血-持续13秒</option>';
+    content += '<option value="banana">香蕉-回650血-持续13秒</option>';
     content += '<option value="acaiBerry" >巴西莓-回300血-持续25秒</option>';
     content += '<option value="pear" >梨-回150血-持续25秒</option>';
     content += '<option value="redApple" >红苹果-回185血-持续30秒</option>';
@@ -60,7 +60,7 @@
     content += '<option value="orange" >橙子-回750血-持续80秒</option>';
     content += '<option value="potato" >土豆-回2700血-持续900秒</option>';
     content += '<option value="tamarindHoney" >罗望子蜂蜜-回18000血-持续900秒</option>';
-    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="rockmelon" selected>哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
     content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
     content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
     content += '</select>';
@@ -78,7 +78,7 @@
     content += '</select>时吃';
     content += '<select id="Food2">';
     content += '<option value="lemon">柠檬-回9能量-冷却300秒</option>';
-    content += '<option value="rockmelon">哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
+    content += '<option value="rockmelon" selected>哈密瓜-秒回900生命；回5能量和360生命-持续120秒</option>';
     content += '<option value="dragonfruit">火龙果-秒回450生命；回2能量和300生命-持续120秒</option>';
     content += '<option value="eventVDchocolate">巧克力-秒回1000生命；回4能量和1500生命-持续20秒</option>';
     content += '<option value="lemonade">柠檬汽水-秒回20能量</option>';
@@ -238,7 +238,7 @@
     content += '<div class="JB-form">';
     content += '<div class="tit">自动种地</div>';
     content += '定时自动种植 <select id="FoodSeed">';
-    content += '<option value="letticeSeed" selected>生菜-回75血-持续30秒-需要种植1级</option>';
+    content += '<option value="letticeSeed">生菜-回75血-持续30秒-需要种植1级</option>';
     content += '<option value="grapeFruitSeed" >葡萄柚-回150血-持续45秒-需要种植3级</option>';
     content += '<option value="redAppleSeed" >红苹果-回185血-持续30秒-需要种植5级</option>';
     content += '<option value="pearSeed" >梨-回150血-持续25秒-需要种植8级</option>';
@@ -251,7 +251,7 @@
     content += '<option value="bananaSeed">香蕉-回650血-持续13秒-需要种植40级</option>';
     content += '<option value="sweetPotatoSeed" >甘薯-回4050血-持续900秒-需要种植35级</option>';
     content += '<option value="lemonSeed">柠檬-回9能量-冷却300秒-需要种植2级</option>';
-    content += '<option value="rockmelonSeed">哈密瓜-秒回900生命；回5能量和360生命-持续120秒-需要种植50级</option>';
+    content += '<option value="rockmelonSeed" selected>哈密瓜-秒回900生命；回5能量和360生命-持续120秒-需要种植50级</option>';
     content += '<option value="dragonfruitSeed">火龙果-秒回450生命；回2能量和300生命-持续120秒-需要种植25级</option>';
 
     content += '<option value="marigoldSeed" >万寿菊-可以卖钱-需要种植9级</option>';
@@ -658,7 +658,7 @@
                 console.log('植物成熟了，割割割~ ' + nowTime());
                 //种地
                 setTimeout(function () {
-                    for (var i = 0; i <= 3; i++) {
+                    for (var i = 0; i <= 5; i++) {
                         setTimeout(function () {
                             ok[0].click();
                         }, 500);

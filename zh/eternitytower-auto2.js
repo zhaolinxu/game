@@ -668,9 +668,9 @@
 
         }, 3000);
         //切换回战斗界面
-        setTimeout(function () {
-            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
-        }, 8000);
+//        setTimeout(function () {
+//            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+//        }, 8000);
     }
 
     var autoMing;
@@ -767,9 +767,9 @@
             }
         }, 3000);
         //切换回战斗界面
-        setTimeout(function () {
-            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
-        }, 8000);
+//        setTimeout(function () {
+//            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+//        }, 8000);
     }
 
     //单人Solo-开始战斗

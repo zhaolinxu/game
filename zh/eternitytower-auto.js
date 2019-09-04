@@ -297,7 +297,7 @@
 
     content += '</select>';
     content += '<br/>';
-    content += ' 需要 <input id="famingTime" type="text" value="1" placeholder="" disabled/> 分钟；';
+    content += ' 需要 <input id="famingTime" type="text" value="17" placeholder="" disabled/> 分钟；';
     content += '<button id="startFarming" type="primary" >启动</button>';
     content += '<button id="stopFarming" type="danger" disabled>停止</button>';
     content += '<div id="noseed">你没有这种植物种子，去商店买一些吧~</div>';

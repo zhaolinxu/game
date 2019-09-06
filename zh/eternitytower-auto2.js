@@ -215,6 +215,7 @@
     content += '<option value="mithrilEssence">秘银精华</option>';
     content += '<option value="adamantiumEssence">埃德曼合金精华</option>';
     content += '<option value="meteoriteEssence">陨石精华</option>';
+    content += '<option value="cursedEssence">诅咒精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';
@@ -644,6 +645,7 @@
         //自动切换到种地界面
         $('.navbar-nav .nav-item:nth-child(5) a').trigger('click');
         //延时3秒执行操作，避免页面未加载完
+        setTimeout(function () {
             var p = $('#FoodSeed').val();
             var ok = getElementByAttr('img', 'src', p, 'svg');
             var empty = getElementByAttr('img', 'src', 'emptyFarmSpace', 'svg');
@@ -667,6 +669,8 @@
                     }
                 }, 1500);
             }
+
+        }, 3000);
         //切换回战斗界面
 //        setTimeout(function () {
 //            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');

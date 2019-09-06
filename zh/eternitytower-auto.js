@@ -215,6 +215,7 @@
     content += '<option value="mithrilEssence">秘银精华</option>';
     content += '<option value="adamantiumEssence">埃德曼合金精华</option>';
     content += '<option value="meteoriteEssence">陨石精华</option>';
+    content += '<option value="cursedEssence">诅咒精华</option>';
     content += '</select> ';
     content += '挖矿间隔 <input id="minTime" type="text" value="30" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<br/>';

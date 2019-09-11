@@ -204,6 +204,8 @@
     content += '<option value="astral">星芒石</option>';
     content += '<option value="tanzanite">坦桑石</option>';
     content += '<option value="titanfoil">钛箔石</option>';
+    content += '<option value="relicrock">冰岩</option>';
+    content += '<option value="fireOpal">火蛋白石</option>';
     content += '<option value="goldEssence">黄金精华</option>';
     content += '<option value="steelEssence">钢精华</option>';
     content += '<option value="carbonEssence">碳精华</option>';

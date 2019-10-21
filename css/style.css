@@ -977,6 +977,9 @@ a.news-btn{
   line-height: 1.9em;
 text-indent: 2em;
 }
+.single-grid p.no{
+    text-indent: 0;
+}
 /*.single-grid .btn-group p{text-indent: 0;}*/
 .comments-top h3,.comment-bottom h3{
 	font-size:2.5em;

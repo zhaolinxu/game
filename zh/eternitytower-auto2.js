@@ -627,7 +627,8 @@
             farming();
             //延后3秒
             gTime = ((gTime * 60) + 30) * 1000;
-            autoFarming = setInterval(farming, gTime);
+//            gTime = 60 * 1000;
+            autoFarming = setInterval(farming, 60000);
             $(this).attr("disabled", true);
             $("#stopFarming").attr("disabled", false);
         }
@@ -673,9 +674,9 @@
 
         }, 3000);
         //切换回战斗界面
-        setTimeout(function () {
-            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
-        }, 8000);
+//        setTimeout(function () {
+//            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+//        }, 8000);
     }
 
     var autoMing;
@@ -683,10 +684,10 @@
     $("#startMing").click(function () {
         var minTime = parseInt($('#minTime').val());
         if (minTime == '') {
-            minTime = 600;
+            minTime = 30;
         }
         //多留5秒
-        minTime = (minTime + 10) * 1000;
+        minTime = minTime * 1000;
         autoMing = setInterval(getGem, minTime);
         $(this).attr("disabled", true);
         $("#stopMing").attr("disabled", false);
@@ -732,7 +733,6 @@
         //自动切换到采矿界面
         $('.navbar-nav .nav-item:nth-child(2) a').trigger('click');
         //延时3秒执行操作，避免页面未加载完
-        setTimeout(function () {
             var mingEn = $('#MingEnergy').val();
             //判断能量百分比，大于指定百分比才执行挖矿。
             var minWid = ($('.progress-bar').width() / $('.progress').width()) * 100;
@@ -770,11 +770,10 @@
                 console.log('挖矿能量低于设定值:' + mingEn + '% ，不执行操作~ ' + nowTime())
                 return
             }
-        }, 3000);
         //切换回战斗界面
-        setTimeout(function () {
-            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
-        }, 8000);
+//        setTimeout(function () {
+//            $('.navbar-nav .nav-item:nth-child(1) a').trigger('click');
+//        }, 8000);
     }
 
     //单人Solo-开始战斗

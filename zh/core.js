@@ -42,7 +42,7 @@ var cnItem = function () {
     let text_postfix = "";
     for (let postfix in cnPostfix) {
         if (text.substr(-postfix.length) === postfix) {
-            text_postfix += cnPostfix[postfix];
+            text_postfix = cnPostfix[postfix] + text_postfix;
             text = text.substr(0, text.length - postfix.length);
         }
     }
@@ -51,7 +51,7 @@ var cnItem = function () {
     for (let reg of cnExcludePostfix) {
         let result = text.match(reg);
         if (result) {
-            text_reg_exclude_postfix += result[0];
+            text_reg_exclude_postfix = result[0] + text_reg_exclude_postfix;
             text = text.substr(0, text.length - text_reg_exclude_postfix.length);
         }
     }

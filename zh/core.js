@@ -8,7 +8,7 @@
 */
 
 var CNITEM_DEBUG = 0;
-function cnItemByTag(text, itemgroup, node){
+function cnItemByTag(text, itemgroup, node, textori){
 	for (let i in itemgroup){
 		if (i[0] == '.') { //匹配节点及其父节点的class
 			let current_node = node;
@@ -40,6 +40,11 @@ function cnItemByTag(text, itemgroup, node){
 		}
 		else if (i[0] == '$'){	//执行document.querySelector
 			if (document.querySelector(i.substr(1)) != null){
+				return itemgroup[i];
+			}
+		}
+		else if (i[0] == '*'){	//搜索原始文本
+			if ( textori.includes(i.substr(1)) ){
 				return itemgroup[i];
 			}
 		}
@@ -107,7 +112,7 @@ var cnItem = function (text, node) {
         if (typeof(cnItems[i]) == "string" && (text == i || text == cnItems[i])){
 			return text_prefix + cnItems[i] + text_reg_exclude_postfix + text_postfix;
 		} else if ( typeof(cnItems[i]) == "object" && text == i ){
-			let result = cnItemByTag(i, cnItems[i], node);
+			let result = cnItemByTag(i, cnItems[i], node, textori);
 			if (result != null){
 				return text_prefix + result + text_reg_exclude_postfix + text_postfix;
 			} else {
@@ -127,7 +132,7 @@ var cnItem = function (text, node) {
     ) {
         //已收录则直接返回
         if (save_text == cnItems._OTHER_[i])
-            return arguments[0];
+            return text_prefix + text + text_reg_exclude_postfix + text_postfix;
     }
 
     if (cnItems._OTHER_.length < 500) {
@@ -146,7 +151,7 @@ var cnItem = function (text, node) {
         );
 
     //返回生词字串
-    return arguments[0];
+    return text_prefix + text + text_reg_exclude_postfix + text_postfix;
 };
 
 transTaskMgr = {

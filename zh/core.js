@@ -95,7 +95,7 @@ var cnItem = function (text, node) {
     //检查是否排除
     for (let reg of cnExcludeWhole) {
         if (reg.test(text)) {
-            return arguments[0];
+            return text_prefix + text + text_reg_exclude_postfix + text_postfix;;
         }
     }
 

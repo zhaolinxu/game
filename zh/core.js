@@ -7,29 +7,57 @@
 
 */
 
+var CNITEM_DEBUG = 0;
+function cnItemByTag(text, itemgroup, node){
+	for (let i in itemgroup){
+		if (i[0] == '.') { //匹配节点及其父节点的class
+			let current_node = node;
+			while (current_node){
+				if ( current_node.classList && current_node.classList.contains(i.substr(1)) ){
+					return itemgroup[i];
+				}
+				else if( current_node.parentElement && current_node.parentElement != document.documentElement ) {
+					current_node = current_node.parentElement;
+				}
+				else {
+					break;
+				}
+			}
+		}
+		else if (i[0] == '#'){ //匹配节点及其父节点的id
+			let current_node = node;
+			while (current_node){
+				if ( current_node.id == i.substr(1) ){
+					return itemgroup[i];
+				}
+				else if( current_node.parentElement && current_node.parentElement != document.documentElement ) {
+					current_node = current_node.parentElement;
+				}
+				else {
+					break;
+				}
+			}
+		}
+		else if (i[0] == '$'){	//执行document.querySelector
+			if (document.querySelector(i.substr(1)) != null){
+				return itemgroup[i];
+			}
+		}
+		// and more ...
+		else{
+			CNITEM_DEBUG && console.log({text, itemgroup, dsc:"不识别的标签" + i})
+		}
+	}
+	return null;
+}
 
 //2.采集新词
-//20190320@JAR
+//20190320@JAR  rewrite by 麦子
+var cnItem = function (text, node) {
 
-var cnItem = function () {
-
-    //传参是否非空字串
-    if (!arguments[0]) return "";
-
-    //检验传参是否对象
-    let text = arguments[0],
-        s = '';
     if (typeof (text) != "string")
         return text;
-    else
-        s = arguments[0].charCodeAt();
-
-    //检验传参是否英文
-    // if (
-    //     s < 65 || (s > 90 && s < 97) || (s > 122)
-    //
-    // ) return text;
-
+	let textori = text;
     //处理前缀
     let text_prefix = "";
     for (let prefix in cnPrefix) {
@@ -76,16 +104,23 @@ var cnItem = function () {
     //遍历尝试匹配
     for (let i in cnItems) {
         //字典已有词汇或译文、且译文不为空，则返回译文
-        if (
-            text == i || text == cnItems[i] &&
-            cnItems[i] != ''
-        )
-            return text_prefix + cnItems[i] + text_reg_exclude_postfix + text_postfix;
+        if (typeof(cnItems[i]) == "string" && (text == i || text == cnItems[i])){
+			return text_prefix + cnItems[i] + text_reg_exclude_postfix + text_postfix;
+		} else if ( typeof(cnItems[i]) == "object" && text == i ){
+			let result = cnItemByTag(i, cnItems[i], node);
+			if (result != null){
+				return text_prefix + result + text_reg_exclude_postfix + text_postfix;
+			} else {
+				CNITEM_DEBUG && console.log({text:i, cnitem:cnItems[i], node});
+			}
+		} else {
+            // continue;
+        }
     }
 
     //调整收录的词条，0=收录原文，1=收录去除前后缀的文本
     let save_cfg = 1;
-    let save_text = save_cfg ? text : arguments[0]
+    let save_text = save_cfg ? text : textori;
     //遍历生词表是否收录
     for (
         let i = 0; i < cnItems._OTHER_.length; i++
@@ -105,12 +140,10 @@ var cnItem = function () {
         );
     }
 
-    /*
-        //开启生词打印
-        //console.log(
+    //开启生词打印
+        CNITEM_DEBUG && console.log(
             '有需要汉化的英文：', text
         );
-    */
 
     //返回生词字串
     return arguments[0];
@@ -137,13 +170,13 @@ function TransSubTextNode(node) {
         for (let subnode of node.childNodes) {
             if (subnode.nodeName === "#text") {
                 let text = subnode.textContent;
-                let cnText = cnItem(text);
+                let cnText = cnItem(text, subnode);
                 cnText !== text && transTaskMgr.addTask(subnode, 'textContent', cnText);
                 //console.log(subnode);
-            } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA") {
+            } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "STYLE" && subnode.nodeName !== "TEXTAREA") {
                 if (!subnode.childNodes || subnode.childNodes.length == 0) {
                     let text = subnode.innerText;
-                    let cnText = cnItem(text);
+                    let cnText = cnItem(text, subnode);
                     cnText !== text && transTaskMgr.addTask(subnode, 'innerText', cnText);
                     //console.log(subnode);
                 } else {
@@ -174,19 +207,19 @@ function TransSubTextNode(node) {
         //window.beforeTransTime = performance.now();
         observer.disconnect();
         for (let mutation of e) {
-            if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
+            if (mutation.target.nodeName === "SCRIPT"|| mutation.target.nodeName === "STYLE" || mutation.target.nodeName === "TEXTAREA") continue;
 			if (mutation.target.nodeName === "#text") {
-                mutation.target.textContent = cnItem(mutation.target.textContent);
+                mutation.target.textContent = cnItem(mutation.target.textContent, mutation.target);
             } else if (!mutation.target.childNodes || mutation.target.childNodes.length == 0) {
-                mutation.target.innerText = cnItem(mutation.target.innerText);
+                mutation.target.innerText = cnItem(mutation.target.innerText, mutation.target);
             } else if (mutation.addedNodes.length > 0) {
                 for (let node of mutation.addedNodes) {
                     if (node.nodeName === "#text") {
-                        node.textContent = cnItem(node.textContent);
+                        node.textContent = cnItem(node.textContent, node);
                         //console.log(node);
-                    } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "TEXTAREA") {
+                    } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "STYLE" && node.nodeName !== "TEXTAREA") {
                         if (!node.childNodes || node.childNodes.length == 0) {
-                            node.innerText = cnItem(node.innerText);
+                            node.innerText = cnItem(node.innerText, node);
                         } else {
                             TransSubTextNode(node);
                             transTaskMgr.doTask();

@@ -1,0 +1,43 @@
+[{
+    "list": [{
+        "title": "猫国建设中",
+        "path": "kittens-game"
+    }, {
+        "title": "脆皮",
+        "path": "trimps"
+    }, {
+        "title": "构造",
+        "path": "structure"
+    }, {
+        "title": "进化",
+        "path": "evolve"
+    }]
+}, {
+    "list": [{
+        "title": "魔法理论",
+        "path": "theory-of-magic"
+    }, {
+        "title": "蚂蚁放置",
+        "path": "idle-ant"
+    }, {
+        "title": "无尽的饼干",
+        "path": "cookie-clicker"
+    },{
+        "title": "反应堆放置",
+        "path": "reactor-idle"
+    }]
+}, {
+    "list": [{
+        "title": "模拟虫群",
+        "path": "swarm-simulator"
+    }, {
+        "title": "太空公司",
+        "path": "space-company"
+    }, {
+        "title": "星系核心",
+        "path": "heart-of-galaxy"
+    }, {
+        "title": "核起源",
+        "path": "nucleogenesis"
+    }]
+}]

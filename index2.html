@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首页 | GitHub Games</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="" />
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="favicon.ico">
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <script src="js/modernizr.custom.97074.js"></script>
+    <!--flexslider-->
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+    <!--//flexslider-->
+    <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script src="js/jquery.chocolat.js"></script>
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#horizontalTab').easyResponsiveTabs({
+                type: 'default', //Types: default, vertical, accordion           
+                width: 'auto', //auto or any width like 600px
+                fit: true // 100% fit in a container
+            });
+            $(' #da-thumbs > li ').each(function() {
+                $(this).hoverdir();
+            });
+            $('.games a').Chocolat();
+        });
+
+    </script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="head-top">
+                    <div class="logo">
+                        <h1><a href="index.html"> GitHub <span>Games</span></a></h1>
+                    </div>
+                    <div class="top-nav">
+                        <span class="menu"><img src="images/menu.png" alt=""> </span>
+                        <ul>
+                            <li class="active">
+                                <a href="index.html">首页</a>
+                            </li>
+                            <li>
+                                <a href="games.html">游戏</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">博客</a>
+                            </li>
+                            <li>
+                                <a href="timeline.html">事件</a>
+                            </li>
+                            <li>
+                                <a href="about.html">关于</a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.gityx.com/" target="_blank">新首页</a>
+                            </li>
+                            <li>
+                                <a href="http://bbs.gityx.com" target="_blank">论坛</a>
+                            </li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <!--script-->
+                        <script>
+                            $("span.menu").click(function() {
+                                $(".top-nav ul").slideToggle(500, function() {});
+                            });
+
+                        </script>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner-->
+    <div class="banner">
+        <div class="container">
+            <h2>游戏推荐</h2>
+            <div class="banner-matter">
+                <div class="slider">
+                    <section class="slider">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <div class="ban">
+                                        <div class=" ban-in ban-grid">
+                                            <a href="article/structure.html" title="构造" target="_blank"><img class="img-responsive " src="images/topslide/structure.jpg" alt="构造" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid1">
+                                            <a href="article/cat.html" title="猫国建设中" target="_blank"><img class="img-responsive " src="images/topslide/cat.jpg" alt="猫国建设中" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid2">
+                                            <a href="article/cuipi.html" title="脆皮" target="_blank"><img class="img-responsive " src="images/topslide/cuipi.jpg" alt="脆皮" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid3">
+                                            <a href="article/cookieClicker.html" title="无尽的饼干" target="_blank"><img class="img-responsive " src="images/topslide/cookieClicker.jpg" alt="无尽的饼干" /> </a>
+                                        </div>
+
+                                        <!--
+											<div class=" ban-in ban-grid3">
+												<a href="article/rebuildTheUniverse.html" title="重建宇宙" target="_blank"><img class="img-responsive " src="images/topslide/rebuildTheUniverse.jpg" alt="重建宇宙" /> </a>
+											</div>
+-->
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ban">
+
+
+                                        <div class=" ban-in ban-grid">
+                                            <a href="article/swarmSimulator.html" title="模拟虫群" target="_blank"><img class="img-responsive " src="images/topslide/swarmSimulator.jpg" alt="模拟虫群" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid1">
+                                            <a href="article/IdleAnt.html" title="蚂蚁放置" target="_blank"><img class="img-responsive " src="images/topslide/IdleAnt.jpg" alt="蚂蚁放置" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid2">
+                                            <a href="article/colorIdle.html" title="颜色放置" target="_blank"><img class="img-responsive " src="images/topslide/colorIdle.jpg" alt="颜色放置" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid3">
+                                            <a href="article/reactorIdle.html" title="反应堆放置" target="_blank"><img class="img-responsive " src="images/topslide/reactorIdle.jpg" alt="反应堆放置" /> </a>
+                                        </div>
+
+                                        <!--
+											<div class=" ban-in ban-grid3">
+												<a href="article/clickersOfHonor.html" title="点击者的荣耀" target="_blank"><img class="img-responsive " src="images/topslide/clickersOfHonor.jpg" alt="点击者的荣耀" /> </a>
+											</div>
+-->
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ban">
+
+                                        <div class=" ban-in ban-grid">
+                                            <a href="article/adarkroom.html" title="小黑屋" target="_blank"><img class="img-responsive " src="images/topslide/adarkroom.jpg" alt="小黑屋" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid1">
+                                            <a href="article/spaceCompany.html" title="太空公司" target="_blank"><img class="img-responsive" src="images/topslide/spaceCompany.jpg" alt="太空公司" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid2">
+                                            <a href="article/heartOfGalaxy.html" title="星系核心" target="_blank"><img class="img-responsive " src="images/topslide/heartOfGalaxy.jpg" alt="星系核心" /> </a>
+                                        </div>
+                                        <div class=" ban-in ban-grid3">
+                                            <a href="article/nucleogenesis.html" title="核起源" target="_blank"><img class="img-responsive " src="images/topslide/nucleogenesis.jpg" alt="核起源" /> </a>
+                                        </div>
+                                        <!--
+											<div class=" ban-in ban-grid2">
+												<a href="article/resourcePlanet.html" title="资源星球" target="_blank"><img class="img-responsive " src="images/topslide/resourcePlanet.jpg" alt="资源星球" /> </a>
+											</div>
+											<div class=" ban-in ban-grid3">
+												<a href="article/adarkroom.html" title="小黑屋" target="_blank"><img class="img-responsive " src="images/topslide/adarkroom.jpg" alt="小黑屋" /> </a>
+											</div>
+-->
+
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </li>
+                                <!--
+									<li>
+										<div class="ban">
+											<div class=" ban-in ban-grid">
+												<a href="article/swarmSimulator.html" title="模拟虫群" target="_blank"><img class="img-responsive " src="images/topslide/swarmSimulator.jpg" alt="模拟虫群" /> </a>
+											</div>
+											
+											<div class=" ban-in ban-grid1">
+												<a href="article/2048.html" title="2048" target="_blank"><img class="img-responsive " src="images/topslide/2048.jpg" alt="2048" /> </a>
+											</div>
+											
+											<div class=" ban-in ban-grid2">
+												<a href="article/blackMarket.html" title="黑市" target="_blank"><img class="img-responsive " src="images/topslide/blackMarket.jpg" alt="黑市" /></a>
+											</div>
+											<div class=" ban-in ban-grid3">
+												<a href="article/particleClicker.html" title="粒子点击" target="_blank"><img class="img-responsive " src="images/topslide/particleClicker.jpg" alt="粒子点击" /></a>
+											</div>
+											<div class="clearfix"> </div>
+										</div>
+									</li>
+-->
+                                <!--
+									<li>
+										<div class="ban">
+											<div class=" ban-in ban-grid">
+												<a href="article/nucleogenesis.html" title="核起源" target="_blank"><img class="img-responsive " src="images/topslide/nucleogenesis.jpg" alt="核起源" /> </a>
+											</div>
+											
+											<div class="clearfix"> </div>
+										</div>
+									</li>
+-->
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--banner end-->
+    <!--content-->
+    <div class="content">
+        <div class="container">
+            <!--content-top-->
+            <div class="content-top">
+                <div class="col-md-9 top-col">
+                    <div class="col-top">
+                        <div class="col-md-6 black">
+                            <a href="article/cat.html" target="_blank"><img class="img-responsive" src="images/index/ab1.jpg" alt="">
+                                <div class="col">
+                                    <h4>猫国建设中</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 black">
+                            <a href="article/cuipi.html" target="_blank"><img class="img-responsive" src="images/index/cuipi.jpg" alt="">
+                                <div class="col">
+                                    <h4>脆皮</h4>
+                                </div>
+                            </a>
+                        </div>
+<!--
+                       <div class="col-md-6 black">
+                            <a href="article/1212.html" target="_blank"><img class="img-responsive" src="images/index/201912.jpg" alt="">
+                                <div class="col">
+                                    <h4>淘宝双12超级红包！</h4>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 black">
+                            <a href="article/cat.html" target="_blank"><img class="img-responsive" src="images/index/ab1.jpg" alt="">
+                                <div class="col">
+                                    <h4>猫国建设者</h4>
+                                </div>
+                            </a>
+                        </div>
+-->
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="col-top-bottom">
+                        <script>
+                            var adver = [];
+                            adver[1] = {
+                                'title': 'Git游戏论坛，欢迎来写攻略！',
+                                'link': 'http://bbs.gityx.com',
+                                'button': '点击访问',
+                                'tips': '论坛内置若干放置游戏哦~'
+                            };
+                            adver[2] = {
+                                'title': '《无心宠物》火爆游戏中~',
+                                'link': 'http://wx.gityx.com/',
+                                'button': '开始游戏',
+                                'tips': '来一起耍啊~'
+                            };
+                            adver[3] = {
+                                'title': '玩游戏也能赚零花钱',
+                                'link': 'http://www.juxiangyou.com/floor/recom/3570025',
+                                'button': '试试看',
+                                'tips': '注册送1元，可以直接提现。'
+                            };
+                            var i = Math.floor(Math.random() * 3 + 1);
+                            document.write('<h3 class="menber" style="color: red" title="' + adver[i].tips + '">' + adver[i].title + '</h3>');
+                            document.write('<a href="' + adver[i].link + '" class="now-in" title="' + adver[i].tips + '" target="_blank">' + adver[i].button + '</a>');
+
+                        </script>
+
+
+                        <div class="clearfix"> </div>
+                    </div>
+                    <!--
+                    <div class="col-top-bottom">
+                        <h3 class="menber">推荐游戏榜单</h3>
+                        <a href="https://shimo.im/sheet/si53E3XdhtQYHMJ0/RIDOC" class="now-in" target="_blank">查看</a>
+                        <div class="clearfix"> </div>
+                    </div>
+-->
+                </div>
+<!--
+                <div class="col-md-3 per">
+                    <a href="article/fuli.html" target="_blank"><img class="img-responsive" src="images/index/ab4211.png" alt="每天领取最高99元红包！">
+                        <div class="six">
+                            <h4>每天扫<br>领红包</h4>
+                        </div>
+                    </a>
+                </div>
+-->
+                
+					<div class="col-md-3 per">
+						<a href="article/adarkroom.html"><img class="img-responsive" src="images/index/ab3.jpg" alt="">
+							<div class="six">
+								<h4>小黑屋</h4>
+							</div>
+						</a>
+					</div>
+
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--//content-top-->
+        <!---->
+        <div class="container">
+            <div class="content-bottom">
+                <div class="col-md-4 bottom-content">
+                    <h4>已汉化的游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="article/cat.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 猫国建设中（Kittens Game）</a>
+                        </li>
+                        <li>
+                            <a href="article/spaceCompany.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 太空公司（Space Compay）</a>
+                        </li>
+                        <li>
+                            <a href="article/IdleAnt.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 蚂蚁放置（Idle Ant）</a>
+                        </li>
+                        <li>
+                            <a href="article/blackMarket.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 黑市（Black Market）</a>
+                        </li>
+                        <li>
+                            <a href="article/resourcePlanet.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 资源星球（Resource Planet）</a>
+                        </li>
+                        <li>
+                            <a href="article/clickersOfHonor.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 点击者的荣耀（Clickers Of Honor）</a>
+                        </li>
+                        <li>
+                            <a href="article/reactorIdle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 反应堆放置（Reactor Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/colorIdle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 颜色放置（Hex-Color-Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/rebuildTheUniverse.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 重建宇宙（Rebuild The Universe）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/particleClicker.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 粒子点击（Particle Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/swarmSimulator.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 模拟虫群（Swarm Simulator）</a>
+                        </li>
+                        <li>
+                            <a href="article/nucleogenesis.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 核起源（Nucleogenesis）</a>
+                        </li>
+                        <li>
+                            <a href="article/shark.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 鲨鱼之心(Heart of Sharkness)</a>
+                        </li>
+
+                        <li>
+                            <a href="article/level13.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 13层（Level 13）</a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="article/spells.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 法术大师（Spells Master）</a>
+                        </li>
+-->
+                        <li>
+                            <a href="article/canadaClicker.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 加拿大点击（Canada Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="https://tg303.gitee.io/skid-inc" target="_blank"><i class="glyphicon glyphicon-ok"></i> 黑客公司（Skid-Inc）</a>
+                        </li>
+                        <li>
+                            <a href="article/cookieClicker.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 无尽的饼干（Cookie Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/IdleAnt2.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 蚂蚁放置2（IdleAnt2）</a>
+                        </li>
+                        <li>
+                            <a href="https://likexia.gitee.io/call-click" target="_blank"><i class="glyphicon glyphicon-ok"></i> 唤醒点击（Call Click）</a>
+                        </li>
+
+                        <li>
+                            <a href="https://likexia.gitee.io/fwzwd/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 反物质维度（Antimatter Dimensions）</a>
+                        </li>
+                        <li>
+                            <a href="https://likexia.gitee.io/groundhog-life" target="_blank"><i class="glyphicon glyphicon-ok"></i> 土拨鼠生活（Groundhog Life）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/xianxia-idle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 仙侠放置（Xianxia Idle）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/rgb-idle.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 红绿蓝放置（RGB Idle）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/pokemon.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 口袋妖怪放置（Pokemon）</a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="http://likexia.gitee.io/craftclicker" target="_blank"><i class="glyphicon glyphicon-ok"></i> 点击工匠（Craft Clicker）</a>
+                        </li>
+-->
+
+                        <li>
+                            <a href="http://likexia.gitee.io/crushingdefeat" target="_blank"><i class="glyphicon glyphicon-ok"></i> 点点点买买买（Crushing Defeat）</a>
+                        </li>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/world-idle" target="_blank"><i class="glyphicon glyphicon-ok"></i> 世界放置（World Idle）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/terrafold.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 梯田（Terrafold）</a>
+                        </li>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/stopsign/Nanospread/index.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 纳米扩散（Nanospread）</a>
+                        </li>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/stopsign/idleLoops/index.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 循环放置（Idle Loops）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/fish.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 钓鱼公司（Fishing Enterprises）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/civ-clicker" target="_blank"><i class="glyphicon glyphicon-ok"></i> 文明点击（Civ Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/structure.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 构造（Structure）</a>
+                        </li>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/drowning/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 沉溺人生（Drowning）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/ostm/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 无限点击冒险（OSTM）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/progress-bars/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 进度条（Progress Bars）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/minites/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 迷你任务（MiniTES）</a>
+                        </li>
+                        <li>
+                            <a href="http://cnh5.gitee.io/biokiller-idle" target="_blank"><i class="glyphicon glyphicon-ok"></i> 生化放置（BioKiller Idle）</a>
+                        </li>
+                        <li>
+                            <a href="http://cnh5.gitee.io/incremental-transcendence" target="_blank"><i class="glyphicon glyphicon-ok"></i> 增量超越（Incremental Transcendence）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/generator" target="_blank"><i class="glyphicon glyphicon-ok"></i> 发生器（Generator）</a>
+                        </li>
+                        <li>
+                            <a href="http://cnh5.gitee.io/braincreator" target="_blank"><i class="glyphicon glyphicon-ok"></i> 大脑创造者（Brain Creator）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/games/moneylife/old/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 金钱人生（Money Life）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/recycle-idle/" target="_blank"><i class="glyphicon glyphicon-ok"></i> 回收放置（Recycle Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/idleSpace.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 太空放置（Idle Space）</a>
+                        </li>
+                        <li>
+                            <a href="article/ecoClicker.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 环保点击（Eco Clicker）</a>
+                        </li>
+                        <li>
+                            <a href="article/progress-quest.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 无尽的进度条（Progress Quest）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/IdleEvolution.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 进化放置（Idle Evolution）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/ares.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 战神（Ares）</a>
+                        </li>
+                        <li>
+                            <a href="article/villager-kings.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 土皇帝（Villager Kings）</a>
+                        </li>
+                        <li>
+                            <a href="article/computer-evolution.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 计算机进化（Computer Evolution）</a>
+                        </li>
+                        <li>
+                            <a href="article/ankyria.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 安可里亚（Ankyria）</a>
+                        </li>
+                        <li>
+                            <a href="article/endless-expansion.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 无限扩张（Endless Expansion）</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/incremental-adventures.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 增量冒险（Incremental Adventures）</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/merry-clickmas.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 圣诞点击（Merry Clickmas）</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/c-code.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> C语言（C）</a>
+                        </li>
+                        <li>
+                            <a href="article/incremental-health.html" target="_blank"><i class="glyphicon glyphicon-ok"></i> 健康增量（Incremental Health）</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>汉化中的游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="article/cuipi.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 脆皮（Trimps）</a>
+                        </li>
+                        <li>
+                            <a href="article/heartOfGalaxy.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 星系核心:地平线（Heart Of Galaxy : Horizons）</a>
+                        </li>
+
+
+                        <li>
+                            <a href="article/cityInc.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 城市公司（CityInc）</a>
+                        </li>
+                        <li>
+                            <a href="article/kraft.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 建造游戏（Kraft）</a>
+                        </li>
+                        <li>
+                            <a href="article/realmOfDecay.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 王权衰退（Realm Of Decay）</a>
+                        </li>
+                        <li>
+                            <a href="http://likexia.gitee.io/idle-factory/" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 工厂放置（Factory Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/technomancy.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 未来科技（Technomancy）</a>
+                        </li>
+
+                        <li>
+                            <a href="https://zhaolinxu.github.io/tour-of-heroes/" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 英雄的旅途（Tour Of Heroes）</a>
+                        </li>
+                        <li>
+                            <a href="article/idleBouncer.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 小球放置（Idle Bouncer）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/cookieClicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 无尽的饼干最新版（Cookie Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/dlyscs/" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 堕落勇士传说（Legend of the Fallen Warrior）</a>
+                        </li>
+                        <li>
+                            <a href="https://likexia.gitee.io/basic" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 基础（BASIC）</a>
+                        </li>
+                        <li>
+                            <a href="https://likexia.gitee.io/basic2" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 基础2：网格末日（BASIC 2: GRIDPOCALYPSE）</a>
+                        </li>
+                        <li>
+                            <a href="https://likexia.gitee.io/idle-painters" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 放置画家（Idle Painters）</a>
+                        </li>
+                        <li>
+                            <a href="article/pixelthis.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 像素放置（Pixel This）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/sandcastle-builder.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 沙塔建设者（Sandcastle Builder）</a>
+                        </li>
+                        <li>
+                            <a href="article/idlepunk.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 朋克放置（Idle Punk）</a>
+                        </li>
+                        <li>
+                            <a href="article/universecreatoridle.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 宇宙创造者（Universe Creator Idle）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/derivativeclicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 导数点击（Derivative Clicker）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/hunteridle.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 猎人放置（Hunter Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/idlegraph.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 图形放置（Idle Graph）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/spheal.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 海豹球（Spheal）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/idleDice.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 骰子放置（Idle Dice）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/paperclips.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 环球回形针（Universal Paperclips）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/elemental-inception-incremental.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 元素增量放置（Elemental Inception Incremental）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/goldenminer.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 黄金矿工（Golden Miner）</a>
+                        </li>
+                        <li>
+                            <a href="article/succubox.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 魔盒（Succubox）</a>
+                        </li>
+                        <li>
+                            <a href="article/candybox.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 糖果盒1（CandyBox）</a>
+                        </li>
+                        <li>
+                            <a href="article/the-idle-class.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 放置大亨（The Idle Class）</a>
+                        </li>
+                        <li>
+                            <a href="article/pokeclicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 宝可梦点击（Poke Clicker）</a>
+                        </li>
+                        <li>
+                            <a href="article/racing-clicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 赛车放置（Racing Clicker）</a>
+                        </li>
+                        <li>
+                            <a href="article/evolve.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 进化（Evolve）</a>
+                        </li>
+                        <li>
+                            <a href="article/robot-factory.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 机器人工厂（Robot Factory）</a>
+                        </li>
+                        <li>
+                            <a href="article/quest-game.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 冒险放置（Quest Game）</a>
+                        </li>
+                        <li>
+                            <a href="article/moneyclicker.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 金钱点击（ Money Clicker）</a>
+                        </li>
+                        <li>
+                            <a href="article/campaign.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 攻城掠地（Campaign）</a>
+                        </li>
+                        <li>
+                            <a href="article/Idle-idle-game-dev.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 放置游戏开发放置（Idle IdleGameDev）</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/eternity-tower.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 永恒之塔-网游（Eternity Tower）</a>
+                        </li>
+                        <li>
+                            <a href="article/idletea.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 制茶放置（Idle Tea）</a>
+                        </li>
+                        <li>
+                            <a href="article/devlife.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 开发人生（Dev Life）</a>
+                        </li>
+                        <li>
+                            <a href="article/fire-watcher.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 看火人（Fire Watcher）</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/idlemind.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 头脑放置（Idle Mind）</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/theory-of-magic.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 魔法理论（Theory of Magic）</a>
+                        </li>
+                        <li>
+                            <a href="article/creature-card-idle.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 怪物卡牌放置（Creature Card Idle）</a>
+                        </li>
+                        <li>
+                            <a href="article/holiday-slots-inc.html" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 假日抽奖公司（Holiday Slots Inc.）</a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="https://likexia.gitee.io/clickpocalypse" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 点击末日（Click Pocalypse）</a>
+                        </li>
+                        <li>
+                            <a href="https://likexia.gitee.io/clickpocalypse2" target="_blank"><i class="glyphicon glyphicon-pencil"></i> 点击末日2（Click Pocalypse 2）</a>
+                        </li>
+-->
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>其它游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="article/woyuxiuxian.html" target="_blank"><i class="glyphicon glyphicon-globe"></i> 我欲修仙（在线修仙游戏）</a>
+                        </li>
+
+                        <li>
+                            <a href="article/idle-breakout.html" target="_blank"><i class="glyphicon glyphicon-globe"></i> 打砖块(英文)（Idle Breakout）</a>
+                        </li>
+                        <li>
+                            <a href="http://cnh5.gitee.io/ube" target="_blank"><i class="glyphicon glyphicon-globe"></i> 乌托邦引擎（Utopia Engine）</a>
+                        </li>
+
+                        <li>
+                            <a href="http://green.ssyar.com/h5/09011aho/index.html" target="_blank"><i class="glyphicon glyphicon-globe"></i> 原谅帽大作战</a>
+                        </li>
+
+                        <li>
+                            <a href="http://bbs.gityx.com/kuang.php" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]矿场游戏</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=jneggv2" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]母鸡下蛋</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=gfarm:front" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]农场种菜</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=genee_everydaymushroom:genee_mushroom" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]天天采蘑菇</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=miner:miner" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]黄金矿工</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=genee_everydaymushroom:genee_mushroom" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]天天采蘑菇</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=huxcity:huxcity" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]虚拟社区</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=pokemon:pokemon" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]神奇宝贝</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.yikm.net/" target="_blank" title="群友推荐，欢迎体验"><i class="glyphicon glyphicon-globe"></i> FC在线游戏，小霸王红白机</a>
+                        </li>
+                        <li>
+                            <a href="http://yinhe1.anwuzhi.me/" target="_blank" title="群友自己搭的，欢迎体验"><i class="glyphicon glyphicon-globe"></i> [在线]银河帝国</a>
+                        </li>
+                        <li>
+                            <a href="http://cs.xusanshu.com" target="_blank" title="群友自己搭的，欢迎体验"><i class="glyphicon glyphicon-globe"></i> [页游]九币传奇</a>
+                        </li>
+
+                        <li>
+                            <a href="http://bbs.gityx.com/plugin.php?id=jiule_mobile" target="_blank"><i class="glyphicon glyphicon-globe"></i> [论坛游戏]页游中心</a>
+                        </li>
+                        
+                        <li>
+                            <a href="article/lored.html" target="_blank"><i class="glyphicon glyphicon-globe"></i> [英文]神特么挖矿放置（Lored）</a>
+                        </li>
+                        <!--
+							<li>
+								<a href="" ><i class="glyphicon glyphicon-time"></i> 暂无，欢迎推荐！</a>
+							</li>
+-->
+                        <!--
+                        <li>
+                            <a href="http://likexia.gitee.io/critter_mound/" target="_blank"><i class="glyphicon glyphicon-time"></i> 小蜜蜂进化(Critter Mound)</a>
+                        </li>
+-->
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--搜集的游戏 start-->
+        <div class="container">
+            <div class="content-bottom">
+                <div class="col-md-4 bottom-content">
+                    <h4>经典游戏</h4>
+                    <ul>
+
+                        <li>
+                            <a href="article/adarkroom.html" target="_blank"><i class="glyphicon glyphicon-heart-empty"></i> 小黑屋（A Dark Room）</a>
+                        </li>
+                        <li>
+                            <a href="article/2048.html" target="_blank"><i class="glyphicon glyphicon-heart-empty"></i> 2048</a>
+                        </li>
+                        <li>
+                            <a href="article/icrawler.html" target="_blank"><i class="glyphicon glyphicon-heart-empty"></i> 爬行者RPG（Icrawler Rpg）</a>
+                        </li>
+                        <li>
+                            <a href="article/megamiquest2.html" target="_blank"><i class="glyphicon glyphicon-heart-empty"></i> 女神任务2（Megami Quest 2）</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>小游戏</h4>
+                    <ul>
+
+                        <li>
+                            <a href="http://likexia.gitee.io/wuziqi" target="_blank"><i class="glyphicon glyphicon-link"></i> 五子棋（Gomoku）
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://iamkun.github.io/tower_game" target="_blank"><i class="glyphicon glyphicon-link"></i> 盖楼游戏（Tower Game）
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://cnh5.gitee.io/nipa/" target="_blank"><i class="glyphicon glyphicon-link"></i> 绘色（Nipa）
+                            </a>
+                        </li>
+                        <li>
+                            <a href="article/collect-star.html" target="_blank"><i class="glyphicon glyphicon-link"></i> 收集星星（Collect Star）
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4 bottom-content">
+                    <h4>Flash游戏</h4>
+                    <ul>
+                        <li>
+                            <a href="https://www.kongregate.com/games/BerzerkStudio/zombidle?sfa=permalink&referrer=SunshineDad" target="_blank" title="K站有时会连不上，可以玩手机版，在应用市场搜索：Zombidle"><i class="glyphicon glyphicon-flash"></i> 点击僵尸（K站/手机/Steam）</a>
+                        </li>
+                        <li>
+                            <a href="http://www.u77.com/game/9292" target="_blank"><i class="glyphicon glyphicon-flash"></i> 洞穴英雄（U77）</a>
+                        </li>
+                        <li>
+                            <a href="http://www.u77.com/game/12874" target="_blank"><i class="glyphicon glyphicon-flash"></i> 旋转放置（U77）</a>
+                        </li>
+
+                        <li>
+                            <a href="flash/RevolutionIdle2.html" target="_blank"><i class="glyphicon glyphicon-flash"></i> 旋转放置2</a>
+                        </li>
+
+                        <li>
+                            <a href="flash/battle-without-end.html" target="_blank"><i class="glyphicon glyphicon-flash"></i> 战斗无止境</a>
+                        </li>
+                        <li>
+                            <a href="flash/GrindQuest-Censored.html" target="_blank"><i class="glyphicon glyphicon-flash"></i> 挂机传奇</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--搜集的游戏 end-->
+    </div>
+    <!--content-->
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <h3>友情链接</h3>
+                <div class="col-md-4  top-footer">
+                    <ul>
+                        <li>
+                            <a href="http://www.u77.com/" target="_blank"><img src="//likexia.gitee.io/game/images/linklogo/U77logo.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <ul class="footer-grid">
+                <li>
+                    <a href="index.html">首页</a>
+                </li>
+                <li>
+                    <a href="games.html">游戏</a>
+                </li>
+                <li>
+                    <a href="blog.html">博客</a>
+                </li>
+                <li>
+                    <a href="timeline.html">事件</a>
+                </li>
+                <li>
+                    <a href="about.html">关于</a>
+                </li>
+                <li>
+                    <a href="http://www.gityx.com/" target="_blank">新首页</a>
+                </li>
+                <li>
+                    <a href="http://bbs.gityx.com" target="_blank">论坛</a>
+                </li>
+            </ul>
+            <p> © 2018 GitHub Games All rights reserved</p>
+        </div>
+    </div>
+    <script>
+        window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+
+    </script>
+
+    <!--客服 开始-->
+    <link rel="stylesheet" href="css/kf.css" type="text/css" media="screen" charset="utf-8">
+    <script src="js/kf.js"></script>
+    <!--客服 结束-->
+    <!--右下角 开始-->
+    <link rel="stylesheet" href="ad/rb_ad.css" type="text/css" charset="UTF-8">
+    <script src="ad/rb_ad.js" charset="utf-8"></script>
+    <!-- 右下角 结束 -->
+    <!--FlexSlider-->
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            //SyntaxHighlighter.all();
+        });
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+
+    </script>
+
+    <div style="display:none;">
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+
+        </script>
+    </div>
+</body>
+
+</html>

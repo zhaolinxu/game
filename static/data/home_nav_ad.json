@@ -1,0 +1,39 @@
+[
+    {
+        "left": [
+            {
+                "title": "淘宝双12超级红包",
+                "path": "1212",
+                "html": true,
+                "status": 0
+            },
+            {
+                "title": "猫国建设中",
+                "path": "kittens-game",
+                "html": false,
+                "status": 1
+            },
+            {
+                "title": "脆皮",
+                "path": "trimps",
+                "html": false,
+                "status": 1
+            }
+        ]
+    },{
+        "right": [
+            {
+                "title": "支付宝每天领红包",
+                "path": "fuli",
+                "html": true,
+                "status": 0
+            },
+            {
+                "title": "小黑屋",
+                "path": "a-dark-room",
+                "html": false,
+                "status": 1
+            }
+        ]
+    }
+]

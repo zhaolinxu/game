@@ -1,5 +1,29 @@
 [
     {
+        "title": "砍树放置",
+        "enTitle": "Idle Chopper",
+        "date": "2019-12-17",
+        "path": "idle-chopper",
+        "type": [
+            "汉化中",
+            "放置",
+            "点击",
+            "挂机",
+            "升级",
+            "K站"
+        ],
+        "content": [
+            "一起来砍树吧！"
+        ],
+        "zhUrl": "http://likexia.gitee.io/luts91/idle-chopper/index.html",
+        "enUrl": "https://luts91.github.io/idle-chopper/",
+        "kUrl": "https://www.kongregate.com/games/Luts91/idle-chopper?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "传奇回忆录",
         "enTitle": "Chuan Qi Hui Yi Lu",
         "date": "2019-12-17",
@@ -213,6 +237,33 @@
         ],
         "status": 1
     }, {
+        "title": "抽抽抽",
+        "enTitle": "Chou Chou Chou",
+        "date": "2019-10-11",
+        "path": "chou-chou-chou",
+        "type": [
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "原创",
+            "养成",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码:6jdh",
+            "《我的魔兽世界放置》的作者写的另一个款放置游戏，欢迎体验。"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/5s2Ka7g",
+        "baiduUrl": "https://pan.baidu.com/s/19iRAj27tgCCR9sG4PM8F1w",
+        "QQ": "951107794",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
         "title": "魔法理论",
         "enTitle": "Theory of Magic",
         "date": "2019-10-18",
@@ -569,16 +620,6 @@
         ],
         "zhUrl": "http://likexia.gitee.io/megamiquest2",
         "enUrl": "http://shimage.net/megamiquest2/cn.html",
-        "kUrl": "",
-        "weiyunUrl": "",
-        "baiduUrl": "",
-        "steamUrl": "",
-        "otherUrl": "",
-        "wikiUrl": "",
-        "wikiUrl2": "",
-        "hhUrl": "",
-        "jbUrl": "",
-        "QQ": "",
         "pic": [
             1,
             2
@@ -1095,6 +1136,57 @@
         ],
         "status": 1
     }, {
+        "title": "为了成为骑士",
+        "enTitle": "Be Knight",
+        "date": "2019-04-29",
+        "path": "be-knight",
+        "type": [
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "原创",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码:4j87"
+        ],
+        "weiyunUrl": "http://share.weiyun.com/5ZR67Vf",
+        "baiduUrl": "http://pan.baidu.com/s/17p_JMbzRgN8mY8_dxCVucA",
+        "QQ": "453817190",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "flash": false,
+        "status": 1
+    },{
+        "title": "无尽的对砍",
+        "enTitle": "Wu Jin De Dui Kan",
+        "date": "2019-04-28",
+        "path": "wu-jin-de-dui-kan",
+        "type": [
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "原创"
+        ],
+        "content": [
+            "游戏爱好者自己开发的。"
+        ],
+        "zhUrl": "http://likexia.gitee.io/vuebattle",
+        "otherUrl": "http://app.x4code.com/vuebattle/",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "flash": false,
+        "status": 1
+    },{
         "title": "战斗无止境",
         "enTitle": "Battle without End",
         "date": "2019-04-28",
@@ -1584,6 +1676,31 @@
         ],
         "status": 1
     }, {
+        "title": "超苦逼冒险者",
+        "enTitle": "KuBition Advanture",
+        "date": "2019-04-21",
+        "path": "kubition-advanture",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "冒险",
+            "原创",
+            "联网",
+            "养成",
+            "策略"
+        ],
+        "content": [
+            "苦逼冒险者的续作，一款不错的文字类型冒险游戏。"
+        ],
+        "zhUrl": "http://kubitionadvanture.sinaapp.com/",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
         "title": "我的魔兽世界放置",
         "enTitle": "My WOW",
         "date": "2019-04-18",

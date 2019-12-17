@@ -1,5 +1,73 @@
 [
     {
+        "title": "传奇回忆录",
+        "enTitle": "Chuan Qi Hui Yi Lu",
+        "date": "2019-12-17",
+        "path": "chuan-qi-hui-yi-lu",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "原创",
+            "联网",
+            "PC",
+            "养成",
+            "怀旧"
+        ],
+        "content": [
+            "百度盘密码密码：5dpx",
+            "作者是一个勤奋的人，更新频率高得吓人。作为一个独立开发者，这很难能可贵。所以我们帮他宣传一波。不氪金也可以玩。",
+            "相关作品还有《侠客行》"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/5AhRY2m",
+        "baiduUrl": "https://pan.baidu.com/s/1KNHsr-ySY08Yw_ACwt00hA",
+        "QQ": "456412414",
+        "pic": [
+            1,
+            2, 3, 4, 5
+        ],
+        "needHH": 0,
+        "status": 1
+    }, {
+        "title": "侠客行",
+        "enTitle": "Xia Ke Xing",
+        "date": "2019-12-17",
+        "path": "xia-ke-xing",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "原创",
+            "联网",
+            "PC",
+            "养成",
+            "怀旧"
+        ],
+        "content": [
+            "百度盘密码密码：30uc",
+            "作者是一个勤奋的人，更新频率高得吓人。作为一个独立开发者，这很难能可贵。所以我们帮他宣传一波。不氪金也可以玩。",
+            "相关作品还有《传奇回忆录》"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/5sMuvmi",
+        "baiduUrl": "https://pan.baidu.com/s/1459fnhlIk-lQSTZGJz9ACA",
+        "QQ": "456412414",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "needHH": 0,
+        "status": 1
+    }, {
         "title": "云顶修仙",
         "enTitle": "Yun Ding Xiu Xian",
         "date": "2019-12-16",
@@ -23,9 +91,9 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    }, {
         "title": "假日抽奖公司",
         "enTitle": "Holiday Slots Inc.",
         "date": "2019-12-11",
@@ -48,7 +116,7 @@
             2
         ],
         "status": 1
-    },{
+    }, {
         "title": "怪物卡牌放置",
         "enTitle": "Creature Card Idle",
         "date": "2019-12-09",
@@ -101,7 +169,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     }, {
         "title": "僵尸增量",
@@ -311,7 +379,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     }, {
         "title": "圣诞点击",
@@ -979,7 +1047,7 @@
         ],
         "status": 1,
         "flash": true
-    },{
+    }, {
         "title": "爬行者RPG",
         "enTitle": "Icrawler Rpg",
         "date": "2019-05-15",
@@ -1053,7 +1121,7 @@
         ],
         "status": 1,
         "flash": true
-    },{
+    }, {
         "title": "无尽的进度条",
         "enTitle": "Progress Quest",
         "date": "2019-04-28",
@@ -1486,7 +1554,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     }, {
         "title": "太空放置",
@@ -1514,6 +1582,36 @@
             1,
             2
         ],
+        "status": 1
+    }, {
+        "title": "我的魔兽世界放置",
+        "enTitle": "My WOW",
+        "date": "2019-04-18",
+        "path": "my-wow",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "原创",
+            "PC",
+            "养成",
+            "怀旧"
+        ],
+        "content": [
+            "这是魔兽世界的放置版本，非常好玩。",
+            "下载链接如果挂了请留言告知一下，谢谢。"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/5PQpwen",
+        "baiduUrl": "https://pan.baidu.com/s/1sJ30J-Z-gfKj6iOKDFxrnA",
+        "QQ": "951107794",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH": 0,
         "status": 1
     }, {
         "title": "艾德尔冒险",
@@ -1856,7 +1954,7 @@
         ],
         "status": 1,
         "flash": true
-    },{
+    }, {
         "title": "梯田",
         "enTitle": "Terrafold",
         "date": "2019-02-20",
@@ -1907,7 +2005,7 @@
         ],
         "status": 1
     }, {
-        "title": "王权衰退",
+        "title": "腐朽国度",
         "enTitle": "Realm Of Decay",
         "date": "2019-01-18",
         "path": "realm-of-decay",

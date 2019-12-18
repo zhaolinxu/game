@@ -1,5 +1,35 @@
 [
     {
+        "title": "云顶修仙",
+        "enTitle": "Yun Ding Xiu Xian",
+        "date": "2019-12-18",
+        "path": "yun-ding-xiu-xian",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "原创",
+            "联网",
+            "升级",
+            "冒险",
+            "修仙"
+        ],
+        "content": [
+            "之前因为出了些问题，导致游戏开了三天就关闭了。现在作者自己单开了，喜欢的朋友可以继续玩。"
+        ],
+        "zhUrl": "http://joucks.cn:3344/",
+        "QQ": "173059029",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH": 0,
+        "status": 1
+    }, {
         "title": "砍树放置",
         "enTitle": "Idle Chopper",
         "date": "2019-12-17",
@@ -13,7 +43,7 @@
             "K站"
         ],
         "content": [
-            "一起来砍树吧！"
+            "一起来砍树吧！这是《骰子放置》的作者另一个作品。"
         ],
         "zhUrl": "http://likexia.gitee.io/luts91/idle-chopper/index.html",
         "enUrl": "https://luts91.github.io/idle-chopper/",
@@ -88,32 +118,6 @@
             4,
             5,
             6
-        ],
-        "needHH": 0,
-        "status": 1
-    }, {
-        "title": "云顶修仙",
-        "enTitle": "Yun Ding Xiu Xian",
-        "date": "2019-12-16",
-        "path": "yundingxiuxian",
-        "type": [
-            "放置",
-            "文字",
-            "点击",
-            "挂机",
-            "原创",
-            "联网",
-            "升级",
-            "冒险",
-            "修仙"
-        ],
-        "content": [
-            "之前因为出了些问题，导致游戏没法继续玩。现在作者自己单开了，喜欢的朋友可以继续玩。"
-        ],
-        "zhUrl": "http://joucks.cn:3344/",
-        "pic": [
-            1,
-            2
         ],
         "needHH": 0,
         "status": 1

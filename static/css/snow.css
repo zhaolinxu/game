@@ -1,0 +1,8 @@
+/*!
+ * Migu Screen Animation CSS
+ * 下雪
+ * snow.css
+ * Alvin
+ * Date: 2017-01-04 11:05
+ */
+#canvas{pointer-events:none;position:fixed;top:0;color:#fff;z-index:99999;width:1920px;height:1080px;}

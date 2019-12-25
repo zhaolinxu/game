@@ -16,7 +16,7 @@ window.onload = function() {
                 canvas.width = W;
                 canvas.height = H;
                 //snowflake particles
-                var mp = 500; //雪花密度
+                var mp = 200; //雪花密度
                 var particles = [];
                 for (var i = 0; i < mp; i++) {
                     particles.push({

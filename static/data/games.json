@@ -3,6 +3,7 @@
         "title": "我的公会",
         "enTitle": "My Guild",
         "date": "2019-12-19",
+        "update": "2019-12-23",
         "path": "my-guild",
         "type": [
             "文字",
@@ -25,6 +26,7 @@
             2
         ],
         "needHH":0,
+        "version":"1.07",
         "status": 1
     },{
         "title": "云顶修仙",
@@ -84,6 +86,7 @@
         "title": "传奇回忆录",
         "enTitle": "Chuan Qi Hui Yi Lu",
         "date": "2019-12-17",
+        "update": "2019-12-23",
         "path": "chuan-qi-hui-yi-lu",
         "type": [
             "放置",
@@ -111,11 +114,13 @@
             2, 3, 4, 5
         ],
         "needHH": 0,
+        "version":"2.19",
         "status": 1
     }, {
         "title": "侠客行",
         "enTitle": "Xia Ke Xing",
         "date": "2019-12-17",
+        "update": "2019-12-23",
         "path": "xia-ke-xing",
         "type": [
             "放置",
@@ -147,6 +152,7 @@
             6
         ],
         "needHH": 0,
+        "version":"2.36",
         "status": 1
     }, {
         "title": "假日抽奖公司",
@@ -175,6 +181,7 @@
         "title": "怪物卡牌放置",
         "enTitle": "Creature Card Idle",
         "date": "2019-12-09",
+        "update": "2019-12-20",
         "path": "creature-card-idle",
         "type": [
             "汉化中",
@@ -271,6 +278,8 @@
         "title": "抽抽抽",
         "enTitle": "Chou Chou Chou",
         "date": "2019-10-11",
+        "update": "2019-10-23",
+        "version":"1.602",
         "path": "chou-chou-chou",
         "type": [
             "文字",
@@ -490,6 +499,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
+        "update": "2019-12-20",
         "path": "incremental-adventures",
         "type": [
             "已汉化",
@@ -1170,6 +1180,7 @@
         "title": "为了成为骑士",
         "enTitle": "Be Knight",
         "date": "2019-04-29",
+        "update": "2019-11-04",
         "path": "be-knight",
         "type": [
             "点击",
@@ -1735,6 +1746,8 @@
         "title": "我的魔兽世界放置",
         "enTitle": "My WOW",
         "date": "2019-04-18",
+        "update": "2019-09-03",
+        "version":"C2.250",
         "path": "my-wow",
         "type": [
             "放置",

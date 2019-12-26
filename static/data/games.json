@@ -275,6 +275,31 @@
         ],
         "status": 1
     }, {
+        "title": "循环放置2",
+        "enTitle": "Idle Loops 2",
+        "date": "2019-10-15",
+        "version":"0.93",
+        "path": "idle-loops2",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险"
+        ],
+        "content": [
+            "应该是爱好者在原作者基础上自行开发的。"
+        ],
+        "zhUrl": "http://likexia.gitee.io/omsi6/loops/",
+        "enUrl": "https://omsi6.github.io/loops/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "抽抽抽",
         "enTitle": "Chou Chou Chou",
         "date": "2019-10-11",
@@ -378,31 +403,7 @@
             2
         ],
         "status": 1
-    }, {
-        "title": "看火人",
-        "enTitle": "Fire Watcher",
-        "date": "2019-12-12",
-        "path": "fire-watcher",
-        "type": [
-            "汉化中",
-            "放置",
-            "文字",
-            "点击",
-            "经营",
-            "离线",
-            "挂机"
-        ],
-        "content": [
-            ""
-        ],
-        "zhUrl": "http://likexia.gitee.io/fire-watcher",
-        "enUrl": "http://pie3636.github.io/fire-watcher/",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 1
-    }, {
+    },  {
         "title": "开发人生",
         "enTitle": "Dev Life",
         "date": "2019-09-01",
@@ -743,6 +744,30 @@
         ],
         "status": 1
     }, {
+        "title": "看火人",
+        "enTitle": "Fire Watcher",
+        "date": "2019-07-04",
+        "path": "fire-watcher",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://likexia.gitee.io/fire-watcher",
+        "enUrl": "http://pie3636.github.io/fire-watcher/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "机器人工厂",
         "enTitle": "Robot Factory",
         "date": "2019-07-03",
@@ -2116,6 +2141,82 @@
         "status": 1,
         "flash": true
     }, {
+        "title": "纳米扩散",
+        "enTitle": "Nanospread",
+        "date": "2019-02-20",
+        "update": "2019-12-26",
+        "path": "nanospread",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "益智",
+            "原创"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://likexia.gitee.io/stopsign/Nanospread/index.html",
+        "enUrl": "http://stopsign.github.io/Nanospread/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
+        "title": "国王的完美战争",
+        "enTitle": "King's Perfect War",
+        "date": "2019-02-20",
+        "path": "kings-perfect-war",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "策略",
+            "冒险"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://likexia.gitee.io/stopsign/KingsPerfectWar/",
+        "enUrl": "http://stopsign.github.io/KingsPerfectWar/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "循环放置",
+        "enTitle": "Idle Loops",
+        "date": "2019-02-20",
+        "version":"0.77",
+        "path": "idle-loops",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://likexia.gitee.io/stopsign/Nanospread/index.html",
+        "enUrl": "http://stopsign.github.io/Nanospread/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "梯田",
         "enTitle": "Terrafold",
         "date": "2019-02-20",

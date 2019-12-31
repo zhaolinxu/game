@@ -1,5 +1,30 @@
 [
     {
+        "title": "宝可梦传奇",
+        "enTitle": "Pokemon Legends",
+        "date": "2019-12-31",
+        "path": "pokemon-legends",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "冒险",
+            "挂机",
+            "联网",
+            "养成",
+            "英文"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "https://www.pokemonlegends.com/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "我的公会",
         "enTitle": "My Guild",
         "date": "2019-12-19",

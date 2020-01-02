@@ -1,5 +1,35 @@
 [
     {
+        "title": "防御者放置：新起点",
+        "enTitle": "Defender Idle: New Beginning",
+        "date": "2020-01-02",
+        "version":"",
+        "path": "defender-idle-new-beginning",
+        "type": [
+            "放置",
+            "点击",
+            "冒险",
+            "K站",
+            "英文",
+            "U3D",
+            "塔防",
+            "建造",
+            "养成",
+            "策略"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
+        ],
+        "customUrl": "http://likexia.gitee.io/defender-idle-new-beginning/",
+        "customUrlTit": "国内英文快速版",
+        "kUrl": "https://www.kongregate.com/games/Barbasu/defender-idle-new-beginning?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
         "title": "宝可梦传奇",
         "enTitle": "Pokemon Legends",
         "date": "2019-12-31",

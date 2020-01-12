@@ -1,5 +1,33 @@
 [
     {
+        "title": "文明2",
+        "enTitle": "Cividlization 2",
+        "date": "2020-01-11",
+        "update": "2020-01-11",
+        "version":"1.0.8",
+        "path": "cividlization-2",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "冒险",
+            "K站",
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/cividlization2",
+        "kUrl": "https://www.kongregate.com/games/to_change_later/cividlization-2?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "防御者放置：新起点",
         "enTitle": "Defender Idle: New Beginning",
         "date": "2020-01-02",

@@ -1,10 +1,37 @@
 [
     {
+        "title": "向量增量",
+        "enTitle": "Vector Incremental",
+        "date": "2020-02-16",
+        "update": "2020-02-16",
+        "version":"1.0.12",
+        "path": "vector-incremental",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "K站"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/vector-incremental/",
+        "kUrl": "https://www.kongregate.com/games/denisolenison/vector-incremental?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "文明2",
         "enTitle": "Cividlization 2",
         "date": "2020-01-11",
-        "update": "2020-01-11",
-        "version":"1.0.8",
+        "update": "2020-02-03",
+        "version":"1.2.14",
         "path": "cividlization-2",
         "type": [
             "汉化中",
@@ -18,7 +45,7 @@
             "K站"
         ],
         "content": [
-            ""
+            "不能直接刷新，需要把链接删除到/cividlization2/这里"
         ],
         "zhUrl": "http://idlegame.gitee.io/cividlization2",
         "kUrl": "https://www.kongregate.com/games/to_change_later/cividlization-2?sfa=permalink&referrer=SunshineDad",

@@ -610,7 +610,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
-        "update": "2019-12-20",
+        "update": "2020-02-13",
         "path": "incremental-adventures",
         "type": [
             "已汉化",
@@ -2015,6 +2015,7 @@
         "title": "大脑创造者",
         "enTitle": "Brain Creator",
         "date": "2019-03-27",
+        "update": "2019-03-23",
         "path": "brain-creator",
         "type": [
             "已汉化",

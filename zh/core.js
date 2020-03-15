@@ -224,7 +224,8 @@ function TransSubTextNode(node) {
                         //console.log(node);
                     } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "STYLE" && node.nodeName !== "TEXTAREA") {
                         if (!node.childNodes || node.childNodes.length == 0) {
-                            node.innerText = cnItem(node.innerText, node);
+							if (node.innerText)
+								node.innerText = cnItem(node.innerText, node);
                         } else {
                             TransSubTextNode(node);
                             transTaskMgr.doTask();

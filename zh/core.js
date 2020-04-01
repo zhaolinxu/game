@@ -85,7 +85,7 @@ var cnItem = function (text, node) {
         let result = text.match(reg);
         if (result) {
             text_reg_exclude_postfix = result[0] + text_reg_exclude_postfix;
-            text = text.substr(0, text.length - text_reg_exclude_postfix.length);
+            text = text.substr(0, text.length - result[0].length);
         }
     }
 
@@ -224,7 +224,8 @@ function TransSubTextNode(node) {
                         //console.log(node);
                     } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "STYLE" && node.nodeName !== "TEXTAREA") {
                         if (!node.childNodes || node.childNodes.length == 0) {
-                            node.innerText = cnItem(node.innerText, node);
+							if (node.innerText)
+								node.innerText = cnItem(node.innerText, node);
                         } else {
                             TransSubTextNode(node);
                             transTaskMgr.doTask();

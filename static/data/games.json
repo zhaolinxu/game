@@ -1,5 +1,58 @@
 [
     {
+        "title": "消灭新冠状肺炎",
+        "enTitle": "Covid Containment",
+        "date": "2020-04-01",
+        "update": "2020-04-01",
+        "path": "covid-containment",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "快来消灭新冠状肺炎！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/covid-containment/",
+        "enUrl": "https://covidcontainment.com/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
+        "title": "供应链放置",
+        "enTitle": "Supply Chain idle",
+        "date": "2020-02-24",
+        "path": "supply-chain-idle",
+        "type": [
+            "放置",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "K站",
+            "英文",
+            "PC",
+            "Steam",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            ""
+        ],
+        "kUrl": "https://www.kongregate.com/games/UpturnGames/supply-chain-idle?sfa=permalink&referrer=SunshineDad",
+        "steamUrl": "https://store.steampowered.com/app/946040/Supply_Chain_Idle/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "向量增量",
         "enTitle": "Vector Incremental",
         "date": "2020-02-16",
@@ -388,6 +441,7 @@
         "title": "循环放置2",
         "enTitle": "Idle Loops 2",
         "date": "2019-10-15",
+        "update": "2020-02-21",
         "version":"0.93",
         "path": "idle-loops2",
         "type": [
@@ -2595,6 +2649,8 @@
         "title": "13层",
         "enTitle": "Level 13",
         "date": "2018-05-09",
+        "update": "2020-02-21",
+        "version":"0.2.7",
         "path": "level-13",
         "type": [
             "汉化中",
@@ -3165,6 +3221,8 @@
         "title": "脆皮",
         "enTitle": "Trimps",
         "date": "2017-10-27",
+        "update": "2020-02-21",
+        "version":"5.2.4",
         "path": "trimps",
         "type": [
             "汉化中",

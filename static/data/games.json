@@ -1,5 +1,81 @@
 [
     {
+        "title": "放置英雄",
+        "enTitle": "idle-heroes",
+        "date": "2020-04-24",
+        "update": "2020-03-19",
+        "version":"",
+        "path": "idle-heroes",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "K站"
+        ],
+        "content": [
+            "你可以杀怪获得声誉值和金钱，声誉值可以解锁新英雄，钱可以升级英雄。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-heroes/",
+        "kUrl": "https://www.kongregate.com/games/Cyberspirit/idle-heroes-vs-monsters?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
+        "title": "武世界复刻版",
+        "enTitle": "Wu World Fu Ke",
+        "date": "2020-04-15",
+        "update": "2020-04-22",
+        "version":"1.6",
+        "path": "wu-world-fu-ke",
+        "type": [
+            "点击",
+            "升级",
+            "冒险",
+            "原创",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码：40hl"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/50DVmLB",
+        "baiduUrl": "https://pan.baidu.com/s/1-wRnmhUR5kTsz7PqlF0tDg",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
+        "title": "一起打怪兽",
+        "enTitle": "Let's Fight Monster",
+        "date": "2020-03-31",
+        "update": "2020-04-16",
+        "version":"1005",
+        "path": "lets-fight-monster",
+        "type": [
+            "点击",
+            "升级",
+            "冒险",
+            "原创",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码：lpc2"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/59lFieY",
+        "baiduUrl": "https://pan.baidu.com/s/1jKLqizT1zZGER7RIRe4Gbw",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
         "title": "消灭新冠状肺炎",
         "enTitle": "Covid Containment",
         "date": "2020-04-01",

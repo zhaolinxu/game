@@ -26,6 +26,34 @@
         ],
         "status": 1
     },{
+        "title": "增量史诗英雄",
+        "enTitle": "Incremental Epic Hero",
+        "date": "2020-04-23",
+        "update": "2020-04-24",
+        "version":"1.0.3.1",
+        "path": "incremental-epic-hero",
+        "type": [
+            "放置",
+            "点击",
+            "冒险",
+            "K站",
+            "英文",
+            "U3D",
+            "养成"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
+        ],
+        "customUrl": "http://likexia.gitee.io/incremental-epic-hero/",
+        "customUrlTit": "国内英文快速版",
+        "kUrl": "https://www.kongregate.com/games/HapiwakuProject/incremental-epic-hero?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
         "title": "武世界复刻版",
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",

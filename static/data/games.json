@@ -1,5 +1,31 @@
 [
     {
+        "title": "协同放置",
+        "enTitle": "Synergism",
+        "date": "2020-05-05",
+        "update": "2020-05-05",
+        "version":"1.005",
+        "path": "synergism",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "K站"
+        ],
+        "content": [
+            "点点点！买买买！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/synergism",
+        "kUrl": "https://www.kongregate.com/games/Platonic/synergism?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "放置英雄",
         "enTitle": "idle-heroes",
         "date": "2020-04-24",
@@ -29,8 +55,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-04-24",
-        "version":"1.0.3.1",
+        "update": "2020-05-02",
+        "version":"1.0.4.1",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -57,8 +83,8 @@
         "title": "武世界复刻版",
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",
-        "update": "2020-04-22",
-        "version":"1.6",
+        "update": "2020-05-04",
+        "version":"1.9",
         "path": "wu-world-fu-ke",
         "type": [
             "点击",

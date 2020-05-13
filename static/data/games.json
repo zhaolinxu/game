@@ -1,10 +1,96 @@
 [
     {
+        "title": "锅巴数独",
+        "enTitle": "Guo Ba Sudoku",
+        "date": "2020-05-13",
+        "update": "2020-05-13",
+        "version":"",
+        "path": "guo-ba-sudoku",
+        "type": [
+            "文字",
+            "点击",
+            "益智",
+            "联网",
+            "安卓",
+            "苹果",
+            "策略",
+            "小程序"
+        ],
+        "content": [
+            "数独游戏，可以在设置里面调整难度，自带统计哦，可以看到每次过关的时间。也可以分享成绩给好友。",
+            "微信打开扫一扫，扫描小程序码，开始游戏。",
+            "难度调整：点左上按钮，进设置→遮挡比例，调整难度。然后返回到首页，点右边灯泡，重新生成地图即可。"
+        ],
+        "zhUrl": "",
+        "enUrl": "",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },{
+        "title": "锅巴计算器",
+        "enTitle": "Guo Ba Calculator",
+        "date": "2020-05-13",
+        "update": "2020-05-13",
+        "version":"",
+        "path": "guo-ba-calculator",
+        "type": [
+            "文字",
+            "点击",
+            "益智",
+            "联网",
+            "安卓",
+            "苹果",
+            "策略",
+            "小程序"
+        ],
+        "content": [
+            "这是一个计算器，咱自己的小程序版计算器，带了高级计算器~"
+        ],
+        "zhUrl": "",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },{
+        "title": "林林五十音",
+        "enTitle": "Lin Lin 50 Yin",
+        "date": "2020-05-13",
+        "update": "2020-05-13",
+        "version":"",
+        "path": "lin-lin-50-yin",
+        "type": [
+            "文字",
+            "点击",
+            "益智",
+            "联网",
+            "安卓",
+            "苹果",
+            "小程序"
+        ],
+        "content": [
+            "学习日语的好帮手，再也不怕看片听不懂了~"
+        ],
+        "zhUrl": "",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-05-05",
-        "version":"1.005",
+        "update": "2020-05-12",
+        "version":"1.0082",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -22,7 +108,10 @@
         "kUrl": "https://www.kongregate.com/games/Platonic/synergism?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
-            2
+            2,
+            3,
+            4,
+            5
         ],
         "status": 1
     },{
@@ -55,8 +144,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-05-02",
-        "version":"1.0.4.1",
+        "update": "2020-05-09",
+        "version":"1.0.5.1",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -1117,7 +1206,7 @@
         "date": "2019-07-01",
         "path": "evolve",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",

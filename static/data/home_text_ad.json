@@ -1,4 +1,10 @@
 [{
+    "title": "欢迎关注公众号：Git游戏",
+    "link": "https://mp.weixin.qq.com/s/-IIQ-N0Og7IENvazzziiHg",
+    "button": "前往关注",
+    "tips": "欢迎关注公众号：Git游戏",
+    "status": 1
+},{
     "title": "Git游戏论坛，欢迎来写攻略！",
     "link": "http://bbs.gityx.com",
     "button": "点击访问",
@@ -9,7 +15,7 @@
     "link": "http://wx.gityx.com/",
     "button": "开始游戏",
     "tips": "来一起耍啊~",
-    "status": 1
+    "status": 0
 }, {
     "title": "玩游戏也能赚零花钱",
     "link": "http://www.juxiangyou.com/floor/recom/3570025",

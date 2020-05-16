@@ -1,5 +1,30 @@
 [
     {
+        "title": "永不放弃",
+        "enTitle": "Never Give Up",
+        "date": "2020-05-16",
+        "update": "2020-05-16",
+        "version":"",
+        "path": "never-give-up",
+        "type": [
+            "点击",
+            "敏捷",
+            "音乐"
+        ],
+        "content": [
+            "《永不放弃》是一款极具虐心色彩的音乐题材闯关游戏。在游戏中，我们需要操控一个黑色棉花状小人在一个个木桩上跳动，当木桩为绿色时玩家可以放心大胆地踩上去，而当遇到红色或者障碍物时则需要及时避开。",
+            "操作：选择模式、关卡，然后按空格键开始，随着音乐的节奏来跳跃。",
+            "本游戏是爱好者参照手游版写的。"
+        ],
+        "customUrl": "http://idlegame.gitee.io/never-give-up/",
+        "customUrlTit": "开始游戏",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1,
+        "needHH":0
+    },{
         "title": "大富翁",
         "enTitle": "Monopoly",
         "date": "2020-05-15",

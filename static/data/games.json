@@ -1,5 +1,56 @@
 [
     {
+        "title": "反物质维度",
+        "enTitle": "Antimatter Dimensions",
+        "date": "2018-08-28",
+        "update": "2020-05-19",
+        "version":"",
+        "path": "antimatter-dimensions",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机"
+        ],
+        "content": [
+            "通过维度获得反物质!获得无限反物质来瓦解宇宙!"
+        ],
+        "zhUrl": "https://likexia.gitee.io/fwzwd",
+        "enUrl": "https://ivark.github.io/",
+        "kUrl": "https://www.kongregate.com/games/Hevipelle/antimatter-dimensions?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },{
+        "title": "超级英雄消消乐",
+        "enTitle": "SuperHero Eliminate",
+        "date": "2020-05-17",
+        "update": "2020-05-17",
+        "version":"",
+        "path": "superHero-eliminate",
+        "type": [
+            "点击",
+            "消除"
+        ],
+        "content": [
+            "《超级英雄消消乐》是一款消除类的小游戏，偶尔放松一下也是不错的。"
+        ],
+        "customUrl": "http://idlegame.gitee.io/superhero-eliminate",
+        "customUrlTit": "开始游戏",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1,
+        "needHH":0
+    },{
         "title": "永不放弃",
         "enTitle": "Never Give Up",
         "date": "2020-05-16",

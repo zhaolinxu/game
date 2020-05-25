@@ -144,7 +144,7 @@ var cnItems = {
 'Monsters': '怪物',
 'No potion active': '没有使用药水',
 'New Task': '新任务',
-'Name': '名称',': '',
+'Name': '名称',
 'Fierce Devil': '凶恶魔鬼',
 'Firemaking': '生火',
 'Force Save': '强制保存',

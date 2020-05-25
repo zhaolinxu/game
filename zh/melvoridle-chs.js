@@ -1,17 +1,5 @@
-/*
-
- @name    : 锅巴汉化 - Web汉化插件
- @author  : 麦子、JAR、小蓝、好阳光的小锅巴
- @version : V0.6.1 - 2019-07-09
- @website : http://www.g8hh.com
-
-*/
-
-//1.汉化杂项
 var cnItems = {
     _OTHER_: [],
-
-    //未分类：
     'Black Knight': '黑骑士',
     'Black Dragon': '黑龙',
     'Blue Dragon': '蓝龙',
@@ -304,79 +292,78 @@ var cnItems = {
     'Plant a Seed': '播种',
     'Prayer Points': '祈祷点数',
     'Raw Blowfish': '生河豚',
-    //5.25云汉化↓
-    'Adamantite  Bar': '精金锭',
-    'Air God  Dungeon': '风神殿',
+    'Adamantite Bar': '精金锭',
+    'Air God Dungeon': '风神殿',
     'Air Rune': '风之符文',
     'Allotments': '分配',
-    'Amulet  of Looting': '战利品护符',
-    'An Elite  CafeMedia Publisher': '精英CafeMedia出版商',
-    'Arrow  Shafts': '箭杆',
+    'Amulet of Looting': '战利品护符',
+    'An Elite CafeMedia Publisher': '精英CafeMedia出版商',
+    'Arrow Shafts': '箭杆',
     'Arrows': '箭头',
-    'Art of  Control': '控制之技',
+    'Art of Control': '控制之技',
     'Attack  Skillcape': '攻击技能斗篷',
-    'Auto Eat  - Tier II': '自动进餐-II级',
+    'Auto Eat - Tier II': '自动进餐-II级',
     'Bandit': '强盗',
-    'Bandit  Base': '强盗营地',
-    'Bandit  Chest': '强盗宝箱',
-    'Bandit  Hideout': '强盗藏匿处',
-    'Bandit  Trainee': '强盗新兵',
-    'Bank  Slot': '银行槽位',
-    'Bank  Space Used': '银行空间',
-    'Bank  Value': '银行价值',
-    'Barbarian  Fishing': '野蛮人钓鱼',
-    'Base  ingredient for Potions.': '魔药的基本成分',
-    'Bird  Nests Potion': '燕窝药剂',
-    'Blue  Dragonhide': '蓝龙皮',
-    'Bonfire  Status': '篝火状态',
+    'Bandit Base': '强盗营地',
+    'Bandit Chest': '强盗宝箱',
+    'Bandit Hideout': '强盗藏匿处',
+    'Bandit Trainee': '强盗新兵',
+    'Bank Slot': '银行槽位',
+    'Bank Space Used': '银行空间',
+    'Bank Value': '银行价值',
+    'Barbarian Fishing': '野蛮人钓鱼',
+    'Base ingredient for Potions.': '魔药的基本成分',
+    'Bird Nests Potion': '燕窝药剂',
+    'Blue Dragonhide': '蓝龙皮',
+    'Bonfire Status': '篝火状态',
     'Bowstring': '弓弦',
-    'Bypass  equipment requirements for Slayer Areas': '避开杀戮地区的装备要求',
-    'Capped  at 2,000 SC': '最大为2000SC',
-    'Castle  of Kings': '国王的城堡',
-    'Change  Character Name': '更改角色名称',
+    'Bypass equipment requirements for Slayer Areas': '避开杀戮地区的装备要求',
+    'Capped at 2,000 SC': '最大为2000SC',
+    'Castle of Kings': '国王的城堡',
+    'Change Character Name': '更改角色名称',
     'Chef': '厨师',
-    'Collect  a random Gem for each mining action when equipped. Does not work on Rune  Essence.': '装备后,每次采矿时可获得随机宝石,对符文精华无效',
-    'Confetti  Crossbow': '五彩弩',
-    'Confused  Pirate': '困惑的海盗',
-    'Cooking  burns no food when equipped': '装备时烹饪将不会烧焦食物',
-    'Crafting  Skillcape': '工艺技能斗篷',
+    'Collect a random Gem for each mining action when equipped. Does not work on Rune Essence.': '装备后,每次采矿时可获得随机宝石,对符文精华无效',
+    'Confetti Crossbow': '五彩弩',
+    'Confused Pirate': '困惑的海盗',
+    'Cooking burns no food when equipped': '装备时烹饪将不会烧焦食物',
+    'Crafting Skillcape': '工艺技能斗篷',
     'Created  by Patreon (deathbyconfetti': '创建者Patreon(deathbyconfetti',
-    'Created  by Patreon (RS Wikis': '创建者Patreon（RS Wiki',
-    'Created  by Patreon (Skull': '创建者Patreon（Skull',
+    'Created by Patreon (RS Wikis': '创建者Patreon（RS Wiki',
+    'Created by Patreon (Skull': '创建者Patreon（Skull',
     'Crossbows': '弩',
-    'Custom  Amount': '自定义数量',
-    'Cut 2  different trees simultaneously': '同时砍伐两棵不同的树',
-    'Dark  Horned Elite': '黑暗巨魔',
-    'Dark  Wizard': '黑巫师',
-    'Decreased  Crafting Interval': '减少制作间隔',
+    'Custom Amount': '自定义数量',
+    'Cut 2 different trees simultaneously': '同时砍伐两棵不同的树',
+    'Dark Horned Elite': '黑暗巨魔',
+    'Dark Wizard': '黑巫师',
+    'Decreased Crafting Interval': '减少制作间隔',
     'Defensive': '防御',
-    'Defensive  Stats': '防御值',
-    'Desolate  Plains': '荒原',
+    'Defensive Stats': '防御值',
+    'Desolate Plains': '荒原',
     'Discord': '嘈杂声',
-    'Dmg  Reduction': '伤害减少',
-    'Doubles  the amount of items caught.': '使捕获的道具数量加倍',
-    'Dragon  Gear': '龙族装备',
-    'Dragon  Valley': '龙谷',
+    'Dmg Reduction': '伤害减少',
+    'Doubles the amount of items caught.': '使捕获的道具数量加倍',
+    'Dragon Gear': '龙族装备',
+    'Dragon Valley': '龙谷',
     'Dragonhide': '龙皮',
     'Dragonite': '龙石',
-    'Dragons  Den': '龙穴',
+    'Dragons Den': '龙穴',
     'Drops': '掉落物',
-    'Dungeon  Difficulty': '地下城难度',
-    'Dungeon  Equipment Swapping': '地下城装备交换',
-    'Earth  God Dungeon': '地神殿',
-    'Easy  Mode': '简单模式',
-    'Egg  Chest': '蛋箱',
-    'Elder  Chest': '上古之箱',
+    'Dungeon Difficulty': '地下城难度',
+    'Dungeon Equipment Swapping': '地下城装备交换',
+    'Earth God Dungeon': '地神殿',
+    'Easy Mode': '简单模式',
+    'Egg Chest': '蛋箱',
+    'Elder Chest': '上古之箱',
     'Elite': '精英',
-    'Elite  Chest': '精英之箱',
+    'Elite Chest': '精英之箱',
     'Empty': '空的',
-    'Enable  Equipment Swapping during dungeons.': '可在地下城中更换装备',
+    'Enable Equipment Swapping during dungeons.': '可在地下城中更换装备',
     'Enemy': '敌人',
-    'Enemy  Combat Level': '敌人战斗等级',
-    'Enemy  Special Attacks': '敌人特殊攻击',
-    'Entry  Requirements': '进入要求',
+    'Enemy Combat Level': '敌人战斗等级',
+    'Enemy Special Attacks': '敌人特殊攻击',
+    'Entry Requirements': '进入要求',
     'Equipment': '装备',
-    'Equipment  Sets': '装备套装 ',
+    'Equipment Sets': '装备套装 ',
     'Equipped': '装备',
     'Evasion': '闪避',
     'Expanded Knowledge': '知识拓展',
@@ -445,7 +432,7 @@ var cnItems = {
     'In Development': '开发中',
     'Inacitve': '不活跃',
     'Inactive': '不活跃',
-    'Inherits  all Skillcape perks.': '继承所有技能斗篷特权',
+    'Inherits all Skillcape perks.': '继承所有技能斗篷特权',
     'Iron': '铁',
     'Iron 2H Sword': '铁质双手剑',
     'Iron Arrowtips': '铁质箭头',
@@ -465,7 +452,7 @@ var cnItems = {
     'Iron Sword': '铁质单手剑',
     'Iron Throwing Knife': '铁质飞刀',
     'Javelins': '标枪',
-    'Junior  Farmer': '初级农民',
+    'Junior Farmer': '初级农民',
     'Junk': '垃圾',
     'just now': '就是现在',
     'Leather Body': '皮甲',
@@ -517,9 +504,9 @@ var cnItems = {
     'Mithril Shield': '秘银盾',
     'Mithril Sword': '秘银单手剑',
     'Mithril Throwing Knife': '秘银飞刀',
-    'Moist  Monster': '水怪',
-    'Monster  Difficulty': '怪物难度',
-    'Moss  Giant': '泥沼巨人',
+    'Moist Monster': '水怪',
+    'Monster Difficulty': '怪物难度',
+    'Moss Giant': '泥沼巨人',
     'Multi-Tree': '多叉树',
     'Mummy': '木乃伊',
     'Name': '名称',
@@ -527,53 +514,53 @@ var cnItems = {
     'Normal  Cooking Fire': '普通烹饪火',
     'Normal  Logs': '普通日志',
     'Normal  Mode': '正常模式',
-    'Offensive  Stats': '进攻值',
+    'Offensive Stats': '进攻值',
     'Offline': '离线',
-    'Open  Easter Shop': '打开复活节商店',
+    'Open Easter Shop': '打开复活节商店',
     'Patreon': '众筹网站',
     'Pegasus': '飞马座',
     'Penumbra': '半影',
-    'Perpetual  Haste': '永恒的渴望',
+    'Perpetual Haste': '永恒的渴望',
     'Pickpocket': '扒手',
-    'Pirate  Booty': '海盗藏宝',
-    'Please  Export your save prior to refreshing.': '请先导出您的存档，然后再刷新。',
-    'Prayer  Point cost reduced by': '祈祷点成本降低了',
-    'Prayer  Points': '祈祷点数',
-    'Prayer  Skillcape': '祷告技能斗篷',
-    'Privacy  Policy': '隐私政策',
-    'Produce  2x items per action': '每个动作产生2倍物品',
-    'Produce  2x Potions': '生产2x魔药',
-    'Purple  Goo Monster': '紫色软泥怪',
-    'Raging  Horned Elite': '狂暴巨魔',
-    'Ranged  Golbin': '哥布林射手',
-    'Ranged  Skillcape': '远程技能斗篷',
-    'Raw  Sardine': '沙丁鱼',
-    'Raw  Shrimp': '活虾',
-    'Ready to  harvest': '可收获',
-    'Receive  1x Coal per Mining Action': '每次开采可获取1倍矿石',
-    'Red  Dragon': '红龙',
-    'Red  Dragonhide': '红龙皮',
+    'Pirate Booty': '海盗藏宝',
+    'Please Export your save prior to refreshing.': '请先导出您的存档，然后再刷新。',
+    'Prayer Point cost reduced by': '祈祷点成本降低了',
+    'Prayer Points': '祈祷点数',
+    'Prayer Skillcape': '祷告技能斗篷',
+    'Privacy Policy': '隐私政策',
+    'Produce 2x items per action': '每个动作产生2倍物品',
+    'Produce 2x Potions': '生产2x魔药',
+    'Purple Goo Monster': '紫色软泥怪',
+    'Raging Horned Elite': '狂暴巨魔',
+    'Ranged Golbin': '哥布林射手',
+    'Ranged Skillcape': '远程技能斗篷',
+    'Raw Sardine': '沙丁鱼',
+    'Raw Shrimp': '活虾',
+    'Ready to harvest': '可收获',
+    'Receive 1x Coal per Mining Action': '每次开采可获取1倍矿石',
+    'Red Dragon': '红龙',
+    'Red Dragonhide': '红龙皮',
     'Reddit': 'Reddit论坛',
-    'Redwood  Logs': '红杉木',
+    'Redwood Logs': '红杉木',
     'Register': '注册',
     'Remaining  Actions': '剩余动作',
-    'Rerolling  existing Slayer Tasks cost 5% of your SC': '重新刷新现有的杀戮任务会花费您SC的5％',
-    'Run /  Area Select': '运行/区域选择',
-    'Rune  Pickaxe': '符文鹤嘴锄',
-    'Runecrafting  Skillcape': '符文技能斗篷',
-    'Sandy  Shores': '桑迪海岸',
-    'Scattered  Goo Monster': '零散的食尸鬼怪物',
-    'Secret  Area': '秘密区域',
-    'Shrapnel  River': '弹片河',
-    'Silver  Ruby Necklace': '红宝石银项链',
-    'Silver  Ruby Ring': '红宝石银戒指',
-    'Silver  Sapphire Necklace': '蓝宝石银项链',
-    'Silver  Sapphire Ring': '蓝宝石银戒指',
-    'Silver  Topaz Necklace': '黄宝石银项链',
-    'Silver  Topaz Ring': '黄宝石银戒指',
+    'Rerolling existing Slayer Tasks cost 5% of your SC': '重新刷新现有的杀戮任务会花费您SC的5％',
+    'Run / Area Select': '运行/区域选择',
+    'Rune Pickaxe': '符文鹤嘴锄',
+    'Runecrafting Skillcape': '符文技能斗篷',
+    'Sandy Shores': '桑迪海岸',
+    'Scattered Goo Monster': '零散的食尸鬼怪物',
+    'Secret Area': '秘密区域',
+    'Shrapnel River': '弹片河',
+    'Silver Ruby Necklace': '红宝石银项链',
+    'Silver Ruby Ring': '红宝石银戒指',
+    'Silver Sapphire Necklace': '蓝宝石银项链',
+    'Silver Sapphire Ring': '蓝宝石银戒指',
+    'Silver Topaz Necklace': '黄宝石银项链',
+    'Silver Topaz Ring': '黄宝石银戒指',
     'Skeleton': '骷髅',
     'Skillcapes': '技能斗篷',
-    'Skull  Cape': '骷髅披风',
+    'Skull Cape': '骷髅披风',
     'Slayer Cowl (Basic': '杀戮兜帽（基本',
     'Slayer Cowl (Elite': '杀戮兜帽（精致',
     'Slayer Cowl (Strong': '杀戮兜帽（强力',
@@ -594,46 +581,45 @@ var cnItems = {
     'Slayer Wizard Robes (Basic': '杀戮巫师长袍（基本',
     'Slayer Wizard Robes (Elite': '杀戮巫师长袍（精致',
     'Slayer Wizard Robes (Strong': '杀戮巫师长袍（强力',
-    'Smithing  Gloves': '锻造手套',
-    'Smithing  Skillcape': '锻造技能斗篷',
+    'Smithing Gloves': '锻造手套',
+    'Smithing Skillcape': '锻造技能斗篷',
     'Special': '特殊',
-    'Special  Attack Desciption': '特殊攻击说明',
-    'Spider  Chest': '蜘蛛箱子',
-    'Spider  Forest': '蜘蛛森林',
-    'Standard  Chest': '标准箱子',
-    'Standard  Combat Training': '标准战斗训练',
-    'Start  Fishing': '开始钓鱼',
-    'Steel 2H  Sword': '钢制双手剑',
-    'Steel  Arrowtips': '钢制箭头',
-    'Steel  Battleaxe': '钢制战斧',
-    'Steel  Boots': '钢制长靴',
-    'Steel  Crossbow Head': '钢制弩箭头',
-    'Steel  Gloves': '钢制手套',
-    'Steel  Helmet': '钢制头盔',
-    'Steel  Javelin Heads': '钢制标枪头',
-    'Steel  Platebody': '钢制盔甲',
-    'Steel  Platelegs': '钢制护腿',
-    'Steel  Scimitar': '钢制弯刀',
-    'Steel  Shield': '钢制盾牌',
-    'Strength  Skillcape': '力量技能斗篷',
+    'Special Attack Desciption': '特殊攻击说明',
+    'Spider Chest': '蜘蛛箱子',
+    'Spider Forest': '蜘蛛森林',
+    'Standard Chest': '标准箱子',
+    'Standard Combat Training': '标准战斗训练',
+    'Start Fishing': '开始钓鱼',
+    'Steel 2H Sword': '钢制双手剑',
+    'Steel Arrowtips': '钢制箭头',
+    'Steel Battleaxe': '钢制战斧',
+    'Steel Boots': '钢制长靴',
+    'Steel Crossbow Head': '钢制弩箭头',
+    'Steel Gloves': '钢制手套',
+    'Steel Helmet': '钢制头盔',
+    'Steel Javelin Heads': '钢制标枪头',
+    'Steel Platebody': '钢制盔甲',
+    'Steel Platelegs': '钢制护腿',
+    'Steel Scimitar': '钢制弯刀',
+    'Steel Shield': '钢制盾牌',
+    'Strength Skillcape': '力量技能斗篷',
     'Tentacle': '触手',
-    'The  Mastery System is in very early stages of Alpha development. It will be  constantly updated and changed alongside the game.': '精通系统处于Alpha开发的早期阶段。 它将随着游戏不断更新和更改。',
-    'Thieving  Gloves': '盗贼手套',
-    'Thieving  Skillcape': '盗贼技能斗篷',
-    'Toggle  Auto-Reuse': '切换 自动重复',
-    'Toggle  Dropdown': '切换 掉落列表',
-    'Toggle  Skill Progress': '切换 技能进展',
-    'Total  Eggs': '鸡蛋总数',
-    'Trench  of Despair': '绝望战壕',
-    'Unlimited  Air, Water, Earth & Fire Runes': '无限的风，水，土和火符文',
-    'Variety  of monsters and drops': '各种各样的怪物和掉落物',
-    'View  Equipment Stats': '查看装备属性',
-    'Water  Rune': '水之符文',
-    'Woodcutting  Skillcape': '伐木技能斗篷',
-    'Works  with Combat & Thieving.': '与战斗和偷窃配合使用。',
-    'Yep,  still undefined': '是的，仍然不确定',
-    'You can  click and drag to rearrange bank items.': '您可以单击并拖动以重新排列银行项目。',
-    //5.25云汉化↑
+    'The Mastery System is in very early stages of Alpha development. It will be constantly updated and changed alongside the game.': '精通系统处于Alpha开发的早期阶段。 它将随着游戏不断更新和更改。',
+    'Thieving Gloves': '盗贼手套',
+    'Thieving Skillcape': '盗贼技能斗篷',
+    'Toggle Auto-Reuse': '切换 自动重复',
+    'Toggle Dropdown': '切换 掉落列表',
+    'Toggle Skill Progress': '切换 技能进展',
+    'Total Eggs': '鸡蛋总数',
+    'Trench of Despair': '绝望战壕',
+    'Unlimited Air, Water, Earth & Fire Runes': '无限的风，水，土和火符文',
+    'Variety of monsters and drops': '各种各样的怪物和掉落物',
+    'View Equipment Stats': '查看装备属性',
+    'Water Rune': '水之符文',
+    'Woodcutting Skillcape': '伐木技能斗篷',
+    'Works with Combat & Thieving.': '与战斗和偷窃配合使用。',
+    'Yep, still undefined': '是的，仍然不确定',
+    'You can click and drag to rearrange bank items.': '您可以单击并拖动以重新排列银行项目。',
     '': '',
     '': '',
     '': '',
@@ -665,15 +651,9 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-
-
-    //原样
     '': '',
     '': '',
-
 }
-
-//需处理的前缀
 var cnPrefix = {
     "(-": "(-",
     "(+": "(+",
@@ -683,8 +663,6 @@ var cnPrefix = {
     " ": " ",
     ": ": "： ",
 }
-
-//需处理的后缀
 var cnPostfix = {
     ":": "：",
     "：": "：",
@@ -696,175 +674,64 @@ var cnPostfix = {
     ")": ")",
     "%": "%",
 }
-
-//需排除的，正则匹配
-var cnExcludeWhole = [
-    /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
-    /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
-    /^\s*$/, //纯空格
-    /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
-    /^(\d+(\.\d+)?[A-Za-z]{0,2}\/s)?.?\(?([+\-]?\d+(\.\d+)?[A-Za-z]{0,2})?\/s\stot$/, //2.74M/s (112.4K/s tot
-    /^\d+(\.\d+)?(e[+\-]?\d+)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?$/, //2.177e+6 (+4.01+4
-    /^(\d+(\.\d+)?(e[+\-]?\d+)?\/s)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?\/s\stot$/, //2.177e+6/s (+4.01+4/s tot
-];
-var cnExcludePostfix = [
-    /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
-    /:?\s*x?\d+(\.\d+)?[A-Za-z]{0,2}$/, //: 12.34K, x1.5
-]
-
-//正则替换，带数字的固定格式句子
-//纯数字：(\d+)
-//逗号：([\d\.,]+)
-//小数点：([\d\.]+)
-//原样输出的字段：(.+)
-var cnRegReplace = new Map([
-    [/^\n(.+)Select Smithing Category\n(.+)$/, '选择锻造类别'],
-    [/^\n(.+)Select Herblore Category\n(.+)$/, '选择制药类别'],
-    [/^\n(.+)Select Fletching Category\n(.+)$/, '选择箭羽类别'],
-    [/^\n(.+)Select Crafting Category\n(.+)$/, '选择工艺分类'],
-    [/^\n(.+)Select Shop Category\n(.+)$/, '选择商店分类'],
-    [/^\n(.+)Select your Logs\n(.+)$/, '选择你的木头'],
-    [/^\n(.+)Select your Food\n(.+)$/, '选择你的食物'],
-    [/^Weird Gloop used\n(.+)$/, '怪异的格洛普使用'],
-    [/^Loot to Collect (.+)$/, '收集战利品 $1'],
-    [/^Logs Burnt\n(.+)$/, '烧焦的原木'],
-    [/^Deaths\n(.+)$/, '死亡'],
-    [/^Magic Tree\n(.+)$/, '魔法树'],
-    [/^Maple Tree\n(.+)$/, '枫树'],
-    [/^Mahogany Tree\n(.+)$/, '桃花心树'],
-    [/^Teak Tree\n(.+)$/, '柚树'],
-    [/^Yew Tree\n(.+)$/, '紫杉树'],
-    [/^Normal Tree\n(.+)$/, '普通树'],
-    [/^Oak Tree\n(.+)$/, '橡树'],
-    [/^Materials\n(.+)$/, '物料'],
-    [/^Willow Tree\n(.+)$/, '柳树'],
-    [/^General Upgrades\n(.+)$/, '普通升级'],
-    [/^Gloves\n(.+)$/, '手套'],
-    [/^(.+) Bank Capacity$/, '$1 仓库容量'],
-    [/^(.+) HP$/, '$1 生命值'],
-    [/^(.+) HP Regen per interval$/, '每次恢复 $1 生命值'],
-    [/^(.+) charcoal$/, '$1 木炭'],
-    [/^(.+) XP \/ (.+) seconds$/, '$1 经验 \/ $2 秒'],
-    [/^(.+) Quest Points$/, '$1 任务点'],
-    [/^Skill Upgrades(.+)$/, '技能升级'],
-    [/^Requires level (.+) mining to obtain.$/, '需要$1级采矿才能获得。'],
-    [/^Wed (\d+)$/, '周三 $1'],
-    [/^Thu (\d+)$/, '周四 $1'],
-    [/^Fri (\d+)$/, '周五 $1'],
-    [/^Sat (\d+)$/, '周六 $1'],
-    [/^Sun (\d+)$/, '周日 $1'],
-    [/^workers: (\d+)\/$/, '工人：$1\/'],
-
-]);
-
-//2.采集新词
-//20190320@JAR
-
+var cnExcludeWhole = [/^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, ^ , ^ , ^ , ^ , ^ , ^ , ];
+var cnExcludePostfix = [/:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/,: , ]
+var cnRegReplace = new Map([[/^\n(.+)Select Smithing Category\n(.+)$/, '选择锻造类别'], [/^\n(.+)Select Herblore Category\n(.+)$/, '选择制药类别'], [/^\n(.+)Select Fletching Category\n(.+)$/, '选择箭羽类别'], [/^\n(.+)Select Crafting Category\n(.+)$/, '选择工艺分类'], [/^\n(.+)Select Shop Category\n(.+)$/, '选择商店分类'], [/^\n(.+)Select your Logs\n(.+)$/, '选择你的木头'], [/^\n(.+)Select your Food\n(.+)$/, '选择你的食物'], [/^Weird Gloop used\n(.+)$/, '怪异的格洛普使用'], [/^Loot to Collect (.+)$/, '收集战利品 $1'], [/^Logs Burnt\n(.+)$/, '烧焦的原木'], [/^Deaths\n(.+)$/, '死亡'], [/^Magic Tree\n(.+)$/, '魔法树'], [/^Maple Tree\n(.+)$/, '枫树'], [/^Mahogany Tree\n(.+)$/, '桃花心树'], [/^Teak Tree\n(.+)$/, '柚树'], [/^Yew Tree\n(.+)$/, '紫杉树'], [/^Normal Tree\n(.+)$/, '普通树'], [/^Oak Tree\n(.+)$/, '橡树'], [/^Materials\n(.+)$/, '物料'], [/^Willow Tree\n(.+)$/, '柳树'], [/^General Upgrades\n(.+)$/, '普通升级'], [/^Gloves\n(.+)$/, '手套'], [/^(.+) Bank Capacity$/, '$1 仓库容量'], [/^(.+) HP$/, '$1 生命值'], [/^(.+) HP Regen per interval$/, '每次恢复 $1 生命值'], [/^(.+) charcoal$/, '$1 木炭'], [/^(.+) XP \/ (.+) seconds$/, '$1 经验 \/ $2 秒'], [/^(.+) Quest Points$/, '$1 任务点'], [/^Skill Upgrades(.+)$/, '技能升级'], [/^Requires level (.+) mining to obtain.$/, '需要$1级采矿才能获得。'], [/^Wed (\d+)$/, '周三 $1'], [/^Thu (\d+)$/, '周四 $1'], [/^Fri (\d+)$/, '周五 $1'], [/^Sat (\d+)$/, '周六 $1'], [/^Sun (\d+)$/, '周日 $1'], [/^workers: (\d+)\/$/, '工人：$1\/'], ]);
 var cnItem = function () {
-
-    //传参是否非空字串
     if (!arguments[0]) return "";
-
-    //检验传参是否对象
     let text = arguments[0],
         s = '';
-    if (typeof (text) != "string")
-        return text;
-    else
-        s = arguments[0].charCodeAt();
-
-    //检验传参是否英文
-    // if (
-    //     s < 65 || (s > 90 && s < 97) || (s > 122)
-    //
-    // ) return text;
-
-    //处理前缀
+    if (typeof (text) != "string") return text;
+    else s = arguments[0].charCodeAt();
     let text_prefix = "";
     for (let prefix in cnPrefix) {
         if (text.substr(0, prefix.length) === prefix) {
             text_prefix = cnPrefix[prefix];
-            text = text.substr(prefix.length);
+            text = text.substr(prefix.length)
         }
     }
-    //处理后缀
     let text_postfix = "";
     for (let postfix in cnPostfix) {
         if (text.substr(-postfix.length) === postfix) {
             text_postfix = cnPostfix[postfix];
-            text = text.substr(0, text.length - postfix.length);
+            text = text.substr(0, text.length - postfix.length)
         }
     }
-    //处理正则后缀
     let text_reg_exclude_postfix = "";
     for (let reg of cnExcludePostfix) {
         let result = text.match(reg);
         if (result) {
             text_reg_exclude_postfix = result[0];
-            text = text.substr(0, text.length - text_reg_exclude_postfix.length);
+            text = text.substr(0, text.length - text_reg_exclude_postfix.length)
         }
     }
-
-    //检验字典是否可存
     if (!cnItems._OTHER_) cnItems._OTHER_ = [];
-
-    //检查是否排除
     for (let reg of cnExcludeWhole) {
         if (reg.test(text)) {
-            return arguments[0];
+            return arguments[0]
         }
     }
-
-    //尝试正则替换
     for (let [key, value] of cnRegReplace.entries()) {
         if (key.test(text)) {
-            return text_prefix + text.replace(key, value) + text_reg_exclude_postfix + text_postfix;
+            return text_prefix + text.replace(key, value) + text_reg_exclude_postfix + text_postfix
         }
     }
-
-    //遍历尝试匹配
     for (let i in cnItems) {
-        //字典已有词汇或译文、且译文不为空，则返回译文
-        if (
-            text == i || text == cnItems[i] &&
-            cnItems[i] != ''
-        )
-            return text_prefix + cnItems[i] + text_reg_exclude_postfix + text_postfix;
+        if (text == i || text == cnItems[i] && cnItems[i] != '') return text_prefix + cnItems[i] + text_reg_exclude_postfix + text_postfix
     }
-
-    //调整收录的词条，0=收录原文，1=收录去除前后缀的文本
     let save_cfg = 1;
     let save_text = save_cfg ? text : arguments[0]
-    //遍历生词表是否收录
-    for (
-        let i = 0; i < cnItems._OTHER_.length; i++
-    ) {
-        //已收录则直接返回
-        if (save_text == cnItems._OTHER_[i])
-            return arguments[0];
+    for (let i = 0; i < cnItems._OTHER_.length; i++) {
+        if (save_text == cnItems._OTHER_[i]) return arguments[0]
     }
-
     if (cnItems._OTHER_.length < 500) {
-        //未收录则保存
         cnItems._OTHER_.push(save_text);
-        cnItems._OTHER_.sort(
-            function (a, b) {
-                return a.localeCompare(b)
-            }
-        );
+        cnItems._OTHER_.sort(function (a, b) {
+            return a.localeCompare(b)
+        })
     }
-
-    /*
-        //开启生词打印
-        //console.log(
-            '有需要汉化的英文：', text
-        );
-    */
-
-    //返回生词字串
-    return arguments[0];
+    return arguments[0]
 };
-
 transTaskMgr = {
     tasks: [],
     addTask: function (node, attr, text) {
@@ -876,8 +743,7 @@ transTaskMgr = {
     },
     doTask: function () {
         let task = null;
-        while (task = this.tasks.pop())
-            task.node[task.attr] = task.text;
+        while (task = this.tasks.pop()) task.node[task.attr] = task.text
     },
 }
 
@@ -887,27 +753,20 @@ function TransSubTextNode(node) {
             if (subnode.nodeName === "#text") {
                 let text = subnode.textContent;
                 let cnText = cnItem(text);
-                cnText !== text && transTaskMgr.addTask(subnode, 'textContent', cnText);
-                //console.log(subnode);
+                cnText !== text && transTaskMgr.addTask(subnode, 'textContent', cnText)
             } else if (subnode.nodeName !== "SCRIPT" && subnode.nodeName !== "TEXTAREA") {
                 if (!subnode.childNodes || subnode.childNodes.length == 0) {
                     let text = subnode.innerText;
                     let cnText = cnItem(text);
-                    cnText !== text && transTaskMgr.addTask(subnode, 'innerText', cnText);
-                    //console.log(subnode);
+                    cnText !== text && transTaskMgr.addTask(subnode, 'innerText', cnText)
                 } else {
-                    TransSubTextNode(subnode);
+                    TransSubTextNode(subnode)
                 }
-            } else {
-                // do nothing;
-            }
+            } else {}
         }
     }
-}
-
-! function () {
+}! function () {
     console.log("加载汉化模块");
-
     let observer_config = {
         attributes: false,
         characterData: true,
@@ -915,40 +774,32 @@ function TransSubTextNode(node) {
         subtree: true
     };
     let targetNode = document.body;
-    //汉化静态页面内容
     TransSubTextNode(targetNode);
     transTaskMgr.doTask();
-    //监听页面变化并汉化动态内容
     let observer = new MutationObserver(function (e) {
-        //window.beforeTransTime = performance.now();
         observer.disconnect();
         for (let mutation of e) {
             if (mutation.target.nodeName === "SCRIPT" || mutation.target.nodeName === "TEXTAREA") continue;
             if (!mutation.target.childNodes || mutation.target.childNodes.length == 0) {
-                mutation.target.innerText = cnItem(mutation.target.innerText);
+                mutation.target.innerText = cnItem(mutation.target.innerText)
             } else if (mutation.target.nodeName === "#text") {
-                mutation.target.textContent = cnItem(mutation.target.textContent);
+                mutation.target.textContent = cnItem(mutation.target.textContent)
             } else if (mutation.addedNodes.length > 0) {
                 for (let node of mutation.addedNodes) {
                     if (node.nodeName === "#text") {
-                        node.textContent = cnItem(node.textContent);
-                        //console.log(node);
+                        node.textContent = cnItem(node.textContent)
                     } else if (node.nodeName !== "SCRIPT" && node.nodeName !== "TEXTAREA") {
                         if (!node.childNodes || node.childNodes.length == 0) {
-                            node.innerText = cnItem(node.innerText);
+                            node.innerText = cnItem(node.innerText)
                         } else {
                             TransSubTextNode(node);
-                            transTaskMgr.doTask();
+                            transTaskMgr.doTask()
                         }
                     }
                 }
             }
         }
-        observer.observe(targetNode, observer_config);
-        //window.afterTransTime = performance.now();
-        //console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
+        observer.observe(targetNode, observer_config)
     });
-    observer.observe(targetNode, observer_config);
-
-
+    observer.observe(targetNode, observer_config)
 }();

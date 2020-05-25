@@ -674,9 +674,65 @@ var cnPostfix = {
     ")": ")",
     "%": "%",
 }
-var cnExcludeWhole = [/^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, ^ , ^ , ^ , ^ , ^ , ^ , ];
-var cnExcludePostfix = [/:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/,: , ]
-var cnRegReplace = new Map([[/^\n(.+)Select Smithing Category\n(.+)$/, '选择锻造类别'], [/^\n(.+)Select Herblore Category\n(.+)$/, '选择制药类别'], [/^\n(.+)Select Fletching Category\n(.+)$/, '选择箭羽类别'], [/^\n(.+)Select Crafting Category\n(.+)$/, '选择工艺分类'], [/^\n(.+)Select Shop Category\n(.+)$/, '选择商店分类'], [/^\n(.+)Select your Logs\n(.+)$/, '选择你的木头'], [/^\n(.+)Select your Food\n(.+)$/, '选择你的食物'], [/^Weird Gloop used\n(.+)$/, '怪异的格洛普使用'], [/^Loot to Collect (.+)$/, '收集战利品 $1'], [/^Logs Burnt\n(.+)$/, '烧焦的原木'], [/^Deaths\n(.+)$/, '死亡'], [/^Magic Tree\n(.+)$/, '魔法树'], [/^Maple Tree\n(.+)$/, '枫树'], [/^Mahogany Tree\n(.+)$/, '桃花心树'], [/^Teak Tree\n(.+)$/, '柚树'], [/^Yew Tree\n(.+)$/, '紫杉树'], [/^Normal Tree\n(.+)$/, '普通树'], [/^Oak Tree\n(.+)$/, '橡树'], [/^Materials\n(.+)$/, '物料'], [/^Willow Tree\n(.+)$/, '柳树'], [/^General Upgrades\n(.+)$/, '普通升级'], [/^Gloves\n(.+)$/, '手套'], [/^(.+) Bank Capacity$/, '$1 仓库容量'], [/^(.+) HP$/, '$1 生命值'], [/^(.+) HP Regen per interval$/, '每次恢复 $1 生命值'], [/^(.+) charcoal$/, '$1 木炭'], [/^(.+) XP \/ (.+) seconds$/, '$1 经验 \/ $2 秒'], [/^(.+) Quest Points$/, '$1 任务点'], [/^Skill Upgrades(.+)$/, '技能升级'], [/^Requires level (.+) mining to obtain.$/, '需要$1级采矿才能获得。'], [/^Wed (\d+)$/, '周三 $1'], [/^Thu (\d+)$/, '周四 $1'], [/^Fri (\d+)$/, '周五 $1'], [/^Sat (\d+)$/, '周六 $1'], [/^Sun (\d+)$/, '周日 $1'], [/^workers: (\d+)\/$/, '工人：$1\/'], ]);
+//需排除的，正则匹配
+var cnExcludeWhole = [
+    /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
+    /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
+    /^\s*$/, //纯空格
+    /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
+    /^(\d+(\.\d+)?[A-Za-z]{0,2}\/s)?.?\(?([+\-]?\d+(\.\d+)?[A-Za-z]{0,2})?\/s\stot$/, //2.74M/s (112.4K/s tot
+    /^\d+(\.\d+)?(e[+\-]?\d+)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?$/, //2.177e+6 (+4.01+4
+    /^(\d+(\.\d+)?(e[+\-]?\d+)?\/s)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?\/s\stot$/, //2.177e+6/s (+4.01+4/s tot
+];
+var cnExcludePostfix = [
+    /:?\s*x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
+    /:?\s*x?\d+(\.\d+)?[A-Za-z]{0,2}$/, //: 12.34K, x1.5
+]
+
+//正则替换，带数字的固定格式句子
+//纯数字：(\d+)
+//逗号：([\d\.,]+)
+//小数点：([\d\.]+)
+//原样输出的字段：(.+)
+var cnRegReplace = new Map([
+    [/^\n(.+)Select Smithing Category\n(.+)$/, '选择锻造类别'],
+    [/^\n(.+)Select Herblore Category\n(.+)$/, '选择制药类别'],
+    [/^\n(.+)Select Fletching Category\n(.+)$/, '选择箭羽类别'],
+    [/^\n(.+)Select Crafting Category\n(.+)$/, '选择工艺分类'],
+    [/^\n(.+)Select Shop Category\n(.+)$/, '选择商店分类'],
+    [/^\n(.+)Select your Logs\n(.+)$/, '选择你的木头'],
+    [/^\n(.+)Select your Food\n(.+)$/, '选择你的食物'],
+    [/^Weird Gloop used\n(.+)$/, '怪异的格洛普使用'],
+    [/^Loot to Collect (.+)$/, '收集战利品 $1'],
+    [/^Logs Burnt\n(.+)$/, '烧焦的原木'],
+    [/^Deaths\n(.+)$/, '死亡'],
+    [/^Magic Tree\n(.+)$/, '魔法树'],
+    [/^Maple Tree\n(.+)$/, '枫树'],
+    [/^Mahogany Tree\n(.+)$/, '桃花心树'],
+    [/^Teak Tree\n(.+)$/, '柚树'],
+    [/^Yew Tree\n(.+)$/, '紫杉树'],
+    [/^Normal Tree\n(.+)$/, '普通树'],
+    [/^Oak Tree\n(.+)$/, '橡树'],
+    [/^Materials\n(.+)$/, '物料'],
+    [/^Willow Tree\n(.+)$/, '柳树'],
+    [/^General Upgrades\n(.+)$/, '普通升级'],
+    [/^Gloves\n(.+)$/, '手套'],
+    [/^(.+) Bank Capacity$/, '$1 仓库容量'],
+    [/^(.+) HP$/, '$1 生命值'],
+    [/^(.+) HP Regen per interval$/, '每次恢复 $1 生命值'],
+    [/^(.+) charcoal$/, '$1 木炭'],
+    [/^(.+) XP \/ (.+) seconds$/, '$1 经验 \/ $2 秒'],
+    [/^(.+) Quest Points$/, '$1 任务点'],
+    [/^Skill Upgrades(.+)$/, '技能升级'],
+    [/^Requires level (.+) mining to obtain.$/, '需要$1级采矿才能获得。'],
+    [/^Wed (\d+)$/, '周三 $1'],
+    [/^Thu (\d+)$/, '周四 $1'],
+    [/^Fri (\d+)$/, '周五 $1'],
+    [/^Sat (\d+)$/, '周六 $1'],
+    [/^Sun (\d+)$/, '周日 $1'],
+    [/^workers: (\d+)\/$/, '工人：$1\/'],
+
+]);
 var cnItem = function () {
     if (!arguments[0]) return "";
     let text = arguments[0],

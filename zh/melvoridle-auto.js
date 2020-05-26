@@ -32,13 +32,73 @@
 
     //生火 - 自动添加柴火-开始
     content += '<div class="JB-form">';
-    content += '<div class="tit">生火</div>';
-    content += '生火自动添柴，需要自己选择木头、点开始';
+    content += '<div class="tit">生火 - 自动添柴，需要自己选择木头、点开始</div>';
     content += '时间间隔 <input id="fireTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<button id="startFire" type="primary" >启动</button>';
     content += '<button id="stopFire" type="danger" disabled>停止</button>';
     content += '</div>';
     //生火 - 自动添加柴火-结束
+
+    //挖矿-等待时间自动切换挖别的矿-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">挖矿 - 后期挖矿会有冷却时间，在这个时间内可以先挖另一个矿</div>';
+    content += '选择优先挖的矿';
+    content += '<select id="MingType1">';
+    content += '<option value="10" selected>符文精华</option>';
+    content += '<option value="0" selected>铜矿</option>';
+    content += '<option value="1" selected>锡矿</option>';
+    content += '<option value="2" selected>铁矿</option>';
+    content += '<option value="3" selected>煤</option>';
+    content += '<option value="4" selected>银矿</option>';
+    content += '<option value="5" selected>金矿</option>';
+    content += '<option value="6" selected>秘银</option>';
+    content += '<option value="7" selected>精金</option>';
+    content += '<option value="8" selected>符文石</option>';
+    content += '<option value="9" selected>龙矿石</option>';
+    content += '</select> ';
+    content += '选择次要挖的矿';
+    content += '<select id="MingType2">';
+    content += '<option value="10" selected>符文精华</option>';
+    content += '<option value="0" selected>铜矿</option>';
+    content += '<option value="1" selected>锡矿</option>';
+    content += '<option value="2" selected>铁矿</option>';
+    content += '<option value="3" selected>煤</option>';
+    content += '<option value="4" selected>银矿</option>';
+    content += '<option value="5" selected>金矿</option>';
+    content += '<option value="6" selected>秘银</option>';
+    content += '<option value="7" selected>精金</option>';
+    content += '<option value="8" selected>符文石</option>';
+    content += '<option value="9" selected>龙矿石</option>';
+    content += '</select> ';
+    content += '<br />';
+    content += '时间间隔 <input id="mineTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '<button id="startMine" type="primary" >启动</button>';
+    content += '<button id="stopMine" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //挖矿-等待时间自动切换挖别的矿-结束
+
+
+    //偷钱 - 自动吃药-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">偷钱 - 设定生命值低于多少时自动吃药</div>';
+    content += '生命值低于<select id="stealMinHP">';
+    content += '<option value="1">1%</option>';
+    content += '<option value="5" >5%</option>';
+    content += '<option value="10" selected>10%</option>';
+    content += '<option value="20">20%</option>';
+    content += '<option value="30">30%</option>';
+    content += '<option value="40">40%</option>';
+    content += '<option value="50">50%</option>';
+    content += '<option value="60">60%</option>';
+    content += '<option value="70">70%</option>';
+    content += '<option value="80">80%</option>';
+    content += '<option value="90">90%</option>';
+    content += '</select>时自动吃东西；';
+    content += '时间间隔 <input id="stealEatTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '<button id="startStealEat" type="primary" >启动</button>';
+    content += '<button id="stopStealEat" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //偷钱 - 自动吃药-结束
 
     content += '</div>';
     content += '</div>';
@@ -78,16 +138,70 @@
         var my_seconds = d.getSeconds();
         return my_hours + ":" + my_minutes + ":" + my_seconds
     }
+    /* ------------------------Start-------------------------*/
+    //启动挖矿 - 自动切换矿石
+    var autoMine;
+    var status = 1;
+    $("#startMine").click(function () {
 
-    var autoFire;
+        //优先挖的矿
+        var min1 = $('#MingType1').val();
+        //次要挖的矿
+        var min2 = $('#MingType2').val();
+        var mineTime = parseInt($('#mineTime').val());
+        if (mineTime == '') {
+            mineTime = 3;
+        }
+        //转换时间格式
+        mineTime = mineTime * 1000;
+        autoMine = setInterval(mining, mineTime);
+        $(this).attr("disabled", true);
+        $("#stopMine").attr("disabled", false);
+    });
+
+    //停止挖矿 - 自动切换矿石
+    $("#stopMine").click(function () {
+        clearInterval(autoMine);
+        $(this).attr("disabled", true);
+        $("#startMine").attr("disabled", false);
+    });
+    //自动挖矿
+    function mining() {
+        //定时
+        //判断生命值百分比，大于等于你指定百分比才执行挖矿。
+        var min1Wid = $('#mining-rock-hp-' + min1).width();
+        //设置挖矿条百分比，低于这个百分比时，自动切换挖别的矿
+        if (min1Wid == 0) {
+            //秘银矿冷却中，挖金矿
+            //这个数字需要自己控制台看一下，自己想挖的备用矿的序号
+            if (status == 1) {
+                mineRock(min2, true);
+                status = 0
+            }
+
+        } else {
+            //秘银矿冷却完毕，继续挖秘银
+            //这个数字需要自己控制台看一下，自己想挖的备用矿的序号
+            if (status == 0) {
+                mineRock(min1, true);
+                status = 1
+            }
+        }
+    }
+    /* ------------------------End-------------------------*/
+
+
+    /* ------------------------Start-------------------------*/
     //启动生火-添柴
+    var autoFire;
     $("#startFire").click(function () {
         var fireTime = parseInt($('#fireTime').val());
         if (fireTime == '') {
-            minTime = 3000;
+            fireTime = 3;
         }
-        //多留5秒
-        autoFire = setInterval(firing, minTime);
+        //转换时间格式
+        fireTime = fireTime * 1000;
+        autoFire = setInterval(firing, fireTime);
         $(this).attr("disabled", true);
         $("#stopFire").attr("disabled", false);
     });
@@ -109,6 +223,42 @@
 
         }
     }
+    /* ------------------------End-------------------------*/
+
+    /* ------------------------Start-------------------------*/
+    //启动偷钱 - 自动吃药
+    var autoStealEat;
+    $("#startStealEat").click(function () {
+        var stealEatTime = parseInt($('#stealEatTime').val());
+        if (stealEatTime == '') {
+            stealEatTime = 3;
+        }
+        //转换时间格式
+        stealEatTime = stealEatTime * 1000;
+        autoStealEat = setInterval(stealing, stealEatTime);
+        $(this).attr("disabled", true);
+        $("#stopStealEat").attr("disabled", false);
+    });
+
+    //停止偷钱 - 自动吃药
+    $("#stopStealEat").click(function () {
+        clearInterval(autoStealEat);
+        $(this).attr("disabled", true);
+        $("#startStealEat").attr("disabled", false);
+    });
+    //自动吃药
+    function stealing() {
+        //设置生命值条百分比，低于这个百分比时，自动吃食物补血
+        var health = $('#stealMinHP').val();
+        //判断生命值百分比，大于等于你指定百分比才执行挖矿。
+        var minWid = ($('#thieving-player-hitpoints-bar').width() / $('#thieving-player-hitpoints-bar').parent('.progress').width()) * 100;
+        if (minWid <= health) {
+            eatFood();
+        }
+    }
+    /* ------------------------End-------------------------*/
+
+
 
 
     console.log("加载自动化脚本 " + nowTime());

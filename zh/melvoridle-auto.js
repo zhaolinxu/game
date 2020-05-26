@@ -391,7 +391,7 @@
     });
 
     //停止种植 - 自动种植、铲除，刷种植等级
-    $("#stopStealEat").click(function () {
+    $("#stopFarm").click(function () {
         clearInterval(autoFarm);
         $(this).attr("disabled", true);
         $("#startFarm").attr("disabled", false);

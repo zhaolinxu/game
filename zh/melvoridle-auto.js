@@ -132,6 +132,26 @@
     content += '</div>';
     //偷钱 - 自动吃药-结束
 
+    //种植 - 自动种植、铲除，刷种植等级-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">种植 - 自动种植、铲除，刷种植等级；前提是你有足够的种子，每次种植消耗3个种子</div>';
+    content += '选择要种的种子，只会在第一块地上种';
+    content += '<select id="seedType">';
+    content += '<option value="143" selected>马铃薯种子</option>';
+    content += '<option value="144">洋葱种子</option>';
+    content += '<option value="145">白菜种子</option>';
+    content += '<option value="146">番茄种子</option>';
+    content += '<option value="147">甜玉米种子</option>';
+    content += '<option value="148">草莓种子</option>';
+    content += '<option value="149">西瓜种子</option>';
+    content += '<option value="150">斯内普草种子</option>';
+    content += '</select> ';
+    content += '时间间隔 <input id="farmTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '<button id="startFarm" type="primary" >启动</button>';
+    content += '<button id="stopFarm" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //种植 - 自动种植、铲除，刷种植等级-结束
+
     content += '</div>';
     content += '</div>';
     content += '<div class="go-top"><a href="javascript:;" title="返回顶部"></a> </div>';
@@ -354,6 +374,47 @@
     }
     /* ------------------------End-------------------------*/
 
+    /* ------------------------Start-------------------------*/
+    //启动种植 - 自动种植、铲除，刷种植等级
+    var autoFarm;
+    $("#startFarm").click(function () {
+        var farmTime = parseInt($('#farmTime').val());
+        if (farmTime == '') {
+            farmTime = 3;
+        }
+        //转换时间格式
+        farmTime = farmTime * 1000;
+        autoFarm = setInterval(farming, farmTime);
+        $(this).attr("disabled", true);
+        $("#stopFarm").attr("disabled", false);
+    });
+
+    //停止种植 - 自动种植、铲除，刷种植等级
+    $("#stopStealEat").click(function () {
+        clearInterval(autoFarm);
+        $(this).attr("disabled", true);
+        $("#stopFarm").attr("disabled", false);
+    });
+    //自动种地
+    function farming() {
+        //选择一个你有的种子
+        var seedId = $('#seedType').val();
+        //只刷第一块地即可
+        showSeeds(0, 0)
+        //选择种子，数字对应种子编号，可以任意修改
+        setTimeout(function () {
+            selectSeed(seedId, false)
+        }, 1500);
+        //种植
+        setTimeout(function () {
+            plantSeed();
+        }, 2500);
+        //铲除   
+        setTimeout(function () {
+            removeSeed(0, 0)
+        }, 3500);
+    }
+    /* ------------------------End-------------------------*/
 
 
 

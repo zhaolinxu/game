@@ -394,7 +394,7 @@
     $("#stopStealEat").click(function () {
         clearInterval(autoFarm);
         $(this).attr("disabled", true);
-        $("#stopFarm").attr("disabled", false);
+        $("#startFarm").attr("disabled", false);
     });
     //自动种地
     function farming() {

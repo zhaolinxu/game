@@ -30,12 +30,44 @@
     content += '<div class="weixing-container">';
     content += '<div class="weixing-show">';
 
+    //战斗 - 自动吃药、拾取战利品-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">战斗 - 自动吃药、拾取战利品</div>';
+    content += '生命值低于<select id="fightMinHP">';
+    content += '<option value="1">1%</option>';
+    content += '<option value="5" >5%</option>';
+    content += '<option value="10">10%</option>';
+    content += '<option value="20">20%</option>';
+    content += '<option value="30">30%</option>';
+    content += '<option value="40">40%</option>';
+    content += '<option value="50">50%</option>';
+    content += '<option value="60" selected>60%</option>';
+    content += '<option value="70">70%</option>';
+    content += '<option value="80">80%</option>';
+    content += '<option value="90">90%</option>';
+    content += '</select>时自动吃东西；';
+    content += '时间间隔 <input id="fightEatTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '<button id="startfightEat" type="primary" >启动</button>';
+    content += '<button id="stopfightEat" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //战斗 - 自动吃药、拾取战利品-结束
+
     //生火 - 自动添加柴火-开始
     content += '<div class="JB-form">';
     content += '<div class="tit">生火 - 自动添柴，需要自己选择木头、点开始</div>';
     content += '时间间隔 <input id="fireTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<button id="startFire" type="primary" >启动</button>';
     content += '<button id="stopFire" type="danger" disabled>停止</button>';
+    content += '</div>';
+    //生火 - 自动添加柴火-结束
+
+
+    //烹饪 - 自动添加柴火-开始
+    content += '<div class="JB-form">';
+    content += '<div class="tit">烹饪 - 初期没买商店里2万金币+500普通木头那个火炉，才需要用到这个脚本</div>';
+    content += '时间间隔 <input id="cookTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '<button id="startCook" type="primary" >启动</button>';
+    content += '<button id="stopCook" type="danger" disabled>停止</button>';
     content += '</div>';
     //生火 - 自动添加柴火-结束
 
@@ -138,16 +170,47 @@
         var my_seconds = d.getSeconds();
         return my_hours + ":" + my_minutes + ":" + my_seconds
     }
+
+    /* ------------------------Start-------------------------*/
+    //启动战斗 - 自动吃药、拾取战利品
+    var autoFightEat;
+    $("#startfightEat").click(function () {
+        var fightEatTime = parseInt($('#fightEatTime').val());
+        if (fightEatTime == '') {
+            fightEatTime = 3;
+        }
+        //转换时间格式
+        fightEatTime = fightEatTime * 1000;
+        autoFightEat = setInterval(fighting, fightEatTime);
+        $(this).attr("disabled", true);
+        $("#stopfightEat").attr("disabled", false);
+    });
+
+    //停止战斗 - 自动吃药、拾取战利品
+    $("#stopfightEat").click(function () {
+        clearInterval(autoFightEat);
+        $(this).attr("disabled", true);
+        $("#startfightEat").attr("disabled", false);
+    });
+    //战斗 - 自动吃药、拾取战利品
+    function fighting() {
+        //设置生命值条百分比，低于这个百分比时，自动吃食物补血
+        var health = $('#fightMinHP').val();
+        //判断生命值百分比，大于等于你指定百分比才执行挖矿。
+        var minWid = ($('#combat-player-hitpoints-bar').width() / $('#combat-player-hitpoints-bar').parent('.progress').width()) * 100;
+        if (minWid <= health) {
+            eatFood();
+        }
+        //自动收集战利品
+        lootAll();
+    }
+    /* ------------------------End-------------------------*/
+
     /* ------------------------Start-------------------------*/
     //启动挖矿 - 自动切换矿石
     var autoMine;
     var status = 1;
     $("#startMine").click(function () {
-
-        //优先挖的矿
-        var min1 = $('#MingType1').val();
-        //次要挖的矿
-        var min2 = $('#MingType2').val();
         var mineTime = parseInt($('#mineTime').val());
         if (mineTime == '') {
             mineTime = 3;
@@ -167,7 +230,10 @@
     });
     //自动挖矿
     function mining() {
-        //定时
+        //优先挖的矿
+        var min1 = $('#MingType1').val();
+        //次要挖的矿
+        var min2 = $('#MingType2').val();
         //判断生命值百分比，大于等于你指定百分比才执行挖矿。
         var min1Wid = $('#mining-rock-hp-' + min1).width();
         //设置挖矿条百分比，低于这个百分比时，自动切换挖别的矿
@@ -221,6 +287,36 @@
             //没木头时加木头
             lightBonfire();
 
+        }
+    }
+    /* ------------------------End-------------------------*/
+
+    /* ------------------------Start-------------------------*/
+    //启动烹饪-添柴
+    var autoCook;
+    $("#startCook").click(function () {
+        var cookTime = parseInt($('#fireTime').val());
+        if (cookTime == '') {
+            cookTime = 3;
+        }
+        //转换时间格式
+        cookTime = cookTime * 1000;
+        autoCook = setInterval(cooking, cookTime);
+        $(this).attr("disabled", true);
+        $("#stopCook").attr("disabled", false);
+    });
+
+    //停止烹饪-添柴
+    $("#stopCook").click(function () {
+        clearInterval(autoCook);
+        $(this).attr("disabled", true);
+        $("#startCook").attr("disabled", false);
+    });
+    //烹饪 - 自动添柴
+    function cooking() {
+        var wid = $('#skill-cooking-fire-progress').width();
+        if (wid <= 0) {
+            lightCookingFire();
         }
     }
     /* ------------------------End-------------------------*/

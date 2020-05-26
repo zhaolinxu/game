@@ -146,7 +146,8 @@
     content += '<option value="149">西瓜种子</option>';
     content += '<option value="150">斯内普草种子</option>';
     content += '</select> ';
-    content += '时间间隔 <input id="farmTime" type="text" value="3" placeholder="输入整数数字" autocomplete="on"/> 秒；';
+    content += '<br /> ';
+    content += '时间间隔 <input id="farmTime" type="text" value="4" readonly placeholder="输入整数数字" autocomplete="on"/> 秒；';
     content += '<button id="startFarm" type="primary" >启动</button>';
     content += '<button id="stopFarm" type="danger" disabled>停止</button>';
     content += '</div>';

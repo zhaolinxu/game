@@ -1,6 +1,57 @@
 [
     {
-        "title": "锅巴计算器",
+        "title": "序数增量",
+        "enTitle": "Ordinal Markup",
+        "date": "2020-05-27",
+        "update": "2020-05-27",
+        "version":"",
+        "path": "ordinal-markup",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "类似《反物质维度》的一款游戏，欢迎体验！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/ordinal-markup",
+        "kUrl": "https://www.kongregate.com/games/Patcail/ordinal-markup?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
+        "title": "末日崛起",
+        "enTitle": "Mo Ri Jue Qi",
+        "date": "2020-05-27",
+        "update": "2020-05-23",
+        "version":"3.041",
+        "path": "mo-ri-jue-qi",
+        "type": [
+            "点击",
+            "升级",
+            "冒险",
+            "原创",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码：mech"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/Ahd4eouc",
+        "baiduUrl": "https://pan.baidu.com/s/1a-v8TFK3jIby_aRZWd3X6g",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },{
+        "title": "锅巴计数器",
         "enTitle": "Guo Ba Counter",
         "date": "2020-05-22",
         "update": "2020-05-22",
@@ -295,8 +346,8 @@
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-05-12",
-        "version":"1.0082",
+        "update": "2020-05-24",
+        "version":"1.009",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -350,8 +401,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-05-09",
-        "version":"1.0.5.1",
+        "update": "2020-05-20",
+        "version":"1.0.6.1",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -378,8 +429,8 @@
         "title": "武世界复刻版",
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",
-        "update": "2020-05-04",
-        "version":"1.9",
+        "update": "2020-05-21",
+        "version":"3.1",
         "path": "wu-world-fu-ke",
         "type": [
             "点击",
@@ -403,8 +454,8 @@
         "title": "一起打怪兽",
         "enTitle": "Let's Fight Monster",
         "date": "2020-03-31",
-        "update": "2020-04-16",
-        "version":"1005",
+        "update": "2020-05-19",
+        "version":"1.522",
         "path": "lets-fight-monster",
         "type": [
             "点击",

@@ -1,5 +1,29 @@
 [
     {
+        "title": "开发人生",
+        "enTitle": "Dev Life 2",
+        "date": "2020-05-28",
+        "update": "2020-05-28",
+        "path": "dev-life-2",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "模拟"
+        ],
+        "content": [
+            "《开发人生》的续作，模拟程序员接项目，开发项目，然后卖掉项目，实现人生目标。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/devlife2/",
+        "kUrl": "http://naoxink.epizy.com/devlife2/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    }, {
         "title": "序数增量",
         "enTitle": "Ordinal Markup",
         "date": "2020-05-27",
@@ -346,8 +370,8 @@
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-05-24",
-        "version":"1.009",
+        "update": "2020-05-26",
+        "version":"1.0091",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -401,8 +425,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-05-20",
-        "version":"1.0.6.1",
+        "update": "2020-05-21",
+        "version":"1.0.6.2",
         "path": "incremental-epic-hero",
         "type": [
             "放置",

@@ -15,14 +15,14 @@
     content += '<div id="open_im" class="open-im">&nbsp;</div>  ';
     content += '<div class="im_main" id="im_main">';
     content += '<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>';
-    content += '<a href="http://shang.qq.com/wpa/qunwpa?idkey=4f30bee18d8ea6ec2b53d31407daf6c6f9f8e722187707f65ed1b354f25af6d9" target="_blank" class="im-qq qq-a" title="点击加入 - GitHub游戏交流群:627141737">';
+    content += '<a href="http://shang.qq.com/wpa/qunwpa?idkey=74a22d1f92cbbdf57325563f529faa54bacdab3ef4c3f7f3767f717eb76c048a" target="_blank" class="im-qq qq-a" title="点击加入 - 梅尔沃放置交流群:967180028">';
     content += '<div class="qq-container"></div>';
     content += '<div class="qq-hover-c"><img class="img-qq" src="//likexia.gitee.io/game/images/kf/qq.png"></div>';
     content += '<span>点击加群</span>';
     content += '</a>';
     content += '<div class="im-tel">';
     content += '<div>QQ群号:</div>';
-    content += '<div class="tel-num">701342586</div>';
+    content += '<div class="tel-num">967180028</div>';
     content += '<div>更多同类游戏:</div>';
     content += '<div class="tel-num"><a href="http://www.gityx.com" target="_blank" title="我们有域名啦~">Git游戏</a><a href="http://bbs.gityx.com/" target="_blank" style="margin-left:5px;" title="点击查看游戏攻略">论坛</a><a href="http://likexia.gitee.io/game/" target="_blank" style="margin-left:5px;" title="之前首页继续保留">旧版</a></div>';
     content += '</div>';

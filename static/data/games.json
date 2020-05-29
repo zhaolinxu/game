@@ -1,5 +1,32 @@
 [
     {
+        "title": "我的城市",
+        "enTitle": "Dorongine",
+        "date": "2020-05-29",
+        "update": "2020-05-29",
+        "version":"",
+        "path": "dorongine",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "模拟"
+        ],
+        "content": [
+            "这个很早就汉化了的，不知道为啥没放出来，如果有bug欢迎反馈。"
+        ],
+        "zhUrl": "http://likexia.gitee.io/mycity",
+        "enUrl": "https://zhaolinxu.github.io/dorongine/index.html",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "开发人生",
         "enTitle": "Dev Life 2",
         "date": "2020-05-28",
@@ -844,7 +871,7 @@
         "title": "怪物卡牌放置",
         "enTitle": "Creature Card Idle",
         "date": "2019-12-09",
-        "update": "2019-12-20",
+        "update": "2019-04-17",
         "path": "creature-card-idle",
         "type": [
             "汉化中",
@@ -1164,7 +1191,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
-        "update": "2020-02-13",
+        "update": "2020-05-28",
         "path": "incremental-adventures",
         "type": [
             "已汉化",

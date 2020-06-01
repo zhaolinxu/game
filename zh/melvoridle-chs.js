@@ -1310,7 +1310,7 @@ var cnItem = function () {
     for (let i = 0; i < cnItems._OTHER_.length; i++) {
         if (save_text == cnItems._OTHER_[i]) return arguments[0]
     }
-    if (cnItems._OTHER_.length < 500) {
+    if (cnItems._OTHER_.length < 2000) {
         cnItems._OTHER_.push(save_text);
         cnItems._OTHER_.sort(function (a, b) {
             return a.localeCompare(b)

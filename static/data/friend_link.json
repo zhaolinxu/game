@@ -1,6 +1,14 @@
 [{
-    "title": "Git游戏",
+    "title": "公众号",
+    "desc": "Git游戏",
+    "url": "https://mp.weixin.qq.com/s/ezp5x6hOC8QPLnZ2bPFyEw"
+},{
+    "title": "主站",
     "desc": "搜集各种好玩的文字放置游戏",
+    "url": "http://www.gityx.com/"
+},{
+    "title": "论坛",
+    "desc": "欢迎大家写游戏攻略",
     "url": "http://www.gityx.com/"
 }, {
     "title": "聚享游",

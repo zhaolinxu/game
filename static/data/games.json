@@ -1,5 +1,33 @@
 [
     {
+        "title": "古戈尔增量",
+        "enTitle": "Incremental Googology",
+        "date": "2020-06-01",
+        "update": "2020-06-01",
+        "version":"",
+        "path": "incremental-googology",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "益智"
+        ],
+        "content": [
+            "emmm..又是一个数学游戏~",
+            "我是学渣，表示看不太懂，欢迎访问wiki进行了解~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/incremental-googology",
+        "enUrl": "https://hypcos.github.io/incremental-googology/Tetration/",
+        "wikiUrl": "https://googology.wikia.org/wiki/Googology_Wiki",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "我的城市",
         "enTitle": "Dorongine",
         "date": "2020-05-29",
@@ -169,6 +197,7 @@
         "hhUrl": "http://note.youdao.com/noteshare?id=c550acff301710204a3b283cf4f66ee8",
         "jbUrl": "http://note.youdao.com/noteshare?id=c550acff301710204a3b283cf4f66ee8",
         "wikiUrl": "https://wiki.melvoridle.com/index.php?title=Main_Page",
+        "QQ":"967180028"
         "pic": [
             1,
             2,
@@ -480,8 +509,8 @@
         "title": "武世界复刻版",
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",
-        "update": "2020-05-21",
-        "version":"3.1",
+        "update": "2020-06-01",
+        "version":"4.1",
         "path": "wu-world-fu-ke",
         "type": [
             "点击",
@@ -505,8 +534,8 @@
         "title": "一起打怪兽",
         "enTitle": "Let's Fight Monster",
         "date": "2020-03-31",
-        "update": "2020-05-19",
-        "version":"1.522",
+        "update": "2020-05-28",
+        "version":"1.525",
         "path": "lets-fight-monster",
         "type": [
             "点击",

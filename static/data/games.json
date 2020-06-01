@@ -4,7 +4,7 @@
         "enTitle": "Incremental Googology",
         "date": "2020-06-01",
         "update": "2020-06-01",
-        "version":"",
+        "version": "",
         "path": "incremental-googology",
         "type": [
             "已汉化",
@@ -27,12 +27,13 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "我的城市",
         "enTitle": "Dorongine",
         "date": "2020-05-29",
         "update": "2020-05-29",
-        "version":"",
+        "version": "",
         "path": "dorongine",
         "type": [
             "已汉化",
@@ -54,7 +55,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "开发人生",
         "enTitle": "Dev Life 2",
         "date": "2020-05-28",
@@ -78,12 +80,13 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "序数增量",
         "enTitle": "Ordinal Markup",
         "date": "2020-05-27",
         "update": "2020-05-27",
-        "version":"",
+        "version": "",
         "path": "ordinal-markup",
         "type": [
             "汉化中",
@@ -104,12 +107,13 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "末日崛起",
         "enTitle": "Mo Ri Jue Qi",
         "date": "2020-05-27",
         "update": "2020-05-23",
-        "version":"3.041",
+        "version": "3.041",
         "path": "mo-ri-jue-qi",
         "type": [
             "点击",
@@ -127,14 +131,15 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "锅巴计数器",
         "enTitle": "Guo Ba Counter",
         "date": "2020-05-22",
         "update": "2020-05-22",
-        "version":"",
+        "version": "",
         "path": "guo-ba-counter",
         "type": [
             "点击",
@@ -168,13 +173,14 @@
             6
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "梅尔沃放置",
         "enTitle": "Melvor Idle",
         "date": "2020-05-22",
         "update": "2020-05-22",
-        "version":"0.15.1",
+        "version": "0.15.1",
         "path": "melvor-idle",
         "type": [
             "汉化中",
@@ -197,7 +203,7 @@
         "hhUrl": "http://note.youdao.com/noteshare?id=c550acff301710204a3b283cf4f66ee8",
         "jbUrl": "http://note.youdao.com/noteshare?id=c550acff301710204a3b283cf4f66ee8",
         "wikiUrl": "https://wiki.melvoridle.com/index.php?title=Main_Page",
-        "QQ":"967180028"
+        "QQ": "967180028",
         "pic": [
             1,
             2,
@@ -206,12 +212,13 @@
             5
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "反物质维度",
         "enTitle": "Antimatter Dimensions",
         "date": "2018-08-28",
         "update": "2020-05-19",
-        "version":"",
+        "version": "",
         "path": "antimatter-dimensions",
         "type": [
             "已汉化",
@@ -235,12 +242,13 @@
             5
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "超级英雄消消乐",
         "enTitle": "SuperHero Eliminate",
         "date": "2020-05-17",
         "update": "2020-05-17",
-        "version":"",
+        "version": "",
         "path": "superHero-eliminate",
         "type": [
             "点击",
@@ -256,13 +264,14 @@
             2
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "永不放弃",
         "enTitle": "Never Give Up",
         "date": "2020-05-16",
         "update": "2020-05-16",
-        "version":"",
+        "version": "",
         "path": "never-give-up",
         "type": [
             "点击",
@@ -281,13 +290,14 @@
             2
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "大富翁",
         "enTitle": "Monopoly",
         "date": "2020-05-15",
         "update": "2020-05-15",
-        "version":"",
+        "version": "",
         "path": "monopoly",
         "type": [
             "放置",
@@ -309,14 +319,15 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "一个都不能死",
         "enTitle": "None Can Die",
         "date": "2020-05-14",
         "update": "2020-05-14",
-        "version":"",
+        "version": "",
         "path": "none-can-die",
         "type": [
             "点击",
@@ -338,13 +349,14 @@
             5
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "锅巴数独",
         "enTitle": "Guo Ba Sudoku",
         "date": "2020-05-13",
         "update": "2020-05-13",
-        "version":"",
+        "version": "",
         "path": "guo-ba-sudoku",
         "type": [
             "文字",
@@ -369,13 +381,14 @@
             5
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "锅巴计算器",
         "enTitle": "Guo Ba Calculator",
         "date": "2020-05-13",
         "update": "2020-05-13",
-        "version":"",
+        "version": "",
         "path": "guo-ba-calculator",
         "type": [
             "文字",
@@ -397,13 +410,14 @@
             5
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "林林五十音",
         "enTitle": "Lin Lin 50 Yin",
         "date": "2020-05-13",
         "update": "2020-05-13",
-        "version":"",
+        "version": "",
         "path": "lin-lin-50-yin",
         "type": [
             "文字",
@@ -421,13 +435,14 @@
             2
         ],
         "status": 1,
-        "needHH":0
-    },{
+        "needHH": 0
+    },
+    {
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-05-26",
-        "version":"1.0091",
+        "update": "2020-05-29",
+        "version": "1.00911",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -451,12 +466,13 @@
             5
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "放置英雄",
         "enTitle": "idle-heroes",
         "date": "2020-04-24",
         "update": "2020-03-19",
-        "version":"",
+        "version": "",
         "path": "idle-heroes",
         "type": [
             "汉化中",
@@ -477,12 +493,13 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
         "update": "2020-05-21",
-        "version":"1.0.6.2",
+        "version": "1.0.6.2",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -503,14 +520,15 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "武世界复刻版",
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",
         "update": "2020-06-01",
-        "version":"4.1",
+        "version": "4.1",
         "path": "wu-world-fu-ke",
         "type": [
             "点击",
@@ -528,14 +546,15 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "一起打怪兽",
         "enTitle": "Let's Fight Monster",
         "date": "2020-03-31",
         "update": "2020-05-28",
-        "version":"1.525",
+        "version": "1.525",
         "path": "lets-fight-monster",
         "type": [
             "点击",
@@ -553,9 +572,10 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "消灭新冠状肺炎",
         "enTitle": "Covid Containment",
         "date": "2020-04-01",
@@ -580,7 +600,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "供应链放置",
         "enTitle": "Supply Chain idle",
         "date": "2020-02-24",
@@ -608,12 +629,13 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "向量增量",
         "enTitle": "Vector Incremental",
         "date": "2020-02-16",
         "update": "2020-02-16",
-        "version":"1.0.12",
+        "version": "1.0.12",
         "path": "vector-incremental",
         "type": [
             "汉化中",
@@ -635,12 +657,13 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "文明2",
         "enTitle": "Cividlization 2",
         "date": "2020-01-11",
         "update": "2020-02-03",
-        "version":"1.2.14",
+        "version": "1.2.14",
         "path": "cividlization-2",
         "type": [
             "汉化中",
@@ -663,11 +686,12 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "防御者放置：新起点",
         "enTitle": "Defender Idle: New Beginning",
         "date": "2020-01-02",
-        "version":"",
+        "version": "",
         "path": "defender-idle-new-beginning",
         "type": [
             "放置",
@@ -691,9 +715,10 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "宝可梦传奇",
         "enTitle": "Pokemon Legends",
         "date": "2019-12-31",
@@ -718,7 +743,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "我的公会",
         "enTitle": "My Guild",
         "date": "2019-12-19",
@@ -744,10 +770,11 @@
             1,
             2
         ],
-        "needHH":0,
-        "version":"1.08",
+        "needHH": 0,
+        "version": "1.08",
         "status": 1
-    },{
+    },
+    {
         "title": "云顶修仙",
         "enTitle": "Yun Ding Xiu Xian",
         "date": "2019-12-18",
@@ -777,7 +804,8 @@
         ],
         "needHH": 0,
         "status": 1
-    }, {
+    },
+    {
         "title": "砍树放置",
         "enTitle": "Idle Chopper",
         "date": "2019-12-17",
@@ -801,7 +829,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "传奇回忆录",
         "enTitle": "Chuan Qi Hui Yi Lu",
         "date": "2019-12-17",
@@ -830,12 +859,16 @@
         "QQ": "456412414",
         "pic": [
             1,
-            2, 3, 4, 5
+            2,
+            3,
+            4,
+            5
         ],
         "needHH": 0,
-        "version":"2.23",
+        "version": "2.23",
         "status": 1
-    }, {
+    },
+    {
         "title": "侠客行",
         "enTitle": "Xia Ke Xing",
         "date": "2019-12-17",
@@ -871,9 +904,10 @@
             6
         ],
         "needHH": 0,
-        "version":"2.36",
+        "version": "2.36",
         "status": 1
-    }, {
+    },
+    {
         "title": "假日抽奖公司",
         "enTitle": "Holiday Slots Inc.",
         "date": "2019-12-11",
@@ -896,7 +930,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "怪物卡牌放置",
         "enTitle": "Creature Card Idle",
         "date": "2019-12-09",
@@ -925,7 +960,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "NGU放置",
         "enTitle": "NGU",
         "date": "2019-12-06",
@@ -952,7 +988,8 @@
         ],
         "needHH": 0,
         "status": 1
-    }, {
+    },
+    {
         "title": "僵尸增量",
         "enTitle": "Incremancer",
         "date": "2019-12-03",
@@ -973,7 +1010,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "健康增量",
         "enTitle": "Incremental Health",
         "date": "2019-11-21",
@@ -993,12 +1031,13 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "循环放置2",
         "enTitle": "Idle Loops 2",
         "date": "2019-10-15",
         "update": "2020-02-21",
-        "version":"0.93",
+        "version": "0.93",
         "path": "idle-loops2",
         "type": [
             "已汉化",
@@ -1019,12 +1058,13 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "抽抽抽",
         "enTitle": "Chou Chou Chou",
         "date": "2019-10-11",
         "update": "2019-10-23",
-        "version":"1.602",
+        "version": "1.602",
         "path": "chou-chou-chou",
         "type": [
             "文字",
@@ -1046,9 +1086,10 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "魔法理论",
         "enTitle": "Theory of Magic",
         "date": "2019-10-18",
@@ -1073,7 +1114,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "钻石狩猎",
         "enTitle": "Diamond Hunt",
         "date": "2019-09-30",
@@ -1099,7 +1141,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "头脑放置",
         "enTitle": "Idle Mind",
         "date": "2019-09-25",
@@ -1123,7 +1166,8 @@
             2
         ],
         "status": 1
-    },  {
+    },
+    {
         "title": "开发人生",
         "enTitle": "Dev Life",
         "date": "2019-09-01",
@@ -1145,7 +1189,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "制茶放置",
         "enTitle": "Idle Tea",
         "date": "2019-08-30",
@@ -1167,7 +1212,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "神特么挖矿放置",
         "enTitle": "Lored",
         "date": "2019-08-26",
@@ -1193,7 +1239,8 @@
         ],
         "needHH": 0,
         "status": 1
-    }, {
+    },
+    {
         "title": "圣诞点击",
         "enTitle": "Merry Clickmas",
         "date": "2019-08-14",
@@ -1216,7 +1263,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
@@ -1242,7 +1290,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "永恒之塔",
         "enTitle": "Eternity Tower",
         "date": "2019-08-08",
@@ -1269,7 +1318,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "放置游戏开发放置",
         "enTitle": "Idle IdleGameDev",
         "date": "2019-08-02",
@@ -1293,7 +1343,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "C语言",
         "enTitle": "C",
         "date": "2019-08-01",
@@ -1316,7 +1367,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "无限扩张",
         "enTitle": "Endless Expansion",
         "date": "2019-07-19",
@@ -1387,7 +1439,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "计算机进化",
         "enTitle": "Computer Evolution",
         "date": "2019-07-09",
@@ -1463,7 +1516,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "看火人",
         "enTitle": "Fire Watcher",
         "date": "2019-07-04",
@@ -1487,7 +1541,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "机器人工厂",
         "enTitle": "Robot Factory",
         "date": "2019-07-03",
@@ -1500,7 +1555,6 @@
             "经营",
             "离线",
             "挂机"
-
         ],
         "content": [
             ""
@@ -1512,7 +1566,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "冒险放置",
         "enTitle": "Quest Game",
         "date": "2019-07-01",
@@ -1526,7 +1581,6 @@
             "冒险",
             "离线",
             "挂机"
-
         ],
         "content": [
             ""
@@ -1537,7 +1591,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "进化",
         "enTitle": "Evolve",
         "date": "2019-07-01",
@@ -1581,7 +1636,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "土皇帝",
         "enTitle": "Villager Kings",
         "date": "2019-06-08",
@@ -1608,7 +1664,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "战神",
         "enTitle": "Ares",
         "date": "2019-06-01",
@@ -1658,7 +1715,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "猜拳游戏",
         "enTitle": "Cai Quan",
         "date": "2019-05-20",
@@ -1680,7 +1738,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "虚拟社区",
         "enTitle": "City",
         "date": "2019-05-20",
@@ -1704,7 +1763,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "神奇宝贝",
         "enTitle": "Pokemon",
         "date": "2019-05-20",
@@ -1729,7 +1789,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "黄金矿工",
         "enTitle": "Miner",
         "date": "2019-05-20",
@@ -1753,7 +1814,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "天天采蘑菇",
         "enTitle": "Mushroom",
         "date": "2019-05-20",
@@ -1776,7 +1838,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "Git农场",
         "enTitle": "Farm",
         "date": "2019-05-20",
@@ -1800,7 +1863,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "母鸡下蛋",
         "enTitle": "Eggs",
         "date": "2019-05-20",
@@ -1824,7 +1888,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "矿场游戏",
         "enTitle": "Kuang",
         "date": "2019-05-20",
@@ -1848,7 +1913,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "挂机传奇",
         "enTitle": "GrindQuest Censored",
         "date": "2019-05-16",
@@ -1874,7 +1940,8 @@
         ],
         "status": 1,
         "flash": true
-    }, {
+    },
+    {
         "title": "爬行者RPG",
         "enTitle": "Icrawler Rpg",
         "date": "2019-05-15",
@@ -1897,7 +1964,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "进化放置",
         "enTitle": "Idle Evolution",
         "date": "2019-05-05",
@@ -1921,7 +1989,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "为了成为骑士",
         "enTitle": "Be Knight",
         "date": "2019-04-29",
@@ -1945,10 +2014,11 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "flash": false,
         "status": 1
-    },{
+    },
+    {
         "title": "无尽的对砍",
         "enTitle": "Wu Jin De Dui Kan",
         "date": "2019-04-28",
@@ -1970,10 +2040,11 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "flash": false,
         "status": 1
-    },{
+    },
+    {
         "title": "战斗无止境",
         "enTitle": "Battle without End",
         "date": "2019-04-28",
@@ -2000,7 +2071,8 @@
         ],
         "status": 1,
         "flash": true
-    }, {
+    },
+    {
         "title": "无尽的进度条",
         "enTitle": "Progress Quest",
         "date": "2019-04-28",
@@ -2012,7 +2084,6 @@
             "点击",
             "冒险",
             "挂机"
-
         ],
         "content": [
             ""
@@ -2024,7 +2095,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "宝可梦点击",
         "enTitle": "Poke Clicker",
         "date": "2019-04-28",
@@ -2037,7 +2109,6 @@
             "冒险",
             "挂机",
             "养成"
-
         ],
         "content": [
             ""
@@ -2051,7 +2122,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "文明点击",
         "enTitle": "Civ Clicker",
         "date": "2019-04-27",
@@ -2077,7 +2149,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "海豹球",
         "enTitle": "Spheal",
         "date": "2019-04-26",
@@ -2101,7 +2174,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "沙塔建设者",
         "enTitle": "Sandcastle Builder",
         "date": "2019-04-26",
@@ -2125,7 +2199,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "朋克放置",
         "enTitle": "Idle Punk",
         "date": "2019-04-26",
@@ -2149,7 +2224,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "环保点击",
         "enTitle": "Eco Clicker",
         "date": "2019-04-26",
@@ -2173,7 +2249,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "图形放置",
         "enTitle": "Idle Graph",
         "date": "2019-04-26",
@@ -2198,7 +2275,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "猎人放置",
         "enTitle": "Hunter Idle",
         "date": "2019-04-26",
@@ -2222,7 +2300,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "元素增量放置",
         "enTitle": "Elemental Inception Incremental",
         "date": "2019-04-26",
@@ -2241,7 +2320,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "黄金矿工",
         "enTitle": "Golden Miner",
         "date": "2019-04-26",
@@ -2265,7 +2345,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "宇宙创造者",
         "enTitle": "Universe Creator Idle",
         "date": "2019-04-26",
@@ -2278,7 +2359,6 @@
             "经营",
             "离线",
             "挂机"
-
         ],
         "content": [
             ""
@@ -2289,7 +2369,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "环球回形针",
         "enTitle": "Universal Paperclips",
         "date": "2019-04-26",
@@ -2315,7 +2396,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "导数点击",
         "enTitle": "Derivative Clicker",
         "date": "2019-04-26",
@@ -2362,7 +2444,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "糖果盒",
         "enTitle": "CandyBox",
         "date": "2019-04-25",
@@ -2386,7 +2469,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "我欲修仙",
         "enTitle": "Wo Yu Xiu Xian",
         "date": "2019-04-25",
@@ -2435,7 +2519,8 @@
         ],
         "needHH": 0,
         "status": 1
-    }, {
+    },
+    {
         "title": "太空放置",
         "enTitle": "Idle Space",
         "date": "2019-04-25",
@@ -2462,7 +2547,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "超苦逼冒险者",
         "enTitle": "KuBition Advanture",
         "date": "2019-04-21",
@@ -2485,14 +2571,15 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
-    },{
+    },
+    {
         "title": "我的魔兽世界放置",
         "enTitle": "My WOW",
         "date": "2019-04-18",
         "update": "2019-09-03",
-        "version":"C2.250",
+        "version": "C2.250",
         "path": "my-wow",
         "type": [
             "放置",
@@ -2519,7 +2606,8 @@
         ],
         "needHH": 0,
         "status": 1
-    }, {
+    },
+    {
         "title": "艾德尔冒险",
         "enTitle": "Idle Adventure",
         "date": "2019-04-12",
@@ -2549,7 +2637,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "挂机无止境",
         "enTitle": "Idle Infinity",
         "date": "2019-04-12",
@@ -2576,7 +2665,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "回收放置",
         "enTitle": "Recycle Idle",
         "date": "2019-04-12",
@@ -2598,7 +2688,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "金钱人生",
         "enTitle": "Money Life",
         "date": "2019-04-04",
@@ -2621,7 +2712,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "大脑创造者",
         "enTitle": "Brain Creator",
         "date": "2019-03-27",
@@ -2646,7 +2738,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "放置大亨",
         "enTitle": "The Idle Class",
         "date": "2019-03-26",
@@ -2670,7 +2763,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "发生器",
         "enTitle": "Generator",
         "date": "2019-03-20",
@@ -2693,7 +2787,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "进度条",
         "enTitle": "Progress Bars",
         "date": "2019-03-08",
@@ -2717,7 +2812,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "迷你任务",
         "enTitle": "MiniTES",
         "date": "2019-03-08",
@@ -2742,7 +2838,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "无限点击冒险",
         "enTitle": "OSTM",
         "date": "2019-03-08",
@@ -2765,7 +2862,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "沉溺人生",
         "enTitle": "Drowning",
         "date": "2019-03-08",
@@ -2788,7 +2886,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "构造",
         "enTitle": "Structure",
         "date": "2019-02-28",
@@ -2813,7 +2912,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "钓鱼公司",
         "enTitle": "Fishing Enterprises",
         "date": "2019-02-26",
@@ -2835,7 +2935,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "旋转放置2",
         "enTitle": "Revolution Idle 2",
         "date": "2019-02-22",
@@ -2861,7 +2962,8 @@
         ],
         "status": 1,
         "flash": true
-    }, {
+    },
+    {
         "title": "纳米扩散",
         "enTitle": "Nanospread",
         "date": "2019-02-20",
@@ -2887,7 +2989,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "国王的完美战争",
         "enTitle": "King's Perfect War",
         "date": "2019-02-20",
@@ -2916,7 +3019,7 @@
         "title": "循环放置",
         "enTitle": "Idle Loops",
         "date": "2019-02-20",
-        "version":"0.77",
+        "version": "0.77",
         "path": "idle-loops",
         "type": [
             "已汉化",
@@ -2937,7 +3040,8 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
         "title": "梯田",
         "enTitle": "Terrafold",
         "date": "2019-02-20",
@@ -2987,7 +3091,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "腐朽国度",
         "enTitle": "Realm Of Decay",
         "date": "2019-01-18",
@@ -3000,7 +3105,6 @@
             "冒险",
             "策略",
             "挂机"
-
         ],
         "content": [
             "这是一个角色扮演游戏，让你升级你的技能，购买新的装备，等等。"
@@ -3012,7 +3116,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "红绿蓝放置",
         "enTitle": "RGB Idle",
         "date": "2018-12-05",
@@ -3024,7 +3129,6 @@
             "点击",
             "离线",
             "挂机"
-
         ],
         "content": [
             "这是一款放置型经营游戏，刚开始你需要点击三种颜色的条（偷懒做法是长按空格键，然后按ALt+Tab键，切换到别的程序，再回来就会自动点进度条了），后面通过升级可以解放双手。本游戏包含转生系统。。"
@@ -3036,7 +3140,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "口袋妖怪放置",
         "enTitle": "Pokemon",
         "date": "2018-12-05",
@@ -3061,7 +3166,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "基础2：网格末日",
         "enTitle": "BASIC 2: GRIDPOCALYPSE",
         "date": "2018-10-24",
@@ -3082,7 +3188,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "基础",
         "enTitle": "BASIC",
         "date": "2018-10-24",
@@ -3103,7 +3210,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "仙侠放置",
         "enTitle": "Xianxia Idle",
         "date": "2018-10-19",
@@ -3127,7 +3235,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "蚂蚁放置2",
         "enTitle": "Idle Ant 2",
         "date": "2018-09-10",
@@ -3201,12 +3310,13 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "13层",
         "enTitle": "Level 13",
         "date": "2018-05-09",
         "update": "2020-02-21",
-        "version":"0.2.7",
+        "version": "0.2.7",
         "path": "level-13",
         "type": [
             "汉化中",
@@ -3230,7 +3340,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "鲨鱼之心",
         "enTitle": "Heart of Sharkness",
         "date": "2018-04-10",
@@ -3252,7 +3363,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "法术大师",
         "enTitle": "Spells Master",
         "date": "2018-01-19",
@@ -3276,7 +3388,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "建造游戏",
         "enTitle": "Kraft",
         "date": "2018-01-19",
@@ -3300,7 +3413,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "未来科技",
         "enTitle": "Technomancy",
         "date": "2018-01-19",
@@ -3349,7 +3463,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "粒子点击",
         "enTitle": "Particle Clicker",
         "date": "2017-12-20",
@@ -3373,7 +3488,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "重建宇宙",
         "enTitle": "Rebuild The Universe",
         "date": "2017-12-16",
@@ -3384,7 +3500,6 @@
             "点击",
             "经营",
             "太空"
-
         ],
         "content": [
             "这是一款以科学为主题的点击、放置增量游戏。",
@@ -3397,7 +3512,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "无尽的饼干",
         "enTitle": "Cookie Clicker",
         "date": "2017-12-15",
@@ -3422,7 +3538,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "Hex颜色放置",
         "enTitle": "Hex Color Idle",
         "date": "2017-12-12",
@@ -3446,7 +3563,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "点击者的荣耀",
         "enTitle": "Clickers Of Honor",
         "date": "2017-12-04",
@@ -3468,7 +3586,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "星系核心:地平线",
         "enTitle": "Heart Of Galaxy : Horizons",
         "date": "2017-12-01",
@@ -3493,7 +3612,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "资源星球",
         "enTitle": "Resource Planet",
         "date": "2017-11-06",
@@ -3501,7 +3621,6 @@
         "type": [
             "已汉化",
             "点击"
-
         ],
         "content": [
             ""
@@ -3513,7 +3632,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "放置动物园2",
         "enTitle": "Zoo II",
         "date": "2017-10-27",
@@ -3536,7 +3656,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "太空公司",
         "enTitle": "Space Company",
         "date": "2017-10-27",
@@ -3554,7 +3675,6 @@
             "太空",
             "建造",
             "策略"
-
         ],
         "content": [
             "太空公司是一个科幻增量游戏，您从地球上的起点开始，逐步发展到星系之间旅行，搭建戴森球（Dyson Spheres）以及探索占领整个星系的殖民地。",
@@ -3570,7 +3690,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "模拟虫群",
         "enTitle": "Swarm Simulator",
         "date": "2017-10-27",
@@ -3585,7 +3706,6 @@
             "挂机",
             "K站",
             "养成"
-
         ],
         "content": [
             "这是一款放置型增量游戏，从只有几只幼虫和一小堆肉开始，建立一个巨大的异种虫群。"
@@ -3597,7 +3717,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "反应堆放置",
         "enTitle": "Reactor Idle",
         "date": "2017-10-27",
@@ -3610,7 +3731,6 @@
             "离线",
             "挂机",
             "策略"
-
         ],
         "content": [
             "这是一款放点击置型经营游戏，你可以建造各种元件生产能量，然后卖掉能量，解锁元件、升级、研究等。"
@@ -3623,7 +3743,8 @@
             2
         ],
         "status": 1
-    }, {
+    },
+    {
         "title": "蚂蚁放置",
         "enTitle": "Idle Ant",
         "date": "2017-10-27",
@@ -3778,7 +3899,7 @@
         "enTitle": "Trimps",
         "date": "2017-10-27",
         "update": "2020-02-21",
-        "version":"5.2.4",
+        "version": "5.2.4",
         "path": "trimps",
         "type": [
             "汉化中",

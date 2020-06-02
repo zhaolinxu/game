@@ -1,17 +1,21 @@
 [{
     "title": "公众号",
     "desc": "Git游戏",
-    "url": "https://mp.weixin.qq.com/s/ezp5x6hOC8QPLnZ2bPFyEw"
-},{
+    "url": "https://mp.weixin.qq.com/s/ezp5x6hOC8QPLnZ2bPFyEw",
+    "status": 1
+}, {
     "title": "主站",
     "desc": "搜集各种好玩的文字放置游戏",
-    "url": "http://www.gityx.com/"
-},{
+    "url": "http://www.gityx.com/",
+    "status": 1
+}, {
     "title": "论坛",
     "desc": "欢迎大家写游戏攻略",
-    "url": "http://www.gityx.com/"
+    "url": "http://www.gityx.com/",
+    "status": 1
 }, {
     "title": "聚享游",
     "desc": "玩游戏可以赚钱哦",
-    "url": "http://www.juxiangyou.com/floor/recom/3570025"
+    "url": "http://www.juxiangyou.com/floor/recom/3570025",
+    "status": 0
 }]

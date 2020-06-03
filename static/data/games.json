@@ -1,5 +1,76 @@
 [
     {
+        "title": "太空公司",
+        "enTitle": "Space Company",
+        "date": "2020-06-02",
+        "update": "2020-06-02",
+        "version":"0.5.1.2",
+        "path": "space-company",
+        "type": [
+            "推荐",
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "K站",
+            "太空",
+            "建造"
+        ],
+        "content": [
+            "注意：因为早期汉化方式有问题，现在重新用新方式开始汉化，可以保障跟作者的更新同步~",
+            "玩之前版本的朋友，可以点击【旧汉化版】继续玩。",
+            "太空公司是一款科幻增量游戏，您从地球上的起点开始，逐步发展到星系之间旅行，搭建戴森球（Dyson Spheres）以及探索占领整个星系的殖民地。",
+            "因为游戏的原因，如果你点按钮没反应（一般发生在清理缓存后），游戏读取本地存档的时候出错。",
+            "解决方法：请点击“更多” → “保存” → 手动保存下面的“保存”按钮一次，然后刷新页面即可正常游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/space-company/",
+        "customUrl": "http://likexia.gitee.io/spacecompany1/",
+        "customUrlTit": "旧汉化版",
+        "enUrl": "https://sparticle999.github.io/SpaceCompany/",
+        "kUrl": "https://www.kongregate.com/games/sparticle999/space-company?sfa=permalink&referrer=SunshineDad",
+        "wikiUrl": "https://www.reddit.com/r/SpaceCompany/wiki/index",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "格林迪亚放置：地下城探索",
+        "enTitle": "Idle Grindia: Dungeon Quest",
+        "date": "2020-06-02",
+        "update": "2020-06-02",
+        "version": "008d",
+        "path": "idle-grindia-dungeon-quest",
+        "type": [
+            "放置",
+            "点击",
+            "冒险",
+            "K站",
+            "英文",
+            "U3D",
+            "养成"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
+        ],
+        "customUrl": "http://idlegame.gitee.io/idle-grindia-dungeon-quest",
+        "customUrlTit": "国内英文快速版",
+        "kUrl": "https://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH": 0,
+        "status": 1
+    },
+    {
         "title": "古戈尔增量",
         "enTitle": "Incremental Googology",
         "date": "2020-06-01",
@@ -3656,40 +3727,6 @@
         ],
         "zhUrl": "http://likexia.gitee.io/zoo2/",
         "enUrl": "http://magicaweb.com/zooII/",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 1
-    },
-    {
-        "title": "太空公司",
-        "enTitle": "Space Company",
-        "date": "2017-10-27",
-        "path": "space-company",
-        "type": [
-            "已汉化",
-            "放置",
-            "文字",
-            "点击",
-            "经营",
-            "冒险",
-            "离线",
-            "挂机",
-            "K站",
-            "太空",
-            "建造",
-            "策略"
-        ],
-        "content": [
-            "太空公司是一个科幻增量游戏，您从地球上的起点开始，逐步发展到星系之间旅行，搭建戴森球（Dyson Spheres）以及探索占领整个星系的殖民地。",
-            "因为游戏的原因，如果你点按钮没反应（一般发生在清理缓存后），游戏读取本地存档的时候出错。",
-            "解决方法：请点击“更多” → “保存” → 手动保存下面的“保存”按钮一次，然后刷新页面即可正常游戏。"
-        ],
-        "zhUrl": "http://likexia.gitee.io/spacecompany1/",
-        "enUrl": "https://sparticle999.github.io/SpaceCompany/",
-        "kUrl": "https://www.kongregate.com/games/sparticle999/space-company?sfa=permalink&referrer=SunshineDad",
-        "wikiUrl": "https://www.reddit.com/r/SpaceCompany/wiki/index",
         "pic": [
             1,
             2

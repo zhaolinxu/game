@@ -54,4 +54,9 @@ $(function(){
 	$(".weixing-container").bind('mouseleave',function(){        
 		$('.weixing-show').hide();
 	});
+
+//	定时关闭
+  setTimeout(function () {
+    $('#im_main').hide();
+  },5000);
 });

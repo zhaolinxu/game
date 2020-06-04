@@ -1,12 +1,12 @@
 /*main css*/
-.main-im{position:fixed;right:10px;bottom:50px;line-height: normal;z-index: 9999}
+.main-im{position:fixed;right:10px;top:calc(50vh + 35px);line-height: normal;z-index: 9999}
 .main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd !important;text-align:center;position:relative;}
 .main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}
 .main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}
 .main-im .qq-container{z-index:99;position:absolute;width:109px;height:118px;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom:1px solid #dddddd;background-image:url("//likexia.gitee.io/game/images/kf/qq-icon-bg.png");background-position:center 8px;background-repeat: no-repeat ;}
 .main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
 .main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color: #ff0000 !important;}
-.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:none;z-index:999;}
+.main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:block;z-index:999;}
 .main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}
 .main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}
 .main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}
@@ -24,7 +24,7 @@
 .main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}
 .main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat: no-repeat;}
 .main-im .close-im a:hover{text-decoration:none;}
-.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat: no-repeat;background-position:left top;cursor: pointer;background-size: 100%;z-index:100;position:fixed;right:10px;bottom:320px;}
+.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat: no-repeat;background-position:left top;cursor: pointer;background-size: 100%;z-index:100;position:fixed;right:10px;top:50vh;}
 @media screen and (max-width:480px){
     .main-im{display: none;}
 }

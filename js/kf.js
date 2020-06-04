@@ -54,4 +54,11 @@ $(function(){
 	$(".weixing-container").bind('mouseleave',function(){        
 		$('.weixing-show').hide();
 	});
+    
+    //默认打开弹框
+    $('#open_im').trigger('click');
+    //5秒后自动关闭
+    setTimeout(function(){
+       $('#close_im').trigger('click'); 
+    },3000);
 });

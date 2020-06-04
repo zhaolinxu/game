@@ -1,5 +1,34 @@
 [
     {
+        "title": "铁拳放置2",
+        "enTitle": "Idle Five 2",
+        "date": "2020-06-04",
+        "update": "2020-06-04",
+        "version":"0.32",
+        "path": "idle-five-2",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "经营",
+            "挂机",
+            "升级",
+            "模拟"
+        ],
+        "content": [
+            "买买买，升级升级升级！"
+        ],
+        "zhUrl": "http://likexia.gitee.io/idle-five2",
+        "enUrl": "https://goldenlys.github.io/IdleFive-V2/",
+        "pic": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "status": 1
+    },
+    {
         "title": "太空公司",
         "enTitle": "Space Company",
         "date": "2020-06-02",

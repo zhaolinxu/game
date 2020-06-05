@@ -1,5 +1,35 @@
 [
     {
+        "title": "太空掠夺者",
+        "enTitle": "SpaceL",
+        "date": "2020-06-05",
+        "update": "2020-06-05",
+        "version":"",
+        "path": "space-l",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "太空",
+            "策略"
+        ],
+        "content": [
+            "打海盗，升级，买买买！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/spacel/",
+        "pic": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "status": 1
+    },
+    {
         "title": "铁拳放置2",
         "enTitle": "Idle Five 2",
         "date": "2020-06-04",

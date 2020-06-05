@@ -1,5 +1,34 @@
 [
     {
+        "title": "中文标题",
+        "enTitle": "英文标题",
+        "date": "2020-06-05",
+        "update": "2020-06-05",
+        "version":"",
+        "path": "路径",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "策略"
+        ],
+        "content": [
+            "注意：作者还在开发，没做存档功能，刷新会丢档哦~"
+        ],
+        "zhUrl": "中文链接",
+        "enUrl": "https://dashclicker.com",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "flash": false,
+        "status": 0
+    },
+    {
         "title": "太空掠夺者",
         "enTitle": "SpaceL",
         "date": "2020-06-05",

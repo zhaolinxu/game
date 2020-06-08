@@ -1,32 +1,29 @@
 [
     {
-        "title": "中文标题",
-        "enTitle": "英文标题",
-        "date": "2020-06-05",
-        "update": "2020-06-05",
+        "title": "仪表板点击",
+        "enTitle": "Dash Clicker",
+        "date": "2020-06-08",
+        "update": "2020-06-08",
         "version":"",
-        "path": "路径",
+        "path": "dash-clicker",
         "type": [
             "汉化中",
             "放置",
             "文字",
             "点击",
             "挂机",
-            "升级",
-            "策略"
+            "升级"
         ],
         "content": [
-            "注意：作者还在开发，没做存档功能，刷新会丢档哦~"
+            "注意：作者还在开发，没做存档功能，刷新就会丢档从头开始哦~"
         ],
-        "zhUrl": "中文链接",
+        "zhUrl": "http://idlegame.gitee.io/dash-clicker",
         "enUrl": "https://dashclicker.com",
         "pic": [
             1,
             2
         ],
-        "needHH":0,
-        "flash": false,
-        "status": 0
+        "status": 1
     },
     {
         "title": "太空掠夺者",
@@ -338,8 +335,8 @@
         "title": "梅尔沃放置",
         "enTitle": "Melvor Idle",
         "date": "2020-05-22",
-        "update": "2020-05-22",
-        "version": "0.15.1",
+        "update": "2020-06-04",
+        "version": "0.15.2.1",
         "path": "melvor-idle",
         "type": [
             "推荐",

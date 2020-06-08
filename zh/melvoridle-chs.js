@@ -739,7 +739,6 @@ var cnItems = {
     'Typing': '打字',
     'Updated missing Crafting Milestones.': '更新了缺少的制作里程碑。',
     'Normal Shortbow': '普通短弓',
-    'Normal Shortbow (u': '普通短弓 (u',
     'Note from Prat': '普拉特寄语',
     'Offline Progression': '离线进度',
     'Offline Progression for all skills, except combat, has been introduced.': '引入了除战斗之外所有技能的离线进度。',
@@ -1310,6 +1309,7 @@ var cnItems = {
     '': '',
 }
 var cnPrefix = {
+    "U) ": "U) ",
     "(-": "(-",
     "(+": "(+",
     "(": "(",
@@ -1328,6 +1328,7 @@ var cnPostfix = {
     "/s": "/s",
     ")": ")",
     "%": "%",
+    " (u": " (u",
 }
 //需排除的，正则匹配
 var cnExcludeWhole = [
@@ -1515,6 +1516,7 @@ var cnRegReplace = new Map([
     [/^Gloves\n(.+)$/, '手套'],
     [/^(.+) Bank Capacity$/, '$1 仓库容量'],
     [/^(.+) HP$/, '$1 生命值'],
+    [/^(.+) XP$/, '$1 经验'],
     [/^(.+) HP Regen per interval$/, '每次恢复 $1 生命值'],
     [/^(.+) charcoal$/, '$1 木炭'],
     [/^(.+) XP \/ (.+) seconds$/, '$1 经验 \/ $2 秒'],
@@ -1529,6 +1531,10 @@ var cnRegReplace = new Map([
     [/^Fri (\d+)$/, '周五 $1'],
     [/^Sat (\d+)$/, '周六 $1'],
     [/^Sun (\d+)$/, '周日 $1'],
+    [/^Receive up to (.+) Allotment or Herb seed back from harvesting.$/, '收割后最多可收到 $1 随机种子或草药种子。'],
+    [/^Receive up to (.+) Allotment or Herb seeds back from harvesting.$/, '收割后最多可收到 $1 随机种子或草药种子。'],
+    [/^x(.+) Runes Produced$/, 'x$1 符文产生'],
+    [/^x(.+) Runes Produced, x(.+) XP Produced$/, 'x$1 符文产生，x$2 经验产生'],
     [/^workers: (\d+)\/$/, '工人：$1\/'],
 
 ]);

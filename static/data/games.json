@@ -1,6 +1,6 @@
 [
     {
-        "title": "仪表板点击",
+        "title": "仪表盘点击",
         "enTitle": "Dash Clicker",
         "date": "2020-06-08",
         "update": "2020-06-08",
@@ -127,8 +127,8 @@
         "title": "格林迪亚放置：地下城探索",
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
-        "update": "2020-06-02",
-        "version": "008d",
+        "update": "2020-06-04",
+        "version": "009",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",
@@ -241,8 +241,8 @@
         "title": "序数增量",
         "enTitle": "Ordinal Markup",
         "date": "2020-05-27",
-        "update": "2020-05-27",
-        "version": "",
+        "update": "2020-06-08",
+        "version": "0.321",
         "path": "ordinal-markup",
         "type": [
             "汉化中",
@@ -656,8 +656,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-05-21",
-        "version": "1.0.6.2",
+        "update": "2020-06-07",
+        "version": "1.1.0.0",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -685,8 +685,8 @@
         "title": "武世界复刻版",
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",
-        "update": "2020-06-01",
-        "version": "4.1",
+        "update": "2020-06-06",
+        "version": "4.21",
         "path": "wu-world-fu-ke",
         "type": [
             "点击",

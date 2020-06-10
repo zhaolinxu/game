@@ -1393,7 +1393,7 @@ var cnRegReplace = new Map([
     [/^\n(.+)Show Item Notifications\n(.+)$/, '显示物品通知'],
     [/^\n(.+)Show Item Sale Confirmations\n(.+)$/, '显示物品出售确认弹框'],
     [/^\n(.+)Show Shop Purchase Confirmations\n(.+)$/, '显示商店购买确认弹框'],
-    [/^\n(.+)Show Virtual Levels\n(.+)$/, '显示虚拟关卡'],
+    [/^\n(.+)Show Virtual Levels\n(.+)$/, '显示虚拟等级'],
     [/^\n(.+)For Offline Progression - Your NPC must have a success rate of at least 95%\n(.+)$/, '如果你想离线偷钱-那么您选择的NPC的成功率必须至少达到95％'],
     [/^\n(.+)(EXPERIMENTAL) Pause actions for skills (Except for Combat and Farming) when the game is minimised or placed in the background to activate offline progression upon return.\n(.+)$/, '（实验性）当游戏最小化或置于后台时暂停技能动作（战斗和农场除外），以在返回时激活离线进度。'],
     [/^\n(.+)Download Save\n(.+)$/, '下载存档'],

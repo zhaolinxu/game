@@ -1,6 +1,4 @@
-```
-//921 
-var cnItems = {
+ var cnItems = {
     _OTHER_: [],
     'Black Knight': '黑骑士',
     'Black Dragon': '黑龙',
@@ -1148,7 +1146,7 @@ var cnItems = {
     'Damage Reduction Potion': '减少伤害药剂',
     'Desired Username': '用户名',
     'Desolate Plains (Slayer Area': '荒凉平原（杀戮区',
-    'Diamond Bolts': '钻石螺栓',
+    'Diamond Bolts': '钻石弩箭',
     'Diamond Potion': '钻石药剂',
     'Divine Potion': '神圣药剂',
     'Dragon 2H Sword': '龙双手剑',
@@ -1188,7 +1186,7 @@ var cnItems = {
     'Earth Wave': '地震波',
     'Easter Shop - You have': '复活节商店-您有',
     'Elemental Potion': '元素药水',
-    'Emerald Bolts': '绿宝石螺栓',
+    'Emerald Bolts': '绿宝石弩箭',
     'Fire Battlestaff': '火焰战士',
     'Fire Blast': '火焰爆炸',
     'Fire Bolt': '火焰之锥',
@@ -1289,7 +1287,7 @@ var cnItems = {
     'Mithril Javelin': '秘银标枪',
     'Mithril Ore': '秘银矿',
     'My Runes': '我的符文',
-    'Mystic Air Staff': '神秘之气法杖',
+    'Mystic Air Staff': '神秘之风法杖',
     'Mystic Earth Staff': '神秘之地法杖',
     'Mystic Fire Staff': '神秘之火法杖',
     'Mystic Water Staff': '神秘之水法杖',
@@ -1368,7 +1366,7 @@ var cnItems = {
     'Teak Tree': '柚树',
     'Thick Skin': '厚皮肤',
     'Tomatoes': '西红柿',
-    'Topaz Bolts': '黄宝石弩头',
+    'Topaz Bolts': '黄宝石弩箭',
     'Trout': '鳟鱼',
     'Ultimate Strength': '极限力量',
     'Unlock Tier I Potion': '解锁一级药水',
@@ -1872,4 +1870,3 @@ function TransSubTextNode(node) {
     });
     observer.observe(targetNode, observer_config)
 }();
-```

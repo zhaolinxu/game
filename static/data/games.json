@@ -1,5 +1,63 @@
 [
     {
+        "title": "点击饼干",
+        "enTitle": "Click for Biscuits",
+        "date": "2020-06-12",
+        "update": "2020-06-08",
+        "version":"0.12.2",
+        "path": "click-for-biscuits",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "以食物为中心的增量管理游戏。 开始手工烘烤一些坚硬的饼干，最终发展成庞大的食品帝国！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/click-for-biscuits",
+        "kUrl": "https://www.kongregate.com/games/SpinfoamGames/click-for-biscuits?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "5小时",
+        "enTitle": "5Hours",
+        "date": "2020-06-11",
+        "update": "2020-06-11",
+        "version":"",
+        "path": "5hours",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "策略"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/misc/5hours/",
+        "enUrl": "https://dan-simon.github.io/misc/5hours/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0
+    },
+    {
         "title": "仪表盘点击",
         "enTitle": "Dash Clicker",
         "date": "2020-06-08",
@@ -392,6 +450,7 @@
         "zhUrl": "https://likexia.gitee.io/fwzwd",
         "enUrl": "https://ivark.github.io/",
         "kUrl": "https://www.kongregate.com/games/Hevipelle/antimatter-dimensions?sfa=permalink&referrer=SunshineDad",
+        "QQ": "1050424901",
         "pic": [
             1,
             2,
@@ -772,7 +831,6 @@
             "挂机",
             "K站",
             "英文",
-            "PC",
             "Steam",
             "策略",
             "模拟"
@@ -784,8 +842,10 @@
         "steamUrl": "https://store.steampowered.com/app/946040/Supply_Chain_Idle/",
         "pic": [
             1,
-            2
+            2,
+            3
         ],
+        "needHH": 0,
         "status": 1
     },
     {
@@ -907,6 +967,7 @@
         "enTitle": "My Guild",
         "date": "2019-12-19",
         "update": "2019-12-24",
+        "version": "1.08",
         "path": "my-guild",
         "type": [
             "文字",
@@ -929,7 +990,6 @@
             2
         ],
         "needHH": 0,
-        "version": "1.08",
         "status": 1
     },
     {
@@ -993,6 +1053,7 @@
         "enTitle": "Chuan Qi Hui Yi Lu",
         "date": "2019-12-17",
         "update": "2019-12-25",
+        "version": "2.23",
         "path": "chuan-qi-hui-yi-lu",
         "type": [
             "放置",
@@ -1023,7 +1084,6 @@
             5
         ],
         "needHH": 0,
-        "version": "2.23",
         "status": 1
     },
     {
@@ -1769,6 +1829,7 @@
         "content": [
             ""
         ],
+        "QQ": "685458364",
         "zhUrl": "http://likexia.gitee.io/evolve",
         "enUrl": "https://pmotschmann.github.io/Evolve/",
         "pic": [
@@ -2175,7 +2236,6 @@
             2
         ],
         "needHH": 0,
-        "flash": false,
         "status": 1
     },
     {
@@ -4043,6 +4103,7 @@
             "感谢各位小伙伴：@*.*，@TG303，@枯寂之心，@KuiY，帮忙汉化。",
             "这是个有点类似《小黑屋》的挂机类文字经营游戏。在这个世界我们要捕捉驯养一种名为trimp（咱们称之为：脆皮）的生物，让它们繁衍，为你采集食物、树木、金属甚至研发科技点数。也有地图可以战斗，不过派去战斗是trimp而不是我们的人物。战斗途中可以获得资源和不少解锁，主要为各种升级解锁和trimp们的装备解锁。另外，这个游戏在你关闭之后也会为你挂机。"
         ],
+        "QQ": "831779769",
         "zhUrl": "http://likexia.gitee.io/cuipi/",
         "enUrl": "http://trimps.github.io/",
         "kUrl": "https://www.kongregate.com/games/GreenSatellite/trimps?sfa=permalink&referrer=SunshineDad",

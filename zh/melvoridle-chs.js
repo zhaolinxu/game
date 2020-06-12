@@ -735,7 +735,7 @@
     'Success': '成功',
     'Stop Fishing': '停止钓鱼',
     'Teak Cooking Fire': '柚木烹饪火',
-    'Tutorial tips are fixed	: '教程提示已修复',
+    'Tutorial tips are fixed': '教程提示已修复',
     'Typing': '打字',
     'Updated missing Crafting Milestones.': '更新了缺少的制作里程碑。',
     'Normal Shortbow': '普通短弓',

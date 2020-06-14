@@ -1460,6 +1460,7 @@
     'You gained': '你获得了',
     'You were gone for roughly': '你离开了大约',
     'Updated the look of the progress bar for Skills & Mastery progress when reaching Level 99.': '当达到99级时，更新了技能和专精进度条的外观。',
+    'Watermelon Seeds':'西瓜种子',
     'We use cookies for the following purposes': '我们将cookie用于以下目的',
     'XP': '经验值',
     'You can no longer receive two of the same Slayer Task in a row.': '你不能再连续接受两个相同的杀手任务。',

@@ -1,5 +1,41 @@
 [
     {
+        "title": "反物质维度 NG+",
+        "enTitle": "Antimatter Dimensions NG+",
+        "date": "2020-06-14",
+        "update": "2020-06-14",
+        "version": "",
+        "path": "antimatter-dimensions-ng",
+        "type": [
+            "推荐",
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "策略",
+            "挂机"
+        ],
+        "content": [
+            "通过维度获得反物质!获得无限反物质来瓦解宇宙!",
+            "本游戏是反物质维度的Mod版，可以自己玩多种模式。由 @大企鹅 推荐并汉化，大佬威武！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/antimatter-dimensions-ng/",
+        "enUrl": "http://raw.githack.com/aarextiaokhiao/IvarK.github.io/master/  ",
+        "customUrl": "https://shimo.im/sheets/pyCqXCVvGgr8t9TP/MODOC/ ",
+        "customUrlTit": "Mod介绍",
+        "wikiUrl": "",
+        "QQ": "1050424901",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "点击饼干",
         "enTitle": "Click for Biscuits",
         "date": "2020-06-12",

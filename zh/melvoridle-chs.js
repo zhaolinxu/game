@@ -767,6 +767,7 @@
     'Difficulty': '困难',
     'Disable': '禁用',
     'Download Save': '下载存档',
+    'Download Save\n': '下载存档',
     'Enable': '启用',
     'Dungeon': '地下城',
     'Dungeon Rework - Volcanic Cave': '地下城重做-火山洞穴',
@@ -1639,9 +1640,9 @@
     'This game will be set to force HTTPS in the future, which means you will not be able to access the non-HTTPS version of the website. Saves are different from the HTTP and HTTPS version, so this notification is here for you to switch now before its too late.': '这个游戏将会被设置为强制HTTPS，这意味着你将无法访问非HTTPS版本的网站。存档不同于HTTP和HTTPS版本，所以这个通知是为你显示的，防止为时已晚',
     'Most browsers allow you to refuse to accept cookies and to delete cookies. The methods for doing so vary from browser to browser, and from version to version. You can however obtain up-to-date information about blocking and deleting cookies via these links': '大多数浏览器允许你拒绝接受cookies和删除cookies。执行此操作的方法因浏览器和版本而异。不过，您可以通过这些链接获取有关阻止和删除cookie的最新信息',
     'If you reside in a country in the European Economic Area (EEA), then under the GDPR and applicable data protection laws you have the rights, among other things, to access your personal data, have us erase it, and/or restrict its further processing.  If you wish to access or delete your personal data (if any) maintained by us or AdThrive related to advertising on the Site, you can contact us at **insert contact email address here** or contact AdThrive at': '如果您居住在欧洲经济区(EEA)的某个国家，那么根据GDPR和适用的数据保护法律，您有权访问您的个人数据，并要求我们删除它，以及/或限制其进一步处理。如果您希望查阅或删除我们或AdThrive保存的与本网站广告有关的个人资料(如有)，请通过**插入联系电子邮件地址**与我们联系，或通过',
-    '': '',
-    '': '',
-    '': '',
+    'Evasion:': '闪避:',
+    'NON-HTTPS DETECTED': '检测到非HTTPS',
+    'M-Bucks': 'M-雄鹿',
     '': '',
     '': '',
     '': '',
@@ -1720,12 +1721,14 @@ var cnPrefix = {
     "							": "",
     "						": "",
     "					": "",
+    "                  ": "",
     "				": "",
     "			": "",
     "    ": "",
     "	": "",
     "  ": "",
     " ": "",
+    "Minor Update - ALPHA V0.": "小更新 - 公测版 V0.",
 }
 var cnPostfix = {
     ":": "：",
@@ -1737,7 +1740,7 @@ var cnPostfix = {
     "/s": "/s",
     ")": ")",
     "%": "%",
-    "\n": "",
+    "																": "",
     "																": "",
     "									": "",
     "                           ": "",
@@ -1745,7 +1748,10 @@ var cnPostfix = {
     "					": "",
     "            ": "",
     "        ": "",
+    "		": "",
+    "		": "",
     "    ": "",
+    "		": "",
     "	": "",
     " ": " ",
     "\n": "",
@@ -1755,6 +1761,7 @@ var cnExcludeWhole = [
     /^x?\d+(\.\d+)?[A-Za-z%]{0,2}(\s.C)?\s*$/, //12.34K,23.4 °C
     /^x?\d+(\.\d+)?(e[+\-]?\d+)?\s*$/, //12.34e+4
     /^\s*$/, //纯空格
+    /^\n$/, //换行
     /^\d+(\.\d+)?[A-Za-z]{0,2}.?\(?([+\-]?(\d+(\.\d+)?[A-Za-z]{0,2})?)?$/, //12.34M (+34.34K
     /^(\d+(\.\d+)?[A-Za-z]{0,2}\/s)?.?\(?([+\-]?\d+(\.\d+)?[A-Za-z]{0,2})?\/s\stot$/, //2.74M/s (112.4K/s tot
     /^\d+(\.\d+)?(e[+\-]?\d+)?.?\(?([+\-]?(\d+(\.\d+)?(e[+\-]?\d+)?)?)?$/, //2.177e+6 (+4.01+4
@@ -1771,6 +1778,7 @@ var cnExcludePostfix = [
 //小数点：([\d\.]+)
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
+    [/^(.+) x M-Bucks$/, '$1 M-雄鹿'],
     [/^Be sure to check the$/, '请务必检查'],
     [/^Show confirmation when attempting to close the game (REQUIRES REFRESH FOR CHANGES TO TAKE EFFECT).$/, '尝试关闭游戏时显示确认信息（需要刷新更改才能生效）。'],
     [/^Be sure to check the$/, '请务必检查'],
@@ -1778,7 +1786,6 @@ var cnRegReplace = new Map([
     [/^Crops died due to intentional neglect$/, '庄稼因故意疏忽死亡'],
     [/^Empty ores you have attempted to mine for some unknown reason$/, '您因某种未知原因试图开采空矿石'],
     [/^Seconds spent burning$/, '花在烧火的秒数'],
-    [/^Download Save$/, '下载存档'],
     [/^Dmg Reduction:$/, '减少伤害：'],
     [/^You gained (.+) Woodcutting XP$/, '你获得了 $1 伐木经验'],
     [/^(.+) Total Skill Level \/ (.+) GP \/ (.+)$/, '$1 总技能等级 \/ $2 GP \/ $3'],
@@ -1816,7 +1823,6 @@ var cnRegReplace = new Map([
     [/^Show Virtual Levels$/, '显示虚拟关卡'],
     [/^For Offline Progression - Your NPC must have a success rate of at least 95%$/, '如果你想离线盗窃-那么您选择的偷窃对象的偷窃成功率必须至少达到95％'],
     [/^(EXPERIMENTAL) Pause actions for skills (Except for Combat and Farming) when the game is minimised or placed in the background to activate offline progression upon return.$/, '（实验性）当游戏最小化或置于后台时暂停技能动作（战斗和农场除外），以在返回时激活离线进度。'],
-    [/^Download Save$/, '下载存档'],
     [/^Cooking$/, '烹饪'],
     [/^Crafting$/, '制作'],
     [/^Farming$/, '种地'],
@@ -1882,8 +1888,6 @@ var cnRegReplace = new Map([
     [/^Damage taken from NPCs$/, '来自NPC的伤害'],
     [/^Delete Account$/, '删除账号'],
     [/^Melvor Cloud$/, '梅尔沃云'],
-    [/^Evasion:$/, '闪避：'],
-    [/^Evasion:$/, '闪避：'],
     [/^Export Save$/, '导出存档'],
     [/^Fish caught$/, '抓到的鱼'],
     [/^Food consumed$/, '食物消耗'],

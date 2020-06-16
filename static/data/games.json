@@ -1,5 +1,35 @@
 [
     {
+        "title": "阿尔法RPG",
+        "enTitle": "Alpha RPG",
+        "date": "2020-06-16",
+        "update": "2020-06-16",
+        "version":"2.01",
+        "path": "alpha-rpg",
+        "type": [
+            "汉化中",
+            "文字",
+            "点击",
+            "升级",
+            "冒险",
+            "养成",
+            "策略"
+        ],
+        "content": [
+            "这款游戏的主要目标是通过对抗敌人和完成任务取得进展，目前有总共21个任务。"
+        ],
+        "zhUrl": "http://likexia.gitee.io/alpharpg/",
+        "enUrl": "https://goldenlys.github.io/AlphaRPG/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "反物质维度 NG+",
         "enTitle": "Antimatter Dimensions NG+",
         "date": "2020-06-14",
@@ -22,7 +52,7 @@
         ],
         "zhUrl": "http://idlegame.gitee.io/antimatter-dimensions-ng/",
         "enUrl": "http://raw.githack.com/aarextiaokhiao/IvarK.github.io/master/",
-        "customUrl": "https://shimo.im/sheets/pyCqXCVvGgr8t9TP/MODOC/ ",
+        "customUrl": "https://shimo.im/sheets/pyCqXCVvGgr8t9TP/MODOC/",
         "customUrlTit": "Mod介绍",
         "wikiUrl": "https://note.youdao.com/ynoteshare1/index.html?id=4d1255cd7120831d582d75739b12a642&type=note",
         "QQ": "1050424901",
@@ -54,6 +84,7 @@
         ],
         "content": [
             "以食物为中心的增量管理游戏。 开始手工烘烤一些坚硬的饼干，最终发展成庞大的食品帝国！"
+            "页面不能滚动的朋友，换谷歌（Chrome）或者火狐（Firefox）浏览器玩吧。"
         ],
         "zhUrl": "http://idlegame.gitee.io/click-for-biscuits",
         "kUrl": "https://www.kongregate.com/games/SpinfoamGames/click-for-biscuits?sfa=permalink&referrer=SunshineDad",
@@ -3290,8 +3321,8 @@
         "content": [
             ""
         ],
-        "zhUrl": "http://likexia.gitee.io/stopsign/Nanospread/index.html",
-        "enUrl": "http://stopsign.github.io/Nanospread/",
+        "zhUrl": "http://likexia.gitee.io/stopsign/idleLoops/index.html",
+        "enUrl": "http://stopsign.github.io/idleLoops/",
         "pic": [
             1,
             2

@@ -2,7 +2,9 @@
     {
         "title": "钻石狩猎3",
         "enTitle": "Diamond Hunt 3",
-        "date": "2019-09-30",
+        "date": "2020-06-19",
+        "update": "2020-06-18",
+        "version":"",
         "path": "diamond-hunt-3",
         "type": [
             "汉化中",
@@ -16,7 +18,7 @@
             "英文"
         ],
         "content": [
-            "这是《钻石狩猎》作者的新作，玩法大同小异。缓慢汉化中~",
+            "这是《钻石狩猎》作者的新作，玩法大同小异。换了新服务器，连接速度应该提升很多。缓慢汉化中~",
             "一款多人在线挖矿放置游戏，有玩家交易市场。"
         ],
         "enUrl": "https://dh3.diamondhunt.co/",
@@ -25,7 +27,7 @@
             1,
             2
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "旅行者放置",
@@ -1134,7 +1136,7 @@
         "content": [
             "之前因为出了些问题，导致游戏开了三天就关闭了。现在作者自己单开了，喜欢的朋友可以继续玩。"
         ],
-        "zhUrl": "http://joucks.cn:3344/",
+        "zhUrl": "http://yundingxx.com:3001/",
         "QQ": "173059029",
         "pic": [
             1,
@@ -1434,6 +1436,8 @@
         "title": "魔法理论",
         "enTitle": "Theory of Magic",
         "date": "2019-10-18",
+        "update": "2020-01-31",
+        "version": "v .1944",
         "path": "theory-of-magic",
         "type": [
             "推荐",

@@ -1,7 +1,7 @@
 /*
 
  @name    : 锅巴汉化 - Web汉化插件
- @author  : 麦子、JAR、小蓝、好阳光的小锅巴
+ @author  : 麦子、JAR、小蓝、好阳光的小锅巴、冬天的雨
  @version : V0.6.1 - 2019-07-09
  @website : http://www.g8hh.com
 
@@ -147,13 +147,13 @@ var cnItems = {
     'A bar made of gold.': '一根金制金属锭。',
     'A bar made of iron.': '一根铁制金属锭。',
     'A bar made of silver.': '一根银制金属锭。',
-    'A body made from bat skin': '一个用蝙蝠皮制作的护甲',
-    'A body made from bear fur.': '一个用熊皮制作的护甲。',
-    'A body made from snakes found in the forest.': '一个用森林中的蛇制作的躯干。',
+    'A body made from bat skin': '一件用蝙蝠皮制作的护甲',
+    'A body made from bear fur.': '一件用熊皮制作的护甲。',
+    'A body made from snakes found in the forest.': '一件用森林中的蛇制作的护甲。',
     'A common leaf seed used as a main ingredient for brewing.': '一种可以用来做酿酒主料的普通树叶种子。',
     'A common mushroom seed used as a secondary ingredient for brewing.': '一种可以用来做酿酒辅料的普通蘑菇种子。',
     'A common ore.': '一块普通的矿石。',
-    'A common small sized fish who usually travel in groups.': '一条普通的鱼，时常成群结队行动。',
+    'A common small sized fish who usually travel in groups.': '一种普通的鱼，时常成群结队行动。',
     'A fast stabbing weapon.  This was once owned by a thief.  I wonder if it was stolen?': '一把利器。曾被一名盗贼所拥有。或许这也是偷来的？',
     'A magnificent creature with deadly jaw crushing powers.': '一种颚拥有着毁灭性力量的奇伟生物。',
     'A mask made from bat skin.': '一个用蝙蝠皮制作的面具。',

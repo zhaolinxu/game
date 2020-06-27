@@ -4,6 +4,7 @@
     'Black Dragon': '黑龙',
     'Blue Dragon': '蓝龙',
     'Black Axe': '黑斧',
+    'Black Scimitar': '黑弯刀',
     'Brew': '酿造',
     'Bronze Arrows': '青铜箭',
     'Bronze 2H Sword': '青铜双手剑',

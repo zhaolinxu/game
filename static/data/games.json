@@ -1,5 +1,37 @@
 [
     {
+        "title": "模拟虫群",
+        "enTitle": "Swarm Simulator",
+        "date": "2017-10-27",
+        "update": "2019-08-07",
+        "version":"1.1.13",
+        "path": "swarm-simulator",
+        "type": [
+            "推荐",
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "K站",
+            "养成"
+        ],
+        "content": [
+            "这是一款放置型增量游戏，从只有几只幼虫和一小堆肉开始，建立一个巨大的异种虫群。"
+            "最近启动重新汉化，可以跟上作者的新版本。"
+        ],
+        "zhUrl": "https://idlegame.gitee.io/swarmsim/",
+        "customUrl": "https://likexia.gitee.io/mncq",
+        "customUrlTit": "旧汉化版",
+        "enUrl": "https://www.swarmsim.com",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
         "title": "云顶修仙2.0",
         "enTitle": "Yun Ding Xiu Xian",
         "date": "2019-06-22",
@@ -822,8 +854,8 @@
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-05-29",
-        "version": "1.00911",
+        "update": "2020-06-24",
+        "version": "1.010",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -1997,6 +2029,8 @@
         "title": "土皇帝",
         "enTitle": "Villager Kings",
         "date": "2019-06-08",
+        "update": "2019-12-24",
+        "version": "1.3.7",
         "path": "villager-kings",
         "type": [
             "已汉化",
@@ -2011,6 +2045,7 @@
             "策略"
         ],
         "content": [
+            "《土皇帝》是一款模拟城市建设类的战略性放置游戏。你扮演着村庄之王的角色，统治着你的人民。你需要在建造，研究，制造，战斗和更多之间做出决定。",
             "游戏不能直接刷新哦，刷新可能会404错误。请把链接删除到：/villager-kings/后面这个位置，回车即可继续游戏。"
         ],
         "zhUrl": "http://likexia.gitee.io/villager-kings/",
@@ -4007,33 +4042,6 @@
         ],
         "zhUrl": "http://likexia.gitee.io/zoo2/",
         "enUrl": "http://magicaweb.com/zooII/",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 1
-    },
-    {
-        "title": "模拟虫群",
-        "enTitle": "Swarm Simulator",
-        "date": "2017-10-27",
-        "path": "swarm-simulator",
-        "type": [
-            "已汉化",
-            "放置",
-            "文字",
-            "点击",
-            "经营",
-            "离线",
-            "挂机",
-            "K站",
-            "养成"
-        ],
-        "content": [
-            "这是一款放置型增量游戏，从只有几只幼虫和一小堆肉开始，建立一个巨大的异种虫群。"
-        ],
-        "zhUrl": "https://likexia.gitee.io/mncq/",
-        "enUrl": "https://swarmsim.github.io/",
         "pic": [
             1,
             2

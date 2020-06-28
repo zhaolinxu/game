@@ -1,5 +1,33 @@
 [
     {
+        "title": "数独工厂放置",
+        "enTitle": "Idle Sudoku Factory",
+        "date": "2020-06-28",
+        "update": "2020-06-28",
+        "version":"1.1",
+        "path": "idle-sudoku-factory",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级",
+            "益智"
+        ],
+        "content": [
+            "您通过卖玻璃赚钱，要制造玻璃，您需要购买沙子并将其熔化。 通过分配工人而不重复同一行或同一列中的数字并重复颜色/操作，可以赚取更多奖金倍数。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-sudoku-factory",
+        "enUrl": "https://wcarugatti.github.io/idle-sudoku-factory/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "模拟虫群",
         "enTitle": "Swarm Simulator",
         "date": "2017-10-27",

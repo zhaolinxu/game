@@ -1680,7 +1680,7 @@
     'Carrot Seeds': '胡萝卜种子',
     'Yew Tree Seeds': '紫杉树种子',
     'Ice Arrows': '冰箭',
-    '': '',
+    'Holy Dust': '圣尘',
     '': '',
     '': '',
     '': '',

@@ -3,7 +3,7 @@
         "title": "数独工厂放置",
         "enTitle": "Idle Sudoku Factory",
         "date": "2020-06-28",
-        "update": "2020-06-28",
+        "update": "2020-01-01",
         "version":"1.1",
         "path": "idle-sudoku-factory",
         "type": [
@@ -21,6 +21,7 @@
         ],
         "zhUrl": "http://idlegame.gitee.io/idle-sudoku-factory",
         "enUrl": "https://wcarugatti.github.io/idle-sudoku-factory/",
+        "kUrl": "https://www.kongregate.com/games/UpgradeTheComp/idle-sudoku-factory?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
             2
@@ -62,8 +63,8 @@
     },{
         "title": "云顶修仙2.0",
         "enTitle": "Yun Ding Xiu Xian",
-        "date": "2019-06-22",
-        "update": "2019-06-22",
+        "date": "2020-06-22",
+        "update": "2020-06-22",
         "version":"2.0",
         "path": "yun-ding-xiu-xian",
         "type": [

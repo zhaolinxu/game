@@ -1888,6 +1888,7 @@ var cnRegReplace = new Map([
     [/^Seconds spent burning$/, '花在烧火的秒数'],
     [/^Dmg Reduction:$/, '减少伤害：'],
     [/^You gained (.+) Woodcutting XP$/, '你获得了 $1 伐木经验'],
+    [/^You gained (.+) Runecrafting XP$/, '你获得了 $1 符文制作经验'],
     [/^(.+) Total Skill Level \/ (.+) GP \/ (.+)$/, '$1 总技能等级 \/ $2 GP \/ $3'],
     [/^(.+) \/ (.+),$/, '$1 \/ $2.'],
     [/^Equip to Set$/, '装备设定'],

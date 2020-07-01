@@ -1,5 +1,64 @@
 [
     {
+        "title": "弹珠增量",
+        "enTitle": "Pincremental",
+        "date": "2020-07-01",
+        "update": "2020-06-29",
+        "version":"1.085",
+        "path": "pincremental",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级",
+            "模拟",
+            "怀旧"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/pincremental/",
+        "kUrl": "https://www.kongregate.com/games/Makopaz/pincremental?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "图形工厂",
+        "enTitle": "shapez.io",
+        "date": "2020-07-01",
+        "path": "shapez-io",
+        "type": [
+            "放置",
+            "点击",
+            "经营",
+            "益智",
+            "联网",
+            "PC",
+            "Steam"
+        ],
+        "content": [
+            "画风很可爱啊，感觉是《异星工厂》的玩法，Steam售价18元。网页版是体验版。"
+        ],
+        "zhUrl": "https://shapez.io/",
+        "enUrl": "英文链接",
+        "steamUrl": "https://store.steampowered.com/app/1318690/shapezio/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "数独工厂放置",
         "enTitle": "Idle Sudoku Factory",
         "date": "2020-06-28",
@@ -60,7 +119,37 @@
             2
         ],
         "status": 1
-    },{
+    },
+    {
+        "title": "星系核心:地平线",
+        "enTitle": "Heart Of Galaxy : Horizons",
+        "date": "2017-12-01",
+        "update": "2019-05-23",
+        "version":"43D",
+        "path": "heart-of-galaxy-horizons",
+        "type": [
+            "已汉化",
+            "放置",
+            "点击",
+            "冒险",
+            "离线",
+            "挂机",
+            "太空",
+            "K站"
+        ],
+        "content": [
+            "这是一个放置类的战略优化游戏，你可以建立自己的空间帝国。你从一个类地行星开始，在宇宙中建立你自己的道路，殖民新的行星，与外星文明战斗。",
+            "请参阅游戏中的教程了解第一步。"
+        ],
+        "zhUrl": "http://likexia.gitee.io/xxhx",
+        "kUrl": "https://www.kongregate.com/games/Cheslava/heart-of-galaxy-horizons?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "云顶修仙2.0",
         "enTitle": "Yun Ding Xiu Xian",
         "date": "2020-06-22",
@@ -409,8 +498,8 @@
         "title": "格林迪亚放置：地下城探索",
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
-        "update": "2020-06-19",
-        "version": ".011",
+        "update": "2020-06-26",
+        "version": ".012",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",
@@ -4001,32 +4090,6 @@
         ],
         "zhUrl": "http://likexia.gitee.io/coh",
         "enUrl": "http://users.telenet.be/coh/",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 1
-    },
-    {
-        "title": "星系核心:地平线",
-        "enTitle": "Heart Of Galaxy : Horizons",
-        "date": "2017-12-01",
-        "path": "heart-of-galaxy",
-        "type": [
-            "已汉化",
-            "放置",
-            "点击",
-            "冒险",
-            "离线",
-            "挂机",
-            "太空",
-            "K站"
-        ],
-        "content": [
-            ""
-        ],
-        "zhUrl": "http://likexia.gitee.io/xxhx",
-        "kUrl": "https://www.kongregate.com/games/Cheslava/heart-of-galaxy-horizons?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
             2

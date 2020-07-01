@@ -1726,7 +1726,7 @@
     ' when training ': '在你训练',
     'Mining.': '采矿。',
     'Did you know?': '你知道吗？',
-    '': '',
+    'Your bank is full': '你的仓库已经满了',
     '': '',
     '': '',
     '': '',

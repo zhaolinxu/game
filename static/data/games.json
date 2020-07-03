@@ -612,8 +612,8 @@
         "title": "序数增量",
         "enTitle": "Ordinal Markup",
         "date": "2020-05-27",
-        "update": "2020-06-08",
-        "version": "0.321",
+        "update": "2020-07-03",
+        "version": "0.33",
         "path": "ordinal-markup",
         "type": [
             "汉化中",
@@ -639,8 +639,8 @@
         "title": "末日崛起",
         "enTitle": "Mo Ri Jue Qi",
         "date": "2020-05-27",
-        "update": "2020-05-23",
-        "version": "3.041",
+        "update": "2020-06-21",
+        "version": "4.01",
         "path": "mo-ri-jue-qi",
         "type": [
             "点击",
@@ -972,8 +972,8 @@
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-06-24",
-        "version": "1.010",
+        "update": "2020-07-02",
+        "version": "1.0101",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -1029,8 +1029,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-06-15",
-        "version": "1.1.0.4",
+        "update": "2020-06-26",
+        "version": "1.1.1.0",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -1059,7 +1059,7 @@
         "enTitle": "Wu World Fu Ke",
         "date": "2020-04-15",
         "update": "2020-06-06",
-        "version": "4.62",
+        "version": "4.7",
         "path": "wu-world-fu-ke",
         "type": [
             "点击",

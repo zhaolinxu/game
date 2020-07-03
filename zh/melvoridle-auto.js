@@ -264,7 +264,7 @@
             status = 0
             mineRock(min2, true);
 
-        } else if (min1Wid > 0 && status != 1) {{
+        } else if (min1Wid > 0 && status != 1) {
             //秘银矿冷却完毕，继续挖秘银
             //这个数字需要自己控制台看一下，自己想挖的备用矿的序号
                 status = 1

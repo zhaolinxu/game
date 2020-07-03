@@ -258,21 +258,17 @@
         //判断生命值百分比，大于等于你指定百分比才执行挖矿。
         var min1Wid = $('#mining-rock-hp-' + min1).width();
         //设置挖矿条百分比，低于这个百分比时，自动切换挖别的矿
-        if (min1Wid == 0) {
+        if (min1Wid == 0 && status != 0) {
             //秘银矿冷却中，挖金矿
             //这个数字需要自己控制台看一下，自己想挖的备用矿的序号
-            if (status == 1) {
-                mineRock(min2, true);
-                status = 0
-            }
+            status = 0
+            mineRock(min2, true);
 
-        } else {
+        } else if (min1Wid > 0 && status != 1) {{
             //秘银矿冷却完毕，继续挖秘银
             //这个数字需要自己控制台看一下，自己想挖的备用矿的序号
-            if (status == 0) {
-                mineRock(min1, true);
                 status = 1
-            }
+                mineRock(min1, true);
         }
     }
     /* ------------------------End-------------------------*/

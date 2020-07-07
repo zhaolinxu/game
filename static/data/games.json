@@ -1,5 +1,28 @@
 [
     {
+        "title": "动物园增量2",
+        "enTitle": "Zoo II",
+        "date": "2020-07-07",
+        "path": "zoo-ii",
+        "type": [
+            "已汉化",
+            "放置",
+            "点击",
+            "经营",
+            "模拟",
+            "挂机"
+        ],
+        "content": [
+            "这个也是很早收录的，但是没汉化，这两天汉化了一下。"
+        ],
+        "zhUrl": "http://likexia.gitee.io/zoo2/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "弹珠增量",
         "enTitle": "Pincremental",
         "date": "2020-07-01",
@@ -96,7 +119,7 @@
         "path": "swarm-simulator",
         "type": [
             "推荐",
-            "已汉化",
+            "汉化中",
             "放置",
             "文字",
             "点击",
@@ -2836,7 +2859,6 @@
         "path": "golden-miner",
         "type": [
             "已汉化",
-            "汉化中",
             "放置",
             "文字",
             "点击",
@@ -4110,30 +4132,6 @@
         ],
         "zhUrl": "http://likexia.gitee.io/resource-planet/",
         "enUrl": "http://www.shmoggo.com/resource-game/",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 1
-    },
-    {
-        "title": "放置动物园2",
-        "enTitle": "Zoo II",
-        "date": "2017-10-27",
-        "path": "zoo-ii",
-        "type": [
-            "汉化中",
-            "放置",
-            "点击",
-            "经营",
-            "离线",
-            "挂机"
-        ],
-        "content": [
-            ""
-        ],
-        "zhUrl": "http://likexia.gitee.io/zoo2/",
-        "enUrl": "http://magicaweb.com/zooII/",
         "pic": [
             1,
             2

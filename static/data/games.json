@@ -1,5 +1,31 @@
 [
     {
+        "title": "字母增量",
+        "enTitle": "Alphabet Incremental",
+        "date": "2020-07-14",
+        "update": "2020-07-14",
+        "version":"0.2",
+        "path": "alphabet-incremental",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/alphabet-incremental",
+        "enUrl": "https://naoxink.github.io/alphabet/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "动物园增量2",
         "enTitle": "Zoo II",
         "date": "2020-07-07",
@@ -271,8 +297,8 @@
         "title": "阿尔法RPG",
         "enTitle": "Alpha RPG",
         "date": "2020-06-16",
-        "update": "2020-06-16",
-        "version":"2.01",
+        "update": "2020-08-09",
+        "version":"2.2",
         "path": "alpha-rpg",
         "type": [
             "汉化中",
@@ -337,8 +363,8 @@
         "title": "点击饼干",
         "enTitle": "Click for Biscuits",
         "date": "2020-06-12",
-        "update": "2020-06-19",
-        "version":"0.14.0",
+        "update": "2020-07-03",
+        "version":"0.16.0",
         "path": "click-for-biscuits",
         "type": [
             "汉化中",
@@ -1560,8 +1586,8 @@
         "title": "循环放置2",
         "enTitle": "Idle Loops 2",
         "date": "2019-10-15",
-        "update": "2020-02-21",
-        "version": "0.93",
+        "update": "2020-06-27",
+        "version": "0.94",
         "path": "idle-loops2",
         "type": [
             "已汉化",

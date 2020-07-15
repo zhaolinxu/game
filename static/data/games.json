@@ -1,5 +1,34 @@
 [
     {
+        "title": "征服世界",
+        "enTitle": "Conquere the World",
+        "date": "2020-07-15",
+        "update": "2020-07-15",
+        "version":"",
+        "path": "conquere-the-world",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "升级",
+            "K站",
+            "英文",
+            "U3D"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/conquere-the-world/",
+        "kUrl": "https://www.kongregate.com/games/romeolord/conquere-the-world?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "字母增量",
         "enTitle": "Alphabet Incremental",
         "date": "2020-07-14",
@@ -1272,7 +1301,8 @@
         "title": "防御者放置：新起点",
         "enTitle": "Defender Idle: New Beginning",
         "date": "2020-01-02",
-        "version": "",
+        "update": "2020-06-22",
+        "version":"1.8",
         "path": "defender-idle-new-beginning",
         "type": [
             "放置",
@@ -1294,7 +1324,9 @@
         "kUrl": "https://www.kongregate.com/games/Barbasu/defender-idle-new-beginning?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
-            2
+            2,
+            3,
+            4
         ],
         "needHH": 0,
         "status": 1
@@ -2295,6 +2327,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2320,6 +2353,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2346,6 +2380,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2371,6 +2406,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2395,6 +2431,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2420,6 +2457,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2445,6 +2483,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2470,6 +2509,7 @@
             1,
             2
         ],
+        "needHH":0,
         "status": 1
     },
     {
@@ -2479,6 +2519,7 @@
         "path": "grind-quest-censored",
         "type": [
             "已汉化",
+            "英文",
             "放置",
             "文字",
             "点击",
@@ -2496,8 +2537,9 @@
             1,
             2
         ],
-        "status": 1,
-        "flash": true
+        "needHH":0,
+        "flash": true,
+        "status": 1
     },
     {
         "title": "爬行者RPG",
@@ -2605,6 +2647,8 @@
         "title": "战斗无止境",
         "enTitle": "Battle without End",
         "date": "2019-04-28",
+        "update": "2014-12-22",
+        "version":"1.4",
         "path": "battle-without-end",
         "type": [
             "已汉化",
@@ -3049,7 +3093,7 @@
             1,
             2
         ],
-        "status": 1
+        "status": 0
     },
     {
         "title": "打砖块",

@@ -1,5 +1,35 @@
 [
     {
+        "title": "太空放置2",
+        "enTitle": "Idle Space 2",
+        "date": "2020-07-22",
+        "update": "2020-07-21",
+        "version":"",
+        "path": "idle-space2",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "冒险",
+            "离线",
+            "挂机",
+            "K站",
+            "太空"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idlespace2",
+        "kUrl": "https://www.kongregate.com/games/scorzy88/idlespace-2?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "锻造与财富",
         "enTitle": "Forge & Fortune",
         "date": "2020-07-21",
@@ -36,8 +66,8 @@
         "title": "征服世界",
         "enTitle": "Conquere the World",
         "date": "2020-07-15",
-        "update": "2020-07-15",
-        "version":"",
+        "update": "2020-07-20",
+        "version":"0.002-1",
         "path": "conquere-the-world",
         "type": [
             "放置",
@@ -359,7 +389,7 @@
         "title": "阿尔法RPG",
         "enTitle": "Alpha RPG",
         "date": "2020-06-16",
-        "update": "2020-08-09",
+        "update": "2020-07-12",
         "version":"2.2",
         "path": "alpha-rpg",
         "type": [
@@ -609,8 +639,8 @@
         "title": "格林迪亚放置：地下城探索",
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
-        "update": "2020-06-26",
-        "version": ".012",
+        "update": "2020-07-17",
+        "version": ".014",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",
@@ -1140,7 +1170,7 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-06-26",
+        "update": "2020-07-14",
         "version": "1.1.1.0",
         "path": "incremental-epic-hero",
         "type": [

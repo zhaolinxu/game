@@ -1,5 +1,32 @@
 [
     {
+        "title": "邮递员放置",
+        "enTitle": "More Letters",
+        "date": "2020-08-06",
+        "update": "2020-08-06",
+        "version":"",
+        "path": "more-letters",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/more-letters/",
+        "enUrl": "https://morelettersinc.com/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "太空放置2",
         "enTitle": "Idle Space 2",
         "date": "2020-07-22",
@@ -33,8 +60,8 @@
         "title": "锻造与财富",
         "enTitle": "Forge & Fortune",
         "date": "2020-07-21",
-        "update": "2020-07-21",
-        "version":"0.5.0.4",
+        "update": "2020-08-01",
+        "version":"0.5.0.8",
         "path": "forge-fortune",
         "type": [
             "汉化中",
@@ -79,9 +106,10 @@
             "U3D"
         ],
         "content": [
-            ""
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
         ],
-        "zhUrl": "http://idlegame.gitee.io/conquere-the-world/",
+        "customUrlTit": "国内英文版",
+        "customUrl": "http://idlegame.gitee.io/conquere-the-world/",
         "kUrl": "https://www.kongregate.com/games/romeolord/conquere-the-world?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
@@ -639,8 +667,8 @@
         "title": "格林迪亚放置：地下城探索",
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
-        "update": "2020-07-17",
-        "version": ".014",
+        "update": "2020-07-24",
+        "version": ".015",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",
@@ -655,7 +683,7 @@
             "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
         ],
         "customUrl": "http://idlegame.gitee.io/idle-grindia-dungeon-quest",
-        "customUrlTit": "国内英文快速版",
+        "customUrlTit": "国内英文版",
         "kUrl": "https://www.kongregate.com/games/Moczan/idle-grindia-dungeon-quest?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
@@ -780,7 +808,7 @@
         "title": "末日崛起",
         "enTitle": "Mo Ri Jue Qi",
         "date": "2020-05-27",
-        "update": "2020-06-21",
+        "update": "2020-07-13",
         "version": "4.01",
         "path": "mo-ri-jue-qi",
         "type": [
@@ -1383,7 +1411,7 @@
             "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
         ],
         "customUrl": "http://likexia.gitee.io/defender-idle-new-beginning/",
-        "customUrlTit": "国内英文快速版",
+        "customUrlTit": "国内英文版",
         "kUrl": "https://www.kongregate.com/games/Barbasu/defender-idle-new-beginning?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
@@ -1882,7 +1910,8 @@
         "content": [
             "游戏挺有趣的，可惜没法汉化。因为k站加载超级慢，所以搬运过来方便大家玩。"
         ],
-        "enUrl": "http://likexia.gitee.io/lored",
+        "customUrlTit": "国内英文版",
+        "customUrl": "http://likexia.gitee.io/lored",
         "kUrl": "https://www.kongregate.com/games/Drillur/lored?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
@@ -1919,7 +1948,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
-        "update": "2020-05-28",
+        "update": "2020-06-30",
         "path": "incremental-adventures",
         "type": [
             "已汉化",

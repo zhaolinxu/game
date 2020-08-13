@@ -1,5 +1,103 @@
 [
     {
+        "title": "汉堡大师",
+        "enTitle": "Burger Master",
+        "date": "2020-08-13",
+        "update": "2020-08-13",
+        "version":"",
+        "path": "burger-master",
+        "type": [
+            "汉化中",
+            "放置",
+            "点击",
+            "经营",
+            "益智",
+            "模拟"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/burger-master",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "先知",
+        "enTitle": "The Prophet",
+        "date": "2020-08-13",
+        "update": "2020-08-13",
+        "version":"0.9.4",
+        "path": "the-prophet",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击"
+        ],
+        "content": [
+            "一个关于创造宗教并增加财富和追随者的增量游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/the-prophet/",
+        "enUrl": "https://quadcerebrumal.github.io/TheProphet/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0
+    },
+    {
+        "title": "驴子跳跳",
+        "enTitle": "Donkey Jump",
+        "date": "2020-08-13",
+        "update": "2020-08-13",
+        "version": "",
+        "path": "donkey-jump",
+        "type": [
+            "点击",
+            "敏捷"
+        ],
+        "content": [
+            "电脑上可以玩，方向键控制左右移动，看看你最高可以到多少分~"
+        ],
+        "customUrl": "http://idlegame.gitee.io/donkey-jump",
+        "customUrlTit": "开始游戏",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1,
+        "needHH": 0
+    },
+    {
+        "title": "狗子放置3",
+        "enTitle": "Dog Idle 3",
+        "date": "2020-08-13",
+        "update": "2020-08-11",
+        "version": "1.03",
+        "path": "dog-idle-3",
+        "type": [
+            "卡牌",
+            "原创",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码：c5mv",
+            "不能保证随时同步最新版本，可以加游戏群获取~"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/djJHdvam",
+        "baiduUrl": "https://pan.baidu.com/s/1CvCd6XSfbtl2Y7_MntfuCA",
+        "QQ": "496088542",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH": 0,
+        "status": 1
+    },
+    {
         "title": "邮递员放置",
         "enTitle": "More Letters",
         "date": "2020-08-06",
@@ -61,7 +159,7 @@
         "enTitle": "Forge & Fortune",
         "date": "2020-07-21",
         "update": "2020-08-01",
-        "version":"0.5.0.8",
+        "version":"0.5.0.9",
         "path": "forge-fortune",
         "type": [
             "汉化中",
@@ -93,8 +191,8 @@
         "title": "征服世界",
         "enTitle": "Conquere the World",
         "date": "2020-07-15",
-        "update": "2020-07-20",
-        "version":"0.002-1",
+        "update": "2020-07-29",
+        "version":"0.004",
         "path": "conquere-the-world",
         "type": [
             "放置",
@@ -668,7 +766,7 @@
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
         "update": "2020-07-24",
-        "version": ".015",
+        "version": ".016",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",
@@ -1198,8 +1296,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-07-14",
-        "version": "1.1.1.0",
+        "update": "2020-07-31",
+        "version": "1.1.2.0",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -1893,8 +1991,8 @@
         "title": "神特么挖矿放置",
         "enTitle": "Lored",
         "date": "2019-08-26",
-        "update": "2020-07-12",
-        "version": "2.0",
+        "update": "2020-08-12",
+        "version": "2.1.3",
         "path": "lored",
         "type": [
             "放置",
@@ -1912,6 +2010,7 @@
         ],
         "customUrlTit": "国内英文版",
         "customUrl": "http://likexia.gitee.io/lored",
+        "enUrl": "https://v6p9d9t4.ssl.hwcdn.net/html/2588889/index.html",
         "kUrl": "https://www.kongregate.com/games/Drillur/lored?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
@@ -3438,6 +3537,8 @@
         "title": "放置大亨",
         "enTitle": "The Idle Class",
         "date": "2019-03-26",
+        "update": "2020-07-06",
+        "version":"0.7.8",
         "path": "the-idle-class",
         "type": [
             "汉化中",
@@ -4115,6 +4216,8 @@
         "title": "未来科技",
         "enTitle": "Technomancy",
         "date": "2018-01-19",
+        "update": "2020-06-05",
+        "version":"6.0.9",
         "path": "technomancy",
         "type": [
             "已汉化",

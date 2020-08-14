@@ -1,5 +1,30 @@
 [
     {
+        "title": "小型化增量",
+        "enTitle": "M13n: Miniaturization",
+        "date": "2020-08-14",
+        "update": "2017-04-17",
+        "version":"",
+        "path": "m13n-miniaturization",
+        "type": [
+            "已汉化",
+            "放置",
+            "点击",
+            "挂机",
+            "升级",
+        ],
+        "content": [
+            "一款数字越来越小的增量游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/m13n-miniaturization/",
+        "kUrl": "https://www.kongregate.com/games/aaaantoine/m13n-miniaturization?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "汉堡大师",
         "enTitle": "Burger Master",
         "date": "2020-08-13",
@@ -7,7 +32,7 @@
         "version":"",
         "path": "burger-master",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "点击",
             "经营",
@@ -270,8 +295,8 @@
         "title": "弹珠增量",
         "enTitle": "Pincremental",
         "date": "2020-07-01",
-        "update": "2020-06-29",
-        "version":"1.098",
+        "update": "2020-08-10",
+        "version":"1.100",
         "path": "pincremental",
         "type": [
             "汉化中",
@@ -1462,7 +1487,7 @@
         "enTitle": "Cividlization 2",
         "date": "2020-01-11",
         "update": "2020-03-01",
-        "version": "1.3.5",
+        "version": "1.3.7",
         "path": "cividlization-2",
         "type": [
             "汉化中",
@@ -2387,7 +2412,7 @@
             "挂机"
         ],
         "content": [
-            ""
+            "感谢各位大佬：@克瓦瑟利，@麦子，@by22dgb 帮忙汉化。"
         ],
         "QQ": "685458364",
         "zhUrl": "http://likexia.gitee.io/evolve",
@@ -4571,6 +4596,7 @@
             "挂机"
         ],
         "content": [
+            "感谢各位大佬：@by22dgb，@*.*，@TG303，@枯寂之心，@KuiY，帮忙汉化。",
             "这是一款放置型经营游戏，你可以建造多种建筑和收集多种资源，来一步步完善你的小猫王国。游戏虽然没什么精美的图片和动听的音乐，但还是有相当的经营乐趣。",
             "注意：现在 中文版已经集成了小猫科学家 ，请在游戏右上角 “选项” 里面通过 “点击启用小猫科学家”启用。"
         ],
@@ -4602,7 +4628,7 @@
             "挂机"
         ],
         "content": [
-            "感谢各位小伙伴：@*.*，@TG303，@枯寂之心，@KuiY，帮忙汉化。",
+            "感谢各位大佬：@by22dgb，@*.*，@TG303，@枯寂之心，@KuiY，帮忙汉化。",
             "这是个有点类似《小黑屋》的挂机类文字经营游戏。在这个世界我们要捕捉驯养一种名为trimp（咱们称之为：脆皮）的生物，让它们繁衍，为你采集食物、树木、金属甚至研发科技点数。也有地图可以战斗，不过派去战斗是trimp而不是我们的人物。战斗途中可以获得资源和不少解锁，主要为各种升级解锁和trimp们的装备解锁。另外，这个游戏在你关闭之后也会为你挂机。"
         ],
         "QQ": "831779769",

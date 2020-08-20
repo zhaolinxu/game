@@ -1,5 +1,116 @@
 [
     {
+        "title": "无尽的梦想2：噩梦",
+        "enTitle": "Endless Dream 2: The Nightmare",
+        "date": "2020-08-20",
+        "update": "2020-08-19",
+        "version":"20200819_1.0",
+        "path": "endless-dream-2-the-nightmare",
+        "type": [
+            "冒险",
+            "生存",
+            "K站",
+            "英文",
+            "U3D"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。",
+            "一款放置的RPG，您可以在其中管理和“编程”您的队伍，以探索危险的地下城，与致命的Boss作战并收集史诗般的战利品。"
+        ],
+        "customUrlTit": "国内英文版",
+        "customUrl": "http://idlegame.gitee.io/endless-dream-2-the-nightmare/",
+        "kUrl": "https://www.kongregate.com/games/Zeromatter/endless-dream-2-the-nightmare?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
+        "title": "激突要塞！＋",
+        "enTitle": "FORT P",
+        "date": "2020-08-20",
+        "update": "2016-06-20",
+        "version":"1.1",
+        "path": "fort-p",
+        "type": [
+            "Flash",
+            "日文",
+            "策略"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "https://likexia.gitee.io/game/flash/fort-p.html",
+        "customUrl": "http://suznooto.com/flash/BRI.html",
+        "customUrlTit": "日语版",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0,
+        "needHH":0,
+        "flash": true
+    },
+    {
+        "title": "最强旅团",
+        "enTitle": "SPR",
+        "date": "2020-08-20",
+        "update": "2016-06-20",
+        "version":"1.4",
+        "path": "bri",
+        "type": [
+            "Flash",
+            "日文",
+            "策略"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "https://likexia.gitee.io/game/flash/bri.html",
+        "customUrl": "http://suznooto.com/flash/BRI.html",
+        "customUrlTit": "日语版",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0,
+        "needHH":0,
+        "flash": true
+    },
+    {
+        "title": "宇宙海贼王",
+        "enTitle": "SPR",
+        "date": "2020-08-20",
+        "update": "2014-07-06",
+        "version":"1.2",
+        "path": "spr",
+        "type": [
+            "射击",
+            "升级",
+            "太空",
+            "冒险",
+            "Flash",
+            "日文",
+            "策略"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "https://likexia.gitee.io/game/flash/spr.html",
+        "enUrl": "http://suznooto.com/flash/SPR.html",
+        "customUrl": "http://www.yxdown.com/SoftView/SoftView_71101.html",
+        "customUrlTit": "游侠下载版",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1,
+        "needHH":0,
+        "flash": true
+    },
+    {
         "title": "小型化增量",
         "enTitle": "M13n: Miniaturization",
         "date": "2020-08-14",
@@ -2859,7 +2970,6 @@
             2
         ],
         "needHH": 0,
-        "flash": false,
         "status": 1
     },
     {

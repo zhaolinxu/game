@@ -1,5 +1,31 @@
 [
     {
+        "title": "咖啡达人",
+        "enTitle": "Coffee Drinker",
+        "date": "2020-08-28",
+        "update": "2020-08-28",
+        "version":"0.8.3",
+        "path": "coffee-drinker",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "一款渐进式增量游戏，您可以开始喝咖啡，并通过游戏解锁更多元素。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/coffee-drinker/",
+        "enUrl": "https://extradavid.com",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "无尽的梦想2：噩梦",
         "enTitle": "Endless Dream 2: The Nightmare",
         "date": "2020-08-20",

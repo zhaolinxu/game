@@ -1,10 +1,104 @@
 [
     {
+        "title": "宝可梦点击2.0",
+        "enTitle": "Poke Clicker",
+        "date": "2019-04-28",
+        "path": "poke-clicker2",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "冒险",
+            "挂机",
+            "养成"
+        ],
+        "content": [
+            "船新版本，刚开始汉化，可以抢先体验~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/pokeclicker/",
+        "enUrl": "https://www.pokeclicker.com/",
+        "wikiUrl": "http://likexia.gitee.io/piddb/",
+        "wikiUrl2": "https://wiki.52poke.com/wiki/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89/%E7%AE%80%E5%8D%95%E7%89%88",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },{
+        "title": "我的暗黑",
+        "enTitle": "My Diablo",
+        "date": "2020-10-06",
+        "update": "2020-10-14",
+        "version": "1.074",
+        "path": "my-diablo",
+        "type": [
+            "RPG",
+            "原创",
+            "PC"
+        ],
+        "content": [
+            "百度盘密码：velb",
+            "不能保证随时同步最新版本，可以加游戏群获取~"
+        ],
+        "weiyunUrl": "https://share.weiyun.com/ZghtlSEv",
+        "baiduUrl": "https://pan.baidu.com/s/1lW86FfHqolJOUdNZmRY0dg",
+        "QQ": "951107794",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH": 0,
+        "status": 1
+    },{
+        "title": "墨魂‧長生界",
+        "enTitle": "",
+        "date": "2020-09-07",
+        "update": "2020-09-07",
+        "version": "",
+        "path": "chang-sheng-jie",
+        "type": [
+            "文字",
+            "离线",
+            "挂机",
+            "原创",
+            "联网",
+            "修真"
+        ],
+        "content": [
+            "放置型網頁修仙遊戲【墨魂‧長生界】",
+"電腦手機無間互通 只要有網絡 哪都能修仙",
+"最新開服慶祝活動:",
+"為慶祝 2020 墨魂‧長生界 新服開啟，由即日起至2020/09/17晚上24:00",
+"經驗值 2倍",
+"真氣 2倍",
+"金錢 2倍",
+"首充返還 2倍",
+"還有累充活動 福利多多!!",
+"白嫖黨福利:",
+"白嫖党可依靠发帖提升VIP等级，发帖推广奖励如下：",
+"简单文案+游戏网址+本群群号+游戏图片1张（可推广网址与推广文案及案例请查看群共享），一个帖子等于一元累充，复制黏贴即可，发完后网址存到文本里，带上日期私聊群主，封顶一天50元，相当于连发20天左右即可变成VIP10!!!",
+"現加群還能领群礼包及新手礼包，群里大佬萌新天天组队打塔，欢迎你的加入!一起挂机 一起修仙!",
+"#遊戲交流群:1132822974"
+        ],
+        "customUrl": "http://mh.alangge.com/",
+        "customUrlTit": "开始游戏",
+        "QQ": "1132822974",
+        "pic": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "needHH": 0,
+        "status": 1
+    },
+    {
         "title": "咖啡达人",
         "enTitle": "Coffee Drinker",
         "date": "2020-08-28",
         "update": "2020-08-28",
-        "version":"0.8.3",
+        "version": "0.8.3",
         "path": "coffee-drinker",
         "type": [
             "已汉化",
@@ -30,7 +124,7 @@
         "enTitle": "Endless Dream 2: The Nightmare",
         "date": "2020-08-20",
         "update": "2020-08-19",
-        "version":"20200819_1.0",
+        "version": "20200819_1.0",
         "path": "endless-dream-2-the-nightmare",
         "type": [
             "冒险",
@@ -50,7 +144,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -58,7 +152,7 @@
         "enTitle": "FORT P",
         "date": "2020-08-20",
         "update": "2016-06-20",
-        "version":"1.1",
+        "version": "1.1",
         "path": "fort-p",
         "type": [
             "Flash",
@@ -76,7 +170,7 @@
             2
         ],
         "status": 0,
-        "needHH":0,
+        "needHH": 0,
         "flash": true
     },
     {
@@ -84,7 +178,7 @@
         "enTitle": "SPR",
         "date": "2020-08-20",
         "update": "2016-06-20",
-        "version":"1.4",
+        "version": "1.4",
         "path": "bri",
         "type": [
             "Flash",
@@ -102,7 +196,7 @@
             2
         ],
         "status": 0,
-        "needHH":0,
+        "needHH": 0,
         "flash": true
     },
     {
@@ -110,7 +204,7 @@
         "enTitle": "SPR",
         "date": "2020-08-20",
         "update": "2014-07-06",
-        "version":"1.2",
+        "version": "1.2",
         "path": "spr",
         "type": [
             "射击",
@@ -133,7 +227,7 @@
             2
         ],
         "status": 1,
-        "needHH":0,
+        "needHH": 0,
         "flash": true
     },
     {
@@ -141,7 +235,7 @@
         "enTitle": "M13n: Miniaturization",
         "date": "2020-08-14",
         "update": "2017-04-17",
-        "version":"",
+        "version": "",
         "path": "m13n-miniaturization",
         "type": [
             "已汉化",
@@ -166,7 +260,7 @@
         "enTitle": "Burger Master",
         "date": "2020-08-13",
         "update": "2020-08-13",
-        "version":"",
+        "version": "",
         "path": "burger-master",
         "type": [
             "已汉化",
@@ -191,7 +285,7 @@
         "enTitle": "The Prophet",
         "date": "2020-08-13",
         "update": "2020-08-13",
-        "version":"0.9.4",
+        "version": "0.9.4",
         "path": "the-prophet",
         "type": [
             "汉化中",
@@ -264,7 +358,7 @@
         "enTitle": "More Letters",
         "date": "2020-08-06",
         "update": "2020-08-06",
-        "version":"",
+        "version": "",
         "path": "more-letters",
         "type": [
             "汉化中",
@@ -291,7 +385,7 @@
         "enTitle": "Idle Space 2",
         "date": "2020-07-22",
         "update": "2020-07-21",
-        "version":"",
+        "version": "",
         "path": "idle-space2",
         "type": [
             "汉化中",
@@ -320,8 +414,8 @@
         "title": "锻造与财富",
         "enTitle": "Forge & Fortune",
         "date": "2020-07-21",
-        "update": "2020-08-17",
-        "version":"0.5.0.12",
+        "update": "2020-09-16",
+        "version": "0.5.0.13",
         "path": "forge-fortune",
         "type": [
             "汉化中",
@@ -354,7 +448,7 @@
         "enTitle": "Conquere the World",
         "date": "2020-07-15",
         "update": "2020-07-29",
-        "version":"0.004",
+        "version": "0.004",
         "path": "conquere-the-world",
         "type": [
             "放置",
@@ -376,7 +470,7 @@
             2,
             3
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -384,7 +478,7 @@
         "enTitle": "Alphabet Incremental",
         "date": "2020-07-14",
         "update": "2020-07-14",
-        "version":"0.2",
+        "version": "0.2",
         "path": "alphabet-incremental",
         "type": [
             "汉化中",
@@ -433,7 +527,7 @@
         "enTitle": "Pincremental",
         "date": "2020-07-01",
         "update": "2020-08-10",
-        "version":"1.100",
+        "version": "1.100",
         "path": "pincremental",
         "type": [
             "汉化中",
@@ -484,7 +578,7 @@
             4,
             5
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -492,7 +586,7 @@
         "enTitle": "Idle Sudoku Factory",
         "date": "2020-06-28",
         "update": "2020-01-01",
-        "version":"1.1",
+        "version": "1.1",
         "path": "idle-sudoku-factory",
         "type": [
             "汉化中",
@@ -521,7 +615,7 @@
         "enTitle": "Swarm Simulator",
         "date": "2017-10-27",
         "update": "2019-08-07",
-        "version":"1.1.13",
+        "version": "1.1.13",
         "path": "swarm-simulator",
         "type": [
             "推荐",
@@ -554,7 +648,7 @@
         "enTitle": "Heart Of Galaxy : Horizons",
         "date": "2017-12-01",
         "update": "2019-05-23",
-        "version":"43D",
+        "version": "43D",
         "path": "heart-of-galaxy-horizons",
         "type": [
             "已汉化",
@@ -583,7 +677,7 @@
         "enTitle": "Yun Ding Xiu Xian",
         "date": "2020-06-22",
         "update": "2020-06-22",
-        "version":"2.0",
+        "version": "2.0",
         "path": "yun-ding-xiu-xian",
         "type": [
             "放置",
@@ -614,12 +708,12 @@
         ],
         "needHH": 0,
         "status": 1
-    },{
+    }, {
         "title": "钻石狩猎3",
         "enTitle": "Diamond Hunt 3",
         "date": "2020-06-19",
         "update": "2020-06-18",
-        "version":"",
+        "version": "",
         "path": "diamond-hunt-3",
         "type": [
             "汉化中",
@@ -650,7 +744,7 @@
         "enTitle": "Idle Traveller",
         "date": "2020-06-17",
         "update": "2020-06-18",
-        "version":"1.0.46",
+        "version": "1.0.46",
         "path": "idle-traveller",
         "type": [
             "汉化中",
@@ -678,7 +772,7 @@
         "enTitle": "Alpha RPG",
         "date": "2020-06-16",
         "update": "2020-07-12",
-        "version":"2.2",
+        "version": "2.2",
         "path": "alpha-rpg",
         "type": [
             "汉化中",
@@ -744,7 +838,7 @@
         "enTitle": "Click for Biscuits",
         "date": "2020-06-12",
         "update": "2020-07-03",
-        "version":"0.16.0",
+        "version": "0.16.0",
         "path": "click-for-biscuits",
         "type": [
             "汉化中",
@@ -776,7 +870,7 @@
         "enTitle": "5Hours",
         "date": "2020-06-11",
         "update": "2020-06-11",
-        "version":"",
+        "version": "",
         "path": "5hours",
         "type": [
             "汉化中",
@@ -803,7 +897,7 @@
         "enTitle": "Dash Clicker",
         "date": "2020-06-08",
         "update": "2020-06-08",
-        "version":"",
+        "version": "",
         "path": "dash-clicker",
         "type": [
             "汉化中",
@@ -829,7 +923,7 @@
         "enTitle": "SpaceL",
         "date": "2020-06-05",
         "update": "2020-06-05",
-        "version":"",
+        "version": "",
         "path": "space-l",
         "type": [
             "汉化中",
@@ -859,7 +953,7 @@
         "enTitle": "Idle Five 2",
         "date": "2020-06-04",
         "update": "2020-06-04",
-        "version":"0.32",
+        "version": "0.32",
         "path": "idle-five-2",
         "type": [
             "已汉化",
@@ -888,7 +982,7 @@
         "enTitle": "Space Company",
         "date": "2020-06-02",
         "update": "2020-06-02",
-        "version":"0.5.1.2",
+        "version": "0.5.1.2",
         "path": "space-company",
         "type": [
             "推荐",
@@ -928,7 +1022,7 @@
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
         "update": "2020-07-24",
-        "version": ".016",
+        "version": ".0164",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",
@@ -1401,8 +1495,8 @@
         "title": "协同放置",
         "enTitle": "Synergism",
         "date": "2020-05-05",
-        "update": "2020-07-02",
-        "version": "1.0101",
+        "update": "2020-09-25",
+        "version": "2.0.0",
         "path": "synergism",
         "type": [
             "汉化中",
@@ -1653,7 +1747,7 @@
         "enTitle": "Defender Idle: New Beginning",
         "date": "2020-01-02",
         "update": "2020-06-22",
-        "version":"1.8",
+        "version": "1.8",
         "path": "defender-idle-new-beginning",
         "type": [
             "放置",
@@ -2683,7 +2777,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2709,7 +2803,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2736,7 +2830,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2762,7 +2856,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2787,7 +2881,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2813,7 +2907,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2839,7 +2933,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2865,7 +2959,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "status": 1
     },
     {
@@ -2893,7 +2987,7 @@
             1,
             2
         ],
-        "needHH":0,
+        "needHH": 0,
         "flash": true,
         "status": 1
     },
@@ -3003,7 +3097,7 @@
         "enTitle": "Battle without End",
         "date": "2019-04-28",
         "update": "2014-12-22",
-        "version":"1.4",
+        "version": "1.4",
         "path": "battle-without-end",
         "type": [
             "已汉化",
@@ -3699,7 +3793,7 @@
         "enTitle": "The Idle Class",
         "date": "2019-03-26",
         "update": "2020-07-06",
-        "version":"0.7.8",
+        "version": "0.7.8",
         "path": "the-idle-class",
         "type": [
             "汉化中",
@@ -4378,7 +4472,7 @@
         "enTitle": "Technomancy",
         "date": "2018-01-19",
         "update": "2020-06-05",
-        "version":"6.0.9",
+        "version": "6.0.9",
         "path": "technomancy",
         "type": [
             "已汉化",

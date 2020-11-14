@@ -1,5 +1,33 @@
 [
     {
+        "title": "按钮造世界",
+        "enTitle": "Button",
+        "date": "2020-11-13",
+        "update": "2020-11-13",
+        "version": "",
+        "path": "button",
+        "type": [
+            "点击",
+            "升级",
+            "冒险",
+            "Flash",
+            "策略"
+        ],
+        "content": [
+            "通过一个按钮就可以改变整个游戏世界。玩家需要不停的点击屏幕中间的按钮来获取成长值，达到一定的成长值后可以解锁各种有趣的助手，如哥布林，法师，强化能力等！"
+        ],
+        "zhUrl": "https://likexia.gitee.io/game/flash/button.html",
+        "customUrl": "http://www.17yy.com/f/play/241514.html",
+        "customUrlTit": "17yy版",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1,
+        "needHH": 0,
+        "flash": true
+    },
+    {
         "title": "餐馆放置",
         "enTitle": "Idle Restaurant",
         "date": "2020-11-13",
@@ -31,7 +59,7 @@
     {
         "title": "Vue放置",
         "enTitle": "Vue Idle Game",
-        "date": "2020-11-05",
+        "date": "2020-10-14",
         "update": "2020-11-04",
         "version":"1.1",
         "path": "vue-idle-game",
@@ -63,10 +91,12 @@
     {
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
-        "date": "2019-04-28",
+        "date": "2019-11-04",
+        "update": "2020-11-13",
+        "version":"0.6.2",
         "path": "poke-clicker2",
         "type": [
-            "已汉化",
+            "汉化中",
             "放置",
             "文字",
             "点击",
@@ -158,8 +188,8 @@
         "title": "咖啡达人",
         "enTitle": "Coffee Drinker",
         "date": "2020-08-28",
-        "update": "2020-08-28",
-        "version": "0.8.3",
+        "update": "2020-10-07",
+        "version": "0.8.3.2",
         "path": "coffee-drinker",
         "type": [
             "已汉化",
@@ -1573,6 +1603,7 @@
             "感谢 @by22dgb 帮忙汉化。",
             "点点点！买买买！"
         ],
+        "QQ": "952923286",
         "zhUrl": "http://idlegame.gitee.io/synergism",
         "kUrl": "https://www.kongregate.com/games/Platonic/synergism?sfa=permalink&referrer=SunshineDad",
         "pic": [

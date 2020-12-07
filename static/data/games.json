@@ -1,5 +1,65 @@
 [
     {
+        "title": "赛车放置",
+        "enTitle": "Idle Racing",
+        "date": "2020-12-07",
+        "update": "2020-11-19",
+        "version":"0.714",
+        "path": "idle-racing",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "游戏玩法是买车、参加比赛赚钱、用钱买车库、升级车辆、购买更好的车，最后达成60个成就，达到人生巅峰！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-racing/",
+        "enUrl": "https://idleracing.netlify.app/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "放置突击者",
+        "enTitle": "Idle Raiders: Second Run",
+        "date": "2020-11-30",
+        "update": "2019-04-02",
+        "version": "1.7.2",
+        "path": "idle-raiders-second-run",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "升级",
+            "K站",
+            "英文",
+            "U3D"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
+        ],
+        "customUrlTit": "国内英文版",
+        "customUrl": "http://idlegame.gitee.io/conquere-the-world/",
+        "kUrl": "https://www.kongregate.com/games/romeolord/conquere-the-world?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3
+        ],
+        "status": 0
+    },
+    {
         "title": "按钮造世界",
         "enTitle": "Button",
         "date": "2020-11-13",
@@ -16,7 +76,7 @@
         "content": [
             "通过一个按钮就可以改变整个游戏世界。玩家需要不停的点击屏幕中间的按钮来获取成长值，达到一定的成长值后可以解锁各种有趣的助手，如哥布林，法师，强化能力等！"
         ],
-        "zhUrl": "https://likexia.gitee.io/game/flash/button.html",
+        "zhUrl": "https://likexia.gitee.io/game/static/flash/button.html",
         "customUrl": "http://www.17yy.com/f/play/241514.html",
         "customUrlTit": "17yy版",
         "pic": [
@@ -60,8 +120,8 @@
         "title": "Vue放置",
         "enTitle": "Vue Idle Game",
         "date": "2020-10-14",
-        "update": "2020-11-04",
-        "version":"1.1",
+        "update": "2020-11-30",
+        "version":"1.2.2",
         "path": "vue-idle-game",
         "type": [
             "放置",
@@ -73,14 +133,15 @@
             "养成"
         ],
         "content": [
-            "Github上一个国人大佬写的游戏，这个项目已经有了383颗Star，膜拜~所以搬运过来给大家玩！",
+            "Github上一个国人大佬（http://couy.xyz）写的游戏，这个项目已经有了383颗Star，膜拜~所以搬运过来给大家玩！",
+            "作者也在咱大群里面，如果你有建议或者遇到Bug，可以在群里 @couy 反馈哈！",
             "本游戏是一个全随机的刷装备刷词条小游戏。",
             "装备分为四个等级：破旧、普通、神话、史诗。",
             "主角默认每秒回血2%；默认暴击伤害150%"
         ],
-        "enUrl": "https://github.com/Couy69/vue-idle-game",
-        "customUrl": "http://idlegame.gitee.io/vue-idle-game",
-        "customUrlTit": "开始游戏",
+        "zhUrl": "http://idlegame.gitee.io/vue-idle-game",
+        "customUrl": "http://couy.xyz",
+        "customUrlTit": "原版",
         "pic": [
             1,
             2
@@ -92,8 +153,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2020-11-13",
-        "version":"0.6.2",
+        "update": "2020-11-22",
+        "version":"0.6.7",
         "path": "poke-clicker2",
         "type": [
             "汉化中",
@@ -253,7 +314,7 @@
         "content": [
             ""
         ],
-        "zhUrl": "https://likexia.gitee.io/game/flash/fort-p.html",
+        "zhUrl": "https://likexia.gitee.io/game/static/flash/fort-p.html",
         "customUrl": "http://suznooto.com/flash/BRI.html",
         "customUrlTit": "日语版",
         "pic": [
@@ -279,7 +340,7 @@
         "content": [
             ""
         ],
-        "zhUrl": "https://likexia.gitee.io/game/flash/bri.html",
+        "zhUrl": "https://likexia.gitee.io/game/static/flash/bri.html",
         "customUrl": "http://suznooto.com/flash/BRI.html",
         "customUrlTit": "日语版",
         "pic": [
@@ -309,7 +370,7 @@
         "content": [
             ""
         ],
-        "zhUrl": "https://likexia.gitee.io/game/flash/spr.html",
+        "zhUrl": "https://likexia.gitee.io/game/static/flash/spr.html",
         "enUrl": "http://suznooto.com/flash/SPR.html",
         "customUrl": "http://www.yxdown.com/SoftView/SoftView_71101.html",
         "customUrlTit": "游侠下载版",
@@ -2849,7 +2910,7 @@
             1,
             2
         ],
-        "status": 1
+        "status": 0
     },
     {
         "title": "猜拳游戏",
@@ -4941,8 +5002,8 @@
         "title": "脆皮",
         "enTitle": "Trimps",
         "date": "2017-10-27",
-        "update": "2020-02-21",
-        "version": "5.2.4",
+        "update": "2020-12-07",
+        "version": "5.4.3",
         "path": "trimps",
         "type": [
             "推荐",

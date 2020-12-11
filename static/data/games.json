@@ -1,5 +1,35 @@
 [
     {
+        "title": "放置突击者:第二季",
+        "enTitle": "Idle Raiders: Second Run",
+        "date": "2020-12-11",
+        "update": "2019-04-02",
+        "version": "1.7.2",
+        "path": "idle-raiders-second-run",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "升级",
+            "K站"
+        ],
+        "content": [
+            "这个游戏汉化有点麻烦，缓慢汉化中~",
+            "游戏期间可能会随时更新汉化，所以没事就导出存档备份下~",
+            "然后刷新页面~"
+        ],
+        "zhUrl": "http://yx.g8hh.com/idle-raiders-second-run/index.html",
+        "kUrl": "https://www.kongregate.com/games/romeolord/conquere-the-world?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },{
         "title": "赛车放置",
         "enTitle": "Idle Racing",
         "date": "2020-12-07",
@@ -29,35 +59,6 @@
             5
         ],
         "status": 1
-    },
-    {
-        "title": "放置突击者",
-        "enTitle": "Idle Raiders: Second Run",
-        "date": "2020-11-30",
-        "update": "2019-04-02",
-        "version": "1.7.2",
-        "path": "idle-raiders-second-run",
-        "type": [
-            "放置",
-            "文字",
-            "点击",
-            "升级",
-            "K站",
-            "英文",
-            "U3D"
-        ],
-        "content": [
-            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。"
-        ],
-        "customUrlTit": "国内英文版",
-        "customUrl": "http://idlegame.gitee.io/conquere-the-world/",
-        "kUrl": "https://www.kongregate.com/games/romeolord/conquere-the-world?sfa=permalink&referrer=SunshineDad",
-        "pic": [
-            1,
-            2,
-            3
-        ],
-        "status": 0
     },
     {
         "title": "按钮造世界",
@@ -120,8 +121,8 @@
         "title": "Vue放置",
         "enTitle": "Vue Idle Game",
         "date": "2020-10-14",
-        "update": "2020-11-30",
-        "version":"1.2.2",
+        "update": "2020-12-09",
+        "version":"1.3.1",
         "path": "vue-idle-game",
         "type": [
             "放置",
@@ -678,8 +679,8 @@
         "title": "弹珠增量",
         "enTitle": "Pincremental",
         "date": "2020-07-01",
-        "update": "2020-08-10",
-        "version": "1.100",
+        "update": "2020-09-11",
+        "version": "1.101",
         "path": "pincremental",
         "type": [
             "汉化中",

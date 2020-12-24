@@ -1,5 +1,32 @@
 [
     {
+        "title": "欧米茄层级",
+        "enTitle": "Omega Layers",
+        "date": "2020-12-24",
+        "update": "2020-12-16",
+        "version":"",
+        "path": "omega-layers",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "感谢 @by22dgb 大佬帮忙汉化。",
+            "类似《反物质维度》的一款游戏，界面好看，玩法自己感受哈~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/veprogames/omega-layers/",
+        "enUrl": "https://veprogames.github.io/omega-layers/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "放置突击者:第二季",
         "enTitle": "Idle Raiders: Second Run",
         "date": "2020-12-11",
@@ -1301,6 +1328,7 @@
             "升级"
         ],
         "content": [
+            "新人开局如果点了没反应，直接进选项里面，点一次保存存档即可。",
             "感谢 @Doppio 帮忙汉化。",
             "类似《反物质维度》的一款游戏，欢迎体验！"
         ],

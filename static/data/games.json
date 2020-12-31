@@ -1,6 +1,32 @@
 [
     {
-        "title": "欧米茄层级",
+        "title": "时间层级",
+        "enTitle": "Time Layers",
+        "date": "2020-12-30",
+        "update": "2020-12-29",
+        "version":"",
+        "path": "time-layers",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "感谢 @by22dgb 大佬帮忙汉化。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/time-layers",
+        "enUrl": "https://patcailmemer.github.io/Time-Layers/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "欧米伽层级",
         "enTitle": "Omega Layers",
         "date": "2020-12-24",
         "update": "2020-12-16",
@@ -194,7 +220,8 @@
             "养成"
         ],
         "content": [
-            "船新版本，刚开始汉化，可以抢先体验~"
+            "感谢 @リベンジのさそり 帮忙汉化！",
+            "船新版本，汉化中，可以先体验~"
         ],
         "zhUrl": "http://idlegame.gitee.io/pokeclicker/",
         "enUrl": "https://www.pokeclicker.com/",

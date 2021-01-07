@@ -1,5 +1,32 @@
 [
     {
+        "title": "王朝之系谱",
+        "enTitle": "The Dynas Tree",
+        "date": "2021-01-05",
+        "update": "2020-11-16",
+        "version":"0.4.0",
+        "path": "the-dynas-tree",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "感谢 @by22dgb 大佬帮忙汉化。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/the-dynas-tree",
+        "enUrl": "https://ducdat0507.github.io/thedynastree/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "时间层级",
         "enTitle": "Time Layers",
         "date": "2020-12-30",
@@ -207,8 +234,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2020-11-22",
-        "version":"0.6.7",
+        "update": "2021-01-03",
+        "version":"0.7.2",
         "path": "poke-clicker2",
         "type": [
             "汉化中",
@@ -621,8 +648,8 @@
         "title": "锻造与财富",
         "enTitle": "Forge & Fortune",
         "date": "2020-07-21",
-        "update": "2020-10-24",
-        "version": "0.6.0.4",
+        "update": "2020-12-29",
+        "version": "1.0.8",
         "path": "forge-fortune",
         "type": [
             "汉化中",
@@ -1228,8 +1255,8 @@
         "title": "格林迪亚放置：地下城探索",
         "enTitle": "Idle Grindia: Dungeon Quest",
         "date": "2020-06-02",
-        "update": "2020-09-04",
-        "version": ".017",
+        "update": "2021-01-06",
+        "version": "k.018en8",
         "path": "idle-grindia-dungeon-quest",
         "type": [
             "放置",

@@ -1,5 +1,59 @@
 [
     {
+        "title": "距离增量",
+        "enTitle": "Distance Incremental",
+        "date": "2021-01-15",
+        "update": "2021-01-15",
+        "version":"",
+        "path": "distance-incremental",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/distance-incremental/main.html",
+        "enUrl": "https://jacorb90.github.io/DistInc.github.io/main.html",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0
+    },
+    {
+        "title": "加速器放置",
+        "enTitle": "Idle Accelerator",
+        "date": "2021-01-15",
+        "update": "2017-10-29",
+        "version": "3.6.1",
+        "path": "idle-accelerator",
+        "type": [
+            "放置",
+            "点击",
+            "K站",
+            "英文版",
+            "U3D"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。",
+            "这是一个粒子加速器管理的游戏，通过改进和研究新粒子以产生能量。",
+            "资源文件有几十兆，加载略慢，请耐心等候~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-accelerator",
+        "kUrl": "https://www.kongregate.com/games/Arkshija/idle-accelerator?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "王朝之系谱",
         "enTitle": "The Dynas Tree",
         "date": "2021-01-05",
@@ -16,6 +70,7 @@
             "升级"
         ],
         "content": [
+            "感谢群里 没名字的朋友 推荐本游戏。",
             "感谢 @by22dgb 大佬帮忙汉化。"
         ],
         "zhUrl": "http://idlegame.gitee.io/the-dynas-tree",
@@ -46,6 +101,34 @@
         ],
         "zhUrl": "http://idlegame.gitee.io/time-layers",
         "enUrl": "https://patcailmemer.github.io/Time-Layers/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "立方热熔体",
+        "enTitle": "Block Fuser",
+        "date": "2020-12-28",
+        "update": "2020-04-04",
+        "version": "",
+        "path": "block-fuser",
+        "type": [
+            "放置",
+            "点击",
+            "K站",
+            "已汉化",
+            "U3D"
+        ],
+        "content": [
+            "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。",
+            "群友想玩，从灵动搬运的。如侵权可联系删除~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/block-fuser",
+        "customUrlTit": "灵动汉化版",
+        "customUrl": "http://www.mhhf.com/gamev-5334",
+        "kUrl": "https://www.kongregate.com/games/Barbasu/block-fuser?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
             2
@@ -941,7 +1024,7 @@
             5
         ],
         "needHH": 0,
-        "status": 1
+        "status": 0
     }, {
         "title": "钻石狩猎3",
         "enTitle": "Diamond Hunt 3",
@@ -2542,7 +2625,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
-        "update": "2020-06-30",
+        "update": "2020-12-20",
         "path": "incremental-adventures",
         "type": [
             "已汉化",
@@ -2555,7 +2638,7 @@
             "K站"
         ],
         "content": [
-            ""
+            "带领您的英雄们永无止境的冒险！"
         ],
         "zhUrl": "http://likexia.gitee.io/incremental-adventures/",
         "kUrl": "https://www.kongregate.com/games/Gniller/incremental-adventures?sfa=permalink&referrer=SunshineDad",

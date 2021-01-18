@@ -3,7 +3,7 @@
         "title": "距离增量",
         "enTitle": "Distance Incremental",
         "date": "2021-01-15",
-        "update": "2021-01-15",
+        "update": "2021-01-18",
         "version":"",
         "path": "distance-incremental",
         "type": [
@@ -16,7 +16,7 @@
             "升级"
         ],
         "content": [
-            ""
+            "感谢 @by22dgb 大佬帮忙汉化。"
         ],
         "zhUrl": "http://idlegame.gitee.io/distance-incremental/main.html",
         "enUrl": "https://jacorb90.github.io/DistInc.github.io/main.html",
@@ -24,7 +24,7 @@
             1,
             2
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "加速器放置",
@@ -43,7 +43,8 @@
         "content": [
             "因为是Unity 3D游戏，无法汉化。因为K站加载速度超级慢，所以搬过来方便大家玩。",
             "这是一个粒子加速器管理的游戏，通过改进和研究新粒子以产生能量。",
-            "资源文件有几十兆，加载略慢，请耐心等候~"
+            "资源文件有几十兆，加载略慢，请耐心等候~",
+            "有群友说无法存档？好像是因为游戏用了K站的云存储。。"
         ],
         "zhUrl": "http://idlegame.gitee.io/idle-accelerator",
         "kUrl": "https://www.kongregate.com/games/Arkshija/idle-accelerator?sfa=permalink&referrer=SunshineDad",
@@ -317,8 +318,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2021-01-03",
-        "version":"0.7.2",
+        "update": "2021-01-18",
+        "version":"0.7.3",
         "path": "poke-clicker2",
         "type": [
             "汉化中",

@@ -127,6 +127,60 @@
         "needHH": 0
     },
     {
+        "title": "空灵农场",
+        "enTitle": "Ethereal Farm",
+        "date": "2021-01-28",
+        "update": "2021-01-28",
+        "version":"",
+        "path": "ethereal-farm",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "养成",
+            "策略"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/ethereal-farm",
+        "enUrl": "https://lodev.org/etherealfarm/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0
+    },{
+        "title": "能量发生器",
+        "enTitle": "Energy Generator",
+        "date": "2021-01-27",
+        "update": "2021-01-25",
+        "version":"",
+        "path": "energy-generator",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "按住M键购买最大"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/energy-generator/",
+        "enUrl": "https://eyewars.github.io/Energy-Generator/",
+        "kUrl": "https://www.kongregate.com/games/eyewars/test?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "合成大西瓜",
         "enTitle": "Synthesis of watermelon",
         "date": "2021-01-26",

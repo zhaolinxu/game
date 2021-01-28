@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -20,7 +20,7 @@ body a{
 	margin: 0;
 }
 h1,h2,h3,h4,h5,h6,label,p{
-	margin:0;	
+	margin:0;
 }
 @font-face {
     font-family: 'Philosopher-Bold';
@@ -37,7 +37,7 @@ h1,h2,h3,h4,h5,h6,label,p{
   padding: 1em 0;
 }
 .logo {
-	float:left;  
+	float:left;
 }
 .logo h1{
 	font-size: 3em;
@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,h6,label,p{
 .top-nav ul li  a {
 	display: inline-block;
 	color: #fff;
-	text-decoration: none;		
+	text-decoration: none;
 	font-size: 1.1em;
 	margin:0em 1.3em;
 }
@@ -143,7 +143,7 @@ h3.menber{
 	 float: left;
 }
 a.now-in{
-	 
+
 	padding:0.3em 0.7em;
 	display:block;
 	font-size:1.2em;
@@ -175,7 +175,7 @@ a.now-in:hover{
 .six h4{
 	font-size:3.5em;
 	color:#fff;
-	 font-family: 'Philosopher-Bold';	
+	 font-family: 'Philosopher-Bold';
 }
 .top-col{
 	padding: 0;
@@ -200,7 +200,7 @@ a.now-in:hover{
 .col h4{
 	font-size:3.5em;
 	color:#fff;
-	 font-family: 'Philosopher-Bold';	
+	 font-family: 'Philosopher-Bold';
 }
 .black:hover .col{
 	display: block;
@@ -221,15 +221,15 @@ a.now-in:hover{
 	color:#7C7C7C;
 	font-size: 0.95em;
 	 margin: 0.7em 0 0;
-  	display: block; 	
+  	display: block;
 }
 .bottom-content ul li a:hover{
-	color:#EA4C89; 	
+	color:#EA4C89;
 }
 .bottom-content1 iframe{
 	border: none;
 	width:100%;
-	min-height: 300px;	
+	min-height: 300px;
 }
 .content-bottom {
   padding: 4em 0;
@@ -283,7 +283,7 @@ i.glyphicon.glyphicon-ok,i.glyphicon.glyphicon-time,i.glyphicon.glyphicon-pencil
 .resp-tabs-container {
 	padding: 0px;
 	background-color: #fff;
-	clear: left;	
+	clear: left;
 }
 h2.resp-accordion {
 	cursor: pointer;
@@ -435,7 +435,7 @@ ul.footer-grid {
   position: relative;
   -webkit-box-shadow: 0 1px 3px rgba(221, 221, 221, 1);
           box-shadow: 0 1px 3px rgba(221, 221, 221, 1);
-  width: 32.4%;
+  width: 24.2%;
 /*    width: 24.2%;*/
 }
 .da-thumbs li em.thickbox,
@@ -507,7 +507,7 @@ ul.footer-grid {
  font-family: 'Philosopher-Bold';
   text-align: center;
 }
-/*--//games--*/		
+/*--//games--*/
 /*--about-start--*/
 .about{
 	padding:4em 0px;
@@ -683,11 +683,11 @@ ul.footer-grid {
 	left: 20px;
 	background: #f9f9f9 ;
 /*    url(../images/bg.jpg)*/
-	-webkit-box-shadow: 
-		0 0 0 20px rgba(255,255,255,0.2), 
+	-webkit-box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
-	        box-shadow: 
-		0 0 0 20px rgba(255,255,255,0.2), 
+	        box-shadow:
+		0 0 0 20px rgba(255,255,255,0.2),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
 }
 .ch-info{
@@ -697,7 +697,7 @@ ul.footer-grid {
 	border-radius: 50%;
 	-webkit-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;	
+	transition: all 0.4s ease-in-out;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
@@ -718,32 +718,32 @@ ul.footer-grid {
 	background: #EA4C89;
 }
 
-.ch-img-1 { 
+.ch-img-1 {
 	background-image: url(../images/about/team-1.jpg);
 }
 
-.ch-img-2 { 
+.ch-img-2 {
 	background-image: url(../images/about/team-2.jpg);
 }
-.ch-img-3 { 
+.ch-img-3 {
 	background-image: url(../images/about/team-3.jpg);
 }
-.ch-img-4 { 
+.ch-img-4 {
 	background-image: url(../images/about/team-4.jpg);
 }
-.ch-img-5 { 
+.ch-img-5 {
 	background-image: url(../images/about/team-5.jpg);
 }
-.ch-img-6 { 
+.ch-img-6 {
 	background-image: url(../images/about/team-6.jpg);
 }
-.ch-img-7 { 
+.ch-img-7 {
 	background-image: url(../images/about/team-7.jpg);
 }
-.ch-img-8 { 
+.ch-img-8 {
 	background-image: url(../images/about/team-8.jpg);
 }
-.ch-img-99 { 
+.ch-img-99 {
 	background-image: url(../images/about/team-99.jpg);
 }
 
@@ -755,8 +755,8 @@ ul.footer-grid {
 	margin: 0 15px;
 	padding: 40px 0 0 0;
 	height: 90px;
-	text-shadow: 
-		0 0 1px #fff, 
+	text-shadow:
+		0 0 1px #fff,
 		0 1px 2px rgba(0,0,0,0.3);
 }
 
@@ -787,11 +787,11 @@ ul.footer-grid {
 }
 
 .ch-item:hover .ch-info-wrap {
-	-webkit-box-shadow: 
-		0 0 0 0 rgba(255,255,255,0.8), 
+	-webkit-box-shadow:
+		0 0 0 0 rgba(255,255,255,0.8),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
-	        box-shadow: 
-		0 0 0 0 rgba(255,255,255,0.8), 
+	        box-shadow:
+		0 0 0 0 rgba(255,255,255,0.8),
 		inset 0 0 3px rgba(115,114, 23, 0.8);
 }
 
@@ -864,7 +864,7 @@ i.glyphicon.glyphicon-comment {
 }
 
 a.news-btn{
-	
+
 
 }
 @-webkit-keyframes hvr-wobble-top {
@@ -1079,7 +1079,7 @@ h4.media-heading{
 }
 .contact-bottom  input[type="text"]{
 	width:100%;
-	padding:1em;	
+	padding:1em;
 	border:1px solid #bbb;
 	-webkit-appearance:none;
 	outline:none;
@@ -1100,7 +1100,7 @@ h4.media-heading{
 
 .contact-bottom textarea{
 	width:100%;
-	padding:1em;	
+	padding:1em;
 	border:1px solid #bbb;
 	-webkit-appearance:none;
 	outline:none;
@@ -1147,7 +1147,7 @@ h4.media-heading{
 .address1 p{
 	font-size:1.4em;
 	color: #7c7c7c;
-	line-height: 1.5em;	
+	line-height: 1.5em;
 }
 .address1 p a{
 	text-decoration:none;
@@ -1199,27 +1199,27 @@ ul.nav.nav-pills {
 /*--//typo--*/
 /*--responsive--*/
 @media(max-width:1366px){
-	
+
 }
 @media(max-width:1280px){
-	
+
 }
 @media(max-width:1200px){
 .ban-grid1 img {
   left: 219px;
-}	
+}
 .ban-grid2 img {
   left: 447px;
 }
 .ban-grid3 img {
   left: 676px;
 }
-	
+
 }
 @media(max-width:1024px){
 .ban-grid1 img {
   left: 219px;
-}	
+}
 .ban-grid2 img {
   left: 447px;
 }
@@ -1267,7 +1267,7 @@ a.more {
 @media(max-width:1000px){
 .ban-grid1 img {
   left: 165px;
-}	
+}
 .ban-grid2 img {
   left: 345px;
 }
@@ -1309,7 +1309,7 @@ span.menu{
 	background: none;
 	border:none;
 	padding:0.4em;
-}	
+}
 .top-nav {
   margin-top: 0em;
 }
@@ -1329,7 +1329,7 @@ span.menu{
 .banner {
   padding: 3em 0 5em;
 }
-/*----*/	
+/*----*/
 .black {
   float: left;
   width: 50%;
@@ -1371,7 +1371,7 @@ span.menu{
   margin: 1em 0 0 0;
 }
 .da-thumbs li a div span {
-  padding: 0px 0; 
+  padding: 0px 0;
   font-size: 1em;
 }
 .games {
@@ -1492,7 +1492,7 @@ h1.grid2 {
 /*----*/
 .banner {
   padding: 2em 0 2em;
-}	
+}
 .col {
   padding: 3.5em 1em 0;
   width: 90%;
@@ -1611,7 +1611,7 @@ h3.typo1 {
     .da-thumbs li  em.thickbox div  h5{font-size: 1.3em;margin: 1.2em  0 0.5em 0;}
     .da-thumbs li  em.thickbox div span{margin: 5px 0;padding: 0;display: none;}
     .da-thumbs li  em.thickbox div a{width: 60px;font-size:12px;}
-    
+
 .ban-grid1 img {
   left: 162px;
 }
@@ -1781,7 +1781,7 @@ a.now-in {
 }
 /*--typo--*/
 .page-header h3 {
-  font-size: 2em; 
+  font-size: 2em;
 }
 button.btn.btn-lg {
   font-size: 1em;
@@ -1862,7 +1862,7 @@ h3.menber {
 }
 .banner h2 {
   font-size: 2em;
-}	
+}
 .ban-grid1 img {
   left: 122px;
 }
@@ -2149,13 +2149,13 @@ h3.typo1 {
 }
 .page-header h3 {
   font-size: 1.8em;
-} 
+}
 }
 @media (min-width:769px) {
     .blog-head .col-md-4{margin-bottom: 30px;}
 }
 @media(max-width:800px){
-    
+
     .single-grid h4.grid2{position: relative;top: 0}
 }
 /*补充*/

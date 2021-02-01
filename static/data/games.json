@@ -153,7 +153,35 @@
             2
         ],
         "status": 0
-    },{
+    },
+    {
+        "title": "呔！病毒哪里逃！",
+        "enTitle": "Overseer",
+        "date": "2021-02-01",
+        "update": "2020-09-11",
+        "version":"",
+        "path": "overseer",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "模拟"
+        ],
+        "content": [
+            "一款小型放置模拟病毒扫描程序的游戏，包含若干随机事件~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/overseer/",
+        "enUrl": "https://mrsperry.github.io/overseer/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "能量发生器",
         "enTitle": "Energy Generator",
         "date": "2021-01-27",
@@ -192,9 +220,11 @@
             "消除"
         ],
         "content": [
-            "一夜爆火的小游戏，合成大西瓜。"
+            "一夜爆火的小游戏，合成大西瓜。",
+            "如果链接挂了，请尝试另一个链接"
         ],
         "customUrl": "http://idlegame.gitee.io/synthesis-of-watermelon",
+        "zhUrl": "http://yx.g8hh.com/synthesis-of-watermelon/",
         "customUrlTit": "开始游戏",
         "pic": [
             1,
@@ -607,8 +637,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2021-01-18",
-        "version": "0.7.3",
+        "update": "2021-01-29",
+        "version": "0.7.5",
         "path": "poke-clicker2",
         "type": [
             "汉化中",

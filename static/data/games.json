@@ -129,7 +129,7 @@
     {
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
-        "date": "2021-01-28",
+        "date": "2021-02-11",
         "update": "2021-01-28",
         "version":"",
         "path": "ethereal-farm",
@@ -152,7 +152,7 @@
             1,
             2
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "呔！病毒哪里逃！",

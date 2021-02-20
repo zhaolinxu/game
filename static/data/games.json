@@ -127,11 +127,35 @@
         "needHH": 0
     },
     {
+        "title": "螺旋星系2",
+        "enTitle": "Helixteus II",
+        "date": "2021-02-20",
+        "update": "2021-02-20",
+        "version": "",
+        "path": "helixteus2",
+        "type": [
+            "Flash",
+            "太空",
+            "建造"
+        ],
+        "content": [
+            "感谢 @止于终老 大佬汉化推荐。"
+        ],
+        "zhUrl": "https://likexia.gitee.io/game/static/flash/helixteus-2.html",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1,
+        "needHH": 0,
+        "flash": true
+    },
+    {
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-01-28",
-        "version":"",
+        "update": "2021-02-17",
+        "version":"0.1.36",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -185,7 +209,7 @@
         "title": "能量发生器",
         "enTitle": "Energy Generator",
         "date": "2021-01-27",
-        "update": "2021-01-25",
+        "update": "2021-02-18",
         "version":"",
         "path": "energy-generator",
         "type": [
@@ -637,8 +661,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2021-01-29",
-        "version": "0.7.5",
+        "update": "2021-02-19",
+        "version": "0.7.6",
         "path": "poke-clicker2",
         "type": [
             "汉化中",
@@ -4886,8 +4910,8 @@
         "title": "13层",
         "enTitle": "Level 13",
         "date": "2018-05-09",
-        "update": "2020-02-21",
-        "version": "0.2.7",
+        "update": "2021-02-19",
+        "version": "0.3.1",
         "path": "level-13",
         "type": [
             "汉化中",

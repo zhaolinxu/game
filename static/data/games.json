@@ -82,7 +82,7 @@
             "升级"
         ],
         "content": [
-            ""
+            "《黑洞收缩者》是一款模拟黑洞吞噬物质的放置游戏。通过解锁各种升级选项，来提高黑洞收缩的速度，以及黑洞吞噬物质的数量。游戏初始有1,000,000,000,000,000的物质，你需要把这些物质统统吞噬掉。"
         ],
         "zhUrl": "http://idlegame.gitee.io/black-hole-shrinker",
         "enUrl": "https://spotky1004.github.io/Black-Hole-Shrinker/",
@@ -306,7 +306,7 @@
             1,
             2
         ],
-        "status": 1,
+        "status": 0,
         "needHH": 0
     },
     {

@@ -41,6 +41,58 @@
         "needHH": 0
     },
     {
+        "title": "方块增量",
+        "enTitle": "Incremental Blocks",
+        "date": "2021-02-25",
+        "update": "2020-08-19",
+        "version":"1.2.34",
+        "path": "incremental-blocks",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/incremental-blocks",
+        "enUrl": "https://spotky1004.github.io/Incremental-Blocks/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0
+    },
+    {
+        "title": "黑洞收缩者",
+        "enTitle": "Black Hole Shrinker",
+        "date": "2021-02-24",
+        "update": "2021-02-24",
+        "version":"",
+        "path": "black-hole-shrinker",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/black-hole-shrinker",
+        "enUrl": "https://spotky1004.github.io/Black-Hole-Shrinker/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "锅巴数独",
         "enTitle": "Guo Ba Sudoku",
         "date": "2020-05-13",
@@ -154,8 +206,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-02-17",
-        "version":"0.1.36",
+        "update": "2021-02-22",
+        "version":"0.1.38",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -1189,8 +1241,8 @@
         "title": "弹珠增量",
         "enTitle": "Pincremental",
         "date": "2020-07-01",
-        "update": "2020-09-11",
-        "version": "1.101",
+        "update": "2021-02-23",
+        "version": "1.106",
         "path": "pincremental",
         "type": [
             "汉化中",

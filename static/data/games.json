@@ -127,6 +127,93 @@
         "needHH": 0
     },
     {
+        "title": "无尽的战利品",
+        "enTitle": "Loot Clicker",
+        "date": "2021-02-29",
+        "update": "2020-04-24",
+        "version":"2.2.30",
+        "path": "loot-clicker",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险"
+        ],
+        "content": [
+            "一款类似点击英雄玩法的游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/loot-clicker/",
+        "enUrl": "https://spotky1004.github.io/LootClicker/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 0
+    },
+    {
+        "title": "合并增量",
+        "enTitle": "Incremental Merge",
+        "date": "2021-02-28",
+        "update": "2020-09-17",
+        "version":"β2 α1",
+        "path": "incremental-merge",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "很有意思的合并、升级类放置游戏，带有转生系统。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/incremental-merge",
+        "enUrl": "https://mrredshark77.github.io/incremental-merge/",
+        "pic": [
+            1,
+            2,
+            3
+        ],
+        "status": 0
+    },
+    {
+        "title": "骑士进度条",
+        "enTitle": "Progress Knight",
+        "date": "2021-02-27",
+        "update": "2021-01-18",
+        "version":"0.2",
+        "path": "progress-knight",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "模拟"
+        ],
+        "content": [
+            "这个游戏是群友在灵动那边发现的，但是灵动的汉化方式太粗暴了，导出的存档里面变量是中文？？？",
+            "于是咱就找到英文版，自己汉化了给大家玩。灵动的存档无法导入咱汉化的版本哦~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/progress-knight/",
+        "enUrl": "https://ihtasham42.github.io/progress-knight/",
+        "pic": [
+            1,
+            2,
+            3
+        ],
+        "status": 1
+    },
+    {
         "title": "方块增量",
         "enTitle": "Incremental Blocks",
         "date": "2021-02-25",
@@ -206,8 +293,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-02-22",
-        "version":"0.1.38",
+        "update": "2021-02-26",
+        "version":"0.1.39",
         "path": "ethereal-farm",
         "type": [
             "汉化中",

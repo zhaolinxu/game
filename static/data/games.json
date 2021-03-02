@@ -191,7 +191,7 @@
         "version":"0.2",
         "path": "progress-knight",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",
@@ -221,7 +221,7 @@
         "version":"1.2.34",
         "path": "incremental-blocks",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",
@@ -293,8 +293,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-02-26",
-        "version":"0.1.39",
+        "update": "2021-02-27",
+        "version":"0.1.40",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -325,7 +325,7 @@
         "version":"",
         "path": "overseer",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",
@@ -352,7 +352,7 @@
         "version":"",
         "path": "energy-generator",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",

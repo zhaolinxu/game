@@ -151,7 +151,7 @@
             3,
             4
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "恐龙快跑",
@@ -345,8 +345,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-02-27",
-        "version":"0.1.40",
+        "update": "2021-03--1",
+        "version":"0.1.41",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -359,8 +359,12 @@
             "策略"
         ],
         "content": [
-            ""
+            "因为不知道什么原因，从2月15日开始，有人发现之前导出的存档无法导入到最新版本里面。",
+            "所以我重新搭了一个【最新版】链接，继续同步作者更新~",
+            "【汉化版】这个链接的版本将停留在0.1.40版本。望大家知悉~"
         ],
+        "customUrl": "http://idlegame.gitee.io/ethereal-farm",
+        "customUrlTit": "最新版",
         "zhUrl": "http://idlegame.gitee.io/ethereal-farm",
         "enUrl": "https://lodev.org/etherealfarm/",
         "pic": [

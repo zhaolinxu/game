@@ -127,6 +127,33 @@
         "needHH": 0
     },
     {
+        "title": "创世纪",
+        "enTitle": "Genesis",
+        "date": "2021-03-11",
+        "update": "2021-03-11",
+        "version":"",
+        "path": "genesis",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "模拟"
+        ],
+        "content": [
+            "从光子到原子，从虚无到宇宙~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/genesis",
+        "enUrl": "https://v6p9d9t4.ssl.hwcdn.net/html/3431426/index.html",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "合并个球",
         "enTitle": "Yet Another Merge Game",
         "date": "2021-03-05",
@@ -345,8 +372,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-03--1",
-        "version":"0.1.41",
+        "update": "2021-03-08",
+        "version":"0.1.44",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -363,7 +390,7 @@
             "所以我重新搭了一个【最新版】链接，继续同步作者更新~",
             "【汉化版】这个链接的版本将停留在0.1.40版本。望大家知悉~"
         ],
-        "customUrl": "http://idlegame.gitee.io/ethereal-farm",
+        "customUrl": "http://idlegame.gitee.io/ethereal-farm2",
         "customUrlTit": "最新版",
         "zhUrl": "http://idlegame.gitee.io/ethereal-farm",
         "enUrl": "https://lodev.org/etherealfarm/",

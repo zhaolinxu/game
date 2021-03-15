@@ -127,6 +127,32 @@
         "needHH": 0
     },
     {
+        "title": "掉了个球",
+        "enTitle": "Plinko Idle",
+        "date": "2021-03-15",
+        "update": "2021-03-12",
+        "version":"",
+        "path": "plinko-idle",
+        "type": [
+            "已汉化",
+            "放置",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "《掉了个球》是一款连锅巴我都直呼魔性、好玩~的以球为主角的放置游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/plinko-idle/",
+        "kUrl": "https://www.kongregate.com/games/Zamol/the-black-box?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3
+        ],
+        "status": 1
+    },
+    {
         "title": "创世纪",
         "enTitle": "Genesis",
         "date": "2021-03-11",
@@ -134,7 +160,7 @@
         "version":"",
         "path": "genesis",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",
@@ -162,7 +188,7 @@
         "version":"",
         "path": "yet-another-merge-game",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "点击",
             "挂机",
@@ -214,7 +240,7 @@
         "version":"2.2.30",
         "path": "loot-clicker",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "文字",
             "点击",
@@ -373,8 +399,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-03-08",
-        "version":"0.1.44",
+        "update": "2021-03-12",
+        "version":"0.1.45",
         "path": "ethereal-farm",
         "type": [
             "汉化中",

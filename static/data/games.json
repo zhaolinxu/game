@@ -127,11 +127,67 @@
         "needHH": 0
     },
     {
+        "title": "字母公司",
+        "enTitle": "AZ Inc",
+        "date": "2021-03-19",
+        "update": "2021-03-19",
+        "version":"",
+        "path": "azinc",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "以字母为主题的放置游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/azinc",
+        "enUrl": "https://xecutor.github.io/azinc/",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 0
+    },
+    {
+        "title": "创世声望树",
+        "enTitle": "Prestreestuck",
+        "date": "2021-03-15",
+        "update": "2021-03-15",
+        "version":"0.0.3.8.6.1",
+        "path": "prestreestuck",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "感谢 @公子羽 大佬帮忙汉化！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/prestreestuck/",
+        "enUrl": "https://ducdat0507.github.io/prestreestuck/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "掉了个球",
         "enTitle": "Plinko Idle",
         "date": "2021-03-15",
         "update": "2021-03-12",
-        "version":"",
+        "version":"0.1.4",
         "path": "plinko-idle",
         "type": [
             "汉化中",
@@ -403,8 +459,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-03-12",
-        "version":"0.1.45",
+        "update": "2021-03-16",
+        "version":"0.1.47",
         "path": "ethereal-farm",
         "type": [
             "汉化中",

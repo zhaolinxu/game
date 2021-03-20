@@ -127,6 +127,33 @@
         "needHH": 0
     },
     {
+        "title": "网格倍增器",
+        "enTitle": "Multiplier Grid",
+        "date": "2021-03-20",
+        "update": "2021-03-20",
+        "version":"",
+        "path": "multiplier-grid",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "好玩魔性费鼠标的游戏~记得把下面改成鼠标悬浮升级哈~",
+            "网格初始是2x2的，最大10x10，然后转生获得加成，继续从2x2开始，以此类推~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/multiplier-grid/",
+        "enUrl": "https://www.crazygames.com/game/multiplier-grid",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
         "title": "字母公司",
         "enTitle": "AZ Inc",
         "date": "2021-03-19",
@@ -473,12 +500,13 @@
             "策略"
         ],
         "content": [
-            "因为不知道什么原因，从2月15日开始，有人发现之前导出的存档无法导入到最新版本里面。",
-            "所以我重新搭了一个【最新版】链接，继续同步作者更新~",
-            "【汉化版】这个链接的版本将停留在0.1.40版本。望大家知悉~"
+            "这次彻底根治了英文版存档不能导入汉化版的问题。。",
+            "因为作者部署的版本，跟咱们之前部署的版本，完全是老婆跟老婆饼的关系。。。",
+            "游戏链接用【汉化版】（带2链接的存档建议人道毁灭，因为没法导入最新版）。",
+            "【汉化版】这个链接就是最新版~"
         ],
         "customUrl": "http://idlegame.gitee.io/ethereal-farm2",
-        "customUrlTit": "最新版",
+        "customUrlTit": "此版本弃用，请玩【汉化版】",
         "zhUrl": "http://idlegame.gitee.io/ethereal-farm",
         "enUrl": "https://lodev.org/etherealfarm/",
         "pic": [

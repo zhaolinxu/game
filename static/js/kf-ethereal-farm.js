@@ -5,14 +5,14 @@ $(function(){
     content +='<div id="open_im" class="open-im">&nbsp;</div>  ';
     content +='<div class="im_main" id="im_main">';
     content +='<div id="close_im" class="close-im"><a href="javascript:void(0);" title="点击关闭">&nbsp;</a></div>';
-    content +='<a href="http://shang.qq.com/wpa/qunwpa?idkey=d10d784492d5e73cca25ff48f4763bdc14f698ffdbf42adbb0e9304495cb0387" target="_blank" class="im-qq qq-a" title="点击加入 - GitHub游戏交流群:627141737">';
+    content +='<a href="http://shang.qq.com/wpa/qunwpa?idkey=d10d784492d5e73cca25ff48f4763bdc14f698ffdbf42adbb0e9304495cb0387" target="_blank" class="im-qq qq-a" title="点击加入 - Git游戏交流群:627141737">';
     content +='<div class="qq-container"></div>';
     content +='<div class="qq-hover-c"><img class="img-qq" src="//likexia.gitee.io/game/images/kf/qq.png"></div>';
     content +='<span>点击加群</span>';
     content +='</a>';
     content +='<div class="im-tel">';
     content +='<div>QQ群号:</div>';
-    content +='<div class="tel-num">627141737</div>';
+    content +='<div class="tel-num">946050761</div>';
     content +='<div>更多同类游戏:</div>';
     content +='<div class="tel-num"><a href="http://www.gityx.com" target="_blank" title="Git游戏：gityx.com~">Git游戏</a><a href="http://g8hh.com" target="_blank" style="margin-left:5px;" title="锅巴汉化：g8hh.com">锅巴汉化</a><br /><a href="http://bbs.gityx.com/" target="_blank" style="margin-left:5px;" title="点击查看游戏攻略">游戏攻略交流论坛</a></div>';
     content +='</div>';

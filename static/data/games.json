@@ -127,6 +127,63 @@
         "needHH": 0
     },
     {
+        "title": "计算器进化",
+        "enTitle": "Calculator Evolution",
+        "date": "2021-03-24",
+        "update": "2021-03-24",
+        "version":"",
+        "path": "calculator-evolution",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "又一个内容丰富的增量游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/calculator-evolution/",
+        "enUrl": "https://spotky1004.github.io/Calculator-Evolution/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "表情包工厂",
+        "enTitle": "Idle Emoji Factory",
+        "date": "2021-03-24",
+        "update": "2021-03-24",
+        "version":"",
+        "path": "idle-emoji-factory",
+        "type": [
+            "放置",
+            "点击",
+            "经营",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "魔性又费鼠标的放置游戏~充满了欢乐~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-emoji-factory/",
+        "enUrl": "https://www.crazygames.com/game/idle-emoji-factory",
+        "pic": [
+            1,
+            2
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "网格倍增器",
         "enTitle": "Multiplier Grid",
         "date": "2021-03-20",
@@ -183,8 +240,8 @@
         "title": "创世声望树",
         "enTitle": "Prestreestuck",
         "date": "2021-03-15",
-        "update": "2021-03-15",
-        "version":"0.0.3.8.6.1",
+        "update": "2021-03-20",
+        "version":"0.0.3.8.6.2",
         "path": "prestreestuck",
         "type": [
             "汉化中",
@@ -509,6 +566,7 @@
         "customUrlTit": "此版本弃用，请玩【汉化版】",
         "zhUrl": "http://idlegame.gitee.io/ethereal-farm",
         "enUrl": "https://lodev.org/etherealfarm/",
+        "QQ": "946050761",
         "pic": [
             1,
             2
@@ -2430,8 +2488,8 @@
         "title": "增量史诗英雄",
         "enTitle": "Incremental Epic Hero",
         "date": "2020-04-23",
-        "update": "2020-20-20",
-        "version": "1.3.1.1",
+        "update": "2021-03-23",
+        "version": "1.4.4.0",
         "path": "incremental-epic-hero",
         "type": [
             "放置",
@@ -2898,7 +2956,7 @@
         "title": "僵尸增量",
         "enTitle": "Incremancer",
         "date": "2019-12-03",
-        "update": "2020-10-28",
+        "update": "2021-03-15",
         "path": "incremancer",
         "type": [
             "汉化中",

@@ -127,6 +127,103 @@
         "needHH": 0
     },
     {
+        "title": "GTA放置",
+        "enTitle": "Idle Five",
+        "date": "2021-03-26",
+        "update": "2020-07-22",
+        "version":"4.4",
+        "path": "idle-five",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "模拟"
+        ],
+        "content": [
+            "之前发布过《GTA放置2》，似乎后面有问题。最近认真玩了下一代，感觉这个没啥问题。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-five",
+        "enUrl": "https://goldenlys.github.io/IdleFive/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "文明2",
+        "enTitle": "Cividlization 2",
+        "date": "2020-01-11",
+        "update": "2020-03-01",
+        "version": "1.3.7",
+        "path": "cividlization-2",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "冒险",
+            "K站"
+        ],
+        "content": [
+            "不能直接刷新，需要把链接删除到/cividlization2/这里，然后回车即可。",
+            "因为最近补充了一些汉化，所以再发一次~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/cividlization2",
+        "kUrl": "https://www.kongregate.com/games/to_change_later/cividlization-2?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "流氓放置",
+        "enTitle": "Idle Mobster",
+        "date": "2021-03-26",
+        "update": "2020-07-01",
+        "version":"0.1.7",
+        "path": "idle-mobster",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "养成",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-mobster/",
+        "enUrl": "https://kek91.itch.io/idle-mobster",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 0
+    },
+    {
         "title": "计算器进化",
         "enTitle": "Calculator Evolution",
         "date": "2021-03-24",
@@ -2008,7 +2105,7 @@
         "status": 1
     },
     {
-        "title": "铁拳放置2",
+        "title": "GTA放置2",
         "enTitle": "Idle Five 2",
         "date": "2020-06-04",
         "update": "2020-06-04",
@@ -2650,35 +2747,6 @@
         "status": 1
     },
     {
-        "title": "文明2",
-        "enTitle": "Cividlization 2",
-        "date": "2020-01-11",
-        "update": "2020-03-01",
-        "version": "1.3.7",
-        "path": "cividlization-2",
-        "type": [
-            "汉化中",
-            "放置",
-            "文字",
-            "点击",
-            "经营",
-            "挂机",
-            "升级",
-            "冒险",
-            "K站"
-        ],
-        "content": [
-            "不能直接刷新，需要把链接删除到/cividlization2/这里"
-        ],
-        "zhUrl": "http://idlegame.gitee.io/cividlization2",
-        "kUrl": "https://www.kongregate.com/games/to_change_later/cividlization-2?sfa=permalink&referrer=SunshineDad",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 1
-    },
-    {
         "title": "防御者放置：新起点",
         "enTitle": "Defender Idle: New Beginning",
         "date": "2020-01-02",
@@ -3312,7 +3380,12 @@
         "enUrl": "https://luts91.github.io/idle-idle-gamedev/index.html",
         "pic": [
             1,
-            2
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
         ],
         "status": 1
     },

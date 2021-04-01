@@ -127,6 +127,102 @@
         "needHH": 0
     },
     {
+        "title": "流氓放置",
+        "enTitle": "Idle Mobster",
+        "date": "2021-04-01",
+        "update": "",
+        "version":"",
+        "path": "idle-mobster",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "游戏内的行为，切勿在现实生活中模仿哦~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-mobster/",
+        "enUrl": "https://kek91.itch.io/idle-mobster",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "生产大师",
+        "enTitle": "Production Mastery Teaser",
+        "date": "2021-04-01",
+        "update": "2020-09-17",
+        "version":"1.4.5",
+        "path": "production-mastery-teaser",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "K站",
+            "英文"
+        ],
+        "content": [
+            "这是一个关于生产，魔法的放置游戏！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/production-mastery-teaser",
+        "kUrl": "https://www.kongregate.com/games/nerderror/production-mastery-teaser?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2
+        ],
+        "status": 1
+    },
+    {
+        "title": "工业放置",
+        "enTitle": "Industry Idle",
+        "date": "2021-04-01",
+        "update": "",
+        "version":"",
+        "path": "industry-idle",
+        "type": [
+            "放置",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级",
+            "英文",
+            "PC",
+            "Steam",
+            "建造",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "Industry Idle是一款放置游戏，它将工厂建设，资源管理和市场交易结合在一起。 设计和建立您的基地，扩大和扩大您的生产，改善和优化您的经济。 加上所有增量游戏特效：离线收益，声望以解锁更强大的升级。",
+            "游戏目前仅支持Windows系统，暂无中文。"
+        ],
+        "steamUrl": "https://store.steampowered.com/app/1574000/Industry_Idle/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "GTA放置",
         "enTitle": "Idle Five",
         "date": "2021-03-26",
@@ -643,8 +739,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-03-16",
-        "version":"0.1.47",
+        "update": "2021-03-28",
+        "version":"0.1.53",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -1542,7 +1638,7 @@
         "title": "太空放置2",
         "enTitle": "Idle Space 2",
         "date": "2020-07-22",
-        "update": "2020-07-21",
+        "update": "2021-03-27",
         "version": "",
         "path": "idle-space2",
         "type": [
@@ -5381,8 +5477,8 @@
         "title": "13层",
         "enTitle": "Level 13",
         "date": "2018-05-09",
-        "update": "2021-02-22",
-        "version": "0.3.2",
+        "update": "2021-03-23",
+        "version": "0.3.3",
         "path": "level-13",
         "type": [
             "汉化中",
@@ -5828,6 +5924,8 @@
         "title": "猫国建设者",
         "enTitle": "Kittens Game",
         "date": "2017-10-27",
+        "update": "2021-03-30",
+        "version": "1.4.8.3",
         "path": "kittens-game",
         "type": [
             "推荐",
@@ -5841,7 +5939,7 @@
             "挂机"
         ],
         "content": [
-            "感谢各位大佬：@by22dgb，@*.*，@TG303，@枯寂之心，@KuiY，帮忙汉化。",
+            "感谢各位大佬：@Cheney，@by22dgb，@*.*，@TG303，@枯寂之心，@KuiY，帮忙汉化。",
             "这是一款放置型经营游戏，你可以建造多种建筑和收集多种资源，来一步步完善你的小猫王国。游戏虽然没什么精美的图片和动听的音乐，但还是有相当的经营乐趣。",
             "注意：现在 中文版已经集成了小猫科学家 ，请在游戏右上角 “选项” 里面通过 “点击启用小猫科学家”启用。"
         ],
@@ -5850,6 +5948,7 @@
         "customUrlTit": "1.8.3最新汉化版",
         "enUrl": "http://bloodrizer.ru/games/kittens/",
         "kUrl": "https://www.kongregate.com/games/bloodrizer/kittens-game?sfa=permalink&referrer=SunshineDad",
+        "wikiUrl": "http://petercheney.gitee.io/baike/",
         "QQ": "499256691",
         "pic": [
             1,

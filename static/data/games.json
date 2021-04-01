@@ -290,39 +290,6 @@
         "status": 1
     },
     {
-        "title": "流氓放置",
-        "enTitle": "Idle Mobster",
-        "date": "2021-03-26",
-        "update": "2020-07-01",
-        "version":"0.1.7",
-        "path": "idle-mobster",
-        "type": [
-            "已汉化",
-            "放置",
-            "文字",
-            "点击",
-            "经营",
-            "挂机",
-            "升级",
-            "养成",
-            "策略",
-            "模拟"
-        ],
-        "content": [
-            ""
-        ],
-        "zhUrl": "http://idlegame.gitee.io/idle-mobster/",
-        "enUrl": "https://kek91.itch.io/idle-mobster",
-        "pic": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "status": 0
-    },
-    {
         "title": "计算器进化",
         "enTitle": "Calculator Evolution",
         "date": "2021-03-24",

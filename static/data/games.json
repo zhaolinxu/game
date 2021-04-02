@@ -127,6 +127,40 @@
         "needHH": 0
     },
     {
+        "title": "里程碑之树",
+        "enTitle": "Milestone Tree",
+        "date": "2021-04-02",
+        "update": "2021-04-02",
+        "version":"1.130",
+        "path": "milestone-tree",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "原创"
+        ],
+        "content": [
+            "此游戏是反物质维度群里 @The Loader 在模型树的基础上二次开发，后续还会继续更新。"
+        ],
+        "zhUrl": "https://qq1010903229.gitee.io/milestone-tree/index2.html",
+        "enUrl": "https://qq1010903229.gitee.io/milestone-tree/index.html",
+        "customUrl": "http://idlegame.gitee.io/milestone-tree/index2.html",
+        "customUrlTit": "Git游戏版",
+        "customUrl2": "https://yhvr.me/pt/mods.html",
+        "customUrlTit2": "其它树游戏集合",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "流氓放置",
         "enTitle": "Idle Mobster",
         "date": "2021-04-01",
@@ -420,6 +454,8 @@
         ],
         "zhUrl": "http://idlegame.gitee.io/prestreestuck/",
         "enUrl": "https://ducdat0507.github.io/prestreestuck/",
+        "customUrl": "https://yhvr.me/pt/mods.html",
+        "customUrlTit": "其它树游戏集合",
         "pic": [
             1,
             2,
@@ -976,6 +1012,8 @@
         ],
         "zhUrl": "http://idlegame.gitee.io/the-dynas-tree",
         "enUrl": "https://ducdat0507.github.io/thedynastree/",
+        "customUrl": "https://yhvr.me/pt/mods.html",
+        "customUrlTit": "其它树游戏集合",
         "pic": [
             1,
             2

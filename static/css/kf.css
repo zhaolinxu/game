@@ -24,7 +24,8 @@
 .main-im .close-im{position:absolute;right:10px;top:-12px;z-index:100;width:24px;height:24px;}
 .main-im .close-im a{display:block;width:24px;height:24px;background-image:url("//likexia.gitee.io/game/images/kf/close_im.png") !important;text-decoration:none;background-position:left top;background-repeat: no-repeat;}
 .main-im .close-im a:hover{text-decoration:none;}
-.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat: no-repeat;background-position:left top;cursor: pointer;background-size: 100%;z-index:100;position:fixed;right:10px;top:50vh;}
+.main-im .close-ball,.main-im .open-im{cursor:pointer;margin-left:68px;width:30px;height:30px;background-image:url("//likexia.gitee.io/game/images/kf/open_im.png");background-repeat: no-repeat;background-position:left top;cursor: pointer;background-size: 100%;z-index:100;position:fixed;right:10px;top:50vh;}
+.main-im .close-ball{right: -15px;top: 48vh;z-index: 9999999;background: none;}
 @media screen and (max-width:480px){
     .main-im{display: none;}
 }

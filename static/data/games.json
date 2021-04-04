@@ -130,8 +130,8 @@
         "title": "里程碑之树",
         "enTitle": "Milestone Tree",
         "date": "2021-04-02",
-        "update": "2021-04-02",
-        "version":"1.130",
+        "update": "2021-04-03",
+        "version":"1.141c4",
         "path": "milestone-tree",
         "type": [
             "放置",
@@ -742,8 +742,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-03-28",
-        "version":"0.1.53",
+        "update": "2021-04-02",
+        "version":"0.1.56",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -1257,8 +1257,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2021-03-02",
-        "version": "0.7.9",
+        "update": "2021-04-04",
+        "version": "0.8.0",
         "path": "poke-clicker2",
         "type": [
             "汉化中",
@@ -4152,7 +4152,7 @@
             1,
             2
         ],
-        "status": 1
+        "status": 0
     },
     {
         "title": "为了成为骑士",
@@ -4662,6 +4662,7 @@
         "title": "打砖块",
         "enTitle": "Idle Breakout",
         "date": "2019-04-25",
+        "update": "2019-03-11",
         "path": "idle-breakout",
         "type": [
             "英文",
@@ -4673,8 +4674,9 @@
             "Flash"
         ],
         "content": [
-            ""
+            "玩着很爽的打砖块游戏~"
         ],
+        "zhUrl": "http://www.chsdesign.cn/",
         "kUrl": "https://www.kongregate.com/games/Kodiqi/idle-breakout?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,

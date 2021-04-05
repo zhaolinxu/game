@@ -127,6 +127,111 @@
         "needHH": 0
     },
     {
+        "title": "增量宇宙树",
+        "enTitle": "Incrementreeverse",
+        "date": "2021-04-05",
+        "update": "2021-04-04",
+        "version":"1.0",
+        "path": "incrementreeverse",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "本游戏由反物质维度群的 @χγζ5051 大佬汉化推荐。"
+        ],
+        "zhUrl": "https://gsui5051.gitee.io/incrementreeverse-cn/",
+        "enUrl": "https://gsui5051.gitee.io/incrementreeverse",
+        "customUrl": "http://idlegame.gitee.io/incrementreeverse-cn",
+        "customUrlTit": "Git游戏搬运版",
+        "customUrl2": "https://yhvr.me/pt/mods.html",
+        "customUrlTit2": "其它树游戏集合",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "你的编年史",
+        "enTitle": "Your Chronicle",
+        "date": "2021-04-05",
+        "update": "",
+        "version":"",
+        "path": "your-chronicle",
+        "type": [
+            "放置",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级",
+            "英文",
+            "U3D",
+            "PC",
+            "Steam",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "“让我们开始您自己的故事。” 这是一个文字类型的放置类RPG游戏。 这里有1500多个动作，仍在增加。"
+        ],
+        "customUrl": "https://www.crazygames.com/game/your-chronicle",
+        "customUrlTit": "英文网页版",
+        "steamUrl": "https://store.steampowered.com/app/1574000/Industry_Idle/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
+        "title": "细胞至奇点",
+        "enTitle": "Cell to Singularity",
+        "date": "2021-04-05",
+        "update": "",
+        "version":"",
+        "path": "cell-to-singularity",
+        "type": [
+            "放置",
+            "点击",
+            "离线",
+            "挂机",
+            "升级",
+            "安卓",
+            "苹果",
+            "PC",
+            "Steam",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "进化，技术和人性的史诗故事等你来发现。",
+            "本游戏有中文，也有手机版。支持云存档（需注册）在各个设备上同步进度。"
+        ],
+        "steamUrl": "https://store.steampowered.com/app/977400/Cell_to_Singularity__Evolution_Never_Ends/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "里程碑之树",
         "enTitle": "Milestone Tree",
         "date": "2021-04-02",
@@ -3001,7 +3106,7 @@
             5
         ],
         "needHH": 0,
-        "status": 1
+        "status": 0
     },
     {
         "title": "侠客行",
@@ -3040,7 +3145,7 @@
         ],
         "needHH": 0,
         "version": "2.36",
-        "status": 1
+        "status": 0
     },
     {
         "title": "假日抽奖公司",
@@ -3769,12 +3874,14 @@
         "status": 1
     },
     {
-        "title": "收集星星",
+        "title": "摘星船",
         "enTitle": "Collect Star",
         "date": "2019-06-13",
+        "update": "2019-07-04",
+        "version": "0.11",
         "path": "collect-star",
         "type": [
-            "点击",
+            "动作",
             "益智",
             "原创"
         ],
@@ -3782,10 +3889,13 @@
             "群友自己尝试制作的，游戏虽然很简单，但是是个好的开始。期待更好的作品。"
         ],
         "zhUrl": "https://sun-freeport.github.io/SideScroller/collect-star/",
+        "customUrl2": "http://likexia.gitee.io/sidescroller/collect-star/",
+        "customUrlTit2": "Git游戏搬运版",
         "pic": [
             1,
             2
         ],
+        "needHH": 0,
         "status": 1
     },
     {
@@ -4318,6 +4428,8 @@
         "title": "海豹球",
         "enTitle": "Spheal",
         "date": "2019-04-26",
+        "update": "2018-12-29",
+        "version": "0.5",
         "path": "spheal",
         "type": [
             "已汉化",
@@ -4420,7 +4532,7 @@
         "date": "2019-04-26",
         "path": "idle-graph",
         "type": [
-            "已汉化",
+            "汉化中",
             "放置",
             "文字",
             "点击",
@@ -4433,7 +4545,7 @@
             ""
         ],
         "zhUrl": "http://likexia.gitee.io/idlegraph",
-        "enUrl": "英文链接",
+        "enUrl": "https://scorzy.github.io/IdleGraph/",
         "pic": [
             1,
             2
@@ -4959,6 +5071,8 @@
         "title": "进度条",
         "enTitle": "Progress Bars",
         "date": "2019-03-08",
+        "update": "2014-11-11",
+        "version": "1.1.1",
         "path": "progress-bars",
         "type": [
             "已汉化",
@@ -4970,7 +5084,7 @@
             "挂机"
         ],
         "content": [
-            ""
+            "很有趣的放置游戏~"
         ],
         "zhUrl": "http://likexia.gitee.io/progress-bars",
         "enUrl": "https://polatrite.github.io/progress-bars/",

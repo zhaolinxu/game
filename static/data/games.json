@@ -235,8 +235,8 @@
         "title": "里程碑之树",
         "enTitle": "Milestone Tree",
         "date": "2021-04-02",
-        "update": "2021-04-03",
-        "version":"1.141c4",
+        "update": "2021-04-05",
+        "version":"1.145",
         "path": "milestone-tree",
         "type": [
             "放置",
@@ -847,8 +847,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-04-02",
-        "version":"0.1.56",
+        "update": "2021-04-05",
+        "version":"0.1.59",
         "path": "ethereal-farm",
         "type": [
             "汉化中",

@@ -1,234 +1,290 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title>Git游戏网站更新日志 | Git游戏</title>
-		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="../js/jquery.min.js"></script>
-		<!-- Custom Theme files -->
-		<!--theme-style-->
-		<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
-		<!--//theme-style-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="" />
-<link rel="icon" type="image/x-icon" class="js-site-favicon" href="../favicon.ico">
-		<script type="application/x-javascript">
-			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+<head>
+    <title>Git游戏网站更新日志 | Git游戏</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="../css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <link rel="icon" type="image/x-icon" class="js-site-favicon" href="../favicon.ico">
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-			function hideURLbar() { window.scrollTo(0, 1); }
-		</script>
-		<!--flexslider-->
-		<link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen" />
-		<!--//flexslider-->
-		<!--图集-->
-		<script src="../js/modernizr.custom.97074.js"></script>
-		<script src="../js/jquery.hoverdir.js"></script>
-		<script src="../js/jquery.chocolat.js"></script>
-		<link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="screen" charset="utf-8">
-		<script type="text/javascript">
-			$(function() {
-				$(' #da-thumbs > li ').each(function() { $(this).hoverdir(); });
-				$('.games a').Chocolat();
-			});
-		</script>
-		<!--图集-->
-	</head>
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!--flexslider-->
+    <link rel="stylesheet" href="../css/flexslider.css" type="text/css" media="screen"/>
+    <!--//flexslider-->
+    <!--图集-->
+    <script src="../js/modernizr.custom.97074.js"></script>
+    <script src="../js/jquery.hoverdir.js"></script>
+    <script src="../js/jquery.chocolat.js"></script>
+    <link rel="stylesheet" href="../css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+    <script type="text/javascript">
+        $(function () {
+            $(' #da-thumbs > li ').each(function () {
+                $(this).hoverdir();
+            });
+            $('.games a').Chocolat();
+        });
+    </script>
+    <!--图集-->
+</head>
 
-	<body class="article">
-		<!--header-->
-		<div class="header">
-			<div class="header-top">
-				<div class="container">
-					<div class="head-top">
-						<div class="logo">
-							<h1><a href="../index.html"> GitHub  <span>Games</span></a></h1>
-						</div>
-						<div class="top-nav">
-							<span class="menu"><img src="../images/menu.png" alt=""> </span>
-							<ul>
-							    <li>
-							        <a href="/">首页</a>
-							    </li>
-							    <li>
-							        <a href="../../#/game">游戏</a>
-							    </li>
-							    <li>
-							        <a href="../../#/blog">博客</a>
-							    </li>
-							    <li>
-							        <a href="../../#/event">事件</a>
-							    </li>
-							    <li>
-							        <a href="../../#/about">关于</a>
-							    </li>
-							    <li>
-							        <a href="http://bbs.gityx.com" target="_blank">论坛</a>
-							    </li>
-							    <div class="clearfix"> </div>
-							</ul>
-							<!--script-->
-							<script>
-								$("span.menu").click(function() {
-									$(".top-nav ul").slideToggle(500, function() {});
-								});
-							</script>
+<body class="article">
+<!--header-->
+<div class="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="head-top">
+                <div class="logo">
+                    <h1><a href="../index.html"> GitHub <span>Games</span></a></h1>
+                </div>
+                <div class="top-nav">
+                    <span class="menu"><img src="../images/menu.png" alt=""> </span>
+                    <ul>
+                        <li>
+                            <a href="/">首页</a>
+                        </li>
+                        <li>
+                            <a href="../../#/game">游戏</a>
+                        </li>
+                        <li>
+                            <a href="../../#/blog">博客</a>
+                        </li>
+                        <li>
+                            <a href="../../#/event">事件</a>
+                        </li>
+                        <li>
+                            <a href="../../#/about">关于</a>
+                        </li>
+                        <li>
+                            <a href="http://bbs.gityx.com" target="_blank">论坛</a>
+                        </li>
+                        <div class="clearfix"></div>
+                    </ul>
+                    <!--script-->
+                    <script>
+                        $("span.menu").click(function () {
+                            $(".top-nav ul").slideToggle(500, function () {
+                            });
+                        });
+                    </script>
 
-						</div>
+                </div>
 
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<!--content-->
-
-		<div class="container">
-			<div class="single">
-				<a href="#"><img class="img-responsive" src="../images/blog/new/top.jpg" alt=" "></a>
-				<div class=" single-grid">
-					<h4>【公告】Git游戏网站更新日志</h4>
-					<div class="cal">
-						<ul>
-							<li><span><i class="glyphicon glyphicon-calendar"> </i>2019-12-17</span></li>
-						</ul>
-						<h4 class="grid2"><span class="label first">类型：</span>
-				        <span class="label label-primary">公告</span>
-<!--
-				        <span class="label label-success">文字</span>
-				        <span class="label label-default">点击</span>
-				        <span class="label label-info">经营</span>
-				        <span class="label label-warning">离线挂机</span>
-				        <span class="label label-danger"></span>
-				        <span class="label label-default"></span>
--->
-				     </h4>
-					</div>
-					
-					<div class="tit">介绍</div>
-					<p>2020-07-03</p>
-					<p>新增：游戏多条件筛选功能。</p>
-					<p>新增：搜索框回车可以直接搜索。</p>
-					<p>2020-06-02</p>
-					<p>新增：游戏筛选分类：推荐。</p>
-					<p>2020-06-01</p>
-					<p>新增：首页底部：其它游戏。</p>
-					<p>2020-05-18</p>
-					<p>修改：游戏右边小球，加入公众号二维码，可以款速关注。</p>
-					<p>2019-12-20</p>
-					<p>新增功能：可以按关键字搜索本站已收录的游戏。</p>
-					<p>2019-12-17</p>
-					<p>改版：上线新版首页，采用了数据分离的方式，游戏数据通过读取json文件，达到数据可维护。</p>
-					<p>删除：评论功能暂时去掉，后面会想办法再搞一个出来。</p>
-					<div class="tit">网站地址</div>
-					<div class="btn-group">
-						<a href="http://likexia.gitee.io/game" title="点击访问" class="cd-read-more  hvr-wobble-top" target="_blank">点击访问</a>
-						
-					</div>
-					<div class="tit">其它</div>
-					<div class="btn-group">
-						<a href="http://bbs.gityx.com" title="查看游戏攻略" class="cd-read-more  hvr-wobble-top btn-success" target="_blank">游戏攻略论坛</a>
-<!--						<a href="#" title="查看英文版游戏文档" class="cd-read-more  hvr-wobble-top btn-success" target="_blank">英文文档</a>-->
-						<a href="//shang.qq.com/wpa/qunwpa?idkey=f8918322d07e7fde0be74a718a76001e816bf04159cb60f1d990f8572b2cf2e2" title="点击加入 - GitHub游戏交流群:627141737" class="cd-read-more  hvr-wobble-top btn-info" target="_blank">QQ交流群</a>
-						<a href="javascript:void(0)" title="您的支持，是我最大的动力！" class="cd-read-more  hvr-wobble-top btn-info btn-dashang" >打赏</a>
-
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-		<!--//content-->
-		<!--images-->
-		<div class="container">
-			<div class="games">
-					<div class="tit">游戏图鉴</div>
-				<section>
-					<ul id="da-thumbs" class="da-thumbs tuijian">
-						<li>
-							<a href="../images/blog/new/face.jpg" rel="标题" class="b-link-stripe b-animate-go  thickbox">
-								<img class="img" src="../images/blog/new/face.jpg" alt="" />
-								<img src="../images/blog/null.png" alt="" />
-								<div>
-									<h5>封面</h5>
-									<span>点击查看大图</span>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="../images/blog/new/jietu-1.png" rel="" class="b-link-stripe b-animate-go  thickbox">
-								<img class="img" src="../images/blog/new/jietu-1.png" alt="" />
-								<img src="../images/blog/null.png" alt="" />
-								<div>
-									<h5>游戏截图</h5>
-									<span>截图1</span>
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="../images/blog/new/jietu-2.png" rel="" class="b-link-stripe b-animate-go  thickbox">
-								<img class="img" src="../images/blog/new/jietu-2.png" alt="" />
-								<img src="../images/blog/null.png" alt="" />
-								<div>
-									<h5>游戏截图</h5>
-									<span>截图2</span>
-								</div>
-							</a>
-						</li>
-						<div class="clearfix"> </div>
-					</ul>
-				</section>
-
-			</div>
-		</div>
-		<!--//images-->
-		<!--分享 开始-->
-   <div class="contact">
-			<div class="container">
- <div class="bdsharebuttonbox"><a href="" style="background:none;text-decoration:none;color:#000;font-size:14px;">分享到：</a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">QQ好友</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_more" data-cmd="more">更多：</a></div>
-<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-</div></div>
-<!--分享 结束-->
-		<!--评论 开始-->
-<div class="contact">
-			<div class="container">
-<!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC8zMzc2Mi8xMDMxNg==">
-	<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-	</script>
-<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- City版安装代码已完成 -->
-    </div></div>
+
+<!--content-->
+
+<div class="container">
+    <div class="single">
+        <a href="#"><img class="img-responsive" src="../images/blog/new/top.jpg" alt=" "></a>
+        <div class=" single-grid">
+            <h4>【公告】Git游戏网站更新日志</h4>
+            <div class="cal">
+                <ul>
+                    <li><span><i class="glyphicon glyphicon-calendar"> </i>2019-12-17</span></li>
+                </ul>
+                <h4 class="grid2"><span class="label first">类型：</span>
+                    <span class="label label-primary">公告</span>
+                    <!--
+                                    <span class="label label-success">文字</span>
+                                    <span class="label label-default">点击</span>
+                                    <span class="label label-info">经营</span>
+                                    <span class="label label-warning">离线挂机</span>
+                                    <span class="label label-danger"></span>
+                                    <span class="label label-default"></span>
+                    -->
+                </h4>
+            </div>
+
+            <div class="tit">介绍</div>
+            <p>2021-04-06</p>
+            <p>优化：读取游戏数据时加入时间戳，防止刷不出来刚更新的游戏。</p>
+            <br>
+            <p>2021-04-02</p>
+            <p>优化：图片加上懒加载功能，优化显示效果。</p>
+            <br>
+            <p>2021-03-30</p>
+            <p>改版：重制首页排版。</p>
+            <br>
+            <p>2021-03-26</p>
+            <p>修复：搜索时按回车，第一次无效的问题。</p>
+            <br>
+            <p>2020-11-13</p>
+            <p>优化：游戏数据显示问题。</p>
+            <br>
+            <p>2020-07-03</p>
+            <p>新增：游戏多条件筛选功能。</p>
+            <p>新增：搜索框回车可以直接搜索。</p>
+            <br>
+            <p>2020-06-02</p>
+            <p>新增：游戏筛选分类：推荐。</p>
+            <br>
+            <p>2020-06-01</p>
+            <p>新增：首页底部：其它游戏。</p>
+            <br>
+            <p>2020-05-18</p>
+            <p>修改：游戏右边小球，加入公众号二维码，可以款速关注。</p>
+            <br>
+            <p>2019-12-20</p>
+            <p>新增功能：可以按关键字搜索本站已收录的游戏。</p>
+            <br>
+            <p>2019-12-17</p>
+            <p>改版：上线新版首页，采用了数据分离的方式，游戏数据通过读取json文件，达到数据可维护。</p>
+            <p>删除：评论功能暂时去掉，后面会想办法再搞一个出来。</p>
+            <div class="tit">网站地址</div>
+            <div class="btn-group">
+                <a href="http://likexia.gitee.io/game" title="点击访问" class="cd-read-more  hvr-wobble-top"
+                   target="_blank">点击访问</a>
+
+            </div>
+            <div class="tit">其它</div>
+            <div class="btn-group">
+                <a href="http://bbs.gityx.com" title="查看游戏攻略" class="cd-read-more  hvr-wobble-top btn-success"
+                   target="_blank">游戏攻略论坛</a>
+                <!--						<a href="#" title="查看英文版游戏文档" class="cd-read-more  hvr-wobble-top btn-success" target="_blank">英文文档</a>-->
+                <a href="//shang.qq.com/wpa/qunwpa?idkey=f8918322d07e7fde0be74a718a76001e816bf04159cb60f1d990f8572b2cf2e2"
+                   title="点击加入 - GitHub游戏交流群:627141737" class="cd-read-more  hvr-wobble-top btn-info" target="_blank">QQ交流群</a>
+                <a href="javascript:void(0)" title="您的支持，是我最大的动力！"
+                   class="cd-read-more  hvr-wobble-top btn-info btn-dashang">打赏</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--//content-->
+<!--images-->
+<div class="container">
+    <div class="games">
+        <div class="tit">游戏图鉴</div>
+        <section>
+            <ul id="da-thumbs" class="da-thumbs tuijian">
+                <li>
+                    <a href="../images/blog/new/face.jpg" rel="标题" class="b-link-stripe b-animate-go  thickbox">
+                        <img class="img" src="../images/blog/new/face.jpg" alt=""/>
+                        <img src="../images/blog/null.png" alt=""/>
+                        <div>
+                            <h5>封面</h5>
+                            <span>点击查看大图</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../images/blog/new/jietu-1.png" rel="" class="b-link-stripe b-animate-go  thickbox">
+                        <img class="img" src="../images/blog/new/jietu-1.png" alt=""/>
+                        <img src="../images/blog/null.png" alt=""/>
+                        <div>
+                            <h5>游戏截图</h5>
+                            <span>截图1</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="../images/blog/new/jietu-2.png" rel="" class="b-link-stripe b-animate-go  thickbox">
+                        <img class="img" src="../images/blog/new/jietu-2.png" alt=""/>
+                        <img src="../images/blog/null.png" alt=""/>
+                        <div>
+                            <h5>游戏截图</h5>
+                            <span>截图2</span>
+                        </div>
+                    </a>
+                </li>
+                <div class="clearfix"></div>
+            </ul>
+        </section>
+
+    </div>
+</div>
+<!--//images-->
+<!--分享 开始-->
+<div class="contact">
+    <div class="container">
+        <div class="bdsharebuttonbox"><a href=""
+                                         style="background:none;text-decoration:none;color:#000;font-size:14px;">分享到：</a><a
+                href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">QQ好友</a><a href="#" class="bds_weixin"
+                                                                                   data-cmd="weixin"
+                                                                                   title="分享到微信">微信</a><a href="#"
+                                                                                                          class="bds_qzone"
+                                                                                                          data-cmd="qzone"
+                                                                                                          title="分享到QQ空间">QQ空间</a><a
+                href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_more"
+                                                                                       data-cmd="more">更多：</a></div>
+        <script>window._bd_share_config = {
+            "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "0",
+                "bdSize": "16"
+            }, "share": {"bdSize": 16}
+        };
+        with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+    </div>
+</div>
+<!--分享 结束-->
+<!--评论 开始-->
+<div class="contact">
+    <div class="container">
+        <!-- 来必力City版安装代码 -->
+        <div id="lv-container" data-id="city" data-uid="MTAyMC8zMzc2Mi8xMDMxNg==">
+            <script type="text/javascript">
+                (function (d, s) {
+                    var j, e = d.getElementsByTagName(s)[0];
+
+                    if (typeof LivereTower === 'function') {
+                        return;
+                    }
+
+                    j = d.createElement(s);
+                    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+                    j.async = true;
+
+                    e.parentNode.insertBefore(j, e);
+                })(document, 'script');
+            </script>
+            <noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+        </div>
+        <!-- City版安装代码已完成 -->
+    </div>
+</div>
 <!--评论 结束-->
-		<!--footer-->
-		<div class="footer">
-				<p> © 2017-2021 Git游戏 All rights reserved</p>
-			</div>
-		</div>
-		<!--客服 开始-->
-    <link rel="stylesheet" href="../css/kf.css" type="text/css" media="screen" charset="utf-8">
-    <script src="../js/kf.js"></script>
-    <!--客服 结束-->
-    <!-- 打赏 开始 -->
-   <script src="../js/dashang.js"></script>
-   <!-- 打赏 结束 -->
-		<div style="display:none;">
-			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
-		</div>
-	</body>
+<!--footer-->
+<div class="footer">
+    <p> © 2017-2021 Git游戏 All rights reserved</p>
+</div>
+</div>
+<!--客服 开始-->
+<link rel="stylesheet" href="../css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="../js/kf.js"></script>
+<!--客服 结束-->
+<!-- 打赏 开始 -->
+<script src="../js/dashang.js"></script>
+<!-- 打赏 结束 -->
+<div style="display:none;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1267958737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1267958737%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
 
 </html>

@@ -127,39 +127,6 @@
         "needHH": 0
     },
     {
-        "title": "增量宇宙树",
-        "enTitle": "Incrementreeverse",
-        "date": "2021-04-05",
-        "update": "2021-04-04",
-        "version":"1.0",
-        "path": "incrementreeverse",
-        "type": [
-            "已汉化",
-            "放置",
-            "文字",
-            "点击",
-            "挂机",
-            "升级"
-        ],
-        "content": [
-            "本游戏由反物质维度群的 @χγζ5051 大佬汉化推荐。"
-        ],
-        "zhUrl": "https://gsui5051.gitee.io/incrementreeverse-cn/",
-        "enUrl": "https://gsui5051.gitee.io/incrementreeverse",
-        "customUrl": "http://idlegame.gitee.io/incrementreeverse-cn",
-        "customUrlTit": "Git游戏搬运版",
-        "customUrl2": "https://yhvr.me/pt/mods.html",
-        "customUrlTit2": "其它树游戏集合",
-        "pic": [
-            1,
-            2,
-            3,
-            4,
-            5
-        ],
-        "status": 1
-    },
-    {
         "title": "你的编年史",
         "enTitle": "Your Chronicle",
         "date": "2021-04-05",
@@ -229,6 +196,39 @@
             5
         ],
         "needHH":0,
+        "status": 1
+    },
+    {
+        "title": "增量宇宙树",
+        "enTitle": "Incrementreeverse",
+        "date": "2021-04-05",
+        "update": "2021-04-04",
+        "version":"1.0",
+        "path": "incrementreeverse",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "本游戏由反物质维度群的 @χγζ5051 大佬汉化推荐。"
+        ],
+        "zhUrl": "https://gsui5051.gitee.io/incrementreeverse-cn/",
+        "enUrl": "https://gsui5051.gitee.io/incrementreeverse",
+        "customUrl": "http://idlegame.gitee.io/incrementreeverse-cn",
+        "customUrlTit": "Git游戏搬运版",
+        "customUrl2": "https://yhvr.me/pt/mods.html",
+        "customUrlTit2": "其它树游戏集合",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
         "status": 1
     },
     {

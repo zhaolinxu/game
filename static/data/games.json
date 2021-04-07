@@ -127,6 +127,40 @@
         "needHH": 0
     },
     {
+        "title": "放置矿工：重制版",
+        "enTitle": "Idle Mine: Remix",
+        "date": "2021-04-06",
+        "update": "2021-04-06",
+        "version":"",
+        "path": "idle-mine-remix",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级",
+            "太空",
+            "模拟"
+        ],
+        "content": [
+            "《放置矿工：重制》是一款关于挖掘不同矿物的点击放置游戏。这款游戏的灵感来自Crovie的Idle Mine。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idle-mine-remix/",
+        "enUrl": "https://www.crazygames.com/game/idle-mine-remix",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "flash": false,
+        "status": 1
+    },
+    {
         "title": "你的编年史",
         "enTitle": "Your Chronicle",
         "date": "2021-04-05",

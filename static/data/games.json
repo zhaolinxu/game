@@ -1782,7 +1782,7 @@
         "title": "太空放置2",
         "enTitle": "Idle Space 2",
         "date": "2020-07-22",
-        "update": "2021-03-27",
+        "update": "2021-04-05",
         "version": "",
         "path": "idle-space2",
         "type": [
@@ -1812,8 +1812,8 @@
         "title": "锻造与财富",
         "enTitle": "Forge & Fortune",
         "date": "2020-07-21",
-        "update": "2020-12-29",
-        "version": "1.0.8",
+        "update": "2021-04-01",
+        "version": "4.2.0",
         "path": "forge-fortune",
         "type": [
             "汉化中",

@@ -127,6 +127,67 @@
         "needHH": 0
     },
     {
+        "title": "史莱姆放置文字版",
+        "enTitle": "Idle Slime Text",
+        "date": "2021-04-09",
+        "update": "2020-07-15",
+        "version":"0.8.2",
+        "path": "idle-slime-text",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "联网",
+            "K站"
+        ],
+        "content": [
+            "一款文字类型的RPG放置游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/idleslime-text/",
+        "kUrl": "https://www.kongregate.com/games/kbvpneofit/idleslime-text?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "病毒树",
+        "enTitle": "C0v1d Modding Tree",
+        "date": "2021-04-09",
+        "update": "2021-04-09",
+        "version":"",
+        "path": "c0v1d-modding-tree",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "感谢 @公子羽 大佬帮忙汉化此游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/c0v1d-modding-tree/",
+        "enUrl": "https://raw.githack.com/c0v1d-9119361/The-Modding-Tree/master/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "放置矿工：重制版",
         "enTitle": "Idle Mine: Remix",
         "date": "2021-04-06",
@@ -1078,8 +1139,8 @@
         "title": "距离增量",
         "enTitle": "Distance Incremental",
         "date": "2021-01-15",
-        "update": "2021-01-18",
-        "version": "",
+        "update": "2021-04-08",
+        "version": "2.0",
         "path": "distance-incremental",
         "type": [
             "已汉化",

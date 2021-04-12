@@ -127,6 +127,34 @@
         "needHH": 0
     },
     {
+        "title": "六边形点击",
+        "enTitle": "Hexa Clicker",
+        "date": "2021-04-12",
+        "update": "2017-03-15",
+        "version":"0.3",
+        "path": "hexa-clicker",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "导入有问题，大家不要用图5的方式进行导入导出~"
+        ],
+        "zhUrl": "http://likexia.gitee.io/hexaclicker",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "史莱姆放置文字版",
         "enTitle": "Idle Slime Text",
         "date": "2021-04-09",

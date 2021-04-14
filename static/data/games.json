@@ -555,8 +555,8 @@
         "title": "计算器进化",
         "enTitle": "Calculator Evolution",
         "date": "2021-03-24",
-        "update": "2021-03-24",
-        "version":"",
+        "update": "2021-03-15",
+        "version":"1.1.37",
         "path": "calculator-evolution",
         "type": [
             "汉化中",
@@ -665,8 +665,8 @@
         "title": "创世声望树",
         "enTitle": "Prestreestuck",
         "date": "2021-03-15",
-        "update": "2021-04-13",
-        "version":"0.1.0.1",
+        "update": "2021-04-14",
+        "version":"0.1.0.2",
         "path": "prestreestuck",
         "type": [
             "汉化中",
@@ -3640,7 +3640,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
-        "update": "2020-12-20",
+        "update": "2021-04-14",
         "path": "incremental-adventures",
         "type": [
             "已汉化",

@@ -14,7 +14,7 @@ $(function(){
     content +='<div>QQ群号:</div>';
     content +='<div class="tel-num">499256691</div>';
     content +='<div>更多同类游戏:</div>';
-    content +='<div class="tel-num"><a href="http://adf.ly/8068810/banner/http://www.gityx.com" target="_blank" title="Git游戏：gityx.com~">Git游戏</a><a href="http://adf.ly/8068810/banner/http://g8hh.com" target="_blank" style="margin-left:5px;" title="锅巴汉化：g8hh.com">锅巴汉化</a><br /><a href="http://adf.ly/8068810/banner/http://bbs.gityx.com/" target="_blank" style="margin-left:5px;" title="点击查看游戏攻略">游戏攻略交流论坛</a></div>';
+    content +='<div class="tel-num"><a href="http://www.gityx.com" target="_blank" title="Git游戏：gityx.com~">Git游戏</a><a href="http://g8hh.com" target="_blank" style="margin-left:5px;" title="锅巴汉化：g8hh.com">锅巴汉化</a><br /><a href="http://bbs.gityx.com/" target="_blank" style="margin-left:5px;" title="点击查看游戏攻略">游戏攻略交流论坛</a></div>';
     content +='</div>';
     content +='<div class="im-footer" style="position:relative">';
     content +='<div class="weixing-container">';

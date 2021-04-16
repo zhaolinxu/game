@@ -498,13 +498,15 @@
         ],
         "content": [
             "Industry Idle是一款放置游戏，它将工厂建设，资源管理和市场交易结合在一起。 设计和建立您的基地，扩大和扩大您的生产，改善和优化您的经济。 加上所有增量游戏特效：离线收益，声望以解锁更强大的升级。",
-            "游戏目前仅支持Windows系统，已经有中文啦。"
-            "现在还出了网页版、手机版。"
+            "游戏目前仅支持Windows系统，已经有中文啦。",
+            "现在还出了网页版、手机版。",
             "手机苹果版国内App Store还没有，可以去台湾地区下载。也可以去官网下载测试版，不过好像只有英文。"
         ],
         "steamUrl": "https://store.steampowered.com/app/1574000/Industry_Idle/",
-        "customUrl": "https://industryidle.com/",
-        "customUrlTit": "手机版/官网",
+        "customUrl": "https://play.industryidle.com/",
+        "customUrlTit": "网页中文版",
+        "customUrl2": "https://industryidle.com/",
+        "customUrlTit2": "手机版/官网",
         "pic": [
             1,
             2,

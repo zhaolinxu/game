@@ -2172,7 +2172,7 @@
         "title": "星系核心:地平线",
         "enTitle": "Heart Of Galaxy : Horizons",
         "date": "2017-12-01",
-        "update": "2019-05-23",
+        "update": "2021-04-19",
         "version": "43D",
         "path": "heart-of-galaxy-horizons",
         "type": [
@@ -2186,11 +2186,14 @@
             "K站"
         ],
         "content": [
+            "请参阅游戏中的教程了解第一步。",
             "这是一个放置类的战略优化游戏，你可以建立自己的空间帝国。你从一个类地行星开始，在宇宙中建立你自己的道路，殖民新的行星，与外星文明战斗。",
             "请参阅游戏中的教程了解第一步。"
         ],
-        "zhUrl": "http://likexia.gitee.io/xxhx",
+        "zhUrl": "http://idlegame.gitee.io/heart-of-galaxy-horizons/",
         "kUrl": "https://www.kongregate.com/games/Cheslava/heart-of-galaxy-horizons?sfa=permalink&referrer=SunshineDad",
+        "customUrl": "http://likexia.gitee.io/xxhx",
+        "customUrlTit": "旧汉化版",
         "pic": [
             1,
             2

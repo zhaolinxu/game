@@ -127,6 +127,41 @@
         "needHH": 0
     },
     {
+        "title": "足球经理放置",
+        "enTitle": "Idle Football Manager",
+        "date": "2021-04-20",
+        "update": "2021-04-17",
+        "version":"",
+        "path": "idle-football-manager",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "养成",
+            "模拟"
+        ],
+        "content": [
+            "《欧米伽层级》作者的新作，还在更新中~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/veprogames/idle-football-manager/",
+        "enUrl": "https://veprogames.github.io/idle-football-manager/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "needHH":0,
+        "flash": false,
+        "status": 1
+    },
+    {
         "title": "裂变模拟器",
         "enTitle": "Fission Simulator",
         "date": "2021-04-15",
@@ -844,7 +879,7 @@
     {
         "title": "无尽的战利品",
         "enTitle": "Loot Clicker",
-        "date": "2021-02-29",
+        "date": "2021-02-28",
         "update": "2020-04-24",
         "version":"2.2.30",
         "path": "loot-clicker",
@@ -2186,6 +2221,7 @@
             "K站"
         ],
         "content": [
+            "此次更新，只是补充了汉化~",
             "请参阅游戏中的教程了解第一步。",
             "这是一个放置类的战略优化游戏，你可以建立自己的空间帝国。你从一个类地行星开始，在宇宙中建立你自己的道路，殖民新的行星，与外星文明战斗。",
             "请参阅游戏中的教程了解第一步。"
@@ -3720,6 +3756,7 @@
             "英文"
         ],
         "content": [
+            "本游戏已关闭，作者关了服务器~",
             "这是一款多人在线网络游戏。是本站第一款尝试用外挂方式汉化的游戏。因为是外国游戏，有时候网络会不稳定，导致页面卡顿，多点耐心即可。"
         ],
         "zhUrl": "http://eternitytower.net/",

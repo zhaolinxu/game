@@ -127,6 +127,43 @@
         "needHH": 0
     },
     {
+        "title": "金庸群侠•大乱斗",
+        "enTitle": "JYF",
+        "date": "2021-04-22",
+        "update": "2021-04-21",
+        "version":"0.6.2",
+        "path": "jyf",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "冒险",
+            "原创",
+            "养成",
+            "策略",
+            "武侠"
+        ],
+        "content": [
+            "难得遇见一款国产武侠类型的放置游戏，推荐给大家玩。"
+        ],
+        "customUrl": "https://zhouxiaobo1990.gitee.io/jyf/0.6.3/",
+        "customUrlTit": "原版",
+        "customUrl2": "https://idlegame.gitee.io/jyf/0.6.3/",
+        "customUrlTit2": "锅巴搬运版",
+        "QQ": "922600429",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
         "title": "足球经理放置",
         "enTitle": "Idle Football Manager",
         "date": "2021-04-20",
@@ -2461,7 +2498,7 @@
         "title": "仪表盘点击",
         "enTitle": "Dash Clicker",
         "date": "2020-06-08",
-        "update": "2020-06-08",
+        "update": "2020-08-26",
         "version": "",
         "path": "dash-clicker",
         "type": [

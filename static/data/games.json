@@ -130,8 +130,8 @@
         "title": "金庸群侠•大乱斗",
         "enTitle": "JYF",
         "date": "2021-04-22",
-        "update": "2021-04-21",
-        "version":"0.6.2",
+        "update": "2021-04-24",
+        "version":"0.6.4",
         "path": "jyf",
         "type": [
             "放置",
@@ -395,8 +395,8 @@
         "status": 1
     },
     {
-        "title": "细胞至奇点",
-        "enTitle": "Cell to Singularity",
+        "title": "细胞至奇点：进化永无止境",
+        "enTitle": "Cell to Singularity : Evolution Never Ends",
         "date": "2021-04-05",
         "update": "",
         "version":"",
@@ -416,7 +416,8 @@
         ],
         "content": [
             "进化，技术和人性的史诗故事等你来发现。",
-            "本游戏有中文，也有手机版。支持云存档（需注册）在各个设备上同步进度。"
+            "本游戏有中文，也有手机版。IOS国区似乎下架了。",
+            "支持云存档（需注册）在各个设备上同步进度。"
         ],
         "steamUrl": "https://store.steampowered.com/app/977400/Cell_to_Singularity__Evolution_Never_Ends/",
         "pic": [

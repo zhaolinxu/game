@@ -125,6 +125,65 @@
         ],
         "status": 1,
         "needHH": 0
+    },{
+        "title": "左右互搏塔防放置",
+        "enTitle": "Dualforce Idle",
+        "date": "2021-04-25",
+        "update": "2020-12-26",
+        "version":"0.4.5",
+        "path": "dualforce-idle",
+        "type": [
+            "汉化中",
+            "放置",
+            "点击",
+            "挂机",
+            "升级",
+            "K站",
+            "建造",
+            "策略"
+        ],
+        "content": [
+            "塔防塔防！"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/dualforce-idle",
+        "kUrl": "https://www.kongregate.com/games/nerderror/dualforce-idle?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 0
+    },
+    {
+        "title": "图形超越放置",
+        "enTitle": "Transcend",
+        "date": "2021-04-25",
+        "update": "2021-04-25",
+        "version":"2.02",
+        "path": "transcend",
+        "type": [
+            "已汉化",
+            "放置",
+            "点击",
+            "挂机",
+            "升级",
+            "益智"
+        ],
+        "content": [
+            "一款各种图形为主的放置游戏。"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/transcend/game.html",
+        "enUrl": "https://www.taylorcalderone.com/transcendGame/game.html",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
     },
     {
         "title": "金庸群侠•大乱斗",

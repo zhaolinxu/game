@@ -125,7 +125,44 @@
         ],
         "status": 1,
         "needHH": 0
-    },{
+    },
+    {
+        "title": "模拟启示录",
+        "enTitle": "SimPocalypse",
+        "date": "2021-04-26",
+        "update": "2020-12-15",
+        "version":"",
+        "path": "sim-pocalypse",
+        "type": [
+            "放置",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "冒险",
+            "生存",
+            "Steam",
+            "建造",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "核战争后重建文明将其分裂。 探索，收集资源，管理公民，生产，交易和发展文明，以应对尝试重新征服世界时将面临的众多挑战。"
+        ],
+        "customUrl": "http://yx.g8hh.com/sim-pocalypse/",
+        "customUrlTit": "网页中文版",
+        "steamUrl": "https://store.steampowered.com/app/1351500/SimPocalypse/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 0
+    },
+    {
         "title": "左右互搏塔防放置",
         "enTitle": "Dualforce Idle",
         "date": "2021-04-25",
@@ -137,6 +174,7 @@
             "放置",
             "点击",
             "挂机",
+            "离线",
             "升级",
             "K站",
             "建造",

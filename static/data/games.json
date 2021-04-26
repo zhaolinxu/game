@@ -1184,8 +1184,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-04-18",
-        "version":"0.1.64",
+        "update": "2021-04-26",
+        "version":"0.1.66",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -2687,7 +2687,7 @@
         "title": "太空公司",
         "enTitle": "Space Company",
         "date": "2020-06-02",
-        "update": "2020-06-02",
+        "update": "2021-04-05",
         "version": "0.5.1.2",
         "path": "space-company",
         "type": [

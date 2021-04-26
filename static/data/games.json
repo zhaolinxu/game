@@ -192,7 +192,7 @@
             4,
             5
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "图形超越放置",
@@ -1637,7 +1637,7 @@
         "title": "餐馆放置",
         "enTitle": "Idle Restaurant",
         "date": "2020-11-13",
-        "update": "2020-11-12",
+        "update": "2021-04-26",
         "version": "",
         "path": "idle-restaurant",
         "type": [
@@ -1652,9 +1652,9 @@
             "一款策略挂机放置类小游戏。",
             "游戏开始你需要在厨师乔治的指导下进行工作和获取经营餐馆的知识，初期你需要通过刷碗来赚取一些初始资金，之后逐步实现你的餐馆梦。"
         ],
-        "enUrl": "http://www.17yy.com/f/play/243481.htm",
-        "customUrl": "http://idlegame.gitee.io/idle-restaurant",
-        "customUrlTit": "开始游戏",
+        "zhUrl": "http://idlegame.gitee.io/idle-restaurant",
+        "enUrl": "https://restaurantidle.com/game.html",
+        "kUrl": "https://www.kongregate.com/games/86com/testhtml1231?sfa=permalink&referrer=SunshineDad",
         "pic": [
             1,
             2

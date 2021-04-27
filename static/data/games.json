@@ -129,8 +129,8 @@
     {
         "title": "模拟启示录",
         "enTitle": "SimPocalypse",
-        "date": "2021-04-26",
-        "update": "2020-12-15",
+        "date": "2021-04-30",
+        "update": "2020-12-30",
         "version":"",
         "path": "sim-pocalypse",
         "type": [
@@ -161,6 +161,38 @@
         ],
         "needHH":0,
         "status": 0
+    },
+    {
+        "title": "画家放置",
+        "enTitle": "Idle Painters",
+        "date": "2021-04-27",
+        "update": "2021-04-27",
+        "version":"1.2.0",
+        "path": "idle-painters",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "升级",
+            "益智",
+            "模拟",
+            "消除"
+        ],
+        "content": [
+            "以前群里发过，网站上没发过，所以发出来~"
+        ],
+        "zhUrl": "https://likexia.gitee.io/idle-painters",
+        "enUrl": "http://almostidle.com/our/idle-painters/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
     },
     {
         "title": "左右互搏塔防放置",

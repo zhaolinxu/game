@@ -1731,8 +1731,8 @@
         "title": "宝可梦点击2.0",
         "enTitle": "Poke Clicker",
         "date": "2019-11-04",
-        "update": "2021-04-04",
-        "version": "0.8.0",
+        "update": "2021-04-29",
+        "version": "0.8.1",
         "path": "poke-clicker2",
         "type": [
             "汉化中",
@@ -3890,7 +3890,7 @@
         "title": "增量冒险",
         "enTitle": "Incremental Adventures",
         "date": "2019-08-14",
-        "update": "2021-04-14",
+        "update": "2021-04-19",
         "path": "incremental-adventures",
         "type": [
             "已汉化",

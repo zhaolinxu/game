@@ -127,6 +127,75 @@
         "needHH": 0
     },
     {
+        "title": "动量放置",
+        "enTitle": "Idle Momentum",
+        "date": "2021-05-01",
+        "update": "2021-05-01",
+        "version":"",
+        "path": "idle-momentum",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级",
+            "联网",
+            "英文",
+            "卡牌",
+            "模拟"
+        ],
+        "content": [
+            "一款网络放置游戏，论坛的小伙伴推荐的，锅巴看了下还不错，就收录一下，汉化进行中。"
+        ],
+        "enUrl": "https://idlemomentum.com/",
+        "customUrl": "http://note.youdao.com/s/3HHuZHhy",
+        "customUrlTit": "外部汉化脚本",
+        "QQ": "",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 0
+    },
+    {
+        "title": "无尽的训练2",
+        "enTitle": "Endless Training 2",
+        "date": "2021-05-06",
+        "update": "2017-05-28",
+        "version":"2.0.0.5",
+        "path": "endless-training-2",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "K站",
+            "养成",
+            "武侠"
+        ],
+        "content": [
+            ""
+        ],
+        "zhUrl": "http://likexia.gitee.io/endlesstraining2",
+        "kUrl": "https://www.kongregate.com/games/boart2k/endless-training-2?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 0
+    },
+    {
         "title": "模拟启示录",
         "enTitle": "SimPocalypse",
         "date": "2021-04-29",
@@ -278,6 +347,11 @@
             "武侠"
         ],
         "content": [
+            "注意：",
+            "正在玩 https://idlegame.gitee.io/jyf/ 这个地址的朋友，先不要刷新，点游戏右上角，导出存档。",
+            "由于锅巴我的骚操作，点错更新按钮，把 备用链接 搞废了（Gitee在整顿，没法重新发布，要等3个月后）",
+            "现在重新搞了个新链接在咱服务器上：http://yx.g8hh.com/jyf/",
+            "大家可以导入存档，或者直接去玩作者的版本。",
             "点击版本号即可进入对应版本开玩~",
             "《金庸群侠•大乱斗》是爱好者自制的游戏，仅供金庸武侠世界爱好者分享和交流，不用于商业盈利，大家可以当放置游戏玩。",
             "大部分素材来自各类金庸mod，如《金书群侠传》、《金庸群芳谱》、《金庸群侠前传》等。。",
@@ -289,7 +363,9 @@
         "customUrl": "https://zhouxiaobo1990.gitee.io/jyf/",
         "customUrlTit": "原版",
         "customUrl2": "https://idlegame.gitee.io/jyf/",
-        "customUrlTit2": "锅巴搬运版",
+        "customUrlTit2": "锅巴搬运版-已废",
+        "customUrl3": "https://yx.g8hh.com/jyf/0.6.4/",
+        "customUrlTit3": "锅巴搬运版-新",
         "QQ": "922600429",
         "pic": [
             1,

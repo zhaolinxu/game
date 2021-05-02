@@ -148,12 +148,13 @@
             "模拟"
         ],
         "content": [
-            "一款网络放置游戏，论坛的小伙伴推荐的，锅巴看了下还不错，就收录一下，汉化进行中。"
+            "一款网络放置游戏，论坛的小伙伴推荐的，锅巴看了下还不错，就收录一下。",
+            "外部汉化进行中，因为是网络游戏，咱们拿不到源码，只能通过外部导入汉化文件的方式汉化。",
+            "教程，锅巴已经写在第二个链接里面了，不懂的可以去群里问哈~"
         ],
         "enUrl": "https://idlemomentum.com/",
         "customUrl": "http://note.youdao.com/s/3HHuZHhy",
         "customUrlTit": "外部汉化脚本",
-        "QQ": "",
         "pic": [
             1,
             2,
@@ -161,7 +162,7 @@
             4,
             5
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "无尽的训练2",
@@ -182,7 +183,8 @@
             "武侠"
         ],
         "content": [
-            ""
+            "推荐玩K站的链接，因为存档是跟K站关联的，汉化版作为文字参考即可。",
+            "汉化版锅巴很努力的把存档改成本地存储，但是还是有问题。刷新就会丢档，必须手动导出存档进行备份。"
         ],
         "zhUrl": "http://likexia.gitee.io/endlesstraining2",
         "kUrl": "https://www.kongregate.com/games/boart2k/endless-training-2?sfa=permalink&referrer=SunshineDad",

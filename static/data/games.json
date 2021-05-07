@@ -383,7 +383,7 @@
         "title": "足球经理放置",
         "enTitle": "Idle Football Manager",
         "date": "2021-04-20",
-        "update": "2021-04-24",
+        "update": "2021-05-05",
         "version":"",
         "path": "idle-football-manager",
         "type": [
@@ -1297,8 +1297,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-05-01",
-        "version":"0.1.68",
+        "update": "2021-05-06",
+        "version":"0.1.69",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -2198,7 +2198,7 @@
         "title": "太空放置2",
         "enTitle": "Idle Space 2",
         "date": "2020-07-22",
-        "update": "2021-04-11",
+        "update": "2021-05-01",
         "version": "",
         "path": "idle-space2",
         "type": [

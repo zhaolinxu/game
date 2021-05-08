@@ -127,6 +127,71 @@
         "needHH": 0
     },
     {
+        "title": "股市模拟器",
+        "enTitle": "Stock Market Simulator",
+        "date": "2021-05-08",
+        "update": "2015-12-29",
+        "version":"",
+        "path": "stock-market-simulator",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "模拟"
+        ],
+        "content": [
+            "游戏仅供娱乐，现实生活中请勿轻易尝试。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/stock-market-simulator/",
+        "kUrl": "https://www.kongregate.com/games/absolutel/stock-market-simulator?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "2048英雄冒险放置",
+        "enTitle": "2048 IDLE Heroes RPG",
+        "date": "2021-05-08",
+        "update": "2020-02-07",
+        "version":"",
+        "path": "idle-heroes-2048",
+        "type": [
+            "放置",
+            "点击",
+            "离线",
+            "挂机",
+            "升级",
+            "冒险",
+            "益智",
+            "英文",
+            "K站",
+            "养成",
+            "消除"
+        ],
+        "content": [
+            "因为汉化会导致字体不显示的问题，所以就不汉化了。游戏单词很简单，可以轻松上手。",
+            "似乎有安卓版，可以从设置里的链接，去Google Play下载。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/idle-heroes-2048",
+        "kUrl": "https://www.kongregate.com/games/the_getsuga/2048-idle-heroes?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "动量放置",
         "enTitle": "Idle Momentum",
         "date": "2021-05-02",

@@ -127,6 +127,67 @@
         "needHH": 0
     },
     {
+        "title": "版本控制",
+        "enTitle": "Version Control",
+        "date": "2021-05-10",
+        "update": "2021-05-10",
+        "version":"",
+        "path": "version-control",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "多项式成长增量游戏，受反物质维度的启发，具有更新功能。 完成所有更新，然后将“黑暗维度”转换为其他内容！"
+        ],
+        "zhUrl": "http://yx.g8hh.com/version-control",
+        "enUrl": "https://semenar.itch.io/version-control",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "科技树放置",
+        "enTitle": "Idle Tech Tree",
+        "date": "2021-05-10",
+        "update": "2019-11-14",
+        "version":"0.12.4",
+        "path": "idle-tech-tree",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "升级",
+            "K站",
+            "英文",
+            "养成",
+            "策略"
+        ],
+        "content": [
+            "一款以科技树为主的放置游戏，没法汉化和搬运，所以是英文的，所以直接放了K站链接。"
+        ],
+        "kUrl": "https://www.kongregate.com/games/GeorgeCH1983/idle-tech-tree?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "股市模拟器",
         "enTitle": "Stock Market Simulator",
         "date": "2021-05-08",
@@ -1364,8 +1425,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-05-06",
-        "version":"0.1.69",
+        "update": "2021-05-09",
+        "version":"0.1.71",
         "path": "ethereal-farm",
         "type": [
             "汉化中",

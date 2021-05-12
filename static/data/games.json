@@ -461,8 +461,8 @@
         "title": "金庸群侠•大乱斗",
         "enTitle": "JYF",
         "date": "2021-04-22",
-        "update": "2021-05-01",
-        "version":"0.6.5",
+        "update": "2021-05-07",
+        "version":"0.6.7",
         "path": "jyf",
         "type": [
             "放置",
@@ -494,7 +494,7 @@
         "customUrlTit": "原版",
         "customUrl2": "https://idlegame.gitee.io/jyf/",
         "customUrlTit2": "锅巴搬运版-已废",
-        "customUrl3": "https://yx.g8hh.com/jyf/0.6.4/",
+        "customUrl3": "https://yx.g8hh.com/jyf/",
         "customUrlTit3": "锅巴搬运版-新",
         "QQ": "922600429",
         "pic": [

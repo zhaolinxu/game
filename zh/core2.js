@@ -135,7 +135,7 @@ var cnItem = function (text, node) {
             return text_prefix + text + text_reg_exclude_postfix + text_postfix;
     }
 
-    if (cnItems._OTHER_.length < 1) {
+    if (cnItems._OTHER_.length < 1000) {
         //未收录则保存
         cnItems._OTHER_.push(save_text);
         cnItems._OTHER_.sort(

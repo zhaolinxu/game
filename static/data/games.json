@@ -127,6 +127,94 @@
         "needHH": 0
     },
     {
+        "title": "锅巴表情包工具",
+        "enTitle": "Guo Ba Emoji",
+        "date": "2021-05-21",
+        "update": "2021-05-21",
+        "version":"",
+        "path": "git-bqb",
+        "type": [
+            "推荐",
+        ],
+        "content": [
+            "锅巴网上找的源码，略加改造，搭了一套给大家玩儿~内置了一些Git游戏专用表情包，后面会陆续新增~",
+            "里面带了搜表情包功能，用的是搜狗的引擎~",
+            "地址也挺好记的：bq.g8hh.com",
+            "意思是：表情.锅巴汉化.com"
+        ],
+        "customUrl": "",
+        "customUrlTit": "",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "needHH":0,
+        "status": 1
+    },
+    {
+        "title": "偶像点击放置",
+        "enTitle": "Idol",
+        "date": "2021-05-21",
+        "update": "2017-12-16",
+        "version":"0.2.18",
+        "path": "idol",
+        "type": [
+            "汉化中",
+            "放置",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "养成",
+            "模拟"
+        ],
+        "content": [
+            "《偶像点击放置》是一款模拟打造偶像的放置游戏。就像你开了一家经纪公司，打造包装出一系列的明星，通过吸引粉丝来赚$。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/idol/",
+        "enUrl": "https://nyanpals.com/idol/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "挂级放置",
+        "enTitle": "All The Levels",
+        "date": "2021-05-21",
+        "update": "2019-07-11",
+        "version":"1.1",
+        "path": "all-the-levels",
+        "type": [
+            "汉化中",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级"
+        ],
+        "content": [
+            "一个有关升级并找出更多实现方法的游戏。该游戏需要很多放置时间，但可以通过了解游戏来加快速度。要解锁您的第一个放置选项，请在解锁“睡眠”后放置。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/all-the-levels/",
+        "kUrl": "https://www.kongregate.com/games/lom1222/all-the-levels?sfa=permalink&referrer=SunshineDad",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "游戏开发树",
         "enTitle": "The Game Dev Tree",
         "date": "2021-05-19",

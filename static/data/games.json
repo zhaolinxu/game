@@ -155,6 +155,39 @@
         "status": 1
     },
     {
+        "title": "点亮城市",
+        "enTitle": "Light The City",
+        "date": "2021-05-24",
+        "update": "2021-03-16",
+        "version":"",
+        "path": "light-the-city",
+        "type": [
+            "汉化中",
+            "放置",
+            "点击",
+            "经营",
+            "离线",
+            "挂机",
+            "升级",
+            "建造"
+        ],
+        "content": [
+            "创建一家可以提供电力照亮繁华城市的能源公司。",
+            "游戏还在汉化中，因为锅巴我卡进度了~",
+            "如果你发现英文，可以随时把存档发给我加快汉化！么么哒~"
+        ],
+        "zhUrl": "http://yx.g8hh.com/light-the-city",
+        "enUrl": "https://semenar.itch.io/light-the-city",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "偶像点击放置",
         "enTitle": "Idol",
         "date": "2021-05-21",

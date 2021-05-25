@@ -162,7 +162,7 @@
         "version":"",
         "path": "light-the-city",
         "type": [
-            "汉化中",
+            "已汉化",
             "放置",
             "点击",
             "经营",
@@ -1671,8 +1671,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-05-09",
-        "version":"0.1.71",
+        "update": "2021-05-24",
+        "version":"0.1.74",
         "path": "ethereal-farm",
         "type": [
             "汉化中",

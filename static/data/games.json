@@ -155,6 +155,67 @@
         "status": 1
     },
     {
+        "title": "光之树",
+        "enTitle": "Lit",
+        "date": "2021-05-28",
+        "update": "2021-05-27",
+        "version":"1.0",
+        "path": "lit",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "声望树"
+        ],
+        "content": [
+            "声望树的又一个Mod，玩法很是新颖，值得一试。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/lit",
+        "enUrl": "https://www.thepaperpilot.org/lit/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "光学照明",
+        "enTitle": "Optical Illum",
+        "date": "2021-05-28",
+        "update": "",
+        "version":"",
+        "path": "optical-illum",
+        "type": [
+            "已汉化",
+            "放置",
+            "点击",
+            "挂机",
+            "升级",
+            "养成",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "一款科技向的放置游戏，我是一脸懵逼，K酱倒是玩得津津有味，大家试试看。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/optical-illum/",
+        "enUrl": "https://liniarc.itch.io/optical-illum",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "让灯亮着",
         "enTitle": "Keep the Lights On",
         "date": "2021-05-26",

@@ -155,6 +155,36 @@
         "status": 1
     },
     {
+        "title": "公式与时间",
+        "enTitle": "Formula And Timing",
+        "date": "2021-05-31",
+        "update": "2021-04-13",
+        "version":"0.0.9.1",
+        "path": "formula-and-timing",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "益智"
+        ],
+        "content": [
+            "喜欢数学的人的增量游戏，玩得开心 :D"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/formula-and-timing",
+        "enUrl": "https://spotky1004.github.io/Formula-and-Timing/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "光之树",
         "enTitle": "Lit",
         "date": "2021-05-28",

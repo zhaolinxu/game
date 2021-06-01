@@ -7,8 +7,8 @@
 .main-im .img-qq{max-width:60px;display:block;position:absolute;left:6px;top:3px;-webkit-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
 .main-im .im-qq:hover .img-qq{max-width:70px;left:1px;top:8px;position:absolute;color: #ff0000 !important;}
 .main-im .im_main{background-color:#F9FAFB !important;border:1px solid #dddddd;border-radius:10px;background-color:#F9FAFB !important;display:block;z-index:999;}
-.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:105px;border-bottom:1px solid #dddddd;}
-.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;}
+.main-im .im_main .im-tel{color:#000000 !important;text-align:center;width:109px;height:125px;border-bottom:1px solid #dddddd;}
+.main-im .im_main .im-tel div{font-weight:bold;font-size:12px;margin-top:6px;color: #000 !important;}
 .main-im .im_main .im-tel .tel-num{font-family:Arial;font-weight:bold;}
 .main-im .im_main .im-tel .tel-num a{color:#e66d15 !important;}
 .main-im .im_main .im-tel:hover{background-color:#fafafa !important;}

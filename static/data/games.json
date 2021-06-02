@@ -155,6 +155,41 @@
         "status": 1
     },
     {
+        "title": "市长1255",
+        "enTitle": "1255 Burgomaster",
+        "date": "2021-06-02",
+        "update": "2021-04-25",
+        "version":"1255-burgomaster",
+        "path": "路径",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "冒险",
+            "建造",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "一款城镇经营类型的包含了RPG元素的游戏。",
+            "注意：游戏自动保存功能似乎有问题，​刷新会丢档！！需要自己随时导出复制备份一下~"
+        ],
+        "zhUrl": "http://idlegame.gitee.io/burgomaster-1255/",
+        "enUrl": "http://cosmodream.ga/1255-burgomaster/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "公式与时间",
         "enTitle": "Formula And Timing",
         "date": "2021-05-31",

@@ -155,6 +155,70 @@
         "status": 1
     },
     {
+        "title": "工厂树",
+        "enTitle": "The Factioree",
+        "date": "2021-06-13",
+        "update": "2021-03-13",
+        "version":"0.5.0",
+        "path": "the-factioree",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "模拟",
+            "声望树"
+        ],
+        "content": [
+            "还是声望树的Mod，这次是以工厂为主题的。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/the-factioree",
+        "enUrl": "https://dystopia-user181.github.io/The-Modding-Tree/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 0
+    },
+    {
+        "title": "升级树",
+        "enTitle": "The Leveling Tree",
+        "date": "2021-06-04",
+        "update": "2021-01-13",
+        "version":"1.3.1",
+        "path": "路径",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "模拟",
+            "声望树"
+        ],
+        "content": [
+            "又又又是声望树的一个Mod，游戏玩法换成了RPG冒险。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/the-leveling-tree/",
+        "enUrl": "https://denisolenison.github.io/The-Leveling-Tree/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "市长1255",
         "enTitle": "1255 Burgomaster",
         "date": "2021-06-02",

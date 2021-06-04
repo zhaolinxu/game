@@ -28,22 +28,4 @@
     "button": "开始游戏",
     "tips": "来一起耍啊~",
     "status": 1
-},{
-    "title": "美团、饿了么外卖红包，每天可领。",
-    "link": "https://mp.weixin.qq.com/s/MGS2eRD7obeeC4MoVOK8ww",
-    "button": "马上领取",
-    "tips": "点外卖前记得领取哦~可以帮你省钱！",
-    "status": 1
-},{
-    "title": "锅巴好货，购物福利推荐",
-    "link": "https://m.g8hh.com",
-    "button": "冲啊！",
-    "tips": "锅巴搜集的购物福利~可以帮你省钱吶！",
-    "status": 1
-}, {
-    "title": "玩游戏也能赚零花钱",
-    "link": "http://www.juxiangyou.com/floor/recom/3570025",
-    "button": "试试看",
-    "tips": "注册送1元，可以直接提现。",
-    "status": 0
 }]

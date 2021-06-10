@@ -155,6 +155,36 @@
         "status": 1
     },
     {
+        "title": "弹珠放置",
+        "enTitle": "Pachinkremental",
+        "date": "2021-06-01",
+        "update": "2021-06-01",
+        "version":"1.1.0",
+        "path": "pachinkremental",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "益智",
+            "模拟"
+        ],
+        "content": [
+            "弹珠放置，不是之前那个弹珠增量哈~游戏下面有测试版的地址，内容比正式版多了很多。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/pachinkremental",
+        "enUrl": "https://poochyexe.github.io/pachinkremental/pachinkremental.html",
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "工厂树",
         "enTitle": "The Factioree",
         "date": "2021-06-13",
@@ -177,6 +207,8 @@
         ],
         "zhUrl": "http://yx.g8hh.com/the-factioree",
         "enUrl": "https://dystopia-user181.github.io/The-Modding-Tree/",
+        "customUrl": "https://yhvr.me/pt/mods.html",
+        "customUrlTit": "其它树游戏集合",
         "pic": [
             1,
             2,
@@ -192,7 +224,7 @@
         "date": "2021-06-04",
         "update": "2021-01-13",
         "version":"1.3.1",
-        "path": "路径",
+        "path": "the-leveling-tree",
         "type": [
             "已汉化",
             "放置",
@@ -209,6 +241,8 @@
         ],
         "zhUrl": "http://yx.g8hh.com/the-leveling-tree/",
         "enUrl": "https://denisolenison.github.io/The-Leveling-Tree/",
+        "customUrl": "https://yhvr.me/pt/mods.html",
+        "customUrlTit": "其它树游戏集合",
         "pic": [
             1,
             2,
@@ -216,7 +250,7 @@
             4,
             5
         ],
-        "status": 0
+        "status": 1
     },
     {
         "title": "市长1255",
@@ -304,6 +338,8 @@
         ],
         "zhUrl": "http://yx.g8hh.com/lit",
         "enUrl": "https://www.thepaperpilot.org/lit/",
+        "customUrl": "https://yhvr.me/pt/mods.html",
+        "customUrlTit": "其它树游戏集合",
         "pic": [
             1,
             2,
@@ -1099,8 +1135,8 @@
         "title": "病毒树",
         "enTitle": "C0v1d Modding Tree",
         "date": "2021-04-09",
-        "update": "2021-05-20",
-        "version":"0.6.3",
+        "update": "2021-06-01",
+        "version":"0.6.4",
         "path": "c0v1d-modding-tree",
         "type": [
             "已汉化",
@@ -1586,8 +1622,8 @@
         "title": "创世声望树",
         "enTitle": "Prestreestuck",
         "date": "2021-03-15",
-        "update": "2021-05-12",
-        "version":"0.1.1.2.3",
+        "update": "2021-05-30",
+        "version":"0.1.1.2.5",
         "path": "prestreestuck",
         "type": [
             "汉化中",
@@ -1892,8 +1928,8 @@
         "title": "空灵农场",
         "enTitle": "Ethereal Farm",
         "date": "2021-02-11",
-        "update": "2021-05-29",
-        "version":"0.1.75",
+        "update": "2021-06-06",
+        "version":"0.1.77",
         "path": "ethereal-farm",
         "type": [
             "汉化中",
@@ -2430,7 +2466,12 @@
         "wikiUrl2": "https://wiki.52poke.com/wiki/%E5%AE%9D%E5%8F%AF%E6%A2%A6%E5%88%97%E8%A1%A8%EF%BC%88%E6%8C%89%E5%85%A8%E5%9B%BD%E5%9B%BE%E9%89%B4%E7%BC%96%E5%8F%B7%EF%BC%89/%E7%AE%80%E5%8D%95%E7%89%88",
         "pic": [
             1,
-            2
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
         ],
         "status": 1
     },
@@ -6855,6 +6896,8 @@
         "title": "无尽的饼干",
         "enTitle": "Cookie Clicker",
         "date": "2017-12-15",
+        "update": "2020-12-29",
+        "version": "2.031",
         "path": "cookie-clicker",
         "type": [
             "汉化中",
@@ -6869,7 +6912,10 @@
         "content": [
             "这是一款放置型经营游戏，你可以建造多种建筑来生产制作饼干。"
         ],
-        "zhUrl": "https://likexia.gitee.io/cookieclicker2",
+        "customUrl": "https://likexia.gitee.io/cookieclicker",
+        "customUrlTit": "汉化版-最新版-汉化中",
+        "customUrl2": "https://likexia.gitee.io/cookieclicker2",
+        "customUrlTit2": "汉化版-旧版-已汉化",
         "enUrl": "http://orteil.dashnet.org/cookieclicker/",
         "pic": [
             1,
@@ -7012,7 +7058,10 @@
         "content": [
             ""
         ],
-        "zhUrl": "http://likexia.gitee.io/cityinc/",
+        "customUrl": "https://yx.g8hh.com/cityinc/",
+        "customUrlTit": "汉化版-新",
+        "customUrl2": "http://likexia.gitee.io/cityinc/",
+        "customUrlTit2": "汉化版-已挂",
         "enUrl": "http://cityinc.se/",
         "pic": [
             1,
@@ -7150,7 +7199,10 @@
             "这是个有点类似《小黑屋》的挂机类文字经营游戏。在这个世界我们要捕捉驯养一种名为trimp（咱们称之为：脆皮）的生物，让它们繁衍，为你采集食物、树木、金属甚至研发科技点数。也有地图可以战斗，不过派去战斗是trimp而不是我们的人物。战斗途中可以获得资源和不少解锁，主要为各种升级解锁和trimp们的装备解锁。另外，这个游戏在你关闭之后也会为你挂机。"
         ],
         "QQ": "831779769",
-        "zhUrl": "http://likexia.gitee.io/cuipi/",
+        "customUrl": "https://yx.g8hh.com/cuipi/",
+        "customUrlTit": "汉化版-新",
+        "customUrl2": "http://likexia.gitee.io/cuipi/",
+        "customUrlTit2": "汉化版-已挂",
         "enUrl": "http://trimps.github.io/",
         "kUrl": "https://www.kongregate.com/games/GreenSatellite/trimps?sfa=permalink&referrer=SunshineDad",
         "pic": [

@@ -14,14 +14,14 @@
     }]
 }, {
     "list": [{
+        "title": "反物质维度",
+        "path": "antimatter-dimensions"
+    },{
         "title": "魔法理论",
         "path": "theory-of-magic"
     }, {
         "title": "构造",
         "path": "structure"
-    }, {
-        "title": "蚂蚁放置",
-        "path": "idle-ant"
     }, {
         "title": "无尽的饼干",
         "path": "cookie-clicker"
@@ -35,7 +35,7 @@
         "path": "space-company"
     }, {
         "title": "星系核心",
-        "path": "heart-of-galaxy"
+        "path": "heart-of-galaxy-horizons"
     }, {
         "title": "反应堆放置",
         "path": "reactor-idle"

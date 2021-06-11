@@ -155,10 +155,118 @@
         "status": 1
     },
     {
+        "title": "工厂树",
+        "enTitle": "The Factioree",
+        "date": "2021-06-11",
+        "update": "2021-03-13",
+        "version":"0.5.0",
+        "path": "the-factioree",
+        "type": [
+            "已汉化",
+            "放置",
+            "文字",
+            "点击",
+            "挂机",
+            "升级",
+            "模拟",
+            "声望树"
+        ],
+        "content": [
+            "又是声望树的一个Mod，这次是以工厂为主题的。"
+        ],
+        "zhUrl": "http://yx.g8hh.com/the-factioree",
+        "enUrl": "https://dystopia-user181.github.io/The-Modding-Tree/",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "Torn",
+        "enTitle": "Torn",
+        "date": "2021-06-11",
+        "update": "2021-06-11",
+        "version":"",
+        "path": "torn",
+        "type": [
+            "推荐",
+            "放置",
+            "文字",
+            "点击",
+            "经营",
+            "挂机",
+            "升级",
+            "联网",
+            "英文",
+            "养成",
+            "策略",
+            "模拟"
+        ],
+        "content": [
+            "玩之前墙裂建议大家加群：138838543，申请备注：Git游戏",
+            "群里有专业的新手指引员（爱好者），会送很多资源，可以助你在游戏初期快速发展。",
+            "因为群里有各种大佬存在，有的甚至玩了10年+。他们甚至自发开发了游戏的群机器人，简直diao爆了！，群文件还有大量教程。",
+            "Torn 是一款基于文本的在线角色扮演游戏，背景设置在 Torn City，这是一个黑暗、阴暗的地下世界，只有最敏锐的人才能生存。 在 Torn City，你可以成为任何人，做任何事。 将你的角色塑造成无限的力量，并以你的方式发挥它。",
+            "Torn City 是一款大型多人游戏，在全球拥有数以千计的活跃玩家。 加入他们，攻击他们，与他们交朋友，与他们结婚，与他们交易，与他们竞争。 无论你做什么 - 现在就做！"
+        ],
+        "enUrl": "https://www.torn.com/",
+        "customUrl": "https://blog.csdn.net/weixin_43306345/article/details/110941898",
+        "customUrlTit": "注册验证码失败解决办法",
+        "QQ": "138838543",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
+        "title": "我欲修仙",
+        "enTitle": "Wo Yu Xiu Xian",
+        "date": "2021-06-09",
+        "update": "2019-12-18",
+        "path": "woyuxiuxian",
+        "type": [
+            "放置",
+            "文字",
+            "点击",
+            "离线",
+            "挂机",
+            "模拟",
+            "原创",
+            "联网"
+        ],
+        "content": [
+            "这是一款放置类的修仙游戏。早些年层风靡网络，后来由于作者服务器到期的原因，逐渐被淡忘。",
+            "锅巴今天突然发现群里作者分享的有源码，果断拿来发布一套给大家玩。"
+        ],
+        "customUrl": "http://yx.g8hh.com/cfantasy-click",
+        "customUrlTit": "最新版",
+        "customUrl2": "http://yx.g8hh.com/cfantasy-click/old",
+        "customUrlTit2": "远古繁体版",
+        "customUrl3": "https://louisalflame.github.io/CFantasyClick/index.html",
+        "customUrlTit3": "远古版繁体版原版",
+        "QQ": "292994508",
+        "pic": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "status": 1
+    },
+    {
         "title": "弹珠放置",
         "enTitle": "Pachinkremental",
-        "date": "2021-06-01",
-        "update": "2021-06-01",
+        "date": "2021-06-07",
+        "update": "2021-06-07",
         "version":"1.1.0",
         "path": "pachinkremental",
         "type": [
@@ -176,6 +284,7 @@
         ],
         "zhUrl": "http://yx.g8hh.com/pachinkremental",
         "enUrl": "https://poochyexe.github.io/pachinkremental/pachinkremental.html",
+        "pic": [
             1,
             2,
             3,
@@ -960,8 +1069,8 @@
         "title": "金庸群侠•大乱斗",
         "enTitle": "JYF",
         "date": "2021-04-22",
-        "update": "2021-05-20",
-        "version":"0.6.12",
+        "update": "2021-06-06",
+        "version":"0.6.15",
         "path": "jyf",
         "type": [
             "放置",
@@ -5836,31 +5945,6 @@
             2
         ],
         "status": 1
-    },
-    {
-        "title": "我欲修仙",
-        "enTitle": "Wo Yu Xiu Xian",
-        "date": "2019-04-25",
-        "path": "woyuxiuxian",
-        "type": [
-            "放置",
-            "文字",
-            "点击",
-            "离线",
-            "挂机",
-            "原创",
-            "联网"
-        ],
-        "content": [
-            "这是一款放置型修仙游戏。"
-        ],
-        "zhUrl": "http://www.chsdesign.cn/",
-        "QQ": "292994508",
-        "pic": [
-            1,
-            2
-        ],
-        "status": 0
     },
     {
         "title": "打砖块",
